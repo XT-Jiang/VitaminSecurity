@@ -1,0 +1,58 @@
+【安全分析】
+CVE-2020-6458：Google Chrome PDFium内存损坏漏洞
+该软件支持使用嵌入在PDF中的JavaScript，其他特制文档可能破坏应用程序的内存，从而使对手可以在浏览器内实现任意代码执行。
+https://blog.talosintelligence.com/2020/07/vuln-spotlight-chrome-pdfium-corruption-july-2020.html
+
+CVE-2020-6089：Leadtools图像解析器动画图标代码执行漏洞
+特制的ANI文件可能会导致缓冲区溢出，从而导致远程执行代码。攻击者可以提供恶意文件来触发此漏洞。
+https://talosintelligence.com/vulnerability_reports/TALOS-2020-1009
+
+CVE-2019-19935：Froala HTML编辑器中的DOM XSS
+编辑器中的HTML代码插入DOM时未正确清理，允许攻击者可以控制编辑器内容。
+https://seclists.org/fulldisclosure/2020/Jul/1
+
+AppleiOS 13.5.1资源暴露
+Apple iOS版本13.5.1存在一个漏洞，即可以绕开从公共文档到私密文档的复制粘贴的限制。
+https://packetstormsecurity.com/files/158301/SYSS-2020-011.txt
+
+OCS远程执行代码漏洞
+OCS Inventory NG 2.7版具有一个远程执行代码漏洞。
+https://packetstormsecurity.com/files/158293/ocsinventoryng27-exec.txt
+
+ELF恶意软件分析101：Linux威胁不再是事后诸葛亮
+回顾ELF威胁状况，解释Linux机器最初是如何感染恶意软件的，并详细说明为什么它对于您作为安全研究人员或恶意软件分析师来说很重要，以获得ELF分析技能。
+https://intezer.com/blog/linux/elf-malware-analysis-101-linux-threats-no-longer-an-afterthought/
+
+【安全工具】
+IIS-Raid - Microsoft IIS的本机后门模块
+安装后，IIS-Raid将处理所有请求和方法，检查X-Password标头是否存在并将其与硬编码值进行比较。如果标头指定的值与密码不匹配，则请求将继续正常进行而不会给出任何后门迹象。
+https://www.kitploit.com/2020/07/iis-raid-native-backdoor-module-for.html
+
+UsoDllLoader - 利用更新会话协调器服务对特权文件写入
+此PoC显示了一种可用于对Windows上的特权文件写入漏洞进行武器化的技术。
+https://www.kitploit.com/2020/07/usodllloader-windows-weaponizing.html
+
+kube-applier – Kubernetes的自动部署
+kube-applier是一项服务，可通过将声明性配置文件从Git存储库应用到Kubernetes集群，从而实现Kubernetes对象的连续部署
+https://sectechno.com/kube-applier-automated-deployment-for-kubernetes/
+
+KITT-Lite - 基于Python的Pentesting CLI工具
+KITT 渗透测试框架是为渗透测试人员和程序员开发的一种开源解决方案，旨在将他们使用的工具和他们所了解的知识一起编译到一个开源项目中。
+https://www.kitploit.com/2020/07/kitt-lite-python-based-pentesting-cli.html
+
+GoGhost –SMBGhost扫描工具
+GoGhost是用于大规模SMBGhost扫描的高性能、轻便、便携式开源工具。
+https://haxf4rall.com/2020/07/04/goghost-high-performance-lightweight-portable-open-source-tool-for-mass-smbghost-scan/
+
+Exe_To_Dll-将EXE转换为DLL
+转换EXE，使它可以像一个DLL被加载。
+https://www.kitploit.com/2020/07/exetodll-converts-exe-into-dll.html
+
+开源Deepfake检测工具列表
+Deepfakes是“深度学习”和“伪造”的一种合成媒体，其中将现有图像或视频中的人物替换为他人的头像。这些工具将帮助检测正在查看的图像或视频是否为伪造。
+https://pentestit.com/open-source-deepfake-detection-tool-list/
+
+PwnFox –带有安全审核工具的Firefox / Burp扩展
+PwnFox是Firefox / Burp扩展，为安全审核提供帮助，该插件将允许删除安全标头等。
+https://sectechno.com/pwnfox-firefox-burp-extension-with-security-audit-tools/
+

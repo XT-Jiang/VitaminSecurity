@@ -1,0 +1,49 @@
+【安全分析】
+Cisco IOS XE软件远程执行代码漏洞
+远程攻击者可以利用此漏洞在目标系统上触发拒绝服务和远程执行代码。
+https://www.hkcert.org/my_url/en/alert/20063002
+
+KL-001-2020-003：Cellebrite EPR解密依赖于硬编码的AES密钥材料
+使用硬编码的密钥材料重构解密过程，轻松访问其保护的数据。
+https://seclists.org/fulldisclosure/2020/Jun/31
+
+CVE-2020-2021：PAN-OS SAML身份验证中的身份验证绕过漏洞
+Palo Alto的Global Protect VPN用户很容易受到此漏洞的影响。
+https://blog.rapid7.com/2020/06/29/cve-2020-2021-authentication-bypass-in-pan-os-security-assertion-markup-language-saml-authentication-disclosed/
+
+NukeViet CMS中的多个漏洞
+均为跨站请求伪造漏洞（CVE-2020-13155、CVE-2020-13156和CVE-2020-13157）
+https://www.cybersecurity-help.cz/vdb/SB2020063021
+
+处理Microsoft LNK文件时出现的DoS漏洞
+在处理windows的“LNK search”文件时发现的一些漏洞。
+https://ezqelusia.blogspot.com/2020/06/some-dos-bugs-while-processing.html
+
+Online Shopping Portal 3.1 SQL注入/ Shell上传
+Online Shopping Portal版本3.1遭受远程SQL注入漏洞的攻击，该漏洞允许绕过身份验证以及外壳上传。
+https://packetstormsecurity.com/files/158258/onlineshoppingportal31-sqlshell.txt
+
+技术博客：从零信息到零日
+信息收集，绕过过滤器，滥用SSRF，在研究过程中发现零日RCE并最终泄露敏感信息。
+https://secalert.net/from-zero-to-zeroday.html
+
+【安全工具】
+Kube-Bench - 检查是否安全部署了Kubernetes
+kube-bench是一个Go应用程序，它通过运行CIS Kubernetes Benchmark中记录的检查来检查Kubernetes是否已安全部署
+https://www.kitploit.com/2020/06/kube-bench-checks-whether-kubernetes-is.html
+
+EvilNet - 网络攻击
+可用于Wifi攻击，Vlan攻击，Arp攻击，Mac攻击，泄露攻击等。
+https://www.kitploit.com/2020/06/evilnet-network-attack-wifi-attack-vlan.html
+
+Deepstar - 开源Deepfake检测工具包
+Deepstar 是Python中基于AI的开源工具包，可帮助检测Deepfake视频。
+https://pentestit.com/deepstar-open-source-deepfake-detection-toolkit/
+
+Basecrack - 适用于基本编码方案的最佳解码器工具
+BaseCrack是用Python编写的工具，可以解码所有字母数字基础编码方案
+https://www.kitploit.com/2020/06/basecrack-best-decoder-tool-for-base.html
+
+MSFPC - MSFvenom有效负载创建器
+MSFPC是一个包装器，根据用户选择，生成多种类型的有效载荷。
+https://www.kitploit.com/2020/06/msfpc-msfvenom-payload-creator.html

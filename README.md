@@ -3,4 +3,4 @@
 
 
 
-![image](https://github.com/JXTnoname/VitaminSecurity/blob/master/qrcode_for_gh_cf325e4d8d77_344.jpg)
+![image](https://github.com/JXTnoname/VitaminSecurity/blob/master/QRcod.jpg)

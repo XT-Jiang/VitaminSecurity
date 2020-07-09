@@ -1,0 +1,54 @@
+【安全分析】
+
+JAVA序列化漏洞综合指南
+该博客旨在全面了解Java序列化攻击，其中包括CerealCTF-LinuxV2或tony the tiger boot2root计算机演练。
+https://medium.com/bugbountywriteup/a-comprehensive-guide-to-java-serialization-vulnerability-18fad6e37b64
+
+Cve-2020–1938：详细分析Apache Tomcat服务器中的Ghostcat漏洞
+Ghostcat漏洞与复现
+https://medium.com/bugbountywriteup/detailed-analysis-of-ghostcat-vulnerability-cve-2020-1938-in-apache-tomcat-servers-and-using-it-736146c986a3
+
+索尼PS4 / FreeBSD ip6_setpktopt本地特权升级
+Sony PS4 7.02之前版本以及FreeBSD 9和12版本ip6_setpktopt内核本地特权升级的PoC。
+https://packetstormsecurity.com/files/158341/sonyps4fbsd-escalate.txt
+
+RSA IG + L Aveksa 7.1.1远程执行代码
+由于授权绕过问题，RSA IG + L Aveksa版本7.1.1遭受远程代码执行漏洞。
+https://packetstormsecurity.com/files/158324/rsaiglaveksa711-exec.txt
+
+CVE-2020-13379：Grafana 7.0.1拒绝服务
+Grafana版本7.0.1拒绝服务概念证明的利用。
+https://packetstormsecurity.com/files/158320/grafana701-dos.txt
+
+USN-4419-1：Linux内核漏洞
+Linux内核漏洞，本地攻击者可能会使用它来导致拒绝服务（系统崩溃）或执行任意代码。
+https://ubuntu.com/security/notices/USN-4419-1
+
+【安全工具】
+Axiom –渗透测试服务器
+Axiom是一组用于管理bug bounty的小型动态基础设施设置的实用程序，基本上是一个只用一行代码的渗透测试服务器。
+https://www.darknet.org.uk/2020/07/axiom-pen-testing-server-for-collecting-bug-bounties/?utm_source=rss&utm_medium=social&utm_campaign=darknetfeed
+
+AuthMatrix –测试Web授权的Burp扩展
+AuthMatrix是Burp Suite的扩展，它提供了一种简单的方法来测试Web应用程序和Web服务中的授权。
+https://sectechno.com/authmatrix-burp-extension-to-test-web-authorization/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Browsertunnel：通过DNS秘密地从浏览器中窃取数据
+Browsertunnel是用于使用DNS协议从浏览器中过滤数据的工具。
+https://haxf4rall.com/2020/07/04/browsertunnel-surreptitiously-exfiltrate-data-from-the-browser-over-dns/?utm_source=rss&utm_medium=rss&utm_campaign=browsertunnel-surreptitiously-exfiltrate-data-from-the-browser-over-dns
+
+Astra – REST API的自动化安全测试
+Astra可以自动检测并测试登录和注销（身份验证API），任何人都可以轻松地将其集成到CICD管道中。
+https://sectechno.com/astra-automated-security-testing-for-rest-api/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Permission Manager - Kubernetes RBAC框架
+由SIGHUP开发的应用程序，它为Kubernetes启用了超级简单且用户友好的RBAC管理。
+https://sectechno.com/permission-manager-kubernetes-rbac-framework/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Harbian-Audit - 强化的Debian GNU / Linux Distro审核
+该代码框架基于OVH-debian-cis项目，实现基础结构的审核和应用功能，并为可以自动修复的项目实现自动修复功能。
+https://www.kitploit.com/2020/07/harbian-audit-hardened-debian-gnulinux.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Shhgit -实时查找GitHub的秘密
+Shhgit通过侦听GitHub Events API来发现GitHub代码和Gist中实时提交的机密和敏感文件。
+https://www.kitploit.com/2020/07/shhgit-find-github-secrets-in-real-time.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29

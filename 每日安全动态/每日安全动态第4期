@@ -1,0 +1,50 @@
+
+【安全分析】
+
+Microsoft OneDrive客户端Windows Qt QML模块的文件劫持漏洞
+在微软OneDrive客户端存在一个文件劫持漏洞，允许本地攻击者在本地机器上安装DLL文件。
+https://seclists.org/fulldisclosure/2020/Jul/9
+
+Webtareas 2.1 / 2.1p文件上传/信息披露
+Webtareas版本2.1和2.1p遭受未经身份验证的文件上传，从而允许远程执行代码和公开目录列表。
+https://packetstormsecurity.com/files/158376/webtareas21-uploaddisclose.txt
+
+技术博客：操作系统命令注入综合指南
+攻击者能够通过一个易受攻击的Web应用程序在托管的操作系统上触发一些任意的系统Shell命令。
+https://www.hackingarticles.in/comprehensive-guide-to-os-command-injection/
+
+Sunset: decoy演练
+在Vulnhub中对boot2root漏洞Sunset: decoy进行渗透测试
+https://www.hackingarticles.in/sunset-decoy-vulnhub-walkthrough/
+
+Glacies IceHRM中的SQL注入漏洞
+思科Talos研究人员最近发现，Glacies的IceHRM软件包含一个漏洞，该漏洞可能使对手注入SQL。
+https://blog.talosintelligence.com/2020/07/vuln-spotlight-icehrm-sql-injection-july-2020.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+feedburner%2FTalos+%28Talos%E2%84%A2+Blog%29
+
+Rittal产品旁路、命令注入、权限提升漏洞
+基于同一软件的多个Rittal产品存在CLI菜单绕过，配置不安全，硬编码的后门帐户，组件过时，命令注入和特权提升漏洞。
+https://packetstormsecurity.com/files/158383/SA-20200708-0.txt
+
+Impress CMS 1.4.0代码执行/ SQL注入
+经过身份验证的用户可以使用AutoTask功能执行php代码，从而允许远程SQL注入和远程代码执行。
+https://packetstormsecurity.com/files/158381/impresscms140-sqlexec.txt
+【安全工具】
+dorkScanner-Dork扫描程序
+一个典型的搜索引擎Dork扫描程序，它使用您提供的查询来抓取搜索引擎，以查找易受攻击的 URL。
+https://www.kitploit.com/2020/07/dorkscanner-typical-search-engine-dork.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Find Security Bugs – 适用于Java的SpotBugs插件
+用于Java Web应用程序的安全审核。该工具有大量规则列表，可用于识别静态源代码中的安全漏洞。
+https://sectechno.com/find-security-bugs-spotbugs-plugin-for-java/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+PMD –可扩展的多语言静态代码分析器
+它会发现常见的编程缺陷，例如未使用的变量，空的catch块，不必要的对象创建等等。
+https://sectechno.com/pmd-extensible-multilanguage-static-code-analyzer/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+FinDOM-XSS - XSS漏洞扫描程序
+可快速找到基于DOM的XSS 漏洞。
+https://www.kitploit.com/2020/07/findom-xss-fast-dom-based-xss.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+ParamSpider - 参数挖掘器
+查找Web中隐藏的参数，无需与目标主机交互。
+https://www.kitploit.com/2020/07/paramspider-mining-parameters-from-dark.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29

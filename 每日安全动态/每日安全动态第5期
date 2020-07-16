@@ -1,0 +1,64 @@
+
+【安全分析】
+
+Bolt CMS 3.7.0中多个漏洞 
+Bolt CMS 3.7.0中的CSRF、XSS和远程执行代码漏洞
+https://cxsecurity.com/issue/WLB-2020070061
+
+Liferay Portal远程代码执行漏洞
+Liferay Portal 7.2.1 CE GA2之前的版本由于对发送到JSON Web服务接口的不可信数据进行反序列化而存在代码执行漏洞。
+https://packetstormsecurity.com/files/158392/liferayportal-exec.txt
+
+AgeLocker使用Googl员工开发的加密工具Age进行加密
+https://www.bleepingcomputer.com/news/security/new-agelocker-ransomware-uses-googlers-utility-to-encrypt-files/
+
+认证和会话管理综合指南
+介绍了攻击者如何分析和接管使用免疫密码在一些经过弱认证的Web应用程序中登录的用户帐户。
+https://www.hackingarticles.in/comprehensive-guide-on-broken-authentication-session-management/
+
+WPScan：WordPress渗透测试框架
+使用功能最强大的WordPress漏洞扫描程序之一WPScan破坏此类WordPress网站。
+https://www.hackingarticles.in/wpscanwordpress-pentesting-framework/
+
+sourcecodester.com在线轮询系统SQL注入漏洞
+来自sourcecodester.com的在线轮询系统遭受远程SQL注入漏洞的影响，该漏洞允许绕过身份验证。
+https://packetstormsecurity.com/files/158396/ops-sql.txt
+
+Verint Impact 360登录CSRF
+Verint Impact 360 15.1中，在wfo/control/signin，登录表单可以接受来自外部来源的POST提交。
+https://seclists.org/fulldisclosure/2020/Jul/17
+
+V-SOL OLT后门/权限提升
+各种V-SOL OLT存在多个后门漏洞、硬编码的RSA密钥和潜在的命令注入以及不安全的管理漏洞。
+https://packetstormsecurity.com/files/158410/vsololts-exec.txt
+
+
+【安全工具】
+
+Debotnet - 隐私设置工具
+用于控制Windows 10的许多与隐私相关的设置并将个人数据保密的微型便携式工具
+https://www.kitploit.com/2020/07/debotnet-tiny-portable-tool-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Santa - 白名单/黑名单系统
+是用于macOS的二进制白名单/黑名单系统，用于管理系统并将数据库与服务器同步。
+https://www.kitploit.com/2020/07/santa-binary-whitelistingblacklisting.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+DroneSploit-Drone Pentesting框架控制台
+此CLI框架基于sploitkit并且试图收集黑客技术和漏洞利用
+https://www.kitploit.com/2020/07/dronesploit-drone-pentesting-framework.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29。
+
+Padding Oracle Attacker-执行Padding Oracle攻击的CLI工具和库
+CLI工具和库可轻松执行填充oracle攻击，并支持并发网络请求和精美的UI。
+https://www.kitploit.com/2020/07/padding-oracle-attacker-cli-tool-and.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Maskprocessor-高性能单词生成器
+具有按位置可配置字符集掩码攻击的高性能单词生成器，像暴力攻击一样，尝试从给定键空间进行所有组合，但更具体。
+https://www.kitploit.com/2020/07/maskprocessor-high-performance-word.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+kubebox – Kubernetes的终端和Web控制台
+kubebox是一个有用的终端和Web gui控制台，可让您管理Kubernetes集群并实时监视其状态。群集监视器显示资源，容器日志和其他参数的情况。
+https://sectechno.com/kubebox-terminal-and-web-console-for-kubernetes/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+X64Dbg-Windows的开源X64 / X32调试器
+Windows 的开源二进制调试器，旨在对您没有源代码的可执行文件进行恶意软件分析和反向工程。
+https://www.kitploit.com/2020/07/x64dbg-open-source-x64x32-debugger-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29

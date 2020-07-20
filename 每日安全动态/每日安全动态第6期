@@ -1,0 +1,60 @@
+
+【安全分析】
+
+Zoom修复了其自定义URL功能中0day
+Zoom修复器可自定义URL功能中以前未公开的漏洞，该漏洞可能已为黑客提供了窃取凭据或敏感信息的工具。
+https://threatpost.com/zoom-vanity-url-zero-day/157510/
+
+微软Azure Active Directory
+微软使用Azure Active Directory预防和检测更多基于身份的攻击
+https://www.microsoft.com/security/blog/2020/07/15/prevent-identity-attacks-azure-active-directory/
+
+新后门Bazar与银行木马Trickbot有关，针对美国和欧洲的目标
+https://www.zdnet.com/article/new-bazar-backdoor-linked-to-trickbot-banking-trojan-campaigns/#ftag=RSSbaffb68
+
+Wing FTP Server 6.3.8远程执行代码
+Wing FTP Server版本6.3.8的经过身份验证的远程执行代码漏洞利用Web控制台。
+https://packetstormsecurity.com/files/158441/wingftp638-exec.txt
+
+苹果产品中的多个漏洞可能允许任意代码执行
+在iOS，iPad OS，macOS，tvOS，watchOS和Safari中存在多个漏洞，最严重的可允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2020-098/
+
+澳大利亚网络攻击分析
+对近期澳大利亚的公共和私营部门组织遭到的大规模的网络攻击的分析。
+https://www.eurasiareview.com/17072020-australia-decoding-cyberattack-analysis/
+
+
+【安全工具】
+
+Capsulecorp-Pentest-用于进行内网渗透测试的Vagrant VirtualBox环境
+小型虚拟网络，包含5个虚拟机，其中1个运行xubuntu的Linux攻击系统和4个配置了各种漏洞服务的Windows 2019服务器。
+https://www.kitploit.com/2020/07/capsulecorp-pentest-vagrant-virtualbox.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Lazydocker – Docker管理器
+可用于为Docker和Docker Compose终端交互界面，该工具可在运行在不同容器和相关资源（图像，卷）中的服务之间快速切换，查看其状态并执行各种命令。
+https://sectechno.com/lazydocker-the-lazier-way-to-manage-everything-docker/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Natlas - 扩展网络扫描
+Natlas服务器兼用作任务管理器以使代理开始工作，从而使您可以在一个集中的位置控制扫描范围。
+https://www.kitploit.com/2020/07/natlas-scaling-network-scanning.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Saferwall - 开源恶意软件分析平台
+Saferwall利用了kubernetes的高可用性、可扩展性和其背后的巨大生态系统。
+https://www.kitploit.com/2020/07/saferwall-hackable-malware-sandbox-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+pwndrop – RedTeam的文件托管服务
+pwndrop是一种可自行部署的文件托管服务，用于发出红色分组有效载荷或通过HTTP和WebDAV安全共享您的私有文件
+https://sectechno.com/pwndrop-self-deployable-file-hosting-service-for-redteam/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+WiFi Passview v4.0 - WiFi 密码恢复工具
+WiFi Passview是适用于Windows的基于开源批处理脚本的程序，可以在几秒钟内轻松恢复WiFi密码。
+https://www.kitploit.com/2020/07/wifi-passview-v40-open-source-batch.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+dumproid - Android进程内存转储工具
+Dumproid是没有ndk的Android进程内存转储工具，它从/ proc / <pid> / mem转储内存。
+https://haxf4rall.com/2020/07/15/dumproid-android-process-memory-dump-tool-without-ndk/?utm_source=rss&utm_medium=rss&utm_campaign=dumproid-android-process-memory-dump-tool-without-ndk
+
+bopscrk - 智能单词列表生成工具
+Bopscrk是一种智能且功能强大的生成单词表的工具。
+https://haxf4rall.com/2020/07/15/bopscrk-generate-smart-and-powerful-wordlists/?utm_source=rss&utm_medium=rss&utm_campaign=bopscrk-generate-smart-and-powerful-wordlists

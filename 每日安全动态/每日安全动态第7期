@@ -1,0 +1,72 @@
+
+【安全分析】
+
+IBM WebSphere远程执行代码漏洞
+在IBM WebSphere Application Server中存在一个漏洞，远程攻击者可以利用此漏洞在目标系统上触发远程代码执行。
+https://www.hkcert.org/my_url/en/alert/20072001
+
+UBICOD Medivision权限提升漏洞
+普通用户可以通过/html/user页面（通过IDOR）来发送HTTP GET请求，以将其参数“ ft [grp]”设置为整数值3，从而获得超级管理员权限。
+https://www.zeroscience.mk/en/vulnerabilities/ZSL-2020-5575.php
+
+CVE-2018–10993：LibSSH身份验证绕过防火墙
+LibSSH身份验证绕过漏洞的研究和防御解决方案分析
+https://medium.com/bugbountywriteup/firewall-defense-from-libssh-authentication-bypass-aka-cve-2018-10993-1a6d3d1bef87
+
+路径遍历综合指南
+文章对路径遍历漏洞进行了深入的探讨
+https://www.hackingarticles.in/comprehensive-guide-on-path-traversal/
+
+WonderCMS中的多个漏洞
+包括通过文件名存储的跨站点脚本漏洞、目录遍历漏洞（授权用户），以及上载任意文件漏洞（授权用户）。
+https://seclists.org/fulldisclosure/2020/Jul/28
+
+VMware ESXi：多个漏洞
+VMware ESXi存在多个漏洞，包括CVE-2020-3963，CVE-2020-3964，CVE-2020-3965，CVE-2020-3960。
+https://seclists.org/fulldisclosure/2020/Jul/22
+
+GreenOptic：1个Vulnhub演练
+名为GreenOptic – 1的boot2root渗透测试演练。
+https://www.hackingarticles.in/greenoptic-1-vulnhub-walkthrough/
+
+【安全工具】
+
+Keylogger - 键盘记录器
+从目标计算机获取键盘，鼠标，ScreenShot，麦克风输入并发送到您的邮箱
+https://www.kitploit.com/2020/07/keylogger-get-keyboard-mouse-screenshot.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Anchore – 分析Docker映像的服务
+Anchore Engine是一个开放源代码工具，用于扫描和分析容器映像中的漏洞和策略问题。
+https://sectechno.com/anchore-service-to-analyze-docker-images/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Bramble - 黑客入侵开源套件
+Bramble融合了渗透测试和IT安全性的许多功能,易于使用且完全可编辑,允许初学者学习黑客，并为经验丰富的用户提供可自定义的即插即用黑客工具。
+https://www.kitploit.com/2020/07/bramble-hacking-open-source-suite.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Docker for Pentest - 创建pentest环境
+Docker for Pentest是具有更多使用工具的映像，可以轻松，快速地创建pentest环境。
+https://www.kitploit.com/2020/07/docker-for-pentest-image-with-more-used.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+T14M4T - 自动暴力攻击工具
+t14m4t扫描用户定义的目标（或包含目标的文档）以查找t14m4t支持的开放服务端口，然后使用最常用的弱密码列表对运行在已发现端口上的服务发起暴力攻击。
+https://www.kitploit.com/2020/07/t14m4t-automated-brute-forcing-attack.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+CloudMapper –分析Amazon Web Services
+CloudMapper帮助分析Amazon Web Services（AWS）环境，最初的目的是生成网络图并将其显示在浏览器中。
+https://sectechno.com/cloudmapper-analyze-your-amazon-web-services-aws/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Steganographer - 隐藏文件或图像文件中的数据
+此模块将隐藏图像中的文件（当前PNG）并将修改后的图像导出到磁盘
+https://www.kitploit.com/2020/07/steganographer-hide-files-or-data-in.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Tsunami - 网络安全扫描程序
+带有可扩展插件系统的通用网络安全扫描程序，可高高可信度地检测高危漏洞。
+https://www.kitploit.com/2020/07/tsunami-general-purpose-network.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+PENIOT-物联网的渗透测试工具
+用于物联网（IoT）设备的渗透测试工具，您可以同时进行主动和被动安全攻击。
+https://www.kitploit.com/2020/07/peniot-penetration-testing-tool-for-iot.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Safety – 漏洞检测工具
+是一种命令行工具，可用于检查本地虚拟环境，文件或stdin依赖项中的任何数据，以查看安全漏洞和问题。
+https://sectechno.com/safety-checks-dependencies-for-security-vulnerabilities/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29

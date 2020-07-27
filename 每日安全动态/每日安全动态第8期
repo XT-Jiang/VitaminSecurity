@@ -1,0 +1,63 @@
+
+【安全分析】
+Google Gmail、Meet和Chat新增11种安全功能
+为保护Gmail、Meet和Chat，Google增加了新的G Suite安全功能，以及用于管理员管理移动设备和Google云端硬盘数据泄漏的新工具。
+https://www.zdnet.com/article/google-here-come-11-new-security-features-across-gmail-meet-and-chat/
+
+CVE-2020-14484：OpenClinic允许暴力密码攻击
+OpenClinic GA版本5.09.02和5.89.05b中漏洞，CVSS v3评分9.8，允许攻击者绕过系统的帐户锁定保护，这可能允许暴力密码攻击。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14484
+
+Sophos VPN Web Panel 2020拒绝服务
+Sophos VPN Web Panel 2020拒绝服务概念验证漏洞利用。
+https://packetstormsecurity.com/files/158506/sophosvpnwp2020-dos.txt
+
+CVE-2020-2805：影响IBM Streams的Java漏洞
+Java SE中与Java SE库组件相关的未指定漏洞可能允许未经身份验证的攻击者控制系统。，CVSS评分8.3
+https://www.ibm.com/support/pages/node/6252043
+
+MMS漏洞利用：Qmage编解码器的有效模糊测试
+从发现一个不知名的易受攻击的三星图像编解码器，到在最新的三星旗舰设备上完成远程零点击彩信攻击的过程。
+https://googleprojectzero.blogspot.com/2020/07/mms-exploit-part-2-effective-fuzzing-qmage.html?m=1
+
+QEMU中的多个漏洞
+QEMU中的10个漏洞，CVE-2020-15859、CVE-2020-15863、CVE-2020-13800、CVE-2020-13791、CVE-2020-13765、CVE-2020-10761、CVE-2020-13659、CVE-2020-13754、CVE-2020-13362、CVE-2020-13361。
+https://www.cybersecurity-help.cz/vdb/SB2020072412
+
+Adobe Bridge中的多个漏洞（APSB20-44）
+在Adobe Bridge中存在多个漏洞，这些漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-bridge-could-allow-for-arbitrary-code-execution-apsb20-44_2020-099/
+
+【安全工具】
+
+Lazybee - Termux单词表生成器
+是一个基于python的脚本，可以生成用于暴力攻击的随机单词表。
+https://www.kitploit.com/2020/07/lazybee-wordlist-generator-tool-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Kubei – 漏洞扫描程序
+是一个漏洞扫描工具，它可以对kubernetes集群进行准确，即时的风险评估。
+https://sectechno.com/kubei-kubernetes-runtime-vulnerability-scanner/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+NTLMRecon - Web端点枚举信息工具
+快速、灵活的NTLM侦察工具，有助于在大量潜在IP地址和域时查找有关NTLM端点
+https://www.kitploit.com/2020/07/ntlmrecon-tool-to-enumerate-information.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+ADB-Toolkit - Android设备的测试工具
+一个BASH脚本，具有28个选项和一个METASPLOIT部分，其中有6个选项，可以轻松在Android Device中进行渗透测试。
+https://www.kitploit.com/2020/07/adb-toolkit-tool-for-testing-your.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+hackerEnv - 自动化黑客工具
+可以快速轻松地扫描IP并扫描端口，漏洞并加以利用。
+https://www.kitploit.com/2020/07/hackerenv-automation-tool-that-quickly.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Kali Linux Tools Interface - 信息安全工具的图形界面
+一个图形界面，可通过浏览器使用信息安全工具，具有最大数量的本机工具包的发行版。
+https://www.kitploit.com/2020/07/kali-linux-tools-interface-graphical.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+EternalBlueC EternalBlue套件
+EternalBlueC是用C重新制作的EternalBlue套件，其中包括MS17-010漏洞，EternalBlue / MS17-010漏洞检测器，DoublePulsar检测器以及DoublePulsar UploadDLL和shellcode。
+https://packetstormsecurity.com/files/158535/EternalBlueC-master.zip
+
+Onex - 黑客工具库
+Onex是适用于termux和其他Linux发行版的kali Linux黑客工具安装程序，管理大量可以易于安装的黑客工具。
+https://www.kitploit.com/2020/07/onex-library-of-hacking-tools-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29

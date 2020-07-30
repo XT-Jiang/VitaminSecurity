@@ -1,0 +1,76 @@
+
+【安全分析】
+
+CVE-2020-5902：	F5 Big-IP本地文件包含漏洞
+F5 Big-IP版本13.1.3 Build 0.0.6及以下版本存在本地文件包含漏洞。
+https://packetstormsecurity.com/files/158581/f5bigip1313006-lfi.txt
+
+Windows本地提权问题
+Microsoft Windows中可能允许本地特权升级的多种不安全做法。
+https://packetstormsecurity.com/files/158574/ms-handling.txt
+
+CVE-2019-20361：WordPress SQL注入
+WordPress电子邮件订阅和新闻通讯插件版本4.2.2存在远程SQL注入漏洞。
+https://packetstormsecurity.com/files/158568/wpesn422-sql.txt
+
+Lazarus的四款针对macOS的恶意软件
+黑客组织Lazarus的四款针对macOS的恶意软件。
+https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/
+
+SteelCentral Aternity Agent中的特权升级漏洞
+teelCentral Aternity Agent中的特权升级漏洞：CVE​​-2020-15592和CVE-2020-15593。
+https://seclists.org/fulldisclosure/2020/Jul/31
+
+MikroTik的RouterOS中的三个漏洞
+MikroTik的RouterOS中的内存损坏漏洞、NULL指针取消引用漏洞和堆栈耗尽漏洞。
+https://seclists.org/fulldisclosure/2020/Jul/32
+
+CVE-2020-13777：GnuTLS漏洞分析
+3.6.14之前的GnuTLS 3.6.x使用不正确的加密技术来加密会话票证（TLS 1.2中的机密性缺失和TLS 1.3中的身份验证绕过）
+https://anarc.at/blog/2020-06-10-gnutls-audit/
+
+CVE-2020-8558：Kubernetes漏洞使集群面临接管风险
+在Kubernetes上运行的kube-proxy中存在CVE-2020-8558漏洞，该漏洞暴露了Kubernetes节点的内部服务，这些服务通常未经身份验证即可运行。
+https://unit42.paloaltonetworks.com/cve-2020-8558/
+
+【安全工具】
+
+SNOWCRASH - 多语言有效载荷生成器
+NOWCRASH可创建以在Linux和Windows机器上启动的脚本，包括命令执行，反向shell建立，二进制执行等。
+https://www.kitploit.com/2020/07/snowcrash-polyglot-payload-generator.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+kubenav – Kubernetes集群导航器
+用于管理Kubernetes集群的移动和桌面应用程序。该应用程序提供了Kubernetes集群中所有资源的概述，包括工作负载的当前状态信息。
+https://sectechno.com/kubenav-kubernetes-clusters-navigator-in-your-pocket/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Intelspy - 自动网络侦察扫描
+IntelSpy是一个多线程网络智能间谍工具，可执行实时主机检测扫描，端口扫描，服务枚举扫描，Web内容扫描，暴力破解，详细的离线漏洞利用搜索等。
+https://www.kitploit.com/2020/07/intelspy-perform-automated-network.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+LogonTracer – 使用事件日志调查恶意登录
+LogonTracer是通过可视化和分析Windows Active Directory事件日志来调查恶意登录的工具。
+https://sectechno.com/logontracer-investigate-malicious-logon-using-event-logs/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+HawkScan - 网站侦察工具
+用于对网站的侦察和信息收集的安全工具。
+https://www.kitploit.com/2020/07/hawkscan-security-tool-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+reNgine – 自动侦察框架
+reNgine是一个自动侦察框架，用于在Web应用程序的渗透测试期间收集信息。
+https://haxf4rall.com/2020/07/26/rengine-an-automated-reconnaissance-framework-meant-for-gathering-information-during-penetration-testing-of-web-applications/?utm_source=rss&utm_medium=rss&utm_campaign=rengine-an-automated-reconnaissance-framework-meant-for-gathering-information-during-penetration-testing-of-web-applications
+
+Autoenum – 自动服务枚举脚本
+Autoenum是一个侦查工具，可以对发现的服务进行自动枚举。
+https://haxf4rall.com/2020/07/26/autoenum-automatic-service-enumeration-script-2/?utm_source=rss&utm_medium=rss&utm_campaign=autoenum-automatic-service-enumeration-script-2
+
+DeimosC2 - 用于后期开发的Golang命令和控制框架
+DeimosC2 是命令与控制（C2）工具，该工具利用多种通信方法来控制受到威胁的计算机。
+https://haxf4rall.com/2020/07/25/deimosc2-golang-command-and-control-framework-for-post-exploitation/?utm_source=rss&utm_medium=rss&utm_campaign=deimosc2-golang-command-and-control-framework-for-post-exploitation
+
+Egress Assess – 测试出口检测功能的工具
+出口评估是用于测试出口数据检测功能的工具，可以通过FTP，HTTP和HTTPS发送数据。
+https://sectechno.com/egress-assess-tool-to-test-egress-detection-capabilities/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Cnitch – 检查以root身份运行的Docker引擎进程
+cnitch是一个简单的框架和命令行工具，用于监视Docker容器以标识以root用户身份运行的任何进程。
+https://sectechno.com/cnitch-checks-docker-engine-processes-running-as-root/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29

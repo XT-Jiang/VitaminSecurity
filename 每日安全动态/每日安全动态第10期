@@ -1,0 +1,64 @@
+
+【安全分析】
+
+Mirai僵尸网络利用武器通过CVE-2020-5902攻击物联网设备
+在披露了两个F5 BIG-IP漏洞之后，继续监视和分析这些漏洞以及其他相关活动，以进一步了解其严重性。
+https://blog.trendmicro.com/trendlabs-security-intelligence/mirai-botnet-exploit-weaponized-to-attack-iot-devices-via-cve-2020-5902
+
+CVE-2020-14158：ABUS Secvest混合模块中身份验证旁路
+该模块没有任何安全机制来确保ABUS Secvest报警面板和ABUS Secvest混合模块之间交换的射频数据包的保密性或完整性。
+https://seclists.org/fulldisclosure/2020/Jul/36
+
+iOS页面保护层（PPL）绕过
+由于pmap_protect_options_internal（）和pmap_remove_options_internal（）中的参数验证不正确，iOS存在页面保护层（PPL）绕过漏洞。
+https://packetstormsecurity.com/files/158698/GS20200731223904.tgz
+
+SharePoint数据集/数据表反序列化
+SharePoint中存在一个可远程利用的漏洞，远程身份验证的攻击者可以利用该漏洞在SharePoint应用程序服务的上下文中执行代码。
+https://packetstormsecurity.com/files/158694/sharepoint_data_deserialization.rb.txt
+
+针对SETUID根程序的ARM堆栈溢出攻击教程
+演示如何使用本地文件（而不是stdin）中的数据导致堆栈溢出。
+https://www.fortinet.com/blog/threat-research/tutorial-arm-stack-overflow-exploit-against-setuid-root-program
+
+远程文件包含（RFI）的综合指南
+对于远程文件包含漏洞的利用及其缓解办法的分析
+https://www.hackingarticles.in/comprehensive-guide-on-remote-file-inclusion-rfi/
+
+渗透测试实验室设置：MS-SQL
+在Windows Server 2019操作系统中安装和配置MS SQL Server
+https://www.hackingarticles.in/penetration-testing-lab-setupms-sql/
+
+勒索软件分析
+如何利用一封电子邮件使整个企业陷入困境。
+https://www.zdnet.com/article/ransomware-how-clicking-on-one-phishing-email-left-a-whole-business-in-big-trouble/
+
+【安全工具】
+
+CWFF - 自定义单词表创建
+CWFF是一个创建特殊的高质量模糊/内容发现单词列表的工具。
+https://www.kitploit.com/2020/08/cwff-create-your-custom-wordlist-for.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Cloudsplaining - AWS IAM安全评估工具
+它有助于识别不利用资源约束的IAM动作，还通过标记IAM策略来优先考虑补救流程。
+https://www.kitploit.com/2020/08/cloudsplaining-aws-iam-security.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+dazzleUP - 漏洞检测工具
+检测Windows操作系统中由于配置错误和缺少更新而导致的提权漏洞的工具。
+https://www.kitploit.com/2020/07/dazzleup-tool-that-detects-privilege.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+uDork - 信息查找工具
+uDork是用Bash脚本编写的脚本，使用高级Google搜索技术来获取文件或目录中的敏感信息，查找IoT设备，检测Web应用程序的版本等。
+https://www.kitploit.com/2020/07/udork-tool-that-uses-advanced-google.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Oralyzer-识别开放重定向的工具
+是简单的python脚本，能够识别网站中的开放重定向漏洞，通过模糊URL作为输入来实现。
+https://www.kitploit.com/2020/07/oralyzer-tool-to-identify-open.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+idb – iOS应用安全评估工具
+可简化iOS应用安全评估和研究的一些常见任务。
+https://sectechno.com/idb-ios-app-security-assessment-tool/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Rakkess – Kubernetes的显示访问矩阵
+Rakkess是一个kubectl插件，用于显示服务器资源的访问矩阵。
+https://sectechno.com/rakkess-show-access-matrix-for-kubernetes/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29

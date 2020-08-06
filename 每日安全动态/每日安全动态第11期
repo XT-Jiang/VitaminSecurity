@@ -1,0 +1,64 @@
+
+【安全分析】
+
+October CMS Build版本465存在多个漏洞
+October CMS内部版本465及以下版本存在多个漏洞，包括任意文件读取、任意文件删除、文件上载到任意位置、持久性和反射性XSS漏洞以及CSV注入漏洞。
+https://packetstormsecurity.com/files/158730/octobercms465-xssinjectfileread.txt
+
+使用WebRTC开发Android Messenger
+这是一个由三部分组成的系列文章，内容涉及利用WebRTC中的漏洞利用Messenger应用程序。
+https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-1.html
+
+CVE-2020-10713：GRUB2缓冲区溢出漏洞分析
+利用此漏洞的攻击者可以安装持久并隐蔽的恶意安装程序，从而几乎完全控制受害设备。
+https://blog.qualys.com/vulnerabilities-research/2020/08/03/grub2-boothole-buffer-overflow-vulnerability-cve-2020-10713-automatically-discover-prioritize-and-remediate-using-qualys-vmdr
+
+BlackBerry发布对PE文件进行逆向工程的新工具
+BlackBerry开放源代码PE Tree，这是一种用于分析可移植可执行（PE）文件的新型恶意软件逆向工程工具。
+https://www.zdnet.com/article/blackberry-releases-new-security-tool-for-reverse-engineering-pe-files/?&web_view=true
+
+SoftPerfect RAM磁盘中的两个漏洞
+SoftPerfect RAM磁盘存在任意文件删除漏洞 （CVE-2020-13522）和信息泄露漏洞（CVE-2020-13523）。
+https://blog.talosintelligence.com/2020/08/softperfect-file-deletion-vuln-spotlight-aug-2020.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+feedburner%2FTalos+%28Talos%E2%84%A2+Blog%29
+
+2020年的6种勒索软件趋势
+介绍勒索软件威胁格局的最新趋势，帮助组织跟踪六中勒索软件的发展。
+https://securityintelligence.com/articles/6-ransomware-trends-2020/
+
+开放式重定向综合指南
+介绍开放式重定向，以及攻击者如何通过简单地将其网址重定向来污损一个网站。
+https://www.hackingarticles.in/comprehensive-guide-on-open-redirect/
+
+入侵iOS：利用Arcane向iPhone程序包注入有效载荷
+人们普遍误以为iPhone比Android更安全，但iOS中的漏洞很常见，Apple尝试通过安全更新来解决这些漏洞。
+https://null-byte.wonderhowto.com/how-to/hacking-ios-embed-payloads-into-iphone-packages-with-arcane-0325421/
+
+【安全工具】
+
+Mistica - 用于通过应用协议进行任意通信的开源工具
+Mística可以将数据嵌入到应用程序层协议字段中，以为任意通信建立双向通道。当前，已经实现了对HTTP、DNS和ICMP协议的封装。
+https://www.kitploit.com/2020/08/mistica-open-source-swiss-army-knife.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+ezEmu – 防御研究的命令执行
+可以通过各种执行技术来测试对手的行为，类似蓝队的进攻性框架，它不具有任何联网或C2功能，而是专注于创建本地测试遥测。
+https://sectechno.com/ezemu-commands-execution-for-defensive-research/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Hygieia – CapitalOne DevOps显示器
+其本身就是一个聚合器，有两个独立的显示窗口，一个用于工程师，另一个用于主管，其可视化地描述了CICD。
+https://sectechno.com/hygieia-capitalone-devops-dashboard/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+DLInjector[GUI] - DLL注入器图形用户界面
+更快的进程DLL注入器,它以进程名为目标，不需要打开流程来定义目标。
+https://www.kitploit.com/2020/08/dlinjector-gui-dll-injector-graphical.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Xeca - PowerShell有效负载生成器
+是一个为攻击目的创建加密的PowerShell负载的项目，也可以从DLL文件创建与位置无关的shellcode。
+https://www.kitploit.com/2020/08/xeca-powershell-payload-generator.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+UEFI_RETool - 逆向工程的工具
+UEFI_RETool可用于对UEFI固件逆向工程。
+https://www.kitploit.com/2020/08/uefiretool-tool-for-uefi-firmware.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Netenum - 主机探索工具
+Netenum可被动监视网络上的ARP流量，以发现网络上主动主机，并提取有关每个活动主机的基本数据，例如IP地址，MAC地址和制造商。
+https://www.kitploit.com/2020/08/netenum-tool-to-passively-discover.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29

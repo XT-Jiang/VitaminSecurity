@@ -1,0 +1,71 @@
+
+【安全分析】
+
+Alphaware 1.0 SQL注入漏洞
+网上购物应用Alphaware 1.0版存在多个远程SQL注入漏洞，归因于Ahmed Abbas。
+
+enlogic CSRF漏洞
+全动态软件enlogic地show Digital Signage System 版本2.0.2存在跨站点请求伪造漏洞。
+https://packetstormsecurity.com/files/158701/ZSL-2020-5576.txt
+
+CVE-2020-13699：TeamViewer漏洞可能被利用破解密码
+Windows的TeamViewer中的漏洞，可被远程攻击者利用，以破解用户密码，从而导致进一步的系统利用。
+https://www.helpnetsecurity.com/2020/08/06/cve-2020-13699/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+HelpNetSecurity+%28Help+Net+Security%29
+
+CVE-2020-11552：ManageEngine ADSelfService Plus中漏洞
+ManageEngine ADSelfService Plus中的未经身份验证的远程执行代码漏洞。
+https://seclists.org/fulldisclosure/2020/Aug/4
+
+Windows注册表分析
+介绍了如何在法庭调查环境中使用RegRipper分析Windows注册表。
+https://www.hackingarticles.in/forensic-investigation-windows-registry-analysis/
+
+无限制文件上传综合指南
+介绍如何从不受限制的文件上载功能打开攻击者托管恶意内容的大门，以便下载Web应用程序。
+https://www.hackingarticles.in/comprehensive-guide-on-unrestricted-file-upload/
+
+绕过MassLogger反分析-中间人方法
+FireEye前线应用研究与专长（FLARE）团队对凭据窃取器MassLogger进行分析。
+https://www.fireeye.com/blog/threat-research/2020/08/bypassing-masslogger-anti-analysis-man-in-the-middle-approach.html
+
+【安全工具】
+
+Gtunnel - Tunelling解决方案
+使用golang和gRPC构建的TCPTunelling套件，可以管理在一个TCP/HTTP2连接上传输的多个正向和反向隧道。
+https://www.kitploit.com/2020/08/gtunnel-robust-tunelling-solution.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+Werf – GitOps交付工具
+werf是一种用Go语言编写的开源CLI工具，旨在简化和加快应用程序的交付。
+https://sectechno.com/werf-gitops-delivery-tool/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Taowu - CobaltStrike工具包
+TaoWu(檮杌)是一个CobaltStrike工具包，所有的脚本都收集自网上，并稍加修改。
+https://www.kitploit.com/2020/08/taowu-cobaltstrike-toolkit.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+SUID3NUM - SUID二进制文件查找工具
+SUID3NUM一个支持python2和python3的独立脚本，用于查找机器喝CTFs中的所有SUID二进制文件。
+https://haxf4rall.com/2020/08/05/suid3num-find-out-all-suid-binaries-in-machines-ctfs/?utm_source=rss&utm_medium=rss&utm_campaign=suid3num-find-out-all-suid-binaries-in-machines-ctfs
+
+SecGen – 创建随机不安全的虚拟机
+安全方案生成器（SecGen）生成随机的易受攻击的系统，旨在轻松地通过定义漏洞和其他种类的软件，配置和内容更改的模块进行扩展。
+https://sectechno.com/secgen-create-randomly-insecure-vms/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sectechno+%28SecTechno%29
+
+Arcane - iOS后门软件包（iphone-arm）
+Arcane是一个简单脚本，旨在对iOS程序包（iphone-arm）创建后门，并为APT存储库创建必要的资源。
+https://haxf4rall.com/2020/08/04/arcane-backdoor-ios-packages-iphone-arm/
+
+Infection Monkey - 开放源代码破坏和攻击模拟（BAS）工具
+是免费的开源工具，可映射到MITER ATT＆CK知识库，并测试网络是否符合Forrester零信任框架。
+https://www.helpnetsecurity.com/2020/08/07/open-source-tool-infection-monkey/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+HelpNetSecurity+%28Help+Net+Security%29
+
+Chalumeau - 凭证转储工具
+Chalumeau是基于powershell和python的自动化，可扩展和可定制的凭据转储工具。
+https://www.kitploit.com/2020/08/chalumeau-automated-extendable-and.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+FestIn - S3桶搜索工具
+用于从域发现泄露的S3存储桶的工具，它进行大量测试并从以下域名解析、网页（搜寻器）和S3存储桶本身（如S3重定向）收集信息。
+https://www.kitploit.com/2020/08/festin-s3-bucket-weakness-discovery.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+PhishingKitTracker - 网络钓鱼工具包
+犯罪分子使用的网络钓鱼工具包，具有简单的统计信息，可用于取证和未来分析。
+https://www.kitploit.com/2020/08/phishingkittracker-lets-track-phishing.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29

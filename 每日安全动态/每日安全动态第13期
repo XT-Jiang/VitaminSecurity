@@ -1,0 +1,73 @@
+
+【安全分析】
+
+CVE-2020-16138：Cisco 7937G中Dos漏洞
+Cisco 7937G SIP-1-4-5-7及以下版本存在拒绝服务漏洞。
+https://packetstormsecurity.com/files/158819/cisco7937g-dos.txt
+
+CVE-2020-10055：Siemens Desigo CC中远程代码执行漏洞
+由于输入验证不正确而引起，远程攻击者可以发送特制请求并在目标系统上执行任意代码。
+https://www.cybersecurity-help.cz/vdb/SB2020081248
+
+Tailor MS 1.0 XSS漏洞
+允许远程攻击者可以通过记录受害者的击键来窃取数据。
+https://packetstormsecurity.com/files/158813/tailorMS-rXSS-KeyLogger.py.txt
+
+BarracudaDrive 6.5中提权漏洞
+允许本地攻击者通过替换bd.exe文件和重新启动计算机来升级管理员权限。
+https://packetstormsecurity.com/files/158812/barracudadrive65-escalate.txt
+
+flatCore CMS 1.5.5 XSS和任意文件上传漏洞
+XSS漏洞允许经过身份验证的攻击者注入恶意脚本，文件上传漏洞允许上传任意服务器端PHP代码。
+https://packetstormsecurity.com/files/158810/SA-20200807-0.txt
+
+Chrome浏览器漏洞可使数十亿用户数据被盗
+该漏洞使攻击者可以绕过内容安全策略（CSP）保护，并从网站访问者那里窃取数据。
+https://threatpost.com/google-chrome-bug-data-theft/158217/
+
+防御躲避方法分析
+介绍攻击者通过在受害人的系统中隐藏以执行其恶意意图来逃避其检测的方法。
+https://www.hackingarticles.in/defense-evasion-hide-artifacts/
+
+检查损坏的文件元数据的方法
+介绍如何借助Exiftool检查损坏的文件。
+https://www.hackingarticles.in/forensic-investigation-examine-corrupt-file-metadata/
+
+
+【安全工具】
+
+Pysa - Python静态分析器
+Facebook推出的用于对Python代码进行静态分析的开源工具，可以用来识别与保护用户数据有关的问题，以及诸如XSS和SQL注入之类的漏洞。
+https://www.securityweek.com/facebook-open-sources-analysis-tool-python-code
+
+CheckXSS - XSS漏洞检测工具
+用于检测Web应用程序中的XSS漏洞，支持URL编码绕过。
+https://haxf4rall.com/2020/08/10/checkxss-detect-xss-vulnerability-in-web-applications/
+
+Flask - Session Cookie解码器
+可用于Session Cookie的编码或解码。
+https://www.kitploit.com/2020/08/flask-session-cookie-manager-flask.html
+
+Bastillion – 基于Web的SSH控制台
+可集中管理对系统的访问，与用户公共SSH密钥的管理和分发相结合，基于分配给已定义用户的配置文件。
+https://sectechno.com/bastillion-web-based-ssh-console-to-manage-access/
+
+IRFuzz - Yara规则扫描器
+具有yara规则的简单扫描仪，可用于文档存档或任何文件。
+https://www.kitploit.com/2020/08/irfuzz-simple-scanner-with-yara-rule.html
+
+Evine - 交互式CLI Web爬虫
+用Golang编写的简单、快速且交互式的Web爬虫，可用于元数据和数据提取，数据挖掘，侦察和测试。
+https://www.kitploit.com/2020/08/evine-interactive-cli-web-crawler.html
+
+SharpChromium -  数据检索工具
+一个.NET 4.0+ CLR项目，可从Google Chrome，Microsoft Edge和Microsoft Edge Beta检索数据，可提取Cookies（JSON格式）、历史记录和保存的登录名。
+https://www.kitploit.com/2020/08/sharpchromium-net-40-clr-project-to.html
+
+SharpChromium - 数据检索工具
+一个.NET 4.0+ CLR项目，可从Google Chrome，Microsoft Edge和Microsoft Edge Beta检索数据，可提取Cookies（JSON格式）、历史记录和保存的登录名。
+https://www.kitploit.com/2020/08/sharpchromium-net-40-clr-project-to.html
+
+Nautilus - 基于语法的反馈模糊器
+是一种基于覆盖率指导的基于语法的模糊器，可被用来提高测试范围并查找更多错误。
+https://www.kitploit.com/2020/08/nautilus-grammar-based-feedback-fuzzer.html

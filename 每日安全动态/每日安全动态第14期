@@ -1,0 +1,68 @@
+【安全分析】
+
+Emotet僵尸网络分析
+揭示了一些Emotet用来避免被发现的新颖的技术。
+https://www.deepinstinct.com/2020/08/12/why-emotets-latest-wave-is-harder-to-catch-than-ever-before/
+
+WordPress Sell Photo 1.0.5 XSS漏洞
+Sell Photos插件设置页面的按钮文本/图像字段被没有正确地对用户输入检查，易被存储的XSS攻击。
+https://packetstormsecurity.com/files/158872/wpsellphoto105-xss.txt
+
+MikroTik的RouterOS中的两个漏洞
+MikroTik的RouterOS中存在空指针解除引用漏洞和断言失败漏洞。
+https://seclists.org/fulldisclosure/2020/Aug/11
+
+CVE-2020-1472：NetLogon提权漏洞
+当攻击者通过NetLogon（MS-NRPC）与域控制器建立易受攻击的安全通道时，此漏洞可用于获取对域控制器的访问，成功利用此漏洞的攻击者可执行任意代码。
+https://haxf4rall.com/2020/08/12/cve-2020-1472-netlogon-privilege-escalation-vulnerability-alert/
+
+CVE-2020-6519：Google Chrome中漏洞
+攻击者可以利用此安全漏洞窃取数亿用户的数据并执行恶意代码。
+https://haxf4rall.com/2020/08/11/researchers-reveals-a-security-vulnerability-cve-2020-6519-in-google-chrome/
+
+XSS脚本开发
+介绍如何利用XSS攻击web应用程序，并在不引起注意的情况下，通过共享登录凭据或经过身份验证的cookie，破坏访问者的隐私。
+https://www.hackingarticles.in/cross-site-scripting-exploitation/
+
+利用PowerShell执行策略绕过Pwn Windows
+在利用后的过程中，PowerShell脚本可以使特权升级并轻而易举地进行旋转，但是其执行策略甚至可以阻碍最佳布局的计划
+https://null-byte.wonderhowto.com/how-to/bypass-powershell-execution-policy-pwn-windows-0323455/
+
+
+【安全工具】
+
+Phirautee - 加密病毒
+使用PowerShell编写的，不需要任何第三方库，可窃取信息，保留组织的数据以作为支付的人质或永久加密/删除组织的数据。
+https://www.kitploit.com/2020/08/phirautee-poc-crypto-virus-to-spread.html
+
+Unfollow Plus - Instagram Unfollower机器人
+自动化的Instagram Unfollower 机器人
+https://www.kitploit.com/2020/08/unfollow-plus-automated-instagram.html
+
+DAGOBAH - 数据收集器
+用python编写的开源工具，用于自动执行来自不同AWS资源的内部威胁情报生成、清单收集和合规性检查。
+https://www.kitploit.com/2020/08/dagobah-open-source-tool-to-generate.html
+
+AWS report - 亚马逊资源分析工具
+具有根据创建日期搜索IAM用户、搜索公共桶、基于规则的搜索安全性、搜索具有公共权限的AMI、搜索独立的互联网网关等功能。
+https://www.kitploit.com/2020/08/aws-report-tool-for-analyzing-amazon.html
+
+Yeti – 日常威胁情报
+Yeti是一个平台，旨在在单个统一的存储库中组织可观察性，危害指标，TTP以及有关威胁的知识。
+https://sectechno.com/yeti-your-everyday-threat-intelligence/
+
+scan for webcams - 摄像头扫描器
+可自动扫描互联网上可公开访问的网络摄像头。
+https://haxf4rall.com/2020/08/13/scan-for-webcams-scan-for-webcams-in-the-internet/
+
+socialscan - 邮件地址检测工具
+可检查在线平台上的电子邮件地址和用户名是否可用。
+https://haxf4rall.com/2020/08/12/socialscan-v1-3-releases-check-email-address-and-username-availability-on-online-platforms/
+
+SkyArk - AWS扫描工具
+包括AzureStealth模块和AWStealth模块，可发现、评估和保护Azure和AWS中最高权限的实体。
+https://haxf4rall.com/2020/08/12/skyark-helps-to-discover-assess-and-secure-the-most-privileged-entities-in-azure-and-aws/
+
+BrowseSpy - 浏览器配置文件窃取器
+BrowseSpy可更改ftp变量，这些变量包含接收文件的FTP服务器的用户名，密码和IP地址。
+https://haxf4rall.com/2020/08/11/browsespy-steal-certain-browser-config-files/

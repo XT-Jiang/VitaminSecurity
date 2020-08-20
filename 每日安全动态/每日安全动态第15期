@@ -1,0 +1,68 @@
+【安全分析】
+
+Wordpress Easy Media 1.1.4 XSS漏洞
+Wordpress Easy Media Download插件版本1.1.4遭受持续的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/158877/wpemd114-xss.txt
+
+利用MacOS授权执行代码
+介绍如何利用MacOS授权执行代码并绕过安全产品。
+https://secret.club/2020/08/14/macos-entitlements.html
+
+Ubuntu 4462-1：Linux内核漏洞
+Linux内核中的bcache子系统在某些错误情况下没有正确地释放锁，可被本地攻击者利用导致拒绝服务。
+https://linuxsecurity.com/advisories/ubuntu/ubuntu-4462-1-linux-kernel-vulnerability-01-22-32
+
+libjpeg中漏洞
+攻击者可以通过libjpeg的jpeg_mem_available（）触发过载，导致拒绝服务。
+https://vigilance.fr/vulnerability/libjpeg-overload-via-jpeg-mem-available-32984
+
+GlueBall：CVE-2020–1464的故事
+CurveBall攻击是一个欺骗性漏洞，攻击者可以利用该漏洞滥用Microsoft Windows中的加密漏洞，以传递其恶意网络流量和有效签名的文件。
+https://medium.com/@TalBeerySec/glueball-the-story-of-cve-2020-1464-50091a1f98bd
+
+CVE-2020–14979：EVGA Precision X1中的本地提权漏洞
+该漏洞影响了EVGA Precision X1性能软件的1.0.7版本，已在1.0.7版中修复。
+https://posts.specterops.io/cve-2020-14979-local-privilege-escalation-in-evga-precisionx1-cf63c6b95896
+
+EmoCrash分析
+EmoCrash利用了恶意软件Emotet中的漏洞对其进行防御。
+https://www.binarydefense.com/emocrash-exploiting-a-vulnerability-in-emotet-malware-for-defense/
+
+Kali Linux 2020.3开始用ZSH取代Bash
+由Offensive Security发布，Kali Linux 2020.3开始了从作为默认Shell的Bash切换到ZSH的第一步。
+https://www.bleepingcomputer.com/news/linux/kali-linux-20203-begins-journey-of-replacing-bash-with-zsh/
+
+事件响应：Windows备忘单
+利用事件响应，可以检测到主要级别的大量攻击，可以进行调查以获得任何数字证据。
+https://www.hackingarticles.in/incident-response-windows-cheatsheet/
+
+
+【安全工具】
+
+UFONet - P2P和密码破解工具包
+可执行DoS和DDoS攻击，通过利用第三方网站上的开放重定向矢量充当僵尸网络以及在网络层上滥用协议来实现。
+https://seclists.org/fulldisclosure/2020/Aug/12
+
+IoT PT-渗透物联网设备的虚拟环境
+适用于IoT设备的 全新渗透测试虚拟环境，可开发开源硬件实验室和操作系统。
+https://www.kitploit.com/2020/08/iot-pt-virtual-environment-for.html
+
+Urlbuster - 目录爆破工具
+强大的Web目录模糊处理程序，用于查找现有或隐藏的文件或目录。
+https://www.kitploit.com/2020/08/urlbuster-powerful-mutable-web.html
+
+PowerSharpPack - 进攻性CSharp集合
+许多有用的进攻性CSharp项目都打包到Powershell中的集合，以方便使用。
+https://www.kitploit.com/2020/08/powersharppack-many-usefull-offensive.html
+
+Autovpn – 在AWS上创建OpenVPN端点
+一个用于在AWS中创建OpenVPN端点的脚本，它将创建适当的安全组，并启动一个带标签的ec2实例并配置OpenVPN软件。
+https://sectechno.com/autovpn-create-openvpn-endpoints-on-aws/
+
+Sinter - 用户模式端点安全代理
+由Swift编写的适用于macOS 10.15及更高版本，对于一组与安全相关的事件类型，Sinter使用用户模式EndpointSecurity API来订阅和接收macOS内核的授权回调。
+https://www.kitploit.com/2020/08/sinter-user-mode-application.html
+
+PurpleSharp - 对手模拟工具
+该工具在Windows Active Directory中执行对手技术环境，可以利用由此产生的遥测来测量和提高检测工程程序的效率。
+https://www.kitploit.com/2020/08/purplesharp-c-adversary-simulation-tool.html

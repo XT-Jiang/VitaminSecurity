@@ -1,0 +1,69 @@
+【安全分析】
+
+NCR SelfServ ATM分配器软件中多个漏洞
+APTRA XFS 05.01.00或更旧版本的NCR SelfServ自动柜员机（ATM）容易受到货币分发器组件和主机之间的通信总线上物理攻击的攻击。
+https://kb.cert.org/vuls/id/116713
+
+威胁情报：MISP实验室设置
+MISP是一个开放源代码威胁情报和共享平台，用于收集、存储分发和共享网络安全指标以及有关网络安全事件和恶意软件分析的威胁。
+https://www.hackingarticles.in/threat-intelligence-misp-lab-setup/
+
+识别MacBook上安装的防病毒和防火墙软件
+借助中间人攻击，Mac发送出的的数据包将书名有关安装了哪种防病毒和防火墙软件的信息。
+https://null-byte.wonderhowto.com/how-to/hacking-macos-identify-antivirus-firewall-software-installed-someones-macbook-0198862/
+
+Windows 10使用TLS 1.3
+默认情况下，Windows 10 Insider Preview版本从Build 20170开始启用传输层安全性（TLS）1.3，这是向Windows 10系统进行更广泛部署的第一步。
+https://www.microsoft.com/security/blog/2020/08/20/taking-transport-layer-security-tls-to-the-next-level-with-tls-1-3/
+
+CVE-2019-17638：Jenkins Server中漏洞
+此漏洞发生在内存利用中，可导致私有数据泄露。 
+https://gbhackers.com/jenkins-vulnerability/
+
+IBM Java SDK中的多个漏洞
+IBM Java SDK中存在CVE-2020-2654、CVE-2020-2781和CVE-2020-2800漏洞，影响了IBM Spectrum Control。
+ibm.com/blogs/psirt/security-bulletin-vulnerabilities-in-ibm-java-sdk-affect-ibm-spectrum-control-cve-2020-2654-cve-2020-2781-cve-2020-2800/
+
+Node.js中的多个漏洞
+IBM Java SDK中存在CVE-2020-8172、CVE-2020-8174和CVE-2020-11080漏洞，影响了IBM Spectrum Control。
+https://www.ibm.com/blogs/psirt/security-bulletin-vulnerabilities-in-node-js-affect-ibm-spectrum-control-cve-2020-8172-cve-2020-8174-cve-2020-11080/
+
+Ehre病毒文件（TapPIF勒索软件）
+介绍如何消除TapPIF勒索软件感染，并尝试还原其被加密的文件。
+https://sensorstechforum.com/tappif-ransomware/
+
+
+【安全工具】
+
+DropEngine - Malleable有效载荷
+DropEngine接受来自模块名称的列表的命令行，并使用它们来构建的有效载荷。
+https://www.kitploit.com/2020/08/dropengine-malleable-payloads.html
+
+Wonitor - Web端点更改监视器
+快速，零配置的Web端点更改监视器。为了比较响应，选择的http头列表和完整的响应体存储在一个本地键/值存储文件中，无需配置。
+https://www.kitploit.com/2020/08/wonitor-fast-zero-config-web-endpoint.html
+
+ReconSpider - 开源情报（OSINT）框架
+用于扫描IP地址，电子邮件，网站，组织和发现信息从不同的来源，可以被Infosec研究人员、渗透测试人员、Bug猎人和网络犯罪调查人员用来查找他们的目标的深层信息。
+https://www.kitploit.com/2020/08/reconspider-most-advanced-open-source.html
+
+Pagodo - Google黑客数据库抓取器
+是一个被动的Google dork脚本，以收集Internet上潜在的易受攻击的网页和应用程序。包含2个部分，第一部分用于检索Google Dorks，第二部分可利用收集的信息。
+https://www.kitploit.com/2020/08/pagodo-automate-google-hacking-database.html
+
+OpenRedireX - 开放重定向Fuzzer
+获取一个URL或URL列表，并对它们进行模糊处理以解决Open重定向问题。
+https://haxf4rall.com/2020/08/18/openredirex-asynchronous-open-redirect-fuzzer-for-humans/
+
+fwanalyzer - 分析文件系统映像
+使用一组可配置规则来分析（ext2 / 3/4），FAT / VFat，SquashFS，UBIFS文件系统映像和目录内容的工具。
+https://haxf4rall.com/2020/08/18/fwanalyzer-v1-4-3-releases-analyze-filesystem-images/
+
+houndsploit - Exploit-DB的高级图形搜索引擎
+是用于Exploit-DB的高级搜索引擎，它使用Flask作为微型Web框架，使用Python开发，旨在向用户显示最准确的搜索结果。
+https://haxf4rall.com/2020/08/17/houndsploit-advanced-graphical-search-engine-for-exploit-db/
+
+SQLi查询篡改 - Burp Suite的Intruder的扩展
+SQLi查询篡改在Burp Suite的Intruder中进行了扩展，并添加了自定义的有效负载生成器/处理器。
+https://haxf4rall.com/2020/08/16/sqli-query-tampering/
+

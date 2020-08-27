@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2020-1380：最近修复的IE零日分析
+Microsoft修复了一个针对Internet Explorer 11的零日漏洞，为JavaScript引擎jscript9.dll中的释放后使用漏洞。
+https://www.trendmicro.com/en_us/research/20/h/cve-2020-1380-analysis-of-recently-fixed-ie-zero-day.html
+
+CVE-2020-17456：Seowon SlC 130路由器远程代码执行漏洞
+用户可以作为root用户在路由器上运行任意命令，因为已经有一些硬编码的凭证，所以很容易触发攻击。
+https://packetstormsecurity.com/files/158933/seowonsic130-exec.txt
+
+CVE-2020-24548：Ericom Access Server 9.2.0服务器端请求伪造
+Ericom Access Server允许攻击者发起SSRF请求，以建立与任意主机和TCP端口的出站连接。
+https://packetstormsecurity.com/files/158962/ERICOM-ACCESS-SERVER-ACCESS-NOW-BLAZE-9.2.0-SERVER-SIDE-REQUEST-FORGERY.txt
+
+Azure Sphere中的远程代码执行、权限提升漏洞分析
+Talos在Azure Sphere中发现了四个漏洞，其中两个漏洞可能导致未签名的代码执行，另外两个漏洞导致特权升级。
+https://blog.talosintelligence.com/2020/08/vuln-spotlight-microsoft-azure-aug-2020.html
+
+Eibiz i Media服务器数字标牌3.8.0文件路径遍历漏洞
+未经过身份验证的远程攻击者可以利用这个来查看文件的内容以外的服务器的根目录，可以通过触发oldfile得到参数。
+https://packetstormsecurity.com/files/158943/ZSL-2020-5585.txt
+
+使用Timestomp扫描足迹
+介绍了黑客入侵受害者系统后如何消除足迹。
+https://www.hackingarticles.in/anti-forensic-swipe-footprint-with-timestomp/
+
+凭证转储：伪造服务
+伪造服务可以通过利用ftp，telnet，smb等开放端口来获取用户名和密码等敏感数据来执行凭据转储。
+https://www.hackingarticles.in/credential-dumping-fake-services/
+
+适用于Cisco Anyconnect的DLL劫持
+在实际示例中介绍适用于Cisco Anyconnect的DLL劫持。
+https://chadduffey.com/2020/08/23/DllHijack.html
+
+
+【安全工具】
+
+Bettercap – 以太网侦察和MITM 
+由Go语言编写的易于扩展和移植的框架，旨在为安全研究人员，红队和反向工程师提供易于使用的多合一解决方案，其中包含执行侦察和攻击可能需要的所有功能。 
+https://sectechno.com/bettercap-ethernet-networks-reconnaissance-and-mitm/
+
+RustScan – Nmap扫描
+该工具将使用RustScan快速找到所有打开的端口，并自动将它们传送到Nmap，其可减少找到开放端口并将其输入到nmap之间的摩擦。
+https://sectechno.com/rustscan-faster-nmap-scanning-with-rust/
+
+ADBSploit - 通过ADB开发和管理Android设备
+基于python的工具，用于通过ADB 开发和管理Android设备。
+https://www.kitploit.com/2020/08/adbsploit-python-based-tool-for.html
+
+Intel Owl - 威胁情报数据分析器
+可从单个API大规模分析文件、域、IP，旨在扩展并加快威胁信息的检索。
+https://www.kitploit.com/2020/08/intel-owl-analyze-files-domains-ips-in.html
+
+Pyre Check - Python的性能类型检查
+Pyre是用于符合PEP 484的Python的高性能类型检查器，可以逐步分析具有数百万行代码的代码库–在开发人员编写代码时向他们提供即时反馈。
+https://www.kitploit.com/2020/08/pyre-check-performant-type-checking-for.html
+
+Parth - 启发式漏洞参数扫描程序
+Parth可以浏览history历史、URL列表或自己发现的URL，以查找此类参数名称以及通常与之相关的风险，旨在援助Web安全测试通过帮助在测试组件的优先级。
+https://www.kitploit.com/2020/08/parth-heuristic-vulnerable-parameter.html
+
+Cloud Sniper - 虚拟安全运营中心
+是旨在管理云环境中的安全操作的一个开放平台，可通过准确分析和关联本机云工件来响应安全事件。
+https://www.kitploit.com/2020/08/cloud-sniper-virtual-security.html
+
+AWS Recon - 多线程AWS库存收集工具
+该工具的创建者经常需要能够有效地收集大量AWS资源属性和元数据，以帮助客户端了解其云安全状况。
+https://www.kitploit.com/2020/08/aws-recon-multi-threaded-aws-inventory.html

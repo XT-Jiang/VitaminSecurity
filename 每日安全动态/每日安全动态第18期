@@ -1,0 +1,72 @@
+【安全分析】
+
+规避Netstat和任务列表的检测
+介绍了如何规避Netstat和任务列表的检测。
+https://null-byte.wonderhowto.com/how-to/hacking-windows-10-evade-detection-netstat-tasklist-0329395/
+
+CVE-2019-3422：中兴通讯移动热点MS910S后门
+中兴通讯移动热点MS910S版本DL_MF910S_CN_EUV1.00.01具有硬编码的管理密码，busybox漏洞以及GoAhead Web服务器中已知的后门。
+https://packetstormsecurity.com/files/158990/SA-20200827-0.txt
+
+CVE-2019-10679：Eikon Thomson Reuters 4.0.42144文件权限
+Eikon Thomson Reuters的4.0.42144版存在权限弱的问题，该问题可能导致代码执行。
+https://packetstormsecurity.com/files/158989/SA-20200826-0.txt
+
+CVE-2020-8097：Windows不正确的身份验证漏洞
+Bitdefender Endpoint Security和Bitdefender Endpoint Security SDK中不正确的身份验证漏洞，可使没有权限的本地攻击者提权或篡改产品的安全设置。
+https://nvd.nist.gov/vuln/detail/CVE-2020-8097
+
+Untangle防火墙实验室设置
+介绍Untangle及其使用。
+https://www.hackingarticles.in/firewall-lab-setup-untangle/
+
+Kali Linux 2020.3版本介绍
+旨在解读Kali Linux 2020.3版本版本中的变化。
+https://pentestit.com/kali-linux-2020-3-release-available/
+
+如何使用Ffuf的Fuzz参数
+使用Metasploitable 2和Kali Linux，演示ffuf在模糊处理方面的强大能力。
+https://null-byte.wonderhowto.com/how-to/fuzz-parameters-directories-more-with-ffuf-0330806/
+
+网络钓鱼防护清单
+保护组织免受网络钓鱼的一些最关键点。
+https://fraudwatchinternational.com/all/phishing-protection-checklist/
+
+
+【安全工具】
+
+Hack Tools - 多合一红队扩展
+HackTools的多合一Red Team浏览器扩展程序，它包括备忘单以及测试期间使用的所有工具，例如XSS负载，反向外壳等等。 
+https://www.kitploit.com/2020/08/hack-tools-all-in-one-red-team.html
+
+VolExp - 波动率浏览器
+该程序允许用户访问内存转储。它也可以作为Volatility框架的插件。
+https://www.kitploit.com/2020/08/volexp-volatility-explorer.html
+
+Credential Digger - 标识硬编码的凭证
+是一个GitHub扫描工具，可识别硬编码的凭据（密码、API密钥、秘密密钥、令牌、个人信息等），并通过机器学习模型过滤误报数据。
+https://haxf4rall.com/2020/08/20/credential-digger-identifies-hardcoded-credentials/
+
+xxexploiter - XXE漏洞利用工具
+XXExploiter生成XML有效负载，并自动启动服务器以服务所需的DTD或进行数据渗透。
+https://haxf4rall.com/2020/08/19/xxexploiter-tool-to-help-exploit-xxe-vulnerabilities-2/
+
+Mobile Sentinel - 检测已部署的LTE和5G网络中的漏洞
+一个Android应用程序，可让您检测已部署的LTE和（未来）5G网络中的漏洞。
+https://haxf4rall.com/2020/08/22/mobile-sentinel-detect-vulnerabilities-in-deployed-lte-and-5g-networks/
+
+ADBSploit – 开发和管理Android设备
+基于python的工具，用于通过ADB开发和管理Android设备。
+https://haxf4rall.com/2020/08/21/adbsploit-a-python-based-tool-for-exploiting-and-managing-android-devices-via-adb/
+
+xioc - 从文本中提取危害指标
+xioc从文本中提取危害指标，包括“转义”的指标，例如hxxp://banana.com, 1.1.1[.]1和恶意dot com的网络钓鱼。
+https://haxf4rall.com/2020/08/21/xioc-extract-indicators-of-compromise-from-text/
+
+SNIcat - 执行数据渗透
+SNIcat是一种概念证明工具，它使用隐式通道方法via来执行数据渗透。
+https://haxf4rall.com/2020/08/20/snicat-performs-data-exfiltration/
+
+Socks over RDP - 远程桌面协议的Socks5代理支持
+RDP上的Socks Over RDP此工具将SOCKS代理功能添加到终端服务（或远程桌面服务）。
+https://haxf4rall.com/2020/08/21/socks-over-rdp-socks5-proxy-support-for-remote-desktop-protocol-terminal-services/

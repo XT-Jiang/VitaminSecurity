@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2020-4693：IBM Spectrum Protect Operations Center中的代码注入漏洞
+由于导出之前对数据的不正确验证，IBM Spectrum Protect Operations Center可能允许攻击者在系统上执行任意代码。
+https://www.ibm.com/blogs/psirt/security-bulletin-code-injection-vulnerability-in-ibm-spectrum-protect-operations-center-cve-2020-4693/
+
+CVE-2020-24034：Sagemcom路由器反序列化漏洞
+使用固件版本1.150.61的Sagemcom F@ST 5280存在反序列化漏洞，允许任何认证用户提升权限到任何其他用户。 
+https://seclists.org/fulldisclosure/2020/Sep/3
+
+WordPress Autoptimize 2.7.6 Shell上传
+WordPress Autoptimize插件版本2.7.6存在经过身份验证的远程Shell上传漏洞。
+https://packetstormsecurity.com/files/158996/wpautoptimize276-shell.txt
+
+MikroTik的RouterOS中的三个漏洞
+MikroTik的RouterOS中存在空指针解除引用漏洞、零除漏洞和内存损坏漏洞。
+https://seclists.org/fulldisclosure/2020/Aug/21
+
+Visual Studio的VSIX安装程序中缺少信任验证
+Visual Studio的VSIX软件包签名的验证中存在漏洞，允许攻击者更新过期的VSIX软件包签名的代码签名证书，以及在拦截VSIX软件包签名的时间戳请求时恶意修改时间戳。
+https://seclists.org/fulldisclosure/2020/Aug/22
+
+Mara CMS 7.5远程代码执行漏洞
+在CMS上具有admin或manager权限的攻击者可以通过上传webshell远程执行代码。
+https://packetstormsecurity.com/files/159032/maracms75-exec.txt
+
+用于端点监控的Velociraptor
+介绍Velociraptor，一个使用Velocidex查询语言（VQL）查询收集基于主机的状态信息的工具。
+https://www.hackingarticles.in/threat-hunting-velociraptor-for-endpoint-monitoring/
+
+通过Chimera绕过VirusTotal和AMSI检测签名
+简要介绍攻击者如何绕过微软的反恶意软件解决方案，以入侵WIndows 10。
+https://null-byte.wonderhowto.com/how-to/hacking-windows-10-bypass-virustotal-amsi-detection-signatures-with-chimera-0333967/
+
+
+【安全工具】
+
+Ciphey – 自动解密工具
+Ciphey是使用自然语言处理和人工智能以及一些常识的全自动解密工具。
+https://sectechno.com/ciphey-automated-decryption-tool/
+
+WhatWeb – 下一代Web应用程序扫描仪
+WhatWeb是可用于识别网站技术的工具，将使渗透测试人员能够识别Web技术，包括内容管理系统（CMS），博客平台，统计/分析包，JavaScript库，Web服务器和嵌入式设备。
+https://sectechno.com/whatweb-next-generation-web-application-scanner/
+
+PEview – 调查PE文件的工具
+PEview提供了一种快速简便的方法来查看32位可移植可执行文件（PE）和组件对象文件格式（COFF）文件的结构和内容。
+https://sectechno.com/peview-tool-to-investigate-pe-files/
+
+Bashtop - Linux/OSX/FreeBSD资源监视器
+Linux/OSX/FreeBSD资源监视器，可显示处理器，内存，磁盘，网络和进程的使用情况和状态。
+https://www.kitploit.com/2020/08/bashtop-linuxosxfreebsd-resource-monitor.html
+
+SharpHose - 异步密码喷涂工具
+SharpHose是设计快速、安全的C＃密码喷涂工具，可在Cobalt Strike的执行组件上使用。
+https://www.kitploit.com/2020/08/sharphose-asynchronous-password.html
+
+Bluescan - 蓝牙扫描仪
+是DBAPP Security HatLab的Sourcell Xu的一个开源项目，可扫描BR/LE设备、LMP、SDP、GATT和漏洞。
+https://www.kitploit.com/2020/08/bluescan-powerful-bluetooth-scanner-for.html
+
+Urlgrab - URL爬虫程序
+一个golang工具，可在网站上搜寻支持JavaScript渲染的其他链接。
+https://www.kitploit.com/2020/08/urlgrab-golang-utility-to-spider.html
+
+Iblessing - iOS安全利用工具包
+主要包括应用程序信息收集、静态分析和动态分析。
+https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html
+
+SourceWolf - 快速响应爬虫
+具有通过发送请求或从本地响应文件中爬网响应以查找隐藏的端点、在源代码中找到的javascript变量列表等功能。
+https://www.kitploit.com/2020/08/sourcewolf-amazingly-fast-response.html

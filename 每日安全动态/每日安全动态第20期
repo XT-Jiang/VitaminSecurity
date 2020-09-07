@@ -1,0 +1,76 @@
+【安全分析】
+
+Chrome为Android版本添加基于HTTPS的DNS（DoH）支持
+谷歌今天表示，Chrome for Android将很快支持HTTP-over-HTTPS（DoH），该协议可加密和保护DNS查询以提高用户隐私。
+https://www.zdnet.com/article/dns-over-https-doh-support-added-to-chrome-on-android/
+
+CVE-2020-24553：Go CGI / FastCGI跨站点脚本传输漏洞
+Go CGI / FastCGI以HTML的形式返回非HTML数据，可导致跨站点脚本漏洞。
+https://packetstormsecurity.com/files/159049/rt-sa-2020-004.txt
+
+CVE-2020-17496：vBulletin中的RCE漏洞
+Unit42的研究人员发现vBulletin预认证RCE漏洞已被在野利用。
+https://unit42.paloaltonetworks.com/cve-2020-17496/
+
+CVE-2020-25042：Mara CMS 7.5中任意文件上传漏洞
+Mara CMS 7.5中攻击者经过身份验证的并发出特制请求，可将PHP代码上传到codebase/handler.php。
+https://www.security-database.com/detail.php
+
+CVE-2020-24949：php-fusion 9.03.50中的提权漏洞
+该漏洞允许经过身份验证的非管理员用户发送特制请求到服务器并远程执行命令（RCE）。
+https://www.security-database.com/detail.php
+
+思科产品中的3个未修复的漏洞
+思科存在3个未修复的漏洞CVE-2020-3548、CVE-2020-3546和CVE-2020-3547，影响ASYNCOS思科电子邮件安全设备。
+https://www.securitynewspaper.com/2020/09/03/3-unfixed-flaws-found-in-cisco-products-asyncos-cisco-email-security-appliance-content-security-management-appliance-and-web-security-appliance-affected/
+
+事件响应：Windows帐户登录和登录事件
+介绍有关不同的帐户登录事件和身份验证协议（如Kerberos）的信息。
+https://www.hackingarticles.in/incident-response-windows-account-logon-and-logon-events/
+
+使用Linux二进制文件进行数据泄漏
+使用Linux二进制文件在用户不知情的情况下将关键数据导出到其他地方。
+https://www.hackingarticles.in/data-exfiltration-using-linux-binaries/
+
+使用Linux智能枚举提权
+介绍如何利用Linux Smart Enumeration提权脚本提权。
+https://null-byte.wonderhowto.com/how-to/use-linux-smart-enumeration-discover-paths-privesc-0330807/
+
+
+【安全工具】
+
+Hindsight –网络浏览器取证器
+适用于Google Chrome网络浏览器，可解析许多不同类型的Web工件，包括URL、下载历史记录、缓存记录和书签等。
+https://sectechno.com/hindsight-web-browser-forensics-for-google-chrome/
+
+RedCommander - 红队练习工具
+RedCommander是一系列Ansible Playbook，可自动完成在红色团队演习中站起秘密命令和控制通道所需的繁琐任务。
+https://www.helpnetsecurity.com/2020/09/03/redcommander-open-source-tool-for-red-teaming-exercises/
+
+Synacor Zimbra Cloud - Zimbra云协作套件
+Zimbra Cloud旨在通过从单个熟悉的以电子邮件为中心的工作空间中支持多种协作模式来提高生产力和效率。
+https://www.helpnetsecurity.com/2020/09/03/synacor-zimbra-cloud/
+
+Mihari - OSINT查询和持续管理结果助手
+帮助运行OSINT查询和持续管理结果，可用于C2、登陆页面和网络钓鱼。
+https://www.kitploit.com/2020/08/mihari-helper-to-run-osint-queries.html
+
+DVS - D(COM) V(ulnerability) S(canner)
+DVS框架是瑞士军刀，它可以枚举远程DCOM对象的易受攻击的功能，启动它们甚至使用它们发起攻击。
+https://www.kitploit.com/2020/08/dvs-dcom-vulnerability-scanner-aka.html
+
+CrossC2 - 生成CobaltStrike的跨平台有效载荷
+适用于企业和Red Team人员的安全框架，支持CobaltStrike 对其他平台（Linux / MacOS / ...）的渗透测试，支持自定义模块，并包括一些常用的渗透模块。
+https://www.kitploit.com/2020/09/crossc2-generate-cobaltstrikes-cross.html
+
+Osintgram - Instagram上的OSINT工具
+提供了一个交互式shell，可以对任何用户昵称为Instagram的账户进行分析。
+https://www.kitploit.com/2020/08/osintgram-osint-tool-on-instagram.html
+
+Killchain - 执行Killchain的统一控制台
+可执行攻击的killchain阶段，包括侦察、武器化、交付、漏洞利用、安装、命令与控制和措施。
+https://www.kitploit.com/2020/09/killchain-unified-console-to-perform.html
+
+Vulnerable AD - 创建易受攻击的Active Directory
+创建一个易受攻击的活动目录，可以在本地实验室中测试大多数活动目录攻击。
+https://www.kitploit.com/2020/08/vulnerable-ad-create-vulnerable-active.html

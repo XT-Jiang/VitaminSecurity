@@ -1,0 +1,76 @@
+【安全分析】
+
+Hyland OnBase中的DLL劫持漏洞
+Hyland OnBase 19.x及更低版本的Web客户端、Unity客户端和服务器容易受到DLL劫持的攻击。
+https://seclists.org/fulldisclosure/2020/Sep/20
+
+Hyland OnBase中的拒绝服务漏洞
+Hyland OnBase 19.x及更低版本易于因格式错误的图像导致拒绝服务。
+https://seclists.org/fulldisclosure/2020/Sep/19
+
+CVE-2018-20432：Telnet硬编码凭据
+未经身份验证的攻击者可以利用这些凭证获得对固件进行访问并窃取敏感数据。
+https://seclists.org/fulldisclosure/2020/Sep/10
+
+Google Maps中的XSS漏洞
+研究人员发现Google Maps中的XSS漏洞，获10,000美元奖金。
+https://threatpost.com/bug-in-google-maps-opened-door-to-cross-site-scripting-attacks/159006/
+
+SAP产品中的多个漏洞
+SAP产品中存在多个漏洞，其中最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sap-products-could-allow-for-arbitrary-code-execution_2020-125/
+
+零信任和SASE如何重新定义远程劳动力的网络防御
+介绍用于远程访问和安全的SASE模型以及零信任可以帮助重新定义网络和边界防御。
+https://threatpost.com/how-zero-trust-and-sase-can-redefine-network-defenses-for-remote-workforces/159000/
+
+使用Splunk进行Windows客户端监视
+介绍如何将日志从网络环境导入Splunk进行索引。
+https://www.hackingarticles.in/siem-windows-client-monitoring-with-splunk/
+
+CSRF漏洞指南
+介绍有关CSRF攻击的基本概念，以及攻击者如何迫使用户执行他们从未打算执行的一些有害操作。
+https://www.hackingarticles.in/understanding-the-csrf-vulnerability-a-beginners-guide/
+
+
+【安全工具】
+
+CRYLOGGER - 动态Android应用分析程序
+可以动态分析Android应用程序，并查看它们是否以不安全的方式使用密码。
+https://www.zdnet.com/article/academics-find-crypto-bugs-in-306-popular-android-apps-none-get-patched/
+
+PurpleCloud - 云中的小型Active Directory Pentest实验室的IaC部署
+可在Azure云中构建Pentest/Red Team/Cyber Range的自动化模板，还包括一个对手节点，可通过RDP远程访问。
+https://www.kitploit.com/2020/09/purplecloud-infrastructure-as-code-iac.html
+
+VPS Docker For Pentest - 创建VPS
+使用包含pentest的docker在Google Cloud Platform或Digital Ocean上轻松创建VPS，以将评估启动到目标。
+https://www.kitploit.com/2020/09/vps-docker-for-pentest-create-vps-on.html
+
+SQLMap v1.4.9 - 自动SQL注入和数据库接管工具
+SQLMap是一个开源渗透测试工具，它可以自动检测和利用SQL注入漏洞并接管数据库服务器。
+https://www.kitploit.com/2020/09/sqlmap-v149-automatic-sql-injection-and.html
+
+Hardcodes - 从源代码中查找硬编码的字符串
+用于搜索由开发人员在程序中进行硬编码的字符串，它使用模块化的令牌生成器，可以处理注释、任意数量的反斜杠以及几乎所有常用的语法。
+https://www.kitploit.com/2020/09/hardcodes-find-hardcoded-strings-from.html
+
+Wordlist Generator - 单词列表生成器
+具有唯一单词的单词列表，它从gau获取URL，并将其拆分以获取URL中的单词，仅保留唯一的单词，可用于域、目录、参数、虚拟主机等暴力破解。
+https://www.kitploit.com/2020/09/wordlistgenerator-unique-wordlist.html
+
+Faraday v3.12 - 协作渗透测试和漏洞管理平台
+Faraday引入了一个新概念，IPE（集成渗透测试环境），即多用户渗透测试IDE，设计用于安全审核期间生成的数据的分发、索引编制和分析。
+https://www.kitploit.com/2020/09/faraday-v312-collaborative-penetration.html
+
+H4Rpy - 自动WPA/WPA2 PSK攻击工具
+h4rpy在选定的无线接口上启用监视模式，扫描无线空间中的接入点，尝试捕获访问点的WPA/WPA2 四次握手过程，并进行字典攻击。
+https://www.kitploit.com/2020/09/h4rpy-automated-wpawpa2-psk-attack-tool.html
+
+Geo Recon - OSINT CLI工具
+用于快速跟踪IP地址和地理位置，以查找安全分析师位置。
+https://www.kitploit.com/2020/09/geo-recon-osint-cli-tool-desgined-to.html
+
+Bbrecon - Bug赏金侦察API
+一个免费的漏洞赏金猎人和安全研究人员侦察服务，旨在提供一个持续更新的互联网安全港攻击地图。
+https://www.kitploit.com/2020/09/bbrecon-python-library-and-cli-for-bug.html

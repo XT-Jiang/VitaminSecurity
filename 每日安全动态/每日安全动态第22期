@@ -1,0 +1,72 @@
+【安全分析】
+
+Rapid7 Nexpose安装程序6.6.39本地提权
+Rapid7 Nexpose安装程序6.6.39版具有本地特权升级漏洞。
+https://packetstormsecurity.com/files/159078/ZSL-2019-5587.txt
+
+StorageFolder存在检查绕过/特权升级漏洞
+当Microsoft Windows StorageFolder类用于进程外时，可以绕过安全性检查，以读取和写入AppContainer不允许的文件。
+https://packetstormsecurity.com/files/159111/GS20200908185407.tgz
+
+loudExperienceHostBroker提权漏洞
+Windows CloundExperienceHostBroker托管普通用户可以访问的不安全COM对象，从而导致特权提升。
+https://packetstormsecurity.com/files/159109/GS20200908184911.tgz
+
+ManageEngine Applications Manager远程代码执行漏洞
+利用WeblogicReference所使用的newInstance（）和loadClass（）中的漏洞可远程执行代码。
+https://packetstormsecurity.com/files/159066/poc_mam_weblogic_upload_gen-and-exec-jar.py.txt
+
+GnuTLS远程执行代码和拒绝服务漏洞
+在GnuTLS中存在一个漏洞，远程攻击者可以利用此漏洞在目标系统上触发远程代码执行和拒绝服务条件。
+https://www.hkcert.org/my_url/en/alert/20091101
+
+Windows 10允许在WSL2中挂载Linux ext4文件系统
+Windows 10允许在用于Linux 2的Windows子系统中安装使用Linux ext4文件系统格式化的物理磁盘。
+https://www.bleepingcomputer.com/news/microsoft/windows-10-now-lets-you-mount-linux-ext4-filesystems-in-wsl-2/
+
+Windows 10版本1903
+Microsoft发布正式公告，Windows 10版本1903将于2020年12月8日停止服务。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-1903-support-ending-in-december-2020/
+
+USB取证：检测和调查
+USB闪存驱动器是最常见的存储设备，可以发现作为证据在数字取证调查。
+https://www.hackingarticles.in/usb-forensics-detection-investigation/
+
+伊朗黑客组织PIONEER KITTEN分析
+介绍伊朗黑客组织PIONEER KITTEN不为人知的故事。
+https://www.securitynewspaper.com/2020/09/10/pioneer-kitten-the-iranian-hacking-group-untold-story/
+
+
+【安全工具】
+
+SpaceSiren - 适用于AWS的Honey令牌管理器和警报系统
+适用于AWS的Honey令牌管理器和警报系统，其提供了一个API，用于创建无权限的AWS IAM用户和这些用户的访问密钥。
+https://www.kitploit.com/2020/09/spacesiren-honey-token-manager-and.html
+
+LOLBITS v2.0.0 - C2框架
+LOLBITS是一个C2框架，它使用Microsoft的后台智能传输服务（BITS）在受感染的主机和后端之间建立通信通道。
+https://www.kitploit.com/2020/09/lolbits-v200-c2-framework-that-uses.html
+
+Avcleaner - C / C ++源混淆器
+可绕过杀毒软件的C/C ++源混淆器。
+https://www.kitploit.com/2020/09/avcleaner-cc-source-obfuscator-for.html
+
+DockerENT - 漏洞和配置分析工具
+分析运行Docker容器和Docker网络时的漏洞和配置问题的开源工具，带有一个CLI应用程序和用StreamLit编写的Web界面。
+https://www.kitploit.com/2020/09/dockerent-only-open-source-tool-to.html
+
+HTTP revshell - Powershell反向Shell
+为红队和渗透测试者的练习工具，通过http / s协议提供反向连接，使用隐蔽渠道通过Web请求来控制受害机器，从而绕过IDS、IPS和AV等解决方案。
+https://www.kitploit.com/2020/09/http-revshell-powershell-reverse-shell.html
+
+Some Tools - 渗透测试工具
+可用来管理和更新Kali Linux中未包含的工具，使得渗透测试工具始终保持最新更新。
+https://www.kitploit.com/2020/09/some-tools-install-and-keep-up-to-date.html
+
+MZAP - 多目标ZAP扫描
+多目标ZAP扫描是ZAP中用于扫描N*N的工具。
+https://www.kitploit.com/2020/09/mzap-multiple-target-zap-scanning.html
+
+Monsoon - HTTP枚举器
+一个快速的HTTP枚举器，可以执行大量的HTTP请求，过滤响应并实时显示它们。
+https://www.kitploit.com/2020/09/monsoon-fast-http-enumerator.html

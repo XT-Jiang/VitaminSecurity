@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2020-8152：Backblaze中的提权漏洞
+Backblaze客户端的服务进程bzserv存在漏洞，可被用来进行提权。
+https://seclists.org/fulldisclosure/2020/Sep/29
+
+CVE-2020-8150：Backblaze中远程代码执行漏洞
+Backblaze中存在漏洞，可以SYSTEM/root身份远程执行代码。
+https://seclists.org/fulldisclosure/2020/Sep/28
+
+CVE-2020-15598：受DoS影响的ModSecurity v3
+由于正则表达式的全局匹配，ModSecurity v3受到拒绝服务漏洞的影响。
+https://seclists.org/fulldisclosure/2020/Sep/32
+
+Microsoft Windows Finger Security绕过/ C2通道
+操作系统附带的Microsoft Windows TCPIP Finger Command finger.exe可用作文件下载器和临时C2通道。
+https://packetstormsecurity.com/files/159162/Windows_TCPIP_Finger_Command_C2_Channel_and_Bypassing_Security_Software.txt
+
+IPTV编码器设备包含多个漏洞
+基于IP的视频编码器设备存在多个漏洞，可被未经身份验证的远程攻击者利用执行任意代码。
+https://kb.cert.org/vuls/id/896979
+
+IBM Spectrum Protect Plus Security中漏洞
+IBM的Spectrum Protect Plus数据存储保护解决方案中的两个漏洞CVE-2020-4703和CVE-2020-4711，可导致远程代码执行。
+https://threatpost.com/ibm-flaws-spectrum-protect-plus/159268/
+
+Zerologon攻击使黑客可以接管企业网络
+微软上个月修补了有史以来报告的最严重的漏洞之一Zerologon。
+https://www.zdnet.com/article/zerologon-attack-lets-hackers-take-over-enterprise-networks/
+
+云安全性以及如何保护云安全
+介绍了有效的云安全性所面临的挑战和解决方案。
+https://www.sentinelone.com/blog/what-is-cloud-security-and-how-do-you-secure-the-cloud-today/
+
+保留时间戳记
+介绍如何保存犯罪现场收集的证据的时间戳。
+https://www.hackingarticles.in/forensic-investigation-preserve-time-stamp/
+
+
+【安全工具】
+
+Spyre - 基于YARA的简单IOC扫描器
+是围绕YARA模式匹配引擎和其他扫描模块构建的基于主机的简单IOC扫描仪，用户需要携带自己的规则集。
+https://www.kitploit.com/2020/09/spyre-simple-yara-based-ioc-scanner.html
+
+WMIHACKER - 绕过防病毒软件横向移动命令执行工具
+与常见的WMIEXEC，PSEXEC工具执行命令不同，WMIHACKER为绕过杀毒软件横向移动命令执行测试工具，无需445端口。
+https://www.kitploit.com/2020/09/wmihacker-bypass-anti-virus-software.html
+
+Chimera - PowerShell模糊处理脚本
+PowerShell 模糊脚本，旨在绕过AMSI和防病毒解决方案。
+https://www.kitploit.com/2020/09/chimera-powershell-obfuscation-script.html
+
+Rbcd Attack - 约束委派攻击
+使用Impacket从外部进行基于Kerberos资源的约束委派攻击。
+https://www.kitploit.com/2020/09/rbcd-attack-kerberos-resource-based.html
+
+Kube Scan  – Kubernetes风险评估工具
+基于每个工作负载的运行时配置，Kube-Scan从0（无风险）到10（高风险）的风险评分。
+https://sectechno.com/kube-scan-kubernetes-risk-assessment-tool/
+
+Weave Scope – Kubernetes监视框架
+Docker和Kubernetes的可视化和监视工具，提供了自上而下的应用程序视图以及整个基础架构视图。
+https://sectechno.com/weave-scope-kubernetes-monitoring-framework/
+
+Threat Dragon -  OWASP的在线威胁建模工具
+是一款免费的开源跨平台威胁建模应用程序，包括系统图表和威胁规则引擎，可自动生成威胁/缓解措施。
+https://sectechno.com/threat-dragon-online-threat-modelling-tool-from-owasp/
+
+Panther –检测威胁并提高云安全性
+Panther是一个开放源代码平台，旨在在云级别带来安全可见性。
+https://sectechno.com/panther-better-data-leads-to-better-visibility/

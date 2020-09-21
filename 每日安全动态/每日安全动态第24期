@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2020-4643：信息泄露漏洞
+WebSphere Application Server容易受到信息泄露漏洞的攻击。
+https://www.ibm.com/blogs/psirt/security-bulletin-websphere-application-server-is-vulnerable-to-an-information-exposure-vulnerability-cve-2020-4643/
+
+CVE-2020-16171：Acronis Cyber​​ Backup中漏洞
+Acronis Cyber​​ Backup版本12.5 Build 16341遭受服务器端请求伪造漏洞。
+https://packetstormsecurity.com/files/159192/acroniscb125-ssrf.txt
+
+CVE-2017-6960：信息泄露漏洞
+apng2gif错误地加载APNG文件，攻击者可以使用特制的APNG文件来访问敏感信息。
+https://ubuntu.com/security/notices/USN-4513-1
+
+Apple Safari中的远程执行代码漏洞
+Apple Safari Web浏览器的Webkit功能中包含一个远程执行代码漏洞。
+https://blog.talosintelligence.com/2020/09/vuln-spotlight-apple-safari-sept-2020.html
+
+Product Catalog X插件中的CSRF漏洞
+WordPress的插件Product Catalog X对HTTP请求来源的验证不足而导致的CSRF漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2020091710
+
+Drupal中的多个漏洞
+在Drupal中存在多个漏洞，远程用户可以利用这些漏洞触发安全限制绕过，并在目标系统上窃取敏感信息。
+https://www.hkcert.org/my_url/en/alert/20091701
+
+Android 11新功能
+Android 11新增众多功能，目前已准备就绪供普通大众使用。
+https://www.komando.com/gadgets/android-11-update/741759/
+
+iOS 14和iPadOS 14安全和隐私功能
+苹果已经为iPhone和iPad的iOS 14和iPadOS 14引入了更高的安全性，以确保数据安全。
+https://www.zdnet.com/article/five-ios-14-and-ipados-14-security-and-privacy-features-you-need-to-know-about/
+
+勒索软件攻击原理
+介绍了勒索软件攻击是如何威胁关键基础架构。
+https://www.sentinelone.com/blog/how-ransomware-attacks-are-threatening-our-critical-infrastructure/
+
+
+【安全工具】
+
+Zin - 有效负载注入器
+Zin是Go语言编写的漏洞奖励的有效负载注入器。
+https://www.kitploit.com/2020/09/zin-payload-injector-for-bugbounties.html
+
+dorkX - 传递不同的工具
+使用Google Dork扫描仪传递不同的工具。
+https://www.kitploit.com/2020/09/dorkx-pipe-different-tools-with-google.html
+
+AES Finder - AES密钥查找工具
+可在运行的进程内存中查找AES密钥的实用程序，适用于128、192和256位密钥。
+https://www.kitploit.com/2020/09/aes-finder-utility-to-find-aes-keys-in.html
+
+Croc - 文件传输工具
+允许任何两台计算机简单安全地传输文件和文件夹的工具。
+https://www.kitploit.com/2020/09/croc-easily-and-securely-send-things.html
+
+CRLFMap - 查找HTTP拆分漏洞的工具
+CRLFMap是查找HTTP拆分漏洞的工具，由Golang编写的工具，可模糊参数和路径。
+https://www.kitploit.com/2020/09/crlfmap-tool-to-find-http-splitting.html
+
+Bxss - XSS盲注工具
+该工具可将有效负载注入自定义标头和参数，一次可使用不同的请求方法（PUT、POST、GET和OPTIONS）。
+https://www.kitploit.com/2020/09/bxss-blind-xss-injector-tool.html
+
+Unimap - Nmap扫描器
+仅按IP地址扫描一次，减少Nmap对大量数据的扫描时间，可以在Linux、OSX、Windows或Android (Termux)中运行。
+https://www.kitploit.com/2020/09/unimap-scan-only-once-by-ip-address-and.html
+
+Winshark - Wireshark插件
+Winshark基于一个libpcap后端来捕获ETW (Windows的事件跟踪)，以及一个生成器，它将为您的机器上已知的ETW提供者生成所有析片。
+https://www.kitploit.com/2020/09/winshark-wireshark-plugin-to-instrument.html

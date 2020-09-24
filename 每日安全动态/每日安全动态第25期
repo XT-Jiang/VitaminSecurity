@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2020-15921：后门访问
+Mida eFramework版本2.9.0具有后门访问漏洞。
+https://packetstormsecurity.com/files/159239/midaeframework290-backdoor.txt
+
+CVE-2020-25453：跨站点请求伪造
+BlackCat CMS 1.3.6版遭受跨站点请求伪造漏洞的困扰。
+https://packetstormsecurity.com/files/159237/blackcatcms136-xsrf.txt
+
+CVE-2020-25203：任意网址加载
+Android的Framer Preview存在漏洞，可通过全屏覆盖向应用程序用户显示给定URL的内容。
+https://seclists.org/fulldisclosure/2020/Sep/44
+
+TP-Link云摄像机NCXXX系列命令注入漏洞
+TP-Link云摄像机NCXXX系列没有其他检查以防止引入外壳元字符，通过将此问题与CVE-2020-12110结合使用，可以编写配置文件，并可以执行代码。
+https://packetstormsecurity.com/files/159222/tp_link_ncxxx_bonjour_command_injection.rb.txt
+
+Google Chrome浏览器中的多个漏洞
+Chrome浏览器中发现了多个漏洞，其中最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2020-132/
+
+Google的本地提权漏洞
+Google的测试版服务Osconfig存在本地提权漏洞。
+https://seclists.org/fulldisclosure/2020/Sep/46
+
+GitHub将'master'替换为'main'
+从2020年10月1日开始，GitHub上所有新的Git存储库将被命名为“main”而不是“master”。
+https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/
+
+利用EDR数据改善网络威胁情报
+介绍了疼痛金字塔，以及如何利用EDR数据改善网络威胁情报。
+https://www.sentinelone.com/blog/revisiting-the-pyramid-of-pain-leveraging-edr-data-to-improve-cyber-threat-intelligence/
+
+
+【安全工具】
+
+VMPDump - 动态VMP转储器和导入修复程序
+一个动态的VMP转储器和导入修复程序，由VTIL提供，适用于VMProtect 3.X x64。
+https://www.kitploit.com/2020/09/vmpdump-dynamic-vmp-dumper-and-import.html
+
+Moriarty Project - 信息收集工具
+先进的信息收集和Osint工具，可以查找有关目标电话号码的详细信息。
+https://www.kitploit.com/2020/09/moriarty-project-this-tool-gives.html
+
+Frp - 快速反向代理
+Frp为快速反向代理，可将NAT或防火墙后的本地服务器公开到Internet。
+https://www.kitploit.com/2020/09/frp-fast-reverse-proxy-to-help-you.html
+
+CRLFuzz - CRLF漏洞的快速扫描工具
+Go语言编写的CRLF漏洞的快速扫描工具。
+https://www.kitploit.com/2020/09/crlfuzz-fast-tool-to-scan-crlf.html
+
+nfstream - 网络数据处理框架 	 
+nfstream是一个Python软件包，提供快速，灵活和富于表现力的数据结构，旨在使使用在线或离线网络数据既简单又直观。
+https://packetstormsecurity.com/files/159245/nfstream-6.1.3.tar.gz
+
+Clam AntiVirus - 用于Unix的杀毒工具包	
+该软件包提供了一个灵活且可扩展的多线程守护程序，一个命令行扫描程序以及一个用于通过Internet自动更新的工具。
+https://packetstormsecurity.com/files/159164/clamav-0.103.0.tar.gz
+
+Zeek - 网络分析框架
+Zeek是功能强大的网络分析框架，在专注于网络安全监视的同时，还提供了一个全面的平台来进行更常规的网络流量分析。
+https://packetstormsecurity.com/files/159131/zeek-3.2.1.tar.gz
+
+Scapy - 数据包处理工具
+Scapy是功能强大的交互式数据包处理工具、数据包生成器、网络扫描仪、网络发现工具和数据包嗅探器。
+https://packetstormsecurity.com/files/159069/scapy-2.4.4.tar.gz
+
+GnuPG - 安全通信和数据存储的工具
+GnuPG为GNU隐私保护程序，可用于加密数据和创建数字签名，包括一个高级密钥管理工具，并且与RFC2440中描述的OpenPGP Internet标准兼容。
+https://packetstormsecurity.com/files/159067/gnupg-2.2.23.tar.bz2

@@ -1,0 +1,78 @@
+【安全分析】
+
+CVE-2020-4643：信息泄露漏洞
+WebSphere Application Server容易受到信息泄露漏洞的攻击。
+https://www.ibm.com/blogs/psirt/security-bulletin-websphere-application-server-is-vulnerable-to-an-information-exposure-vulnerability-cve-2020-4643-2/
+
+CVE-2020-3390：拒绝服务漏洞
+Cisco IOS XE存在漏洞，会导致拒绝服务漏洞。
+https://vuldb.com/?id.161861
+
+Microsoft Edge中的多个漏洞
+Microsoft Edge中发现了多个漏洞，其中最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2020-134/
+
+Ozeki NG SMS网关中的多个漏洞
+Ozeki NG SMS网关中存在服务器端请求伪造（CVE-2020-14023）等10个漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2020092410
+
+Gnuplot中的多个漏洞
+Gnuplot中存在缓冲区溢出漏洞（CVE-2020-25412）和双重释放内存漏洞（CVE-2020-25559）。
+https://www.cybersecurity-help.cz/vdb/SB2020092409
+
+零日Sophos XG Firewall漏洞
+Sophos XG Firewall最近有一个公开报告的零日漏洞，是一个SQL注入漏洞，如果被利用，它将允许代码执行。
+https://resources.infosecinstitute.com/zero-day-sophos-xg-firewall-vulnerability-an-exploit-guide-for-pentesters/
+
+微软的物联网Azure Defender使用Cyber​​X技术
+微软首次推出了适用于IoT的Azure Defender，可帮助企业自动发现物联网和运营技术（OT）资产，识别关键漏洞并通过行为分析和机器学习。
+https://www.darkreading.com/iot/microsofts-azure-defender-for-iot-uses-cyberx-tech/d/d-id/1338996
+
+数字取证简介
+介绍了数字犯罪的要素、数字法证研究的目标、数字法证学的分类、数字证据、数字法证学的原理、法证调查的过程、工具的类型等。
+https://www.hackingarticles.in/digital-forensics-an-introduction-part-2/
+
+降低数据泄露成本的三大因素
+介绍了数据泄露成本以及如何降低成本的3个最大因素。
+https://securityintelligence.com/posts/data-breach-three-biggest-factors-in-cost/
+
+
+【安全工具】
+
+PSMDATP - 用于管理Microsoft Defender的PowerShell模块
+其为cmdlet和功能的集合，旨在简化与Microsoft Defender高级威胁防护API的接口。
+https://www.kitploit.com/2020/09/psmdatp-powershell-module-for-managing.html
+
+SitRep - 可扩展的可配置主机分类
+SitRep旨在提供一种轻量级的、可扩展的主机分类方法。检查是在运行时从独立文件动态加载的，允许操作人员快速修改现有的检查或添加新的检查。
+https://www.kitploit.com/2020/09/sitrep-extensible-configurable-host.html
+
+Enum4Linux - 信息枚举工具
+enum.exe的Linux替代品，用于枚举Windows和Samba主机中的数据。
+https://www.kitploit.com/2020/09/enum4linux-linux-alternative-to-enumexe.html
+
+Dnxfirewall - 下一代防火墙
+DNX防火墙是经过优化、高性能的应用程序或服务的集合，以将标准linux系统转换为基于区域的下一代防火墙。
+https://www.kitploit.com/2020/09/dnxfirewall-pure-python-next-generation.html
+
+Falco - 行为活动监视代理
+Falco允许定义高度精细的规则，以使用灵活的语法检查涉及文件和网络活动、流程执行、IPC等活动。
+https://packetstormsecurity.com/files/159288/falco-0.26.0.tar.gz
+
+Wireshark Analyzer - 网络协议分析器
+该项目的目的是为Unix和Win32创建一个商业质量的分析器，并提供封闭源嗅探器所缺少的Wireshark功能。
+https://packetstormsecurity.com/files/159289/wireshark-3.2.7.tar.xz
+
+PwnXSS - 漏洞XSS扫描器
+XSS扫描仪可搜寻网站上的所有链接、支持POST和GET表单、可以自定义的许多设置、高级错误处理和多处理支持。
+https://www.kitploit.com/2020/09/pwnxss-vulnerability-xss-scanner-exploit.html
+
+Go Dork - Dork扫描仪
+用Go语言编写的最快的Dork扫描仪，支持各种搜索引擎，包括Google、Shodan、Bing、Duck、Yahoo和Ask。
+https://www.kitploit.com/2020/09/go-dork-fastest-dork-scanner-written-in.html
+
+Velociraptor - 收集工具
+一个使用Velocidex查询语言（VQL）查询收集基于主机的状态信息的工具。
+https://www.kitploit.com/2020/09/velociraptor-endpoint-visibility-and.html
+
+

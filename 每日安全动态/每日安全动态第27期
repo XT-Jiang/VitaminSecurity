@@ -1,0 +1,92 @@
+【安全分析】
+
+思科AnyConnect提权漏洞
+Windows版Cisco AnyConnect安全移动客户端的安装程序组件容易受到路径遍历的影响，并允许本地攻击者使用系统级特权在任意位置创建/覆盖文件。
+https://packetstormsecurity.com/files/159420/anyconnect_lpe.rb.txt
+
+CVE-2020-26567：D-Link DSR-250N拒绝服务
+D-Link DSR-250N设备中发现了一个拒绝服务漏洞，该漏洞使同一本地网络中未经身份验证的攻击者能够执行CGI脚本来重新启动设备，影响了版本3.12。
+https://packetstormsecurity.com/files/159516/rt-sa-2020-002.txt
+
+CVE-2020-26868：ARC Informatique PcVue中的拒绝服务
+从版本8.10开始，PcVue中存在一个拒绝服务漏洞，这是由于未经授权的用户可以修改用于验证合法Web客户端发送的消息的信息。
+https://ics-cert.kaspersky.com/advisories/klcert-advisories/2020/10/09/klcert-20-016-denial-of-service-in-arc-informatique-pcvue/
+
+CVE-2020-26869：ARC信息PcVue中的会话信息公开
+PcVue 12中存在一个信息泄露漏洞，允许未经授权的用户访问合法用户的会话数据。
+https://ics-cert.kaspersky.com/advisories/klcert-advisories/2020/10/09/klcert-20-017-session-information-exposure-in-arc-informatique-pcvue/
+
+索尼IPELA网络摄像机远程堆栈缓冲区溢出
+该漏洞是由于通过FTP客户端功能处理接收到的FTP流量时出现边界错误而引起的，当用户发出POST请求以连接到服务器时，该漏洞可被利用来导致基于堆栈的缓冲区溢出。
+https://packetstormsecurity.com/files/159444/ZSL-2020-5596.txt
+
+BACnet测试服务器1.01远程拒绝服务
+向端口47808发送格式错误的BVLC长度UDP数据包到端口47808时，BACNet Test Server版本1.01遭受拒绝服务漏洞。
+https://packetstormsecurity.com/files/159504/ZSL-2020-5597.txt
+
+Corona暴露通知API
+用于iOS和Android的Corona病毒暴露通知API，可能存在数据泄漏问题。
+https://packetstormsecurity.com/files/159419/coronaexposure-disclose.txt
+
+Atlassian产品中XSS漏洞
+多个Atlassian产品遭受持续的跨站点脚本漏洞的困扰。
+https://packetstormsecurity.com/files/159521/SA-20201008-0.txt
+
+Firefox中的隐私和保护附加组件
+Firefox浏览器中的各种附加组件以及配置文件的介绍。
+https://www.hackingarticles.in/firefox-for-pentester-privacy-and-protection-add-ons/
+
+Android渗透测试的实验室设置
+介绍了如何为包含Android渗透测试工具和genymotion的移动应用程序设置安全的环境。
+https://www.hackingarticles.in/android-penetration-testing-lab-setup/
+
+利用Gtfo在后期开发期间搜索可利用的二进制文件
+GTFOBins和LOLBAS是旨在记录本机二进制文件的项目，这些二进制文件可以被Unix和Windows系统上的攻击者利用。
+https://null-byte.wonderhowto.com/how-to/use-gtfo-search-for-abusable-binaries-during-post-exploitation-0341686/
+
+vFeed Intelligence的漏洞响应效率
+基于波耐蒙研究所的报告《脆弱性应对缺口的成本和后果》，分析漏洞响应效率。
+https://www.toolswatch.org/2020/09/efficiency-of-the-vulnerability-response-with-vfeed-intelligence/
+
+
+【安全工具】
+
+VULS - 无代理漏洞扫描程序
+VULS为GO语言编写的开放源的无代理漏洞扫描程序，可自动化分析漏洞。
+https://www.hackingarticles.in/vuls-an-agentless-vulnerability-scanner/
+
+Polypyus - 函数
+通过从相似的二进制文件中提取已知函数，学习在原始二进制文件中定位函数。
+https://www.kitploit.com/2020/09/polypyus-learns-to-locate-functions-in.html
+
+NERVE - 网络利用、侦察和漏洞引擎
+NERVE是一个漏洞扫描程序，专门用于查找特定应用程序配置，网络服务和未修补服务中的低挂水果级别漏洞。
+https://www.kitploit.com/2020/09/nerve-network-exploitation.html
+
+Cooolis　ms　-　支持Metasploit框架RPC的服务器
+它用于Shellcode和PE加载程序，在一定程度上绕过了防病毒软件的静态检测，并允许Cooolis-ms服务器与Metasploit服务器分开执行。
+https://www.kitploit.com/2020/09/cooolis-ms-server-that-supports.html
+
+PwnedPasswordsChecker　-　搜索密码是否泄漏
+用于检查“ I Have Been Pwned”泄漏列表中是否存在已知密码（SHA1或NTLM格式）的哈希值。
+https://www.kitploit.com/2020/09/pwnedpasswordschecker-search-offline-if.html
+
+Wacker　-　WPA3词典破解器
+Wacker利用wpa_supplicant控制接口来控制请求方守护程序的操作，并获取状态信息和事件通知，最终有助于在蛮力尝试期间加快连接尝试的速度。
+https://www.kitploit.com/2020/09/wacker-wpa3-dictionary-cracker.html
+
+SharpSecDump　-　.Net端口
+Impacket'S Secretsdump.Py的远程SAM + LSA秘密转储功能的Net端口。
+https://www.kitploit.com/2020/09/sharpsecdump-net-port-of-remote-sam-lsa.html
+
+vPrioritizer 1.0　-　漏洞分析
+使用户能够通过考虑基础CVSS、资产可访问性、临界性、利用可用性，商业敏感性等更多的因素来了解漏洞更符合实际的风险(vPRisk）。
+https://packetstormsecurity.com/files/159439/vPrioritizer-1.0.tar.gz
+
+Sifter 10_r2　-　漏洞扫描程序
+它在不同的模块集中组合了许多工具，以便快速执行侦察任务、检查网络防火墙、枚举远程和本地主机，以及扫描Microsoft系统中的蓝色漏洞。
+https://packetstormsecurity.com/files/159302/sifter-10_r2.tar.gz
+
+Bing.com主机名/IP枚举器1.0.4
+该工具由Bash for Linux编写，可以从Bing.com枚举IP地址的主机名。
+https://packetstormsecurity.com/files/159459/bing-ip2hosts-1.0.4.tar.gz

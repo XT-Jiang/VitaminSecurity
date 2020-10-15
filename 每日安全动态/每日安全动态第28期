@@ -1,0 +1,80 @@
+【安全分析】
+
+Acronis备份软件包含多个特权升级漏洞
+Acronis True Image、Cyber​​ Backup和Cyber​​ Protection存在CVE-2020-10138、CVE-2020-10139和CVE-2020-10140漏洞。
+https://kb.cert.org/vuls/id/114757
+
+CVE-2020-3452：路径遍历漏洞
+Cisco ASA和FTD版本9.6.4.42存在路径遍历漏洞。
+https://packetstormsecurity.com/files/159523/ciscoasaftd96442-traversal.txt
+
+xls2csv 0.95溢出/内存泄漏
+xls2csv版本0.95存在一个malloc失败问题、一个内存泄漏漏洞和两个空指针解引用漏洞。
+https://packetstormsecurity.com/files/159534/xls2csv095-overflow.zip
+
+Windows DLL劫持漏洞
+思科Webex Team客户端的Windows DLL劫持漏洞。
+https://seclists.org/fulldisclosure/2020/Oct/16
+
+Battle.Net 1.27.1.12428不安全的文件权限
+由于文件权限不安全，Battle.Net版本1.27.1.12428存在特权升级漏洞。
+https://packetstormsecurity.com/files/159533/battlenet127112428-insecure.txt
+
+berliCRM 1.0.24 SQL注入
+berliCRM版本1.0.24存在远程SQL注入漏洞。
+https://packetstormsecurity.com/files/159532/berlicrm1024-sql.txt
+
+DynPG 4.9.1 XSS漏洞
+DynPG 4.9.1版存在持续的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/159528/dynpg491-xss.txt
+
+在Linux上转义受限的Shell环境
+介绍了如何在Linux上绕过受限的Shell环境。
+https://null-byte.wonderhowto.com/how-to/escape-restricted-shell-environments-linux-0341685/
+
+Web浏览器扩展分析
+如何分析Web浏览器扩展，以查找可能的恶意软件和其他恶意活动。
+https://null-byte.wonderhowto.com/how-to/analyze-web-browser-extensions-for-possible-malware-other-malicious-activity-0236335/
+
+
+【安全工具】
+
+Lil Pwny - 处理审核Active Directory密码
+一种使用Python审核Active Directory 密码的多处理方法。
+https://www.kitploit.com/2020/09/lil-pwny-auditing-active-directory.html
+
+mapCIDR - 小型实用程序
+用于在给定子网、CIDR范围内执行多项操作，在简化大规模扫描操作的负载分配。
+https://www.kitploit.com/2020/09/mapcidr-small-utility-program-to.html
+
+H2Csmuggler - HTTP请求劫持
+与兼容h2c的后端服务器建立HTTP/2明文（h2c）通信，通过不安全的边缘服务器配置劫持HTTP流量，从而绕过代理规则和访问控制。
+https://www.kitploit.com/2020/09/h2csmuggler-http-request-smuggling-over.html
+
+Pastego - 抓取/解析P​​astebin
+使用GO和语法表达（PEG）抓取/解析Pastebin。
+https://www.kitploit.com/2020/10/pastego-scrapeparse-pastebin-using-go.html
+
+Powerglot - Powershell脚本
+Powerglot使用多义词对几种脚本进行编码，不需要加载程序来运行有效负载。
+https://www.kitploit.com/2020/10/powerglot-encodes-offensive-powershell.html
+
+smbAutoRelay - SMB/NTLM中继技术的自动化
+提供SMB/NTLM中继技术的自动化，以在Active Directory环境中进行渗透测试和红队训练
+https://www.kitploit.com/2020/10/smbautorelay-provides-automation-of.html
+
+uriDeep - 机器学习的Unicode编码攻击
+机器学习的Unicode编码攻击，基于机器学习的工具，可使用易混淆的内容创建惊人的伪造域名。
+https://www.kitploit.com/2020/10/urideep-unicode-encoding-attacks-with.html
+
+Asnap - 目标侦察工具
+Asnap旨在通过提供有关哪些公司拥有哪个ipv4或ipv6地址的定期更新数据，并使用户自动执行初始端口和服务扫描，从而使侦查阶段变得更加容易。
+https://www.kitploit.com/2020/10/asnap-tool-to-render-recon-phase-easier.html
+
+GRR 3.4.2.3 - 事件响应框架
+GRR的目标是以快速、可扩展的方式支持取证和调查，以使分析人员能够快速分类攻击并进行远程分析。
+https://packetstormsecurity.com/files/159465/grr-3.4.2.3-release.tar.gz
+
+Recon Informer 1.2 - 实时反侦察检测工具
+用于进攻性安全系统的基本实时反侦察检测工具，可以在Windows Linux上运行，并可以利用scapy。
+https://packetstormsecurity.com/files/159476/Recon_Informer_v1.2.py.txt

@@ -1,0 +1,82 @@
+【安全分析】
+
+Juniper Junos OS中拒绝服务漏洞
+Juniper Junos OS中发现了一个漏洞，攻击者可以利用此问题来破坏网络协议操作或中断流量，成功利用此漏洞可能导致拒绝服务。
+https://www.cisecurity.org/advisory/a-vulnerability-in-juniper-junos-os-could-allow-for-denial-of-service_2020-140/
+
+无文件恶意软件加载程序分析
+图和通过详细分析们发现恶意软件针对几个近期浏览器漏洞，作为其利用链的一部分。
+https://www.secplicity.org/2020/10/15/analyzing-a-fileless-malware-loader/  
+
+Zoo Management System 1.0 SQL注入漏洞
+Zoo Management System 1.0版存在一个远程SQL注入漏洞，该漏洞允许绕过身份验证。
+https://packetstormsecurity.com/files/159567/zoomgmtsys10-sql.txt
+
+TimeClock 1.01 SQL注入
+TimeClock版本1.01存在基于身份验证的基于时间的远程SQL注入漏洞。
+https://packetstormsecurity.com/files/159559/timeclock101-sql.txt
+
+NodeBB论坛1.14.2帐户接管
+NodeBB论坛版本1.12.2至1.14.2存在帐户接管漏洞。
+https://packetstormsecurity.com/files/159560/nodebbforum1142-takeover.txt
+
+SIEM实验室设置
+AlienVault OSSIM是一个开源安全信息和事件管理（SIEM），可为您提供功能丰富的开源SIEM，并具有事件收集，规范化和关联功能。
+https://www.hackingarticles.in/siem-lab-setup-alienvault/
+
+利用VPN在线保护自己
+介绍了如何通过此VPN提高在线生产力的同时在线保护自己。
+https://null-byte.wonderhowto.com/how-to/protect-yourself-online-while-upping-your-internet-productivity-with-vpn-0344503/
+
+利用Subfinder发现隐藏子域
+介绍了如何使用Subfinder发现任何网站上的隐藏子域。
+https://null-byte.wonderhowto.com/how-to/discover-hidden-subdomains-any-website-with-subfinder-0341687/
+
+用ANY.RUN进行交互分析
+介绍如何有效地使用ANY.RUN进行交互分析，以从中收集尽可能多的信息。
+https://zero2auto.com/2020/10/14/interactive-analysis-any-run/
+
+
+【安全工具】
+
+Suricata IDPE 6.0.0 - 网络入侵检测和防御引擎
+该引擎是多线程的，并具有本机IPv6支持。它能够加载现有的Snort规则和签名，并支持Barnyard和Barnyard2工具。
+https://packetstormsecurity.com/files/159517/suricata-6.0.0.tar.gz
+
+Raptor WAF 0.61 - Web应用程序防火墙
+用C语言编写的Web应用程序防火墙，它使用DFA阻止SQL注入，跨站点脚本编写和路径遍历。
+https://packetstormsecurity.com/files/159543/raptor_waf-Raptor_v061.tar.gz
+
+Timewarrior - 命令行时间报告
+Timewarrior是一个时间跟踪工具，提供简单的秒表功能以及复杂的基于日历的回填，以及灵活的报告。它是一个可移植的、受良好支持的、非常活跃的开源项目。
+https://www.kitploit.com/2020/10/timewarrior-commandline-time-reporting.html
+
+AdvPhishing - 高级网络钓鱼工具
+当受害者输入其凭据时，窃取其OTP，可以在他之前登录这个账户。
+https://www.kitploit.com/2020/10/advphishing-this-is-advance-phishing.html
+
+OFFPORT KILLER - 潜在服务扫描器
+此工具旨在自动识别通过手动扫描或本地运行的服务手动识别的端口后运行的潜在服务。
+https://www.kitploit.com/2020/10/offportkiller-this-tool-aims-at.html
+
+SCREEN KILLER - 跟踪报告进度的工具
+在渗透测试和OSCP期间跟踪报告进度，可捕获屏幕快照、命令和输出。
+https://www.kitploit.com/2020/10/screenkiller-tool-to-track-progress-for.html
+
+Kube Score - 静态代码分析的工具
+是一种对Kubernetes对象定义执行静态代码分析的工具，会输出有关可以改进以使应用程序更安全的建议的列表。
+https://www.kitploit.com/2020/10/kube-score-kubernetes-object-analysis.html
+
+Taken 1.0 - DNS接管到给定的EC2实例
+Taken是一个脚本，可以主动尝试将先前分配的DNS接管到给定的EC2实例。
+https://packetstormsecurity.com/files/159556/Taken-1.0.tar.gz
+
+IoTMap - 异构IoT协议建模研究项目
+IoTMap可同时使用一个或多个协议对IoT网络建模，该项目目前支持3种协议：BLE、ZigBee和OS4I。
+https://www.kitploit.com/2020/10/iotmap-research-project-on.html
+
+Lockphish - 网络钓鱼攻击工具
+第一个针对锁定屏幕进行钓鱼攻击的工具，旨在获取Windows证书、Android PIN和iPhone密码
+https://www.kitploit.com/2020/10/lockphish-first-tool-for-phishing.html
+
+

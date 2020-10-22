@@ -1,0 +1,78 @@
+【安全分析】
+
+ReQuest Serious Play F3 Media Server远程代码执行漏洞
+攻击者可以利用Quick File Uploader（/tools/upload.html）页面并上载PHP可执行文件，从而以Web服务器用户身份执行远程代码。
+https://packetstormsecurity.com/files/159607/ZSL-2020-5602.txt
+
+CVE-2020-24214：缓冲区溢出漏洞
+HiSilicon Video Encoder存在未经身份验证的RTSP缓冲区溢出漏洞，该漏洞可能导致拒绝服务状况。
+https://packetstormsecurity.com/files/159605/hisiliconve-overflow.txt
+
+CVE-2020-24215：后门密码
+HiSilicon Video Encoder允许通过后门密码进行完全管理访问。
+https://packetstormsecurity.com/files/159601/hisiliconve-backdoor.txt
+
+CVE-2019-10692：SQL注入漏洞
+7.1.18.18之前版本的WordPress Rest Google Maps存在远程SQL注入漏洞。
+https://packetstormsecurity.com/files/159640/wprestgooglemaps-sql.txt
+
+Online Job Portal 1.0 XSS漏洞
+Online Job Portal版本1.0存在持续的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/159593/ojp10-xss.txt
+
+QRadar RemoteJavaScript Servlet中Java反序列化漏洞
+攻击者可以通过创建一个特殊的(序列化的)对象来利用这个漏洞，这会导致拒绝服务、更改系统设置或执行任意代码。
+https://seclists.org/fulldisclosure/2020/Oct/18
+
+Google Waze应用程序中漏洞
+Waze存在API漏洞，该漏洞可以使黑客使用流行的导航应用程序识别人员并根据其位置进行跟踪。
+https://threatpost.com/googles-waze-track-users/160332/
+
+Windows 10 20H2更新
+正如微软之前宣布的，20H2是Windows 10 2004的一个小更新，有一些新功能，包括新的基于chrome的Edge浏览器。
+https://www.zdnet.com/article/microsoft-kicks-off-its-windows-10-20h2-feature-rollout/
+
+磁盘驱动器签名
+介绍了如何使用磁盘驱动器签名来识别系统目录或文件中的任何可疑更改，可以以各种方式保护数据。
+https://www.hackingarticles.in/forensic-investigation-disk-drive-signature/
+
+
+【安全工具】
+
+Gitjacker - 从错误配置的网站泄漏Git存储库
+Gitjacker从错误配置的网站下载git存储库，并即使在目录列表被禁用的情况下，它仍将设法恢复存储库的很大一部分。
+https://www.kitploit.com/2020/10/gitjacker-leak-git-repositories-from.html
+
+Wave Share - 无服务器通过声音共享本地文件
+使用声音的WebRTC信号的概念验证，可在浏览器之间建立一个本地的WebRTC连接，允许通过局域网交换数据。
+https://www.kitploit.com/2020/10/wave-share-serverless-peer-to-peer.html
+
+O365Enum - 枚举Office 365有效的用户名
+o365enum将从作为第一个参数提供的文件中读取用户名，该文件每行应具有一个用户名，输出基于CSV，以便于解析。
+https://www.kitploit.com/2020/10/o365enum-enumerate-valid-usernames-from.html
+
+See SURF 2.0 - 扫描程序
+基于python的扫描程序，用于在Web应用程序中查找潜在的SSRF参数。
+https://packetstormsecurity.com/files/159557/See-SURF-2.0.tar.gz
+
+GHunt - 使用Emai调查Google帐户
+GHunt是一个OSINT工具，可提取某人的Google帐户电子邮件的许多信息。
+https://www.kitploit.com/2020/10/ghunt-investigate-google-accounts-with.html 
+
+CSRFER - CSRF有效载荷生成工具
+根据易受攻击的请求生成csrf有效负载的工具，它解析提供的请求以生成表单，然后可以将有效负载嵌入html模板中。
+https://www.kitploit.com/2020/10/csrfer-tool-to-generate-csrf-payloads.html 
+
+C41N - Rogue Access Point设置工具
+c41n是自动的Rogue Access Point设置工具，提供了几种类型的恶意访问点和Evil Twin攻击的自动设置。
+https://www.kitploit.com/2020/10/c41n-automated-rogue-access-point-setup.html
+
+SwiftBelt - macOS枚举工具
+wiftBelt不使用任何命令行实用程序，而是使用Swift代码执行系统枚举，一旦获得对macOS主机的访问权限，就可以在进攻端利用它进行枚举。
+https://www.kitploit.com/2020/10/swiftbelt-macos-enumeration-tool.html
+
+NashaVM - 用于.NET文件的虚拟机
+Nasha是用于.NET文件的虚拟机，其运行时使用C ++ / CLI创建
+https://www.kitploit.com/2020/10/nashavm-virtual-machine-for-net-files.html
+
+

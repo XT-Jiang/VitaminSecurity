@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2013-2251：远程代码执行漏洞
+Apache Struts 2.0.0到2.3.15允许远程攻击者通过一个参数执行任意的OGNL表达式。
+https://packetstormsecurity.com/files/159629/apachestrust2dam-exec.txt
+
+CVE-2020-3992： 代码执行漏洞
+VMware ESXi中OpenSLP服务的释放后使用问题，可导致代码执行。
+https://www.securityweek.com/vmware-patches-critical-code-execution-vulnerability-esxi
+
+CVE-2019-17240：绕过反暴力攻击机制
+Bludit CMS的3.9.2之前的版本很容易受到绕过反暴力攻击机制的攻击，该机制可以阻止试图错误登录10次或更多次的用户。
+https://github.com/pingport80/CVE-2019-17240
+
+CVE-2020-27197：服务器端请求伪造
+Libtaxii版本1.1.117和更低版本以及OpenTaxi版本0.2.0和更低版本存在服务器端请求伪造漏洞。
+https://packetstormsecurity.com/files/159662/libtaxiiopentaxi-ssrf.txt
+
+Tiki Wiki身份验证绕过
+Tiki Wiki CMS组件版本21.1存在身份验证绕过漏洞。
+https://packetstormsecurity.com/files/159663/tikiwikicmsgroupware211-bypass.txt
+
+GOautodial 4.0 Shell上传
+GOautodial版本4.0存在一个远程Shell上传漏洞。
+https://packetstormsecurity.com/files/159659/goautodial40-shell.txt
+
+Pagefile.sys内存取证
+通过内存转储，可以从有价值的工件中提取很多信息，也可以执行内存取证。
+https://www.hackingarticles.in/forensic-investigation-pagefile-sys/
+
+利用横幅广告侦察
+介绍了如何使用横幅广告来帮助侦察和查看系统上正在运行什么服务
+https://null-byte.wonderhowto.com/how-to/use-banner-grabbing-aid-reconnaissance-see-what-services-are-running-system-0203486/
+
+
+【安全工具】
+
+ODAT - Oracle数据库攻击工具
+是一种开源渗透测试工具，可远程测试Oracle数据库的安全性。
+https://github.com/quentinhardy/odat
+
+Nuubi Tools - 信息收集、扫描和侦察
+为信息收集、扫描和侦察工具，具有横幅广告抓取、子网查找、Cms检测、证书透明度日志监视器、Dnslookup和提取链接等功能。
+https://www.kitploit.com/2020/10/nuubi-tools-information-ghatering.html
+
+MEDUZA - SSL解锁工具
+基于Frida的工具，替代了SSLKillSwitch，通用的iOS SSL解锁工具。
+https://www.kitploit.com/2020/10/meduza-more-or-less-universal-ssl.html
+
+Mikrot8Over - Mikrotik RouterOS的快速利用工具
+用于Mikrotik RouterOS的快速开发工具，新版本添加了Python 2兼容性和多线程扫描功能。
+https://www.kitploit.com/2020/10/mikrot8over-fast-exploitation-tool-for.html
+
+Zracker - Zip文件密码爆破工具
+Zracker是一个基于CPU-Power的Zip文件密码暴力破解的实用工具。
+https://www.kitploit.com/2020/10/zracker-zip-file-password-bruteforcing.html
+
+Mail Swipe - 创建临时电子邮件地址
+是一个Python脚本，可创建临时电子邮件地址并在该地址接收电子邮件。它使用1secmail提供的API创建电子邮件地址并提取电子邮件。
+https://www.kitploit.com/2020/10/mail-swipe-script-to-create-temporary.html
+
+Eagle - 漏洞扫描程序
+Project Eagle是基于插件的漏洞扫描程序，具有线程支持，可用于大规模检测低悬垂的漏洞。
+https://www.kitploit.com/2020/10/eagle-yet-another-vulnerability-scanner.html
+
+TheCl0n3r - Git仓库管理工具
+用于下载、更新和删除git存储库，可轻松管理在github上找到渗透测试工具。
+https://www.kitploit.com/2020/10/thecl0n3r-tool-to-download-and-manage.html
+
+Simple Live Data Collection - 实时数据收集工具
+构建服务器与管理员和客户端连接，然后通过管理员将数据收集的请求发送到服务器，然后再发送到客户端。
+https://www.kitploit.com/2020/10/simple-live-data-collection-simple-live.html
+
+
+
+

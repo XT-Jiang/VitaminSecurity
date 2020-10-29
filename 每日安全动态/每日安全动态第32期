@@ -1,0 +1,77 @@
+【安全分析】
+
+CVE-2020-15157：凭据泄漏漏洞
+位于容器镜像提取过程，攻击者可以通过构建专用的容器映像来利用此漏洞，旨在窃取主机的令牌，然后使用令牌来接管云项目。
+https://threatpost.com/containerd-bug-cloud-account-credentials/160546/
+
+CVE-2020-8026：提权漏洞
+openSUSE Leap中存在漏洞，攻击者可通过inn绕过限制以提升权限。
+https://vigilance.fr/vulnerability/openSUSE-Leap-privilege-escalation-via-inn-33185
+
+CVE-2020-4559：拒绝服务漏洞
+IBM Spectrum Protect Server存在漏洞，可导致拒绝服务。
+https://vigilance.fr/vulnerability/IBM-Spectrum-Protect-Server-denial-of-service-33186
+
+CVE-2019-15813：Shell上传漏洞
+Sentrifugo 3.2版存在一个限制绕过漏洞，该漏洞允许远程Shell上传。
+https://packetstormsecurity.com/files/159712/sentrifugo32-shell.txt
+
+CVE-2014-5194：远程代码执行漏洞
+Sphider Search Engine版本1.3.6的存在远程代码执行漏洞。
+https://packetstormsecurity.com/files/159715/sphiderse136-exec.txt
+
+Ruckus IoT控制器中的远程命令执行漏洞
+Ruckus vRIoT中存在两个易受攻击的漏洞（CVE-2020-26878和CVE-2020-26879），可结合使用以进行远程命令执行。
+https://adepts.of0x.cc/ruckus-vriot-rce/
+
+OpenVPN中越界读取漏洞
+攻击者可以通过OpenVPN的resolve_remote（）强制读取无效地址，以触发拒绝服务或获取敏感信息。
+https://vigilance.fr/vulnerability/OpenVPN-out-of-bounds-memory-reading-via-resolve-remote-33189
+
+物联网供应链中的风险
+介绍了当前的物联网供应链生态系统，并解释了影响物联网供应链的多层威胁和弱点。
+https://unit42.paloaltonetworks.com/iot-supply-chain/
+
+OSSEC（IDS）部署
+介绍了如何将开源的、基于主机的入侵检测系统OSSEC（IDS）代理部署到AlienVault服务器。
+https://www.hackingarticles.in/alienvault-ossec-ids-deployment/
+
+
+【安全工具】
+
+Tfsec – Terraform代码的安全扫描程序
+tfsec使用对terraform模板的静态分析来发现潜在的安全问题，现在支持terraform v0.12 +。
+https://sectechno.com/tfsec-security-scanner-for-terraform-code/
+
+Findomain – 跨平台子域枚举器
+可使用OWASP Amass和Sublist3r等多个顶级工具监视目标域，并在找到新的子域时将警报发送到Discord、Slack、Telegram、电子邮件或推送通知。 
+https://sectechno.com/findomain-fastest-cross-platform-subdomain-enumerator/
+
+Scrying – 收集RDP、Web和VNC屏幕截图
+可使渗透测试人员将RDP、Web和VNC屏幕截图全部收集在一个地方，在网络扫描和发现阶段显示所有可用的UI。
+https://sectechno.com/scrying-collecting-rdp-web-and-vnc-screenshots/
+
+Grype – 容器图像漏洞扫描程序
+用于容器映像和文件系统的漏洞扫描程序，该工具提取从公共可用的Anchore Feed Service衍生的漏洞数据库。
+https://sectechno.com/grype-vulnerability-scanner-for-container-images/
+
+Unicorn 1.0.2 - CPU仿真器框架
+nicorn是一个轻量级的多平台、多体系结构的CPU仿真器框架。
+https://packetstormsecurity.com/files/159693/unicorn-1.0.2.tar.gz
+
+PatchChecker - Windows Privesc漏洞检查
+PatchChecker是一个Web应用程序（在flask上运行），它提供的输出类似于Watson。
+https://www.kitploit.com/2020/10/patchchecker-web-based-check-for.html
+
+Pwndoc - Pentest报告生成器
+PwnDoc是一款渗透测试报告应用程序，主要目标是通过使用户之间的漏洞之类的数据相互关联，从而有更多的时间来使用Pwn。
+https://www.kitploit.com/2020/10/pwndoc-pentest-report-generator.html
+
+NTLMRawUnHide - NTLMv2哈希工具
+是一个Python3脚本，旨在解析网络数据包捕获文件，并从本地Windows二进制文件生成的文件中提取NTLMv2哈希，而无需进行转换。
+https://www.kitploit.com/2020/10/ntlmrawunhide-python3-script-designed.html
+
+Zap Hud - OWASP ZAP抬头显示器
+HUD是在浏览器中直接提供ZAP功能的新界面，用用这种方式进行黑客攻击。
+https://www.kitploit.com/2020/10/zap-hud-owasp-zap-heads-up-display-hud.html
+

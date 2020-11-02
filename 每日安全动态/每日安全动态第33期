@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2020-14882：远程执行代码漏洞
+Oracle WebLogic Server中存在严重的远程执行代码漏洞。
+https://packetstormsecurity.com/files/159769/oraclewls-exec.txt
+
+CVE-2020-15999：堆缓冲区溢出
+由于Load_SBit_Png中的整数截断，FreeType遭受堆缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/159754/GS20201028164238.tgz
+
+CVE-2020-15238：提权漏洞
+Blueman 2.1.4之前的版本存在一个本地特权提升漏洞，该漏洞可以实现root用户权限。
+https://packetstormsecurity.com/files/159740/blueman-localroot.txt
+
+CSE Bookstore 1.0 SQL注入
+CSE Bookstore 1.0版存在一个远程SQL注入漏洞，该漏洞允许绕过身份验证。
+https://packetstormsecurity.com/files/159745/csebookstore10-sql.txt
+
+Samba中多个漏洞
+Samba中发现了多个漏洞，包括CVE-2020-14383、CVE-2020-14323和CVE-2020-14318。
+https://www.securitynewspaper.com/2020/10/29/3-easily-exploitable-vulnerabilities-in-samba/
+
+McAfee推出远程浏览器隔离解决方案XDR平台
+迈克菲推出了一系列新的网络安全产品，包括用于实时应对攻击的远程浏览器隔离工具。
+https://www.zdnet.com/article/mcafee-debuts-remote-browser-isolation-solution-xdr-platform/
+
+恶意软件Agent Tesla分析
+新的Agent Tesla变种从pastebin服务中加载的，该服务过去从未被著名的恶意软件家族hastebin.com使用。
+https://www.deepinstinct.com/2020/10/29/the-hasty-agent-agent-tesla-attack-uses-hastebin/
+
+内存取证：使用波动性框架
+对实时内存获取及其分析进行更深入的了解，用于在犯罪现场发现系统处于活动状态时收集数据的方法。
+https://www.hackingarticles.in/memory-forensics-using-volatility-framework/
+
+利用Shellbags取证分析
+重点介绍Shellbags及使用其资源管理器的取证分析，存储在Shellbag中的信息对于取证分析很有用。
+https://www.hackingarticles.in/forensic-investigation-shellbags/
+
+
+【安全工具】
+
+Sops – 加密文件的编辑器
+sops是加密文件的编辑器，支持YAML、JSON、ENV，、NI和BINARY格式，并使用AWS KMS、GCP KMS、Azure Key Vault和PGP进行加密。
+https://sectechno.com/sops-simple-and-flexible-tool-for-managing-secrets/
+
+MalwareSourceCode - 恶意软件源代码集合
+是一系列不同编程语言中的各种平台的恶意软件源代码集合。
+https://www.kitploit.com/2020/10/malwaresourcecode-collection-of-malware.html
+
+Oregami - IDA插件和脚本
+是用于分析寄存器使用情况框架的IDA插件和脚本。
+https://www.kitploit.com/2020/10/oregami-ida-plugins-and-scripts-for.html
+
+GitDorker - 数据收集工具
+利用GitHub Search API为用户提供一个干净且量身定制的攻击面，可以在GitHub上收集敏感信息。
+https://www.kitploit.com/2020/10/gitdorker-tool-to-scrape-secrets-from.html
+
+NoSQLi - NoSql注入CLI工具
+该工具易于使用，完全基于命令行且可配置，目标是快速、准确和高度可用，并具有易于理解的命令行界面。
+https://www.kitploit.com/2020/10/nosqli-nosql-injection-cli-tool.html
+
+Pesidious - 恶意软件变体生成
+该工具的目的是使用人工智能来突变恶意软件（仅PE32）样本，以绕过AI支持的分类器，同时保持其功能完整。
+https://www.kitploit.com/2020/10/pesidious-malware-mutation-using.html
+
+CobaltStrikeScan - CobaltStrike信息收集工具
+通过扫描Windows进程内存以查找DLL注入（经典或反射注入）的证据，并在目标进程的内存上执行YARA扫描以获取Cobalt Strike v3和v4信标签名。
+https://www.kitploit.com/2020/10/cobaltstrikescan-scan-files-or-process.html
+
+Decoder ++ - 解码/编码工具
+渗透测试人员和软件开发人员使用的可用于各种格式数据解码、编码可扩展应用程序。
+https://www.kitploit.com/2020/10/decoder-extensible-application-for.html
+
+JWT Hack - JWT编码/解码工具
+是用于对JWT进行黑客攻击或安全性测试的工具，支持对JWT进行编码和解码，为JWT攻击和快速破解生成有效载荷。
+https://www.kitploit.com/2020/10/jwt-hack-tool-to-endecoding-jwt.html

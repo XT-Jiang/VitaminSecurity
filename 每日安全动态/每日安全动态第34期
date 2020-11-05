@@ -1,0 +1,84 @@
+【安全分析】
+
+CVE-2020-17087：缓冲区溢出漏洞
+Microsoft Windows内核密码驱动程序（cng.sys）存在缓冲区溢出漏洞，可被用来进行特权升级（例如沙箱逃逸）。
+https://packetstormsecurity.com/files/159777/GS20201030201733.tgz
+
+CVE-2020-14425：远程命令执行漏洞
+Foxit Reader 9.7.1存在远程命令执行漏洞，允许通过app. opencpdfpage JavaScript AP远程执行命令，并绕过安全对话框。
+https://packetstormsecurity.com/files/159784/foxitreader971-exec.txt
+
+Apache Flink 1.9.x Shell上传漏洞
+Apache Flink 1.9.x版由于恶意上传而遭受远程执行代码漏洞。
+https://packetstormsecurity.com/files/159779/apacheflink19x-shell.txt
+
+WordPress插件 Shell上传漏洞
+WordPress的插件简单文件列表版本5.4存在远程Shell上传漏洞。
+https://packetstormsecurity.com/files/159788/wpsimplefilelist54-shell.txt
+
+Alien Swarm中远程代码执行漏洞
+Alien Swarm中远程代码执行漏洞分析，演示如何在客户端使用CNetChan->SendFileAPI将文件上传到游戏服务器。
+https://secret.club/2020/10/30/alien-swarm-rce.html
+
+SaltStack中的三个漏洞
+SaltStack为基于Python的开源自动化工具，于10月被VMware收购，存在三个漏洞CVE-2020-16846、CVE-2020-17490和CVE-2020-25592。
+https://www.theregister.com/2020/11/04/saltstack_security/
+
+CERT/CC启动Twitter机器人
+为了减少引起轰动和令人恐惧的漏洞名称的使用，CERT/CC团队启动了一个Twitter机器人为安全漏洞分配随机名称
+https://www.zdnet.com/article/certcc-launches-twitter-bot-to-give-security-bugs-random-names/
+
+隐私的Web浏览器Brave使用量增长了130％
+截至2020年11月，Brave浏览器使用量增长了130％，达到每月2050万的月活跃用户（MAU）和8.7的每日活跃用户（DAU）。
+https://www.bleepingcomputer.com/news/software/privacy-focused-brave-browser-grew-over-130-percent-in-the-past-year/
+
+利用Burp Suite检测XSS漏洞
+介绍了burpsuite最重要的扩展之一XSS Validator，以及如何用其自动检测和验证Web应用程序中的XSS漏洞。
+https://www.hackingarticles.in/burp-suite-for-pentester-xss-validator/
+
+FireEye发布ThreatPursuit
+ThreatPursuit VM随附了50多种工具，情报分析人员可以利用这些工具来情报分析对手。
+https://www.zdnet.com/article/fireeye-releases-threatpursuit-a-windows-vm-for-threat-intel-analysts/
+
+
+【安全工具】
+
+AutoGadgetFS - USB测试 
+是一个开放源代码框架，允许用户在不深入了解USB协议的情况下评估USB设备及其关联的主机、驱动程序和软件。
+https://www.kitploit.com/2020/10/autogadgetfs-usb-testing-made-easy.html
+
+Manuka - 模块化OSINT蜜罐
+Manuka是一个开放源代码情报（OSINT）蜜罐，用于监视威胁行为者的侦察企图并为Blue Teamers生成可操作的情报。
+https://www.kitploit.com/2020/10/manuka-modular-osint-honeypot-for-blue.html
+
+TASER - Python3资源库
+TASER(Testing And SEecurity Resource)是一个Python资源库，用于简化创建攻击性安全工具的过程，特别是那些与web或外部评估相关的安全工具。
+https://www.kitploit.com/2020/10/taser-python3-resource-library-for.html
+
+iSH - 适用于iOS的Linux Shell
+一个让Linux shell在iOS上运行的项目，使用usermode x86模拟和syscall转换。
+https://www.kitploit.com/2020/10/ish-linux-shell-for-ios.html
+
+Samhain - 文件系统完整性检查工具
+可以用作集中监视网络主机的客户端、服务器应用程序，对数据库、日志和配置文件进行签名以防篡改。
+https://packetstormsecurity.com/files/159791/samhain-4.4.3.tar.gz
+
+Awesome Android Security - Android安全性列表
+面向Pentesters和Bug Hunters的Android安全性材料和资源的精选列表。
+https://www.kitploit.com/2020/10/awesome-android-security-curated-list.html
+
+Widevine L3 Decryptor - Chrome扩展程序
+该Chrome扩展程序可通过劫持对浏览器的加密媒体扩展程序（EME）的调用并解密所有已传输的Widevine内容密钥来绕过Widevine DRM。
+https://www.kitploit.com/2020/10/widevine-l3-decryptor-chrome-extension.html
+
+Binbloom - 原始二进制固件分析软件
+该工具旨在分析原始的二进制固件，并自动确定它的一些特性，基本上可以兼容所有架构，它只对架构进行简单的统计。
+https://www.kitploit.com/2020/10/binbloom-raw-binary-firmware-analysis.html
+
+Nethive - CVSS基础架构
+Nethive项目提供了由CVSS自动测量支持的安全信息和事件管理（SIEM）基础结构。
+https://www.kitploit.com/2020/10/nethive-project-restructured-and.html
+
+Trape – OSINT分析工具
+Trape是OSINT分析工具，可实时跟踪和执行智能社会工程攻击，旨在说明大型互联网公司如何获取机密信息。
+https://www.darknet.org.uk/2020/11/trape-osint-analysis-tool-for-people-tracking/

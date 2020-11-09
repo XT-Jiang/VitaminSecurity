@@ -1,0 +1,77 @@
+【安全分析】
+
+CVE-2020-13152：拒绝服务漏洞
+Amarok版本2.8.0存在拒绝服务漏洞。
+https://packetstormsecurity.com/files/159898/amarok280-dos.txt
+
+CVE-2020-27955：远程代码执行漏洞
+Git LFS中存在远程代码执行漏洞。
+https://exploitbox.io/vuln/Git-Git-LFS-RCE-Exploit-CVE-2020-27955.html
+
+趋势科技邮件安全网关（IMSVA）中多个漏洞
+趋势科技IMSVA存在多个漏洞，包括XML注入、过度特权访问、跨站点请求伪造、文件泄露、服务器端请求伪造、信息泄漏以及其他各种漏洞。
+https://packetstormsecurity.com/files/159914/SA-20201104-0.txt
+
+iDS6 DSSPro数字标牌系统中多个漏洞
+iDS6 DSSPro数字标牌系统版本6.2存在多个漏洞，包括提权漏洞、CAPTCHA安全绕过漏洞、跨站点请求伪造漏洞和密码泄露。
+https://packetstormsecurity.com/files/159915/ZSL-2020-5605.txt
+
+PDW Shell上传漏洞
+PDW文件浏览器1.3版具有一个远程Shell上传漏洞。
+https://packetstormsecurity.com/files/159808/pdwfilebrowser13-shell.txt
+
+Adobe Acrobat Reader中的多个JavaScript漏洞
+思科Talos披露Adobe Acrobat Reader中堆缓冲区溢出和释放后使用漏洞。
+https://blog.talosintelligence.com/2020/11/vulnerability-spotlight-multiple.html
+
+Microsoft即将推出Cloud PC
+Microsoft发布了有关即将推出的基于Windows虚拟桌面的Azure桌面服务Cloud PC的细节。
+https://www.zdnet.com/article/microsofts-cloud-pc-leak-reveals-new-details-on-upcoming-azure-powered-remote-desktop/
+
+Ledger钓鱼邮件分析
+通过调查电子邮件、恶意二进制文件等来分析这种网络钓鱼攻击，并提供有关发生情况的观点。
+https://serhack.me/articles/practical-analysis-ledger-phishing-email/
+
+检测Android应用程序的动态加载
+通过应用程序的/proc /[PID]/maps内核生成的文件，来检测恶意代码的动态加载。
+https://sayfer.io/blog/dynamic-loading-in-android-applications-with-proc-maps/
+
+利用Burp Suite进行模糊测试
+介绍了如何使用Burp Suite中的Intruder进行模糊测试。
+https://www.hackingarticles.in/burpsuite-for-pentester-fuzzing-via-intruder-tab/
+
+
+【安全工具】
+
+Webshell Analyzer - Web Shell扫描分析器
+Web shell analyzer是一个跨平台的独立二进制文件，旨在识别、解码和标记那些被怀疑是Web shell的文件。
+https://www.kitploit.com/2020/11/webshell-analyzer-web-shell-scanner-and.html
+
+DeepBlueCLI - PowerShell模块
+为PowerShell模块，旨在通过Windows事件日志进行威胁搜寻。
+https://www.kitploit.com/2020/11/deepbluecli-powershell-module-for.html
+
+Feroxbuster - 强制浏览工具
+使用暴力攻击结合wordlist来搜索目标目录中未链接的内容，旨在获得有关web应用和操作系统的敏感信息，比如源代码、凭证、内部网络地址等等。
+https://www.kitploit.com/2020/11/feroxbuster-fast-simple-recursive.html
+
+Brutto - 暴力攻击工具
+Brutto为简单的暴力攻击工具。
+https://www.kitploit.com/2020/11/brutto-easy-brute-forcing-to-whatever.html
+
+Kraken - 跨平台Yara扫描仪
+Kraken是一款简单的跨平台Yara扫描仪，可以针对Windows，Mac，FreeBSD和Linux构建，主要用于事件响应、研究和临时检测。
+https://www.kitploit.com/2020/11/kraken-cross-platform-yara-scanner.html
+
+SwiftyInsta - Ins API Swift
+SwiftyInsta为Instagram第三方私有API，完全是用Swift编写，是一个iOS、macOS、tvOS和watchOS的客户端。
+https://www.kitploit.com/2020/11/swiftyinsta-instagram-unofficial.html?
+
+Oyabun - 具有隧道功能的C2基础架构
+为面向渗透测试者的弹性C2基础架构，具有出色的IDS规避能力、支持多平台、可加密数据交换。
+https://oyabun.io/
+
+HELK – 开源威胁搜寻平台
+HELK是具有高级分析功能的开源威胁搜寻平台，可分析SQL声明性语言、图形、结构化流，甚至通过Jupyter笔记本和Apache Spark通过ELK堆栈进行机器学习。
+https://www.darknet.org.uk/2020/11/helk-open-source-threat-hunting-platform/
+

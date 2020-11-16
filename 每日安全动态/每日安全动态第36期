@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2020-25213：远程代码执行漏洞
+WordPress文件管理器（wp-file-manager）插件版本6.0至6.8允许远程攻击者上载和执行任意PHP代码。
+https://packetstormsecurity.com/files/160003/wp_file_manager_rce.rb.txt
+
+CVE-2020-16011：堆缓冲区溢出
+Android上的Chrome浏览器存在ConvertToJavaBitmap堆缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/159975/GS20201109192255.tgz
+
+CVE-2020-14871：远程Root
+Solaris上的libpam中存在基于堆栈的缓冲区溢出漏洞，可以通过SunSSH远程进行预身份验证。
+https://packetstormsecurity.com/files/159961/hfsunsshdx.tgz
+
+CVE-2020-28328：远程代码执行漏洞
+SuiteCRM版本7.11.15存在经过身份验证的远程执行代码漏洞。
+https://packetstormsecurity.com/files/159937/suitecrm71115-exec.txt
+
+Asterisk中的拒绝服务漏洞
+Asterisk版本17.5.1和17.6.0接收TCP上的INVITE泛洪时会发生段错误，导致拒绝服务状况。
+https://packetstormsecurity.com/files/159933/ES2020-02.txt
+
+使用Volatility Workbench内存取证
+Volatility Workbench是最流行的工具Volatility的GUI版本，用于分析内存转储中的工件。
+https://www.hackingarticles.in/memory-forensics-using-volatility-workbench/
+
+Microsoft添加Forms网络钓鱼审阅功能
+Microsoft Forms网络钓鱼审阅功能允许Office 365管理员确认和阻止试图恶意收集敏感数据的表单。
+https://www.bleepingcomputer.com/news/security/office-365-will-let-admins-review-microsoft-forms-phishing-attempts/
+
+Yahoo Mail停止免费用户的自动电子邮件转发
+2021年1月1日起，Yahoo取消免费自动转发Yahoo Mail的功能，以确保免费的Yahoo Mail帐户安全。
+https://www.zdnet.com/article/yahoo-mail-discontinues-automatic-email-forwarding-for-free-users/
+
+研究人员披露Ryuk的15步攻击链
+研究人员Kremez注意到Ryuk仅使用15个步骤就可以找到网络上可用的主机，窃取管理员级证书，并部署Ryuk勒索软件。
+https://www.bleepingcomputer.com/news/security/how-ryuk-ransomware-operators-made-34-million-from-one-victim/
+
+
+【安全工具】
+
+Tempomail - 自定义电子邮件地址生成器
+独立的二进制文件，允许创建临时电子邮件地址并接收电子邮件，它使用1secmail的API，不需要依赖。
+https://www.kitploit.com/2020/11/tempomail-generate-custom-email-address.html
+
+GWTMap - 映射Google Web Toolkit攻击面
+此工具旨在提取隐藏在GWT应用的模糊客户端代码中的任何服务方法端点，并尝试生成示例GWT-rpc请求有效负载来与它们交互。
+https://www.kitploit.com/2020/11/gwtmap-tool-to-help-map-attack-surface.html
+
+JSMon - JavaScript监视器
+运行此脚本时，将提取这些文件并与之前提取的版本进行比较，来查看是否有更改。
+https://www.kitploit.com/2020/11/jsmon-javascript-change-monitor-for.html
+
+ShowStopper - 侦察工具
+该工具可帮助恶意软件研究人员探索和测试反调试技术，或验证调试器插件或其他与标准反调试方法冲突的解决方案。
+https://www.kitploit.com/2020/11/showstopper-anti-debug-tricks.html
+
+PCWT - 执行bug赏金的web应用
+该应用程序提供了一个方便的Web界面，用于处理在渗透测试、自动端口扫描和子域搜索期间使用的各种类型的文件。
+https://www.kitploit.com/2020/11/pcwt-web-application-that-makes-it-easy.html
+
+Threagile - 敏捷威胁建模工具包
+它允许直接在IDE内部以YAML文件的形式灵活地使用其资产对体系结构进行建模，将针对体系结构模型检查所有标准风险规则。
+https://www.kitploit.com/2020/11/threagile-agile-threat-modeling-toolkit.html
+
+Hetty - HTTP工具包
+Hetty是用于安全性研究的HTTP工具包，旨在成为Burp Suite Pro等商业软件的开源替代品，具有针对信息安全需求而定制的强大功能。
+https://www.kitploit.com/2020/11/hetty-http-toolkit-for-security-research.html 
+
+ReconNote - Web应用程序安全自动化框架
+可对各种资产的目标进行协调，以最大程度地提高安全专业人员和Bug猎人的攻击面。
+https://www.kitploit.com/2020/11/reconnote-web-application-security.html

@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2020-26070：拒绝服务漏洞
+Cisco IOS XR软件的入口数据包处理功能中的漏洞，可导致拒绝服务（DoS）条件。
+https://threatpost.com/high-severity-cisco-dos-flaw-asr-routers/161115/
+
+CVE-2020-1337：本地后台处理程序绕过
+Microsoft Windows存在本地后台处理程序绕过漏洞。
+https://packetstormsecurity.com/files/160028/GS20201111152411.txt
+
+Joomla中多个漏洞
+Joomla的SIGE存在文件包含漏洞和多个非持久的跨站点web漏洞。
+https://www.vulnerability-lab.com/get_content.php?id=2265
+
+WordPress插件Good LMS SQL注入
+WordPress插件Good LMS版本2.1.4及以下存在远程SQL注入漏洞。
+https://packetstormsecurity.com/files/160034/wpgoodlms214-sql.txt
+
+SmartBlog SQL盲注
+SmartBlog details控制器的id_post参数中存在SQL盲注，可通过连续的字符测试从数据库中提取信息。
+https://packetstormsecurity.com/files/159920/smartblog201-sql.txt
+
+恶意软件Babax分析
+Babax从2019年6月出现，现更名为更名为Osno，添加了Ring 3 rootkit和横向扩展功能。
+https://www.gdatasoftware.com/blog/2020/11/36459-babax-stealer-rebrands-to-osno-installs-rootkit
+
+创建SSH蠕虫机器人Yantra Manav
+Yantra Manav是一个用python编写的SSH蠕虫机器人，用第三方库Paramiko执行SSH brute force和SFTP客户端传输二进制文件。
+https://akijosberryblog.wordpress.com/2020/11/08/yantra-manav-a-wormable-ssh-bot/
+
+RPMB协议中漏洞
+重放保护内存块(RPMB)协议存在漏洞，攻击者可以欺骗有关RPBM写命令状态或RPMB区域内容的可信组件。
+https://kb.cert.org/vuls/id/231329
+
+绕过文件上传限制以获取Shell
+Web应用程序通常存在一些限制以加大攻击难度，但是黑客可以使用多种技术来突破文件上传限制来获得外壳。
+https://null-byte.wonderhowto.com/how-to/bypass-file-upload-restrictions-web-apps-get-shell-0323454/
+
+
+【安全工具】
+
+Octopus WAF - Web应用程序防火墙
+OctopusWAF是一个开放源代码Web应用程序防火墙，以C语言制成，使用libevent进行多个连接。
+https://www.kitploit.com/2020/11/octopus-waf-web-application-firewall.html
+
+NFCGate - NFC研究工具包应用
+Android应用程序，旨在捕获、分析或修改NFC流量，可以用作研究工具来逆向设计协议或评估针对流量修改的协议安全性。
+https://www.kitploit.com/2020/11/nfcgate-nfc-research-toolkit.html
+
+Py3Webfuzz - Web应用漏洞识别
+是一个Python3模块，可通过暴力、模糊化和分析来帮助识别Web应用程序和Web服务中的漏洞。
+https://www.kitploit.com/2020/11/py3webfuzz-python3-module-to-assist-in.html
+
+paradoxiaRAT - Windows远程访问工具
+为本地Windows远程访问工具，可自动生成客户端、多线程、新会话的桌面通知和可配置的设置等特点。
+https://www.kitploit.com/2020/11/paradoxiarat-native-windows-remote.html
+
+NtFileSins.py - 枚举intel收集工具
+NtFileSins.py是Windows文件枚举intel收集工具。
+https://packetstormsecurity.com/files/159963/NtFileSins-v2.2.txt
+
+OATH Toolkit - OATH工具包
+OATH Toolkit尝试收集一些工具，这些工具在部署与OATH相关的技术时非常有用，例如HOTP一次性密码。
+https://packetstormsecurity.com/files/160041/oath-toolkit-2.6.4.tar.gz
+
+Etherify - 以太网无线电信号分析工具
+Etherify是一个有趣的工具，可以分析通过以太网以传输速率传输的无线电信号。
+https://packetstormsecurity.com/files/159956/Etherify-Radio-Signal-Analysis-Tool.html
+
+Leonidas - 云自动攻击模拟
+用于在云中执行攻击者行为的框架。它提供了一种基于YAML的格式，用于定义云攻击者的策略、技术和过程（TTP）及其相关的检测属性。
+https://www.kitploit.com/2020/11/leonidas-automated-attack-simulation-in.html
+
+ColdFire - 用于Golang恶意软件开发的库
+ColdFire提供了各种对Golang中的恶意软件开发有用的方法，与Linux和Windows操作系统兼容。
+https://github.com/redcode-labs/Coldfire/blob/master/README.md

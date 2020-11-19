@@ -1,0 +1,76 @@
+【安全分析】
+
+Nibiru勒索软件变体解密器
+Nibiru勒索软件是一个基于.NET的恶意软件家族。它遍历本地磁盘中的目录，使用Rijndael-256加密文件，并为它们提供.Nibiru扩展名。
+https://blog.talosintelligence.com/2020/11/Nibiru-ransomware.html
+
+CVE-2020-25454：跨站点脚本漏洞
+Grocy家庭管理解决方案2.7.1版遭受持续的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160107/grocyhms271-xss.txt
+
+CVE-2020-13151：远程命令执行漏洞
+Aerospike数据库5.1.0.3存在远程命令执行漏洞。
+https://packetstormsecurity.com/files/160106/aerospikedb5103-exec.txt
+
+CVE-2020-26554：跨站点脚本漏洞
+MailDepot版本2033（2.3.3022）存在跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160077/SYSS-2020-037.txt
+
+CVE-2020-26701：跨站点脚本漏洞
+Kaa IoT Platform 1.2.0版存在持续的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160082/kaaiotplatform120-xss.txt
+
+Pixar OpenUSD中的多个漏洞
+Cisco Talos披露Pixar OpenUSD中的多个代码执行漏洞、信息泄露漏洞和内存损坏漏洞。
+https://blog.talosintelligence.com/2020/11/vuln-spotlight-pixar-open-usd-nov-2020.html
+
+AIX 5.3L libc缓冲区溢出漏洞
+AIX 5.3L libc存在缓冲区溢出漏洞，可利用“/usr/bin/su”二进制文件通过LC_ALL触发溢出并获取root。
+https://packetstormsecurity.com/files/160098/aix53l-libc.c
+
+蜜罐综合指南
+蜜罐通常充当组织的诱饵，以收集有关攻击者的信息并保护实际目标系统。
+https://www.hackingarticles.in/comprehensive-guide-on-honeypots/
+
+通过Wi-Fi入侵计算机
+介绍了如何使用WiFi Duck有效负载传送器通过Wi-Fi入侵计算机。
+https://null-byte.wonderhowto.com/how-to/hack-computers-over-wi-fi-with-wifi-duck-payload-deliverer-0296285/
+
+
+【安全工具】
+
+FAMA - 移动应用程序的取证分析
+带有集成取证模块的Android提取和分析框架，轻松地从设备中转储用户数据，并为取证或外部应用程序生成强大的报告。
+https://www.kitploit.com/2020/11/fama-forensic-analysis-for-mobile-apps.html
+
+Scripthunter - JavaScript文件搜索工具
+用于查找给定网站的javascript文件的工具，可扫描Google，完成扫描时通过Telegram API发送通知。
+https://www.kitploit.com/2020/11/scripthunter-tool-to-find-javascript.html
+
+Herpaderping - 安全产品绕过工具
+进程Herpaderping是一种通过在映像映射后修改磁盘上的内容来掩盖进程意图的方法，可用来绕过安全产品。
+https://www.kitploit.com/2020/11/herpaderping-process-herpaderping.html
+
+FinalRecon - Web侦查工具
+FinalRecon是用python编写的自动网络侦察工具，旨在提供一种缩短时间，同时保持精确度的结果的工具。
+https://www.kitploit.com/2020/11/finalrecon-v110-last-web-recon-tool.html
+
+Go Parser - IDAPro 二进制解析器
+IDAPro的Golang二进制解析器，可在文件中找到并解析firstmoduledata结构，并对每个字段进行注释
+https://www.kitploit.com/2020/11/goparser-yet-another-golang-binary.html
+
+Linux Evil Toolkit - 安全工具框架
+Linux Evil Toolkit是一个旨在集中、标准化和简化Pentest专业人士使用各种安全工具的框架。
+https://www.kitploit.com/2020/11/linux-evil-toolkit-framework-that-aims.html
+
+MacC2 - macOS后利用工具
+用python编写的macOS后利用工具，它使用Objective C调用或python库而不是命令行执行。
+https://www.kitploit.com/2020/11/macc2-mac-command-and-control-that-uses.html
+
+Garud - 自动化工具
+一种自动化工具，可用来扫描子域、子域接管，然后过滤出xss、ssti、ssrf和更多注入点参数。
+https://www.kitploit.com/2020/11/garud-automation-tool-that-scans-sub.html
+
+Machosec - 漏洞检测脚本
+用于检查Mach-O 64位可执行文件和应用程序捆绑包的安全性，以检查是否存在dyld注入漏洞等漏洞。
+https://packetstormsecurity.com/files/160084/machosec-v1.0.zip

@@ -1,0 +1,76 @@
+【安全分析】
+
+Chrome中的多个漏洞
+Google Chrome中发现了多个漏洞，其中最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2020-155/
+
+Drupal中的漏洞
+Drupal核心模块中发现了一个漏洞，该漏洞可能允许远程执行代码。
+https://www.cisecurity.org/advisory/a-vulnerability-in-drupal-could-allow-for-remote-code-execution_2020-157/
+
+CVE-2020-28350：跨站点脚本漏洞
+Sokrates SOWA SowaSQL存在跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160139/sowaopac-xss.txt
+
+Internet下载管理器缓冲区溢出漏洞
+Internet下载管理器的下载调度程序存在缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/160135/idm63812-overflow.txt
+
+TestBox CFML代码执行漏洞
+TestBox CFML测试框架版本4.1.0存在任意文件写入和远程代码执行漏洞。
+https://packetstormsecurity.com/files/160138/testboxcfmltf410-filewriteexec.txt
+
+Android银行木马Cerberus分析
+提供了关于发布Android银行木马Cerberus的源代码和补充注入文件的概况。
+https://blog.cyberint.com/cerberus-is-dead-long-live-cerberus
+
+XXE注射综合指南
+XML是Web开发中常用的一种标记语言，用于存储和传输数据，可用此漏洞来获取信息并试图攻击Web应用程序。
+https://www.hackingarticles.in/comprehensive-guide-on-xxe-injection/
+
+勒索软件分析
+重点介绍了过去两年来安装勒索软件的已知恶意软件毒株。
+https://www.zdnet.com/article/the-malware-that-usually-installs-ransomware-and-you-need-to-remove-right-away/
+
+29可快速分析恶意软件的地址
+列出29个地址，用来快速分析恶意软，帮助蓝色团队成员更有效地利用时间。
+https://letsdefend.io/blog/29-addresses-to-analyze-malware-faster/
+
+
+【安全工具】
+
+DNScat2 - 应用程序层C＆C
+可以在端口53上创建反向连接并在必要时执行DNS隧道的工具，以达到渗透测试的目的
+https://www.hackingarticles.in/dnscat2-application-layer-cc/
+
+Gping - Ping
+带图形界面的Ping。
+https://www.kitploit.com/2020/11/gping-ping-but-with-graph.html
+
+Rehex - 十六进制编辑器
+跨平台（Windows、Linux和Mac）十六进制编辑器，用于逆向工程以及其他所有功能。
+https://www.kitploit.com/2020/11/rehex-reverse-engineers-hex-editor.html
+
+OpenEDR - 开放EDR公共存储库
+开源的EDR公共存储库，其安全体系结构无需任何其他代理或解决方案即可通过处理所有威胁媒介来简化漏洞检测，保护和可见性。
+https://www.kitploit.com/2020/11/openedr-open-edr-public-repository.html
+
+Teler - 实时HTTP入侵检测
+Teler是基于Web日志的实时入侵检测和威胁警报，该日志在终端中运行，具有由社区收集和提供的资源。
+https://www.kitploit.com/2020/11/teler-real-time-http-intrusion-detection.html
+
+Doctrack - Office Open XML插入工具
+可将跟踪像素插入Office Open XML文档、注入模板URL以进行远程模板注入攻击、检查外部目标URL和元数据。
+https://www.kitploit.com/2020/11/doctrack-tool-to-manipulate-and-insert.html
+
+Kali Linux 2020.4 - kali新版本
+新版本的kali以ZSH为默认Shell，并添加了许多新工具和更新，支持使用Vagrant的VMware用户。
+https://www.kali.org/news/kali-linux-2020-4-release/
+
+American Fuzzy Lop - 模糊测试工具
+结合了极其简单但坚如磐石的仪器指导遗传算法，是Google afl的高级分支。
+https://packetstormsecurity.com/files/160146/AFLplusplus-2.68c.tar.gz
+
+Global Socket - 套接字工具
+用于安全地、快速地通过NAT和防火墙移动数据，中继网络连接TCP管道，有端到端加密。
+https://packetstormsecurity.com/files/160147/gsocket-1.4.22.tar.gz

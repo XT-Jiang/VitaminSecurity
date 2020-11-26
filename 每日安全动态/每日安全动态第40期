@@ -1,0 +1,83 @@
+【安全分析】
+
+CVE-2020-28332：不安全的固件映像
+Barco wePresent的固件不执行对数字签名的固件更新的验证，并且易于处理和安装修改过的或恶意的映像。
+https://packetstormsecurity.com/files/160164/KL-001-2020-009.txt
+
+CVE-2020-13951：拒绝服务漏洞
+Apache OpenMeetings版本5.0.0存在拒绝服务漏洞。
+https://packetstormsecurity.com/files/160186/apacheom500-dos.txt
+
+中兴WLAN路由器中多个漏洞
+中兴WLAN路由器MF253V版本1.0.0B04存在跨站点请求伪造、硬编码密码、未更新组件和跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160212/SA-20201123-0.txt
+
+TP-Link设备身份验证绕过漏洞
+TP-Link TL-WA855RE V5_200415存在漏洞，未经验证的攻击者可以重置设备，然后设置新的管理员密码。
+https://packetstormsecurity.com/files/160167/tplinktlwa855re-bypass.txt
+
+IBM Tivoli Storage Manager缓冲区溢出漏洞
+IBM Tivoli Storage Manager版本5.2.0.1命令行管理界面存在缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/160155/ibmtivolismclai5201-overflow.txt
+
+CryptoWall勒索软件的分析
+对2013年研究人员发现的一种名为CryptoWall的变种Crowti勒索软件进行分析。
+https://ryancor.medium.com/genetic-analysis-of-cryptowall-ransomware-843f86055c7f
+
+Ataware勒索软件分析第1部分
+分析了勒索软件Ataware从Excel开始的完整感染链，第一部分为hta、VBScript和PowerShell代码的分析步骤，以提取最终的有效负载URL。
+https://www.securityinbits.com/malware-analysis/excel-4-0-macro-hta-vbscript-powershell-analysis-ataware-ransomware-part-1/
+
+窃取比特币钱包地址和余额
+介绍了如何使用SpiderFoot CLI从网站提取比特币钱包地址和余额。
+https://null-byte.wonderhowto.com/how-to/extract-bitcoin-wallet-addresses-balances-from-websites-with-spiderfoot-cli-0238107/
+
+路由器渗透测试
+介绍如何利用开发路由器和交换机的Routersploit和于审计路由器和交换机配置文件的nipper-ng进行路由器渗透测试。
+https://www.hackingarticles.in/router-penetration-testing/
+
+Windows密码转储
+对所有转储机制提供一个简短的快速参考指南，以供使用者了解和选择。
+https://www.hackingarticles.in/password-dumping-cheatsheet-windows/
+
+
+【安全工具】
+
+erfs - 安全文件系统
+erfs是一种易于使用、易于设置的安全文件系统，其加密数据存储在远程云服务器上，而无需信任服务器。
+https://packetstormsecurity.com/files/160144/erfs-1.4.tar.gz
+
+TCMalloc - 检查器工具
+可用于解析和检查TCMalloc内部，并检测丢失的内存，即不能通过任何(内部)指针访问的内存。
+https://packetstormsecurity.com/files/160140/tcmalloc-inspector-20201119.zip
+
+Testssl - 命令行工具
+是免费的命令行工具，可以检查任何端口上服务器的服务是否支持TLS/SSL密码，协议以及最新的加密漏洞等。
+https://packetstormsecurity.com/files/160142/testssl.sh-3.0.3.tar.gz
+
+Amlsec - 安全风险识别
+该原型根据AutomationML（AML）工件识别安全风险源和攻击后果的类型，结果可用于生成网络物理攻击图，该图可模拟可能导致物理损坏的多阶段网络攻击。
+https://www.kitploit.com/2020/11/amlsec-automated-security-risk.html
+
+SIRAS - 安全事件响应自动模拟
+安全事件响应自动模拟（SIRAS）是内部和受控的操作，可提供结构化的机会，以在实际场景中练习事件响应计划和过程。
+https://www.kitploit.com/2020/11/siras-security-incident-response.html
+
+Fuzzilli - JavaScript引擎模糊工具
+一种模糊工具，用于基于自定义中间语言FuzzIL的动态语言解释器，可以将其转义并翻译为JavaScript。
+https://www.kitploit.com/2020/11/fuzzilli-javascript-engine-fuzzer.html
+
+Routopsy - 攻击网络协议的工具包
+Routopsy当前支持针对动态路由协议（DRP）和第一跳冗余协议（FHRP）的攻击，还允许在python3中或通过添加其他容器来实施进一步的攻击。
+https://www.kitploit.com/2020/11/routopsy-toolkit-built-to-attack-often.html
+
+Invoke Antivm - 用于VM规避的Powershell工具
+Invoke-AntiVM是一组模块，用于通过Powershell执行VM检测和指纹识别（带有渗透）。
+https://www.kitploit.com/2020/11/invoke-antivm-powershell-tool-for-vm.html
+
+Bulwark - 漏洞管理工具
+具有Jira集成的组织资产和漏洞管理工具，旨在生成应用程序安全报告。
+https://www.kitploit.com/2020/11/bulwark-organizational-asset-and.html
+
+
+

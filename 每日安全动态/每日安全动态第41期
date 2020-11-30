@@ -1,0 +1,84 @@
+【安全分析】
+
+华为HedEx Lite（DM）中路径遍历漏洞 
+华为HedEx Lite 存在路径遍历漏洞，攻击者可以通过远程更改本地路径来请求本地文件或资源。
+https://www.vulnerability-lab.com/get_content.php?id=2268
+
+CVE-2020-29042：会议访问代码暴力破解漏洞
+BigBlueButton中可以为受访问代码保护的会议输入无限数量的代码，所以可能会发生暴力攻击。
+https://cxsecurity.com/issue/WLB-2020110210
+
+英特尔AMT和ISM中的多个漏洞
+英特尔AMT和ISM存在越界写漏洞（CVE-2020-8754）和越界读取漏洞（CVE-2020-8753）。
+https://www.cybersecurity-help.cz/vdb/SB2020112613
+
+Linux内核的安全更新
+修复了三个漏洞CVE-2020-25668、CV​​E-2020-25704和CVE-2020-25705，以及17个非安全性错误。
+https://linuxsecurity.com/advisories/suse/suse-2020-3507-1-important-the-linux-kernel-16-17-07?rss
+
+通过Checkra1n越狱HomePod
+Checkra1n的最新更新允许用户首次越狱第一代HomePod（基于tvOS）。
+https://9to5mac.com/2020/11/20/first-generation-homepod-can-now-be-jailbroken-with-checkra1n/
+
+转储Windows Active Directory用户数据库
+介绍了如何使用Web Shell远程转储Active Directory域控制器计算机用户数据库。
+https://www.mannulinux.org/2018/12/remotely-dump-active-directory-domain.html
+
+Windows 10：更新指南
+该指南总结了用户需要了解的每个向公众发布的Windows 10更新。
+https://www.computerworld.com/article/3199077/windows-10-a-guide-to-the-updates.html#tk.rss_all
+
+勒索软件Ryuk分析
+对于Hermes的新变种Ryuk进行的深入的分析。
+https://www.deepinstinct.com/2020/11/24/ryuk-ransomware-the-deviance-is-in-the-variance/
+
+扫描网站中的潜在漏洞
+介绍了如何使用Kali Linux中的Vega Vulnerability Scanner扫描网站中的潜在漏洞。
+https://null-byte.wonderhowto.com/how-to/scan-websites-for-potential-vulnerabilities-using-vega-vulnerability-scanner-kali-linux-0181887/
+
+防御DDoS的十种工具
+介绍了10个免费的工具和技术，来防止DDOS攻击和做出反击。
+https://www.securitynewspaper.com/2020/11/26/10-free-tools-techniques-to-protect-from-ddos-attack-and-do-counterattacks/
+
+
+【安全工具】
+
+AIEngine - 数据包检查引擎
+它可以帮助网络安全专业人员识别流量，并开发签名以在NIDS，防火墙，流量分类器等上使用它们。
+https://packetstormsecurity.com/files/160183/aiengine-2.0.1.tar.gz
+
+RedShell - 交互式命令提示符
+可通过代理链执行命令并将其自动记录在Cobalt Strike团队服务器上
+https://www.kitploit.com/2020/11/redshell-interactive-command-prompt.html
+
+Wsb Detect-沙箱检测
+Wsb Detect能够用于检测是否正在Windows Sandbox（“WSB”）中运行。
+https://www.kitploit.com/2020/11/wsb-detect-tool-to-detect-if-you-are.html
+
+UAFuzz - 定向模糊器
+用于二进制级别的Free-After-Free漏洞，它通过仔细调整有向模糊的关键组件来满足此类bug的特定特征。
+https://www.kitploit.com/2020/11/uafuzz-binary-level-directed-fuzzing.html
+
+Xerror - 全自动渗透测试工具
+可帮助安全专业人员和非专业人员自动执行其渗透测试任务，并在执行所有测试生成两个报告。
+https://www.kitploit.com/2020/11/xerror-fully-automated-pentesting-tool.html
+
+ToothPicker-适用于iOS的进程内覆盖指导的模糊器
+是适用于iOS的进程内，以覆盖率为目标的模糊器，专门针对iOS的蓝牙守护程序开发。
+https://www.kitploit.com/2020/11/toothpicker-in-process-coverage-guided.html
+
+Osi.Ig - Instagram信息收集
+可用于获取Instagram用户ID、关注者、上传数量、个人资料图片、业务、外部URL等
+https://www.kitploit.com/2020/11/osiig-information-gathering-instagram.html?
+
+N1QLMap - 数据窃取工具
+通过利用N1QL注入漏洞从Couchbase数据库中窃取数据，通过CURL进行SSRF攻击。
+https://www.kitploit.com/2020/11/n1qlmap-tool-exfiltrates-data-from.html
+
+Bunkerized Nginx - Nginx Docker映像
+Bunkerized-nginx提供了通用的安全配置、设置和工具，避免每次需要Web服务器或反向代理时遵循安全最佳做法的麻烦。
+https://www.kitploit.com/2020/11/bunkerized-nginx-nginx-docker-image.html
+
+1Password - 密码管理器
+可以在Windows、Mac、移动设备或命令行上使用的最重要的安全工具。
+https://www.zdnet.com/article/1password-my-favorite-password-manager-is-an-essential-security-tool/

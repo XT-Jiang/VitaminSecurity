@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2018-9958：任意代码执行漏洞
+Foxit Reader版本9.0.1.1049存在一个任意代码执行漏洞。
+https://packetstormsecurity.com/files/160240/foxitreader9011049cw-exec.txt
+
+CVE-2020-10963：文件上传漏洞
+Laravel Administrator 4存在文件上传不受限制的漏洞。
+https://packetstormsecurity.com/files/160243/laraveladmin4-upload.txt
+
+CVE-2020-29127：身份验证失败
+富士通Eternus Storage DX200 S4无法设置Cookie进行身份验证，从而无法重播URL以获得根级特权。
+https://packetstormsecurity.com/files/160255/fujitsueternus-brokenauth.txt
+
+CVE-2020-29395：跨站点脚本漏洞
+WordPress EventON Calendar插件版本3.0.5具有跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160282/wpeventoncalendar305-xss.txt
+
+CVE-2020-28975：拒绝服务漏洞
+SciKit-Learn版本0.23.2存在拒绝服务漏洞。
+https://packetstormsecurity.com/files/160281/scikitlearn0232-dos.txt
+
+Intelbras路由器身份验证绕过
+Intelbras路由器RF 301K版本1.1.2存在身份验证绕过漏洞。
+https://packetstormsecurity.com/files/160263/intelbrasrf301k112-bypass.txt
+
+IceRat恶意软件分析
+探讨了IceRat通过在Java VM上运行PHP绕过杀毒软件，以长时间持保持较低的检测率。
+https://www.gdatasoftware.com/blog/icerat-evades-antivirus-by-using-jphp
+
+追踪加密货币恶意软件
+利用anthok制作的蜜罐，通过侦听诸如Elasticsearch或Redis之类的数据库常用的端口，经观察到机器人行为。
+https://www.archcloudlabs.com/projects/tracking_cryptominer_domains/
+
+防火墙策略的实现
+简述了FortiGate策略创建过程中涉及的过程，并讨论FortiGate防火墙策略的各种配置。
+https://www.hackingarticles.in/implementation-of-firewall-policies-fortigate-part-1/
+
+
+【安全工具】
+
+THC-IPv6 - 攻击工具包
+THC-IPV6是一个工具包，可攻击IPv6和ICMP6固有的协议漏洞，并且包括易于使用的数据包工厂库。
+https://packetstormsecurity.com/files/160298/thc-ipv6-3.8.tar.gz
+
+Mandos - 加密文件系统
+允许计算机具有加密的根文件系统，同时能够进行远程或无人值守的重新引导。
+https://packetstormsecurity.com/files/160296/mandos_1.8.13.orig.tar.gz
+
+Damn Vulnerable Bank - 安卓应用漏洞银行
+旨在为每个人提供一个界面，以详细了解Android应用程序的内部和安全方面。
+https://www.kitploit.com/2020/11/damn-vulnerable-bank-vulnerable-banking.html
+
+Tracee -容器和系统跟踪工具
+它可以实时观察系统调用和其他系统事件，并仅跟踪新创建的进程和容器，而不是系统上发生的每件事。
+https://www.kitploit.com/2020/11/tracee-container-and-system-event.html
+
+Webscan - 网络扫描仪
+它通过WebRTC侦听RTP数据通道并通过任何实时IP循环回到端口，并通过监视即时超时来发现有效子网中的所有实时IP地址。
+https://www.kitploit.com/2020/11/webscan-browser-based-network-scanner.html
+
+Talon - 密码猜测工具
+可以对Kerberos和LDAPS服务执行密码猜测攻击，并使用单个域控制器或多个域控制器来执行这些攻击。
+https://www.kitploit.com/2020/11/talon-password-guessing-tool-that.html
+
+Admin Scanner - 网站管理界面查找器
+此工具旨在通过轻松使用自定义单词列表或默认单词列表查找任何网站的管理员界面。
+https://www.kitploit.com/2020/11/admin-scanner-this-tool-is-design-to.html
+
+OnionSearch - 网站抓取脚本
+OnionSearch是一个Python3脚本，可在不同的“.onion”搜索引擎上抓取网址。
+https://www.kitploit.com/2020/12/onionsearch-script-that-scrapes-urls-on.html

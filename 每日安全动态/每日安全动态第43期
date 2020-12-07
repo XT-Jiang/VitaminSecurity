@@ -1,0 +1,72 @@
+【安全分析】
+
+EIP堆栈组OpENer中的漏洞
+思科Talos发现了OpENer的以太网、IP功能中的DoS和代码执行漏洞。
+https://blog.talosintelligence.com/2020/12/vuln-spotlight-stack-group-opener-dec-2020.html
+
+CVE-2020-8913：Google Play核心库中的漏洞
+该漏洞存在于Google Play核心库中，可供各种流行的应用程序（例如Google Chrome，Facebook和Instagram）利用。
+https://threatpost.com/google-play-apps-remain-vulnerable-to-high-severity-flaw/161785/
+
+CVE-2014-6287：远程命令
+Rejetto HttpFileServer版本2.3.x存在远程命令执行漏洞。
+https://packetstormsecurity.com/files/160264/HttpFileServer_2.3.x_rce.py.txt
+
+CVE-2020-25181：缓冲区溢出漏洞
+WECON PLC编辑器版本1.3.8及更低版本具有基于堆的缓冲区溢出漏洞，可允许任意代码执行。
+https://www.security-database.com/detail.php
+
+CVE-2020-8351：提权漏洞
+Lenovo PCManager 3.0.50.9162中存在特权升级漏洞。
+https://www.security-database.com/detail.php
+
+德国国防军IT系统中50多个漏洞
+德国联邦国防军呼吁IT安全研究人员积极通知德国联邦国防军他们的IT系统的弱点，并获得了50多个漏洞报告。
+https://seclists.org/fulldisclosure/2020/Dec/1
+
+Ruckus IoT控制器远程代码执行漏洞
+Ruckus IoT Controller（Ruckus vRIoT）版本1.5.1.0.21及以下版本存在远程代码执行漏洞。
+https://packetstormsecurity.com/files/160229/ruckusiotcontroller151021-exec.txt
+
+Drupal核心中漏洞分析
+有关Drupal Core中发现的其他新漏洞（CVE-2020-13669）的详细信息。
+https://www.checkmarx.com/blog/drupal-core-behind-the-vulnerability-part-2-defacement-stored-xss-and-self-xss
+
+
+【安全工具】
+
+DNSx - DNS工具包
+dnsx是一种快速且多功能的DNS工具包，允许使用retryabledns库运行多个探测器，该库允许使用用户提供的解析器列表执行多个DNS查询。
+https://www.kitploit.com/2020/11/dnsx-fast-and-multi-purpose-dns-toolkit.html
+
+Terrascan - 安全性检查
+在配置云本机基础设施之前，检测跨基础设施的遵从性和安全性违规。
+https://www.kitploit.com/2020/12/terrascan-detect-compliance-and.html
+
+Fortiscan - 漏洞扫描和利用工具
+高性能FortiGate SSL-VPN漏洞扫描和利用工具，可检测FortiGate SSL-VPN中的漏洞。
+https://www.kitploit.com/2020/11/fortiscan-high-performance-fortigate.html 
+
+Fast Security Scanners - 安全扫描程序
+快速安全扫描程序，为研究进行安全检查，可用于在安全评估和漏洞监控服务。
+https://www.kitploit.com/2020/12/fast-security-scanners-security-checks.html?
+
+Hacktory - 游戏化黑客平台
+Hacktory是一个用于网络安全培训的游戏化平台，它模仿真实案例来教授道德黑客技术。
+https://www.kitploit.com/2020/12/hacktory-platform-packed-with-new-game.html
+
+I2P - 匿名网络
+提供了一个简单的层，身份敏感应用程序可以使用该层进行安全通信，所有数据都包装有多层加密。
+https://packetstormsecurity.com/files/160334/i2psource_0.9.48.tar.bz2
+
+fibratus - Windows内核探索工具
+Windows内核探索和观察工具，可收集各种各样的内核事件。
+https://www.reddit.com/r/Malware/comments/k5bdql/fibratus_a_modern_tool_for_the_windows_kernel/
+
+JSFScan.sh - 自动化Java侦察
+有Bugbounty中所需的JavaScript侦查自动化制作的脚本。
+https://www.kitploit.com/2020/12/jsfscansh-automation-for-javascript.html
+
+Aclpwn.Py - 提权工具
+Aclpwn.py是与BloodHound交互以识别和利用基于ACL的提权工具，将使用Neo4j寻路算法来找到最有效的基于ACL的特权升级路径。
+https://www.kitploit.com/2020/12/aclpwnpy-active-directory-acl.html

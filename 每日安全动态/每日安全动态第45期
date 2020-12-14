@@ -1,0 +1,77 @@
+【安全分析】
+
+
+Google开源了用来查找Python代码中漏洞的Atheris
+Atheris是一种称为模糊测试的技术来帮助开发人员在基于Python的代码库中发现漏洞。
+https://www.zdnet.com/article/google-open-sources-atheris-a-tool-for-finding-security-bugs-in-python-code/
+
+新版本Qbot可在Windows重启时自动删除所有痕迹
+新的Qbot会在受感染的Windows设备关闭之前立即激活其持久性机制，并在重启时自动删除所有痕迹。
+https://www.bleepingcomputer.com/news/security/qbot-malware-switched-to-stealthy-new-windows-autostart-method/
+
+Valve的Steam Server存在漏洞
+Steam Sockets库中存在四个漏洞CVE-2020-6016至CVE-2020-6019，可能会让黑客劫持在线游戏
+https://thehackernews.com/2020/12/valves-steam-server-bugs-couldve-let.html
+
+星巴克移动平台中的远程执行代码漏洞
+研究人员披露星巴克移动平台中的存在没有限制上载文件类型导致的远程执行代码漏洞。
+https://www.zdnet.com/article/remote-code-execution-vulnerability-uncovered-in-starbucks-mobile-platform/
+
+WordPress Popup Builder跨站点脚本漏洞
+WordPress Popup Builder插件版本3.69.6及更低版本具有多个跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160435/wppopupbuilder3696-xss.txt
+
+新的注入技术可用来从PDF文件中提取敏感数据
+新的代码注入技术允许黑客注入代码，以在PDF文档的范围内发起危险的XSS（跨站点脚本）攻击。
+https://www.securityweek.com/new-injection-technique-exposes-data-pdfs
+
+Windows Kerberos Bronze Bit攻击漏洞利用
+Karnes提供了该漏洞的高级摘要，并详细介绍了攻击者如何利用它来攻击受感染的Windows系统。
+https://www.bleepingcomputer.com/news/security/windows-kerberos-bronze-bit-attack-gets-public-exploit-patch-now/
+
+Gamarue.exe分析报告
+对恶意软件Gamarue.ex进行分析。
+https://www.reddit.com/r/Malware/comments/k9z4qx/gamarueexe_malware_analysis_report/
+
+红帽重置CentOS Linux
+CentOS将不再是稳定的点发行版，而是滚动发行的Linux发行版。
+https://www.zdnet.com/article/red-hat-resets-centos-linux-and-users-are-angry/
+
+常见的iOS 13问题及其解决方法
+涵盖了用户在每个操作系统版本中报告的问题以及何解决方法。
+https://www.digitaltrends.com/mobile/ios-13-problems/
+
+【安全工具】
+
+
+Enum4Linux-Ng - 枚举工具
+Enum4linux-ng.py是Mark Lowe enum4linux.pl的改写，是用于枚举Windows和Samba系统中信息的工具。
+https://www.kitploit.com/2020/12/enum4linux-ng-next-generation-version.html
+
+Sak1To Shell - 反向Shell客户端
+用纯C语言编写的多线程c2服务器和反向TCP shell客户端（Windows）。
+https://www.kitploit.com/2020/12/sak1to-shell-multi-threaded-c2-server.html
+
+DarkSide - 信息收集工具
+DarkSide是信息收集工具，可用来进行社会工程攻击。
+https://www.kitploit.com/2020/12/darkside-tool-information-gathering-and.html
+
+RESTler - REST API模糊测试工具
+用于通过其REST API自动测试云服务并查找这些服务中的安全性和可靠性错误。
+https://www.kitploit.com/2020/12/restler-first-stateful-rest-api-fuzzing.html
+
+Depix - 密码恢复工具
+Depix是用于从像素化屏幕快照中恢复密码的工具，适用于使用线性框滤镜创建的像素化图像。
+https://www.kitploit.com/2020/12/depix-recovers-passwords-from-pixelized.html
+
+403Bypasser - 403限制目录绕过工具
+绕过403受限目录的burpsuite扩展，通过使用PassiveScan(默认启用)，每个403请求将被此扩展自动扫描。
+https://www.kitploit.com/2020/12/403bypasser-burpsuite-extension-to.html
+
+Gustave - 内核模糊器
+GUSTAVE是一个嵌入式操作系统内核的模糊平台，基于QEMU和AFL，允许像简单的应用程序一样模糊OS内核。
+https://www.kitploit.com/2020/12/gustave-embedded-os-kernel-fuzzer.html
+
+Carnivore - 身份验证评估工具
+Carnivore是Skype的商业、交换、ADFS和RDWeb服务器以及一些O365功能的评估工具。
+https://www.kitploit.com/2020/12/carnivore-tool-for-assessing-on.html

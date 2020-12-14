@@ -1,0 +1,76 @@
+【安全分析】
+
+Google推出XS泄漏漏洞知识库
+Google发布XS-Leaks，其中包含有关漏洞的信息。
+https://www.securityweek.com/google-launches-xs-leaks-vulnerability-knowledge-base
+
+Adobe中的多个漏洞
+Adobe发布补丁，修复了CVE-2020-24445、CVE-2020-24444和CVE-2020-24440漏洞
+https://threatpost.com/adobe-windows-macos-critical-severity-flaws/162007/
+
+微软发布安全更新
+微软安全更新修复总计58个漏洞，其中包括9个较为严重的漏洞。
+https://threatpost.com/microsoft-patch-tuesday-holidays/162041/
+
+D-Link VPN路由器中的漏洞
+D-Link VPN路由器中存在CVE-2020-25757、CVE-2020-25759和CVE-2020-25758漏洞。
+https://securityboulevard.com/2020/12/advisory-for-d-link-vpn-router-vulnerabilities/
+
+CVE-2020-9490：内存损坏漏洞
+Apache 2在mod_http2推送日记实现中遭受内存损坏漏洞。
+https://packetstormsecurity.com/files/160392/GS20201207144131.tgz
+
+Dup Scout Enterprise缓冲区溢出漏洞
+Dup Scout Enterprise版本10.0.18存在远程缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/160405/dupscoutenterprise10018-overflow.txt
+
+Linux io_uring SUID边界访问冲突
+Linux io_uring会受到跨suid二进制文件的mm和文件访问的困扰。
+https://packetstormsecurity.com/files/160395/GS20201207145548.tgz
+
+Nmap输出格式扫描
+Nmap被广泛用于渗透测试人员的安全审核和网络扫描，可以以各种格式记录网络扫描的结果。
+https://www.hackingarticles.in/nmap-for-pentester-output-format-scan/
+
+欧盟提出了《数据治理法》
+欧盟提出GDPR2年零6个月后，提出了新规则–数据治理法，涵盖了工业和政府数据的处理。
+https://www.hipaaguide.net/eu-proposes-data-governance-act-a-gdpr-framework-for-industrial-and-government-data/
+
+
+【安全工具】
+
+Hijackthis - 恶意软件扫描
+适用于Microsoft Windows的免费的实用程序，可扫描您的计算机以查看由广告软件、间谍软件、恶意软件和其他有害程序更改的设置。
+https://www.kitploit.com/2020/12/hijackthis-free-utility-that-finds.html
+
+Packer Fuzzer - 快速高效的扫描仪
+该工具支持自动模糊提取对应于目标站点的API和对应于该API的参数内容，并支持对7个漏洞进行模糊和有效的模糊处理，自动生成扫描报告。
+https://www.kitploit.com/2020/12/packer-fuzzer-fast-and-efficient.html
+
+Karkinos - 渗透测试工具
+Karkinos可用于渗透测试和黑客攻击CTF，具有编码解码字符、加密解密文本或文件、反向外壳处理和破解并生成哈希功能。
+https://www.kitploit.com/2020/12/karkinos-penetration-testing-and.html
+
+Wp_Hunter - Wordpress插件的静态分析
+可静态分析以搜索Wordpress插件中的漏洞。
+https://www.kitploit.com/2020/12/wphunter-static-analysis-of-wordpress.html
+
+Baphomet - 勒索软件概念证明
+勒索软件概念证明以及一些技术，以便用户了解这种恶意软件的行为和工作方式。
+https://www.kitploit.com/2020/12/baphomet-basic-concept-of-how.html
+
+Js X Ray - 开源SAST扫描程序
+JavaScript和Node.js开源SAST扫描程序，目的是为开发人员和安全研究人员快速识别危险的代码和模式。
+https://www.kitploit.com/2020/12/js-x-ray-javascript-and-nodejs-open.html
+
+ADSearch -AD查询工具
+一个为cobalt-strike的执行-汇编命令编写的工具，允许更有效地查询AD。
+https://www.kitploit.com/2020/12/adsearch-tool-to-help-query-ad-via-ldap.html
+
+Obfuscator - Shellcode混淆器
+该程序旨在混淆shellcode，该工具支持2种加密，接受4种格式的shellcode。
+https://www.kitploit.com/2020/12/obfuscator-program-is-designed-to.html
+
+Pytmipe - Python库
+用于在Windows上进行特权升级的令牌操纵和模拟的Python库和客户端。
+https://www.kitploit.com/2020/12/pytmipe-python-library-and-client-for.html

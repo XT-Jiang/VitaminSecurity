@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2020-29591：Docker中漏洞
+官方注册表Docker映像到2.7.0的版本允许攻击者使用空白密码来实现root用户访问，CVSS v3评分9.8。
+https://www.security-database.com/detail.php?alert=CVE-2020-29591
+
+CVE-2020-29574：SQL注入漏洞
+Cyberoam OS的WebAdmin中存在SQL注入漏洞，可远程执行任意SQL语句，CVSS v3评分9.8。
+https://www.security-database.com/detail.php?alert=CVE-2020-29574&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Last100Alerts+%28Security-Database+Alerts+Monitor+%3A+Last+100+Alerts%29
+
+CVE-2020-4633：任意代码执行漏洞
+IBM Resilient SOAR V38.0由于输入验证不正确而导致的任意代码执行漏洞，CVSS v3评分8.8。
+https://www.security-database.com/detail.php?alert=CVE-2020-4633&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Last100Alerts+%28Security-Database+Alerts+Monitor+%3A+Last+100+Alerts%29
+
+CVE-2020-28857:跨站点脚本漏洞
+OpenAsset数字资产管理Web应用程序遭受多个反映的和持久的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160455/odam12019-xss.txt
+
+CVE-2020-28860：SQL注入漏洞
+OpenAsset数字资产管理存在经过身份验证的远程SQL盲注漏洞。
+https://packetstormsecurity.com/files/160459/odam-sql.txt
+
+Rukovoditel 2.6.1 Shell上传/包含本地文件
+Rukovoditel版本2.6.1存在Shell上传和本地文件包含漏洞，可导致远程代码执行。
+https://packetstormsecurity.com/files/160449/rce_2.6.1.sh.txt
+
+McAfee ePolicy Orchestrator中的漏洞
+McAfee ePolicy Orchestrator中存在CSRF、SSRF和MITM漏洞，可导致命令执行。
+https://swarm.ptsecurity.com/vulnerabilities-in-mcafee-epolicy-orchestrator/
+
+Windows 10使用内置命令行磁盘空间分析器
+Microsoft正在开发一个新的内置命令行“ Disk Usage”实用程序，该实用程序报告一个文件夹使用了多少磁盘空间。
+https://www.bleepingcomputer.com/news/microsoft/windows-10-to-get-a-built-in-command-line-disk-space-analyzer/
+
+利用Upip加载MicroPython库
+介绍了如何利用Upip通过Wi-Fi将MicroPython库加载到微控制器上。
+https://null-byte.wonderhowto.com/how-to/use-upip-load-micropython-libraries-onto-microcontroller-over-wi-fi-0237888/
+
+
+【安全工具】
+
+ToRat - 远程管理工具
+利用Go编写的一种远程管理工具，使用Tor作为传输机制和RPC进行通信。
+https://www.kitploit.com/2020/12/torat-remote-administation-tool-written.html
+
+APKLab - 逆向工程工作台
+APKLab无集成了开源工具Apktool、Jadx、uber-apk-signer以及更多其他优秀的VS Code。
+https://www.kitploit.com/2020/12/apklab-android-reverse-engineering.html
+ 
+Autopsy - 取证工具
+是一种开源工具，用于对证据的磁盘映像执行取证操作。
+https://www.hackingarticles.in/comprehensive-guide-on-autopsy-tool-windows/
+
+Stegseek - Steghide解密器
+Stegseek是一种快速的Steghide解密器，可用于从文件中提取隐藏数据，是原始Steghide项目的分支而构建的。
+https://www.kitploit.com/2020/12/stegseek-worlds-fastest-steghide.html?utm_source=feedburner
+
+WSMan WinRM - 概念证明源代码和脚本的集合
+概念证明源代码和脚本的集合，用于使用WSMan.Automation COM对象通过WinRM执行远程命令。
+https://www.kitploit.com/2020/12/wsman-winrm-collection-of-proof-of.html
+
+Slipstream - 防火墙绕过
+攻击者可以仅通过受害者访问网站来绕过受害者的NAT /防火墙（任意防火墙针孔控制），远程访问绑定到受害者计算机的任何TCP / UDP服务。
+https://www.kitploit.com/2020/12/slipstream-nat-slipstreaming-allows.html
+
+Ghost框架 - Android后开发框架
+一个Android后开发框架，该框架利用Android调试桥来正确访问Android设备。
+https://www.kitploit.com/2020/12/ghost-framework-android-post.html
+
+Freki - 恶意软件分析平台
+开源恶意软件分析平台，具有哈希提取、VirusTotal API查询、PE文件的静态分析（标题、节、导入、功能和字符串）等功能。
+https://www.kitploit.com/2020/12/freki-malware-analysis-platform.html
+
+
+
+

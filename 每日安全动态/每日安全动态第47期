@@ -1,0 +1,69 @@
+【安全分析】
+
+Lantronix XPort EDGE中的两个漏洞
+思科Talos披露Lantronix XPort EDGE的Web Manager功能中的CVE-2020-13527和CVE-2020-13528。
+https://blog.talosintelligence.com/2020/12/vuln-spotlight-landtronix-xport-edge-dec-2020.html
+
+独立5G网络中的漏洞
+独立的5G网络实施所使用的协议中的漏洞可能使用户面临信息盗窃、假冒和其他类型的攻击。
+https://www.securityweek.com/vulnerabilities-standalone-5g-networks-expose-users-attacks
+
+CVE-2020-28052：身份验证绕过漏洞
+Bouncy Castle的OpenBSDBcrypt类中发现的身份验证绕过漏洞，允许攻击者绕过密码检查。
+https://securityboulevard.com/2020/12/cyrc-analysis-authentication-bypass-vulnerability-in-bouncy-castle/
+
+CVE-2019-14483：凭据泄露漏洞
+AdRem NetCrunch存在凭据泄露漏洞，可以读取BSD、Linux、MacOS和Solaris私钥、私钥的密码以及root密码。
+https://cxsecurity.com/cveshow/CVE-2019-14483
+
+CVE-2019-14480：会话处理漏洞
+AdRem NetCrunch的Web客户端中有一个不正确的会话处理漏洞，可导致身份验证绕过或提权。
+https://www.security-database.com/detail.php?alert=CVE-2019-14480&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Last100Alerts+%28Security-Database+Alerts+Monitor+%3A+Last+100+Alerts%29
+
+CVE-2020-29611：越界写入漏洞
+在macOS上解码格式错误的PICT映像时，存在越界写入漏洞。
+https://packetstormsecurity.com/files/160547/GS20201216180718.tgz
+
+趋势科技IWSA中的多个漏洞
+趋势科技网关讯息安全设备（IWSA）存在绕过、命令执行、CSRF、XSS和SSRF漏洞。
+https://packetstormsecurity.com/files/160602/SA-20201217-0.txt
+
+SocGholish攻击框架
+SocGholish攻击利用了社交工程工具和技术，可帮助犯罪分子模拟软件更新。
+https://www.darkreading.com/attacks-breaches/socgholish-attack-framework-powers-surge-in-drive-by-attacks/d/d-id/1339762
+
+DNS-QUIC（DoQ）解析器
+Ad-blocker AdGuard部署了世界上第一个基于Quic的DNS解析器。
+https://www.zdnet.com/article/ad-blocker-adguard-deploys-worlds-first-dns-over-quic-resolver/
+
+
+【安全工具】
+
+Phobos Orbital - 侦察和风险评估平台
+Phobos推出了侦察和风险评估平台Orbital，可用于查找网络攻击路径和入口点。
+https://www.zdnet.com/article/phobos-launches-orbital-a-tool-for-finding-attack-pathways-and-entry-points-into-your-network/
+
+E9Patch - 二进制重写工具
+E9Patch是用于x86_64Linux ELF二进制文件的功能强大的静态二进制重写工具。
+https://www.kitploit.com/2020/12/e9patch-powerful-static-binary.html
+
+PoshBot - 基于Powershell的Bot框架
+用PowerShell编写的聊天机器人，可连接到服务器并报告状态，部署代码，执行运行手册，查询API等。
+https://www.kitploit.com/2020/12/poshbot-powershell-based-bot-framework.html
+
+Zed攻击代理 - 集成渗透测试工具
+跨平台软件包，用于发现Web应用程序中的漏洞，提供自动扫描程序以及一系列工具，可手动查找安全漏洞。
+https://packetstormsecurity.com/files/160608/ZAP_2.10.0_Crossplatform.zip
+
+Go365 - Office365用户攻击工具
+Go365旨在对使用Office365的组织执行用户枚举和密码猜测攻击，在login.microsoftonline.com上使用了唯一的SOAP API终结点。
+https://www.kitploit.com/2020/12/go365-office365-user-attack-tool.html
+
+Bento - 基于Fedora的容器
+Bento是最小的基于Fedora的容器，用于渗透测试和CTF，并带有GUI应用程序。
+https://www.kitploit.com/2020/12/bento-minimal-fedora-based-container.html
+
+Scilla - 信息收集工具
+信息收集工具，可收集Dns、子域以及用于端口枚举。
+https://www.kitploit.com/2020/12/scilla-information-gathering-tool.html
+

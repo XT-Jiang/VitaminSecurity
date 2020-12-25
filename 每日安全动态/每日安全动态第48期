@@ -1,0 +1,73 @@
+【安全分析】
+
+CVE-2020-8554：Kubernetes中间人漏洞
+允许Kubernetes Services拦截到任何IP地址的群集流量，可对群集中的Pod和节点进行中间人（MITM）攻击。
+https://unit42.paloaltonetworks.com/cve-2020-8554/
+
+Treck TCP/IP堆栈中的多个任意代码执行漏洞
+这些漏洞分别为CVE-2020-25066、CVE-2020-27337、CVE-2020-27338和CVE-2020-27336。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-treck-tcpip-stack-could-allow-for-arbitrary-code-execution_2020-171/
+
+CVE-2020-25106：提权漏洞
+SUPREMO版本4.1.3.2348存在特权升级漏洞。
+https://packetstormsecurity.com/files/160666/supremo4-escalate.txt
+
+CVE-2020-25494：令注入漏洞
+SCO Openserver版本5.0.7存在命令注入漏洞。
+https://packetstormsecurity.com/files/160635/scoos507-exec.txt
+
+CVE-2020-20276：缓冲区溢出漏洞
+uftpd FTP服务器版本2.10和存在基于堆栈的缓冲区溢出漏洞，可导致远程执行代码。
+https://www.security-database.com/detail.php?alert=CVE-2020-20276
+
+微软和McAfee成立的勒索软件任务组
+新成立的勒索软件任务组将致力于建立一个处理勒索软件攻击的标准框架。
+https://www.zdnet.com/article/microsoft-and-mcafee-headline-newly-formed-ransomware-task-force/
+
+Talos发布2020年恶意软件年鉴
+列出了主要的恶意软件、安全新闻以及Talos今年报道的更多内容。
+https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html
+ 
+新的Windows 10工具可分组任务栏快捷方式
+新的实用程序TaskbarGroups可分组任务栏快捷方式，以便可以轻松启动它们而无需占用大量空间。
+https://www.bleepingcomputer.com/news/microsoft/new-windows-10-tool-lets-you-group-your-taskbar-shortcuts/
+
+Firefox推出网络分区功能
+Firefox 85计划于2021年1月发布Network Partitioning功能，作为一种新形式的反跟踪保护。
+https://www.zdnet.com/article/firefox-to-ship-network-partitioning-as-a-new-anti-tracking-defense/
+
+
+【安全工具】
+
+SharpMapExec - 渗透测试工具
+此工具旨在简化网络的渗透测试，并创建用于在Windows上运行的瑞士军刀，进行内部威胁模拟。
+https://www.kitploit.com/2020/12/sharpmapexec-sharpen-version-of.html
+
+Watcher - 开源网络安全威胁侦察平台
+Watcher是Django＆React JS自动化平台，用于发现潜在网络安全威胁，可在Web服务器上使用，并在Docker上可用。
+https://www.kitploit.com/2020/12/watcher-open-source-cybersecurity.html
+
+Sploit - Go软件包
+用于进行二进制分析和利用，主要功能为shell编码、二进制修复、ROP堆栈构建和常规二进制分析。
+https://www.kitploit.com/2020/12/sploit-go-package-that-aids-in-binary.html
+
+Fawkes - SQL注入攻击工具
+Fawkes事使用Google搜索引擎搜索易受SQL注入攻击的目标的工具。
+https://www.kitploit.com/2020/12/fawkes-tool-to-search-for-targets.html
+
+Bheem - Bash脚本集合
+Bheem是一个小型bash脚本的简单集合，可迭代运行以执行各种工具并以有组织的方式整理和存储输出。
+https://www.kitploit.com/2020/12/bheem-simple-collection-of-small-bash.html
+
+jSQL Injection - 渗透测试工具
+是一个轻量级应用程序，用于从远程服务器查找数据库信息，也是官方渗透测试发行版Kali Linux的一部分。
+https://packetstormsecurity.com/files/160657/jsql-injection-v0.82.jar
+
+Erlang - 字节码字符串转换器
+Estr2bc是一个Python脚本，用于将任意字符串输入转换为Erlang字节码。
+https://packetstormsecurity.com/files/160640/estr2bc.py.txt
+
+Grawler - 自动抓取工具
+Grawler是用PHP编写的具有Web界面工具，可自动执行使用Google dork的任务，抓取结果并将其存储在文件中。
+https://www.kitploit.com/2020/12/grawler-tool-which-comes-with-web.html
+

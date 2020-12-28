@@ -1,0 +1,76 @@
+【安全分析】
+
+Apache Struts中漏洞
+Apache Struts强制进行多OGNL评估，可导致远程执行代码（CVE-2019-0230和CVE-2020-17530）。
+https://packetstormsecurity.com/files/160721/struts2_multi_eval_ognl.rb.txt
+
+GitLab远程代码执行漏洞
+GitLab版本11.4.7存在远程代码执行漏洞CVE-2018-19571和CVE-2018-19585。
+https://packetstormsecurity.com/files/160699/gitlab1147a-exec.txt
+
+WordPress Epsilon中漏洞
+WordPress Epsilon框架存在未经身份验证的功能注入漏洞，可导致服务器端请求伪造和拒绝服务攻击。
+https://packetstormsecurity.com/files/160695/wpefmt-inject.txt
+
+凭据转储：Windows自动登录密码
+介绍了如何使用Nirsoft和DecryptAutologon.exe转储存储的自动登录凭据。
+https://www.hackingarticles.in/credential-dumping-windows-autologon-password/
+
+cryptominer AD蠕虫分析
+Certego IRT为应对这些威胁而执行的检测和响应操作的一些详细信息。
+https://www.certego.net/en/news/handling-a-destributed-cryptominer-ad-worm/
+
+TrickBot分析
+仔细研究了恶意软件TrickBot感染文档的安装阶段。
+https://blogs.keysight.com/blogs/tech/nwvs.entry.html/2020/12/21/trickbot_a_closerl-TpQ0.html
+
+使用FGPA对API调用进行恶意软件分析
+机器学习模块可以通过分析FPGA硬件的总功耗来检测恶意软件。
+https://ensarseker1.medium.com/malware-analysis-of-api-calls-using-fgpa-hardware-level-security-model-c00bc241b42a
+
+Chrome增加缓存大小以提高性能
+Google正在尝试增加浏览器缓存的存储量，以减少由于最近添加的分区缓存功能而导致的性能下降。
+https://www.bleepingcomputer.com/news/google/google-chrome-is-testing-larger-cache-sizes-to-increase-performance/
+
+Microsoft 365新增安全事件电子邮件警报
+Microsoft已将对安全事件电子邮件通知的支持添加到Microsoft 365 Defender企业威胁防护解决方案。
+https://www.bleepingcomputer.com/news/security/microsoft-365-admins-can-now-get-security-incident-email-alerts/
+
+
+【安全工具】
+
+Sparrow - Azure M365环境的免费检测工具
+CISA开发了一个免费工具，用于检测威胁Azure/Microsoft O365环境中的异常和潜在的恶意活动。
+https://github.com/cisagov/Sparrow
+
+Censys Python - API封装器 
+用于Censys搜索引擎（censys.io）的易于使用的轻量级API包装器。目前支持Python 3.6+。
+https://www.kitploit.com/2020/12/censys-python-easy-to-use-and.html
+
+GRecon　-　自动化Google Recon
+GRecon（Greei-Conn）是一个简单的python工具，可自动执行Google Based Recon AKA的工作。
+https://www.kitploit.com/2020/12/grecon-your-google-recon-is-now.html
+
+Kenzer　-　自动化Web枚举和扫描器
+Kenzer为自动化的Web资产枚举和扫描器。
+https://www.kitploit.com/2020/12/kenzer-automated-web-assets-enumeration.html
+
+Swego　-　Golang　Web服务器
+Swego是Golang中瑞士军刀般的Web服务器。
+https://www.kitploit.com/2020/12/swego-swiss-army-knife-webserver-in.html
+
+0D1N v3.4 - 自定义攻击工具
+自动针对Web应用程序进行自定义攻击的工具，完全使用了线程和C语言，具有快速的性能。
+https://www.kitploit.com/2020/12/0d1n-v34-tool-for-automating-customized.html
+
+Aura - Python静态分析框架
+Aura是一种静态分析框架，旨在应对PyPI上发布的恶意软件包和易受攻击的代码的日益增长的威胁。
+https://www.kitploit.com/2020/12/aura-python-source-code-auditing-and.html
+
+ApkLeaks - APK文件扫描器
+是APK文件扫描器，可扫描APK文件中的URI、端点和机密。
+https://www.kitploit.com/2020/12/apkleaks-scanning-apk-file-for-uris.html
+
+Vulmap - Web漏洞扫描和验证工具
+Vulmap是一个漏洞扫描工具，可以扫描Web容器、Web服务器、Web中间件以及CMS和其他Web程序中的漏洞，并具有漏洞利用功能。
+https://www.kitploit.com/2020/12/vulmap-web-vulnerability-scanning-and.html

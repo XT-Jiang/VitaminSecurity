@@ -1,0 +1,66 @@
+【安全分析】
+
+CVE-2018-7580：拒绝服务漏洞
+飞利浦Hue集线器因简单的SYN泛洪而存在拒绝服务漏洞。
+https://packetstormsecurity.com/files/160724/philiipshh-dos.txt
+
+CVE-2020-35616：提权漏洞
+免费开源内容管理系统（CMS）Joomla ACL中存在提权漏洞。
+https://blog.securelayer7.net/latest-joomla-exploit-cve-2020-35616-acl-security-vulnerabilities/
+
+CVE-2020-28188：远程命令执行漏洞
+TerraMaster TOS <= 4.2.06中的远程命令执行（RCE）漏洞允许未经身份验证的远程攻击者通过Event参数中的/include/makecvs.php注入OS命令。
+https://www.security-database.com/detail.php
+
+CVE-2020-35242：SQL注入漏洞
+Flamingo（aka FlamingoIM）的UserManager :: updateUserTeamInfoInDbAndMemory中具有SQL注入漏洞。
+https://www.security-database.com/detail.php?alert=CVE-2020-35242&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Last100Alerts+%28Security-Database+Alerts+Monitor+%3A+Last+100+Alerts%29
+
+IBM Content Navigator组件中漏洞
+IBM Business Automation Workflow中的IBM Content Navigator组件有多个漏洞CVE-2020-4687、CVE-2020-4760和CVE-2020-4704。
+https://www.ibm.com/blogs/psirt/security-bulletin-multiple-security-vulnerabilities-with-ibm-content-navigator-component-in-ibm-business-automation-workflow-cve-2020-4687-cve-2020-4760-cve-2020-4704-2/
+
+ArubaOS和SD-WAN中的多个漏洞
+ArubaNetwork的ArubaOS和SD-WAN中发现了多个漏洞，这些漏洞可能导致任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-arubanetworks-arubaos-and-sd-wan-could-allow-for-arbitrary-code-execution_2020-172/
+
+Google文档中的漏洞
+Google Docs域中缺少X-Frame-Options标头，可被用来查看用户私人文档。
+https://thehackernews.com/2020/12/a-google-docs-bug-could-have-allowed.html
+
+恶意软件Sunburst分析
+Sunburst恶意软件对于其战略和高度发展的恶意逻辑以及许多有针对性的知名受害者均具有重要意义。
+https://www.deepinstinct.com/2020/12/28/why-the-sunburst-malware-was-so-unique-and-what-weve-learnt-from-it/
+
+APT19的恶意软件Derusbi的分析
+APT19在2017年处于活动状态，他们使用3种不同的方法来利用CVE-2017-0199漏洞。
+https://cybergeeks.tech/analyzing-apt19-malware-using-a-step-by-step-method/
+
+
+【安全工具】
+
+Drozer - Android应用程序安全测试框架
+使测试人员可以轻松创建测试用例并检查应用程序组件中可能存在的漏洞，以前被称为Mercury。
+https://www.hackingarticles.in/android-penetration-testing-drozer/
+
+CISA发布恶意活动检测工具
+CISA发布了基于PowerShell的工具，该工具可帮助检测Azure / Microsoft 365环境中可能受到威胁的应用程序和帐户。
+https://www.bleepingcomputer.com/news/security/cisa-releases-azure-microsoft-365-malicious-activity-detection-tool/
+
+2020年最流行的20种黑客工具
+为2020年1月至2020年12月之间最受欢迎的黑客工具清单。
+https://www.kitploit.com/2020/12/top-20-most-popular-hacking-tools-in.html
+
+Proxify - 代理工具
+多功能代理工具，可随时随地进行HTTP/HTTPS流量捕获、操纵和重放。
+https://www.kitploit.com/2020/12/proxify-swiss-army-knife-proxy-tool-for.html
+
+Social Analyzer - 分析工具
+用于在300多个社交媒体网站上分析和查找个人资料的API和Web应用程序。
+https://www.kitploit.com/2020/12/social-analyzer-api-and-web-app-for.html
+
+Burp Sequencer - 数据项样本分析工具
+是用于分析数据项样本中的随机性质量的工具，包括应用程序的会话ID、CSRF令牌、密码重置或忘记密码令牌等。
+https://www.hackingarticles.in/burp-suite-for-pentester-burp-sequencer/
+
+

@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2020-3161：DoS漏洞
+Cisco IP Phone 11.7中的DoS漏洞的PoC。
+https://cxsecurity.com/issue/WLB-2021010007
+
+MK-AUTH中的多个漏洞
+MK-AUTH中存在六个漏洞，分别为CVE-2021-3005、CVE-2020-14068和CVE-2020-14069等。
+https://www.cybersecurity-help.cz/vdb/SB2021010401
+
+CVE-2020-26165：对象注入漏洞
+9.1及以下版本的qdPM存在executeExport PHP对象注入漏洞。
+https://packetstormsecurity.com/files/160733/KIS-2020-11.txt
+
+Openpilot默认的SSH密钥
+Openpilot具有默认的SSH密钥，如果未更改，它可以允许攻击者远程访问，以默认密钥登录到Openpilot SSH服务器。
+https://packetstormsecurity.com/files/160735/openpilot-scan.sh.txt
+
+Android渗透测试：Frida
+介绍Frida的基础知识，如何创建自己的Frida脚本，将其挂接到进程中以及执行各种功能。
+https://www.hackingarticles.in/android-penetration-testing-frida/
+
+如何在Windows环境中阻止恶意JavaScript文件
+攻击者经常通过虚假电子邮件发送恶意JavaScript文件，介绍如何阻止这些文件的进入。
+https://www.csoonline.com/article/3601673/how-to-block-malicious-javascript-files-in-windows-environments.html#tk.rss_networksecurity
+
+进行后门检查的所有分析工具和EDR的列表
+此列表可帮你住恶意软件分析人员了解之前从未听说过的恶意软件分析以及取证工具和EDR
+https://www.reddit.com/r/Malware/comments/ko7jem/list_of_all_the_analysis_tools_and_edrs_that/
+
+恶意软件深入分析方法
+回顾恶意软件分析的主要方法，讨论并比较了每种方法，以了解何时应使用哪种方法以及为什么使用。
+https://agdcservices.com/blog/the-deep-dive-malware-analysis-approach/
+
+
+【安全工具】
+
+RogueWinRM - 提权工具
+RogueWinRM是一种本地特权升级漏洞，如果WinRM服务未运行，则允许从服务帐户升级到本地系统帐户。
+https://www.kitploit.com/2021/01/roguewinrm-windows-local-privilege.html
+
+Oblivion - 数据泄漏检查器和OSINT工具
+Oblivion是专注于实时监视新数据泄漏的工具，用于通知用户凭据是否已泄漏，也可验证用户的任何凭证之前是否已经泄漏出去。
+https://www.kitploit.com/2021/01/oblivion-data-leak-checker-and-osint.html
+
+HyperDbg - 逆向工程工具
+HyperDbg的设计重点是使用现代硬件技术为逆向工程世界提供新功能，通过使用Intel VT-x和Intel PT虚拟化，可以在Windows上运行。
+https://www.kitploit.com/2021/01/hyperdbg-source-code-of-hyperdbg.html
+
+Byp4Xx - 绕过403响应
+一个bash脚本，使用#bugbountytips中讨论的方法绕过“403 Forbidden”响应。
+https://www.kitploit.com/2021/01/byp4xx-simple-bash-script-to-bypass-403.html
+
+Urlhunter - 侦查工具
+urlhunter是一个侦查工具，用Go编写，它允许搜索通过缩短服务（例如bit.ly和goo.gl）公开的URL。
+https://www.kitploit.com/2021/01/urlhunter-recon-tool-that-allows.html
+
+MOSINT - OSINT工具
+MOSINT是用于电子邮件的OSINT工具，它可以帮助收集有关目标电子邮件的信息。
+https://www.kitploit.com/2021/01/mosint-osint-tool-for-emails.html
+
+cryptmount - 文件系统管理器
+cryptmount是用于在GNU / Linux系统上创建和管理安全文件系统的实用程序。
+https://packetstormsecurity.com/files/160740/cryptmount-5.3.3.tar.gz
+
+FireHOL - 防火墙配置
+它几乎可以用于任何目的，包括控制任何数量的内部/外部/虚拟接口，控制路由流量的任何组合，设置DMZ路由器和服务器以及各种NAT。
+https://packetstormsecurity.com/files/160739/firehol-3.1.7.tar.gz

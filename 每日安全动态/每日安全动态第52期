@@ -1,0 +1,72 @@
+【安全分析】
+
+Google Android OS中的多个漏洞
+在Google Android OS中发现了多个漏洞，其中最严重的漏洞可能允许在特权进程的上下文中远程执行代码。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2021-002/
+
+SoftMaker Office TextMaker中的多个漏洞
+TextMaker存在CVE-2020-13544、CVE-2020-13545和CVE-2020-13546漏洞，可用恶意文档来触发。
+https://blog.talosintelligence.com/2021/01/vuln-spotlight-softmaker-office-textmaker-jan-2021.html
+
+Genivia gSOAP中的多个漏洞
+Genivia gSOAP工具包插件中存在多个漏洞可被用来发起拒绝服务攻击或执行任意代码。
+https://blog.talosintelligence.com/2021/01/vuln-spotlight-genivia-gsoap-.html
+
+CVE-2020-35702：代码执行漏洞
+21.01.0-1之前版本的poppler软件包存在任意代码执行漏洞。
+https://linuxsecurity.com/advisories/archlinux/archlinux-202101-3-poppler-arbitrary-code-execution-04-02-56?rss
+
+Linux内核漏洞
+Linux内核中修复了一些安全问题。
+https://ubuntu.com/security/notices/USN-4681-1
+
+2021年的第一个新勒索软件Babuk Locker
+于2021年初启动，利用椭圆曲线Diffie-Hellman算法的强大加密方案。
+https://www.bleepingcomputer.com/news/security/babuk-locker-is-the-first-new-enterprise-ransomware-of-2021/
+
+Cryptominer恶意软件分析
+越南APT组织Bismuth（也称APT32）的 macOS后门程序Cryptominer的一些细节分析。
+https://labs.sentinelone.com/apt32-multi-stage-macos-trojan-innovates-on-crimeware-scripting-technique/
+
+用于Office 365的Microsoft Defender
+Microsoft希望添加一项新的Office 365功能，以使客户能够测试Microsoft Defender电子邮件保护，而无需实际为组织配置环境和设备。
+https://www.bleepingcomputer.com/news/security/microsoft-defender-for-office-365-to-allow-testing-without-setup/
+
+Citrix新增NetScaler ADC设置
+Citrix发布增强功能以阻止攻击者将Citrix ADC和网关设备的数据报传输层安全性（DTLS）功能用作DDoS攻击的放大载体。
+https://www.bleepingcomputer.com/news/security/citrix-adds-netscaler-adc-setting-to-block-recent-ddos-attacks/
+
+
+【安全工具】
+
+MaskPhish - 隐藏钓鱼URL
+用bash编写的小型简单工具，将网络钓鱼链接隐藏在通常看起来可信任的链接中。
+https://www.kalilinux.in/2020/07/how-to-hide-phishing-link.html
+
+Drow - 将代码注入ELF可执行文件
+Drow是一个命令行实用程序，用于注入代码并挂接ELF可执行文件的入口点（生成后）。
+https://www.kitploit.com/2021/01/drow-injects-code-into-elf-executables.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+PentestTools+%28PenTest+Tools%29
+
+EvtMute - 事件日志筛选器
+这是一个工具，允许使用YARA对windows事件日志报告的事件应用过滤器。
+https://www.kitploit.com/2021/01/evtmute-apply-filter-to-events-being.html
+
+XSS Scanner - XSS扫描器
+扫描程序从用户处获取链接，通过注入恶意脚本来检测网站中的跨站点脚本漏洞。
+https://www.kitploit.com/2021/01/xss-scanner-xss-scanner-that-detects.html
+
+Apollo - Windows代理
+Apollo Apollo是使用C＃编写的Windows代理，它使用旨在用于SpecterOps培训产品的4.0 .NET Framework。
+https://haxf4rall.com/2021/01/05/apollo-windows-agent-written-in-c/
+
+SysWhispers2 - AV/EDR绕过
+通过生成可用于直接系统调用的标头/ASM文件来帮助绕过AV/EDR，支持所有核心系统调用。
+https://haxf4rall.com/2021/01/05/syswhispers2-av-edr-evasion-via-direct-system-calls/
+
+pidrila - 智能链接分析器
+面向Python交互式Deepweb的快速智能链接分析器，真正快速异步Web路径扫描器原型。
+https://haxf4rall.com/2021/01/04/pidrila-python-interactive-deepweb-oriented-rapid-intelligent-link-analyzer/
+
+ByteDance HIDS - 入侵检测解决方案
+是一个基于云的基于主机的入侵检测解决方案项目，旨在提供具有现代体系结构的下一代威胁检测和行为审计。
+https://haxf4rall.com/2021/01/04/bytedance-hids-cloud-native-host-based-intrusion-detection-solution/

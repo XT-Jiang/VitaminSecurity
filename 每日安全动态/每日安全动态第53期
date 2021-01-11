@@ -1,0 +1,77 @@
+【安全分析】
+
+CVE-2020-13573：拒绝服务漏洞
+罗克韦尔自动化RSLinx Classic 2.57.00.14 CPR 9 SR 3的以太网/IP服务器功能中存在一个拒绝服务漏洞。
+https://blog.talosintelligence.com/2021/01/vuln-spotlight-denial-rockwell-automation-jan-2021.html
+
+CVE-2020-10199：远程执行代码漏洞
+Sonatype Nexus 3.21.1版存在经过身份验证的远程执行代码漏洞。
+https://packetstormsecurity.com/files/160835/sonatypenexus3211-exec.txt
+
+CVE-2021-3025：SQL注入漏洞
+IPS Community Suite 4.5.4及更低版本的Downloads REST API中存在远程SQL注入漏洞。
+https://packetstormsecurity.com/files/160830/KIS-2021-01.txt
+
+Fortinet FortiWeb WAF中的多个漏洞
+FortiWeb　Web应用程序防火墙（WAF）存在CVE-2020-29015、CVE-2020-29016、CVE-2020-29018和CVE-2020-29019漏洞。
+https://securityaffairs.co/wordpress/113129/hacking/fortinet-fortiweb-waf-flaws.html
+
+Fortinet FortiWeb中的多个漏洞
+Fortinet FortiWeb存在多个漏洞，可能导致任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-fortinet-fortiweb-could-allow-for-arbitrary-code-execution_2021-003/
+
+Lokibot感染链分析
+Lokibot是恶意软件领域最著名的信息窃取器，此为最新的Lokibot系列之一的细节。
+https://blog.talosintelligence.com/2021/01/a-deep-dive-into-lokibot-infection-chain.html
+
+Microsoft WSL可以在启动时运行Linux命令
+Microsoft现在允许Windows Linux子系统（WSL）的用户在WSL启动时自动运行命令。
+https://www.bleepingcomputer.com/news/microsoft/windows-10-wsl-now-can-run-linux-commands-on-startup/
+
+WhatsApp与Facebook共享数据
+WhatsApp更新了其隐私政策和服务条款，从2月开始，将需要与Facebook共享其数据。
+https://www.bleepingcomputer.com/news/security/whatsapp-share-your-data-with-facebook-or-delete-your-account/
+
+Mozilla Firefox禁用退格键
+Mozilla Firefox禁用浏览器的退格键，以防止用户意外丢失键入到表单中的数据。
+https://www.bleepingcomputer.com/news/software/mozilla-firefox-disabling-backspace-key-to-prevent-data-loss/
+
+
+【安全工具】
+
+适用于安全团队的6种开源工具
+6种适用于安全团队的开源工具Janssen、OSSEC、Security Monkey、Cartography、Grapl和Panther。
+https://www.darkreading.com/risk/6-open-source-tools-for-your-security-team-/d/d-id/1339765?_mc=rss_x_drr_edt_aud_dr_x_x-rss-simple
+
+RogueWinRM – 提权漏洞
+RogueWinRM是一种本地提权漏洞，监听端口5985上的传入连接，从而使真实的WinRM服务失效。
+https://haxf4rall.com/2021/01/01/roguewinrm-windows-local-privilege-escalation-from-service-account-to-system/
+
+StandIn - NET35/45 AD开发后工具包
+StandIn是一个小型的AD开发后工具包。
+https://haxf4rall.com/2021/01/02/standin-net35-45-ad-post-exploitation-toolkit/
+
+Sarenka　-　OSINT工具
+开源情报（OSINT）工具，将来自Shodan和Censys等服务的数据集中在一处。
+https://www.kitploit.com/2021/01/sarenka-osint-tool-data-from-services.html
+
+UhOh36　-　用户/电子邮件枚举脚本
+UhOh36是可以查看电子邮件地址在Office365中是否有效的脚本。
+https://www.kitploit.com/2021/01/uhoh365-script-that-can-see-if-email.html
+
+Wprecon　-　漏洞识别工具
+使用Go开发的漏洞识别工具，具有随机代理、检测WAF、用户枚举器和插件扫描程序等功能。
+https://haxf4rall.com/2021/01/07/wprecon-vulnerability-recognition-tool-in-cms-wordpress/
+
+intrigue　core　-　攻击面发现工具
+是用于外部攻击面发现和自动OSINT的框架。
+https://haxf4rall.com/2021/01/07/intrigue-core-v0-8-releases-discover-your-attack-surface/
+
+Opener　-　网络安全平台
+Opener是开源的网络安全平台，具有全面的端点检测和响应能力。
+https://haxf4rall.com/2021/01/06/openedr-full-blown-endpoint-detection-and-response-capability/
+
+Token　Hunter　-　收集GitLab信息的OSINT
+收集GitLab组和成员的OSINT，并搜索组和组成员的摘要、问题以及问题讨论以获取可能包含在这些资产中的敏感数据。
+https://haxf4rall.com/2021/01/06/token-hunter-collect-osint-for-gitlab-groups-and-members/
+

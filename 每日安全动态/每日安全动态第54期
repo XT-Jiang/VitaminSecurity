@@ -1,0 +1,80 @@
+【安全分析】
+
+SAP中的多个漏洞
+SAP存在多个漏洞，如CVE-2021-21465、CVE-2021-21466和CVE-2021-21446等。
+https://www.securityweek.com/sap-patches-serious-code-injection-dos-vulnerabilities
+
+CVE-2020-5208：缓冲区溢出漏洞
+Gentoo Linux ipmitool中的缓冲区溢出可能允许远程攻击者执行任意代码。
+https://packetstormsecurity.com/files/160875/glsa-202101-03.txt
+
+IBM API Connect XSS漏洞
+此漏洞允许用户在Web UI中嵌入任意JavaScript代码，从而改变预期的功能，从而可能导致可信会话中的凭据泄露。
+https://www.security-database.com/detail.php?alert=CVE-2020-4838&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Last100Alerts+%28Security-Database+Alerts+Monitor+%3A+Last+100+Alerts%29
+
+Anchor CMS跨站点脚本漏洞
+Anchor CMS版本0.12.7存在持久跨站点脚本漏洞。
+https://packetstormsecurity.com/files/160891/anchorcms0127md-xss.txt
+
+Photoshop中的代码执行漏洞
+Photoshop中存在一个漏洞，成功利用此漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-photoshop-could-allow-for-arbitrary-code-execution-apsb21-01_2021-007/
+
+Web缓存中毒分析
+展示了如何通过使用Web功能将其缓存转换为漏洞利用传递系统，来破坏网站，针对所有访问其主页的人。
+https://portswigger.net/research/practical-web-cache-poisoning
+
+在越狱的iPhone 7上运行Ubuntu
+利用越狱工具checkra1n和硬件漏洞checkm8，可在iPhone 7上运行Ubuntu。
+https://9to5mac.com/2021/01/11/user-successfully-runs-ubuntu-on-a-jailbroken-iphone-7/
+
+英特尔添加勒索软件检测
+英特尔今天在CES 2021上宣布，其新发布的第11代Core vPro商业级处理器中添加了基于硬件的勒索软件检测。
+https://www.bleepingcomputer.com/news/security/intel-adds-hardware-based-ransomware-detection-to-11th-gen-cpus/
+
+Microsoft Sysmon可检测到恶意软件的篡改尝试
+Microsoft已发布具有新安全性功能的Sysmon 13，该功能可检测是否使用进程hollowing 或进程Herpaderping技术篡改了进程。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-sysmon-now-detects-malware-process-tampering-attempts/
+
+微软发布Linux端点检测和响应功能
+Microsoft Defender for Endpoint的检测和响应（EDR）功能现已在Linux服务器上普遍可用。
+https://www.bleepingcomputer.com/news/security/microsoft-releases-linux-endpoint-detection-and-response-features/
+
+
+【安全工具】
+
+Oski Stealer - 凭证窃取器
+该恶意软件的主要目标是主动获取机密和敏感数据，其中包括用户名称、系统密码和财务信息。 
+https://www.ehackingnews.com/2021/01/meet-oski-stealer-in-depth-analysis-of.html
+
+Minspy - 手机追踪器
+一款电话监控应用程序，可以在不触摸手机的情况下实时跟踪手机位置。
+https://latesthackingnews.com/2021/01/10/how-to-track-live-cell-phone-location-without-touching-it/
+
+pongoOS - 预引导执行环境
+用于在checkra1n之上构建的Apple板的预引导执行环境。
+https://www.kitploit.com/2021/01/pongoos-pre-boot-execution-environment.html
+
+Exif Gps Tracer - 地理位置解析脚本 
+允许从存储在数据集中的图像文件中解析GeoLocation数据的python脚本，还可以生成CSV文件和HTML Google Maps中的输出。
+https://www.kitploit.com/2021/01/exif-gps-tracer-python-script-which.html
+
+Solarflare - SolarWinds Orion转储应用
+Solarflare为SolarWinds Orion帐户审核和密码转储应用程序。
+https://www.kitploit.com/2021/01/solarflare-solarwinds-orion-account.html
+
+Wprecon - 漏洞识别工具
+Wprecon（Wordpress Recon）是CMS Wordpress中的漏洞 识别工具，100％使用Go开发。
+https://www.kitploit.com/2021/01/wprecon-vulnerability-recognition-tool.html
+
+Pidrila - 快速智能链接分析器
+Pidrila是面向Python交互式Deepweb的快速智能链接分析器。
+https://www.kitploit.com/2021/01/pidrila-python-interactive-deepweb.html
+
+Longtongue - 定制的密码列表
+通过输入目标信息生成定制密码和密码列表。
+https://www.kitploit.com/2021/01/longtongue-customized.html
+
+Emp3R0R - Linux后利用框架
+Linux后利用框架，使用HTTP2通信隧道，自动出网代理，C2在线状态检测，隐藏进程和文件。
+https://www.kitploit.com/2021/01/emp3r0r-linux-post-exploitation.html

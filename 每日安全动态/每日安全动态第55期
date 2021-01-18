@@ -1,0 +1,74 @@
+【安全分析】
+
+CVE-2020-27716：拒绝服务漏洞
+F5 BIG-IP系统中存在DoS漏洞，影响某些版本的访问策略管理器（APM）。
+https://securityaffairs.co/wordpress/113440/security/f5-big-ip-dos.html
+
+CVE-2021-1167：拒绝服务漏洞
+Cisco RV110W版本1.2.1.7 vpn_account中拒绝服务漏洞利用概念证明。
+https://packetstormsecurity.com/files/160953/ciscorv110w1217-dos.txt
+
+CVE-2021-1716：远程代码执行漏洞
+Microsoft Word中存在远程代码执行漏洞。
+https://msrc.microsoft.com/update-guide/zh-CN/vulnerability/CVE-2021-1716
+
+CVE-2020-29493：SQL注入漏洞
+Dell EMC Avamar Server中存在SQL注入漏洞，影响组件Fitness Analyzer的未知代码块。
+https://vuldb.com/?id.167998
+
+FlatCore CMS中多个漏洞
+flatCore CMS存在XSS漏洞、文件泄露和远程SQL注入漏洞等（CVE-2021-23835、CVE-2021-23836、CVE-2021-23837和CVE-2021-23838）。
+https://packetstormsecurity.com/files/160936/SA-20210113-1.txt
+
+通过手机Wi-Fi执行击键注入攻击
+只需将两个微控制器焊接在一起，就可以从智能手机将按键输入到计算机中。
+https://null-byte.wonderhowto.com/how-to/perform-keystroke-injection-attacks-over-wi-fi-with-your-smartphone-0236799/
+
+恶意软件分析师所需的编程概念
+概述了恶意软件分析师应该关注哪些方面，以便对逆向工程恶意软件的能力产生直接和直接的影响。
+https://agdcservices.com/blog/required-programming-concepts-to-learn-for-malware-analysts/
+
+Emotet恶意软件分析
+Emotet已成为世界上最先进的僵尸网络之一，主要分发方式是仿冒下载恶意Microsoft Office文档的电子邮件。
+https://www.netskope.com/blog/you-can-run-but-you-cant-hide-advanced-emotet-updates
+
+
+【安全工具】
+
+Umbrella　-　安全建议应用
+提供有关在任何给定安全情况下应采取的措施以及执行该措施的工具的信息。
+https://www.kitploit.com/2021/01/umbrellaandroid-digital-and-physical.html
+
+RadareEye　-　攻击工具
+一种专门用于扫描附近设备（BLE、蓝牙和Wifi）并在目标设备进入范围内时在系统上执行给定命令的工具。
+https://www.kitploit.com/2021/01/radareeye-tool-made-for-specially.html
+
+ProtOSINT　-　Proton信息收集
+ProtOSINT是一个Python脚本，可帮助您调查ProtonMail帐户和ProtonVPN IP地址。
+https://www.kitploit.com/2021/01/protosint-python-script-that-helps-you.html
+
+Sigurls　-　侦察工具
+可从AlienVault的OTX、Common Crawl、URLScan、Github和Wayback中获取URL。
+https://www.kitploit.com/2021/01/sigurls-reconnaissance-tool-it-fetches.html
+
+git　wild　hunt　-　github凭证搜索
+git-wild-hunt一个用于在GitHub野生AKA git * hunt中寻找凭证的工具。
+https://haxf4rall.com/2021/01/13/git-wild-hunt-hunt-for-credentials-in-github/
+
+OneGadget　-　RCE搜索器
+在进行ctf pwn挑战时，用于扫描并搜索RCE（远程代码执行）漏洞。
+https://haxf4rall.com/2021/01/13/onegadget-v1-7-4-releases-the-best-tool-for-finding-one-gadget-rce/
+
+opencspm　-　开放云安全状态管理引擎
+是一个开放源代码平台，可用于更深入地了解云配置和元数据，以帮助了解并降低随时间推移的风险。
+https://haxf4rall.com/2021/01/12/opencspm-open-cloud-security-posture-management-engine/
+
+hawk　-　数据收集
+收集与O365入侵和潜在泄露有关的信息，可用于渗透测试中。
+https://haxf4rall.com/2021/01/12/hawk-gathering-information-related-to-o365-intrusions-and-potential-breaches/
+
+Detect It Easy - 文件检测工具
+用于确定文件类型的程，除了Windows版本外，还有适用于Linux的版本。
+https://haxf4rall.com/2021/01/11/detect-it-easy-v3-01-releases-a-program-for-determining-types-of-files/
+
+

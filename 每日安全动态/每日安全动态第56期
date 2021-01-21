@@ -1,0 +1,84 @@
+【安全分析】
+
+CVE-2015-6435：远程命令执行漏洞
+Cisco UCS Manager版本2.2存在远程命令执行漏洞。
+https://packetstormsecurity.com/files/160991/Cisco-UCS-Manager-CVE-2015-6435.py.txt
+
+CVE-2020-1337：提权漏洞
+Microsoft后台打印程序存在本地特权提升漏洞。
+https://packetstormsecurity.com/files/160993/cve_2020_1337_printerdemon.rb.txt
+
+CVE-2021-3032：信息泄露漏洞
+Palo Alto Networks PAN-OS软件中存在一个通过日志文件漏洞引起的信息泄露漏洞。
+https://nvd.nist.gov/vuln/detail/CVE-2021-3032
+
+MySQL Server中的多个漏洞
+MySQL Server中存在CVE-2021-2042、CVE-2021-2019和CVE-2021-2007等38个漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2021012067
+
+Oracle Argus Safety中的多个漏洞
+Oracle Argus Safety中存在两个输入验证不当漏洞（CVE-2021-2110和CVE-2021-2040）。
+https://www.cybersecurity-help.cz/vdb/SB2021012057
+
+Google Chrome中的多个漏洞
+Chrome中发现了多个漏洞，其中最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2021-011/
+
+SolarWinds黑客技术的详细信息
+FireEye发布了SolarWinds黑客技术的详细信息，并提供了免费的工具来检测入侵迹象。
+https://www.theregister.com/2021/01/19/fireeye_solarwinds_code/
+
+Google发布Chrome 88
+Google发布了Chrome 88，删除了对Flash Player和FTP的支持。
+https://www.bleepingcomputer.com/news/google/google-chrome-88-released-rip-flash-player-and-ftp-support/
+
+Wireshark检查Emotet感染流量
+回顾了最近的Emotet活动，并提供了一些有关基于流量分析识别此恶意软件的有用提示。
+https://unit42.paloaltonetworks.com/wireshark-tutorial-emotet-infection/
+
+Microsoft Defender启用完全自动修复
+Microsoft将Defender默认自动化级别从“Semi”更改为“Full”，启用完全自动的威胁修复。
+https://www.bleepingcomputer.com/news/security/microsoft-defender-to-enable-full-auto-remediation-by-default/
+
+
+【安全工具】
+
+ImHex - 十六进制编辑器
+一个十六进制编辑器，适用于逆向工程师和程序员。
+https://www.kitploit.com/2021/01/imhex-hex-editor-for-reverse-engineers.html
+
+BigBountyRecon - 侦察工具
+此工具利用58种不同的技术来加快对目标组织的初始侦察过程。
+https://www.kitploit.com/2021/01/bigbountyrecon-this-tool-utilises-58.html
+
+MyJWT - 渗透测试工具
+一个用于破解、测试Json Web令牌漏洞的Cli，适用于渗透测试者。
+https://www.kitploit.com/2021/01/myjwt-cli-for-cracking-testing.html
+
+Ssh Mitm - Ssh Mitm服务器
+用于安全审核的Ssh Mitm服务器，支持公钥身份验证，会话劫持和文件操作。
+https://www.kitploit.com/2021/01/ssh-mitm-ssh-mitm-server-for-security.html
+
+Stegbrute - 暴力攻击工具
+在Rust中编写的快速隐写术Bruteforce工具，适用于CTF参赛者。
+https://www.kitploit.com/2021/01/stegbrute-fast-steganography-bruteforce.html
+
+菠萝MK7 REST - 渗透测试工具包
+恶意访问点和WiFi渗透测试工具包，可用于近距离访问操作，被动和主动攻击会分析易受攻击和配置错误的设备。
+https://www.kitploit.com/2021/01/pineapple-mk7-rest-client-wifi-hacking.html
+
+K55 - Linux X86_64进程注入应用
+用于将x86_64 shellcode有效负载注入正在运行的进程，使用自定义有效负载来处理流程。
+https://www.kitploit.com/2021/01/k55-linux-x8664-process-injection.html
+
+Arbitrium-RAT - 远程访问木马
+Arbitrium是跨平台的、完全不可检测（FUD）的远程访问木马（RAT），可以控制Android、Windows和Linux。
+https://haxf4rall.com/2021/01/19/arbitrium-rat-remote-access-trojan-fully-undetectable/
+
+HosTaGe – 低交互性移动蜜罐
+HosTaGe是一种轻便、低交互、便携式的通用蜜罐，用于移动设备，旨在检测恶意的无线网络环境。
+https://haxf4rall.com/2021/01/19/hostage-low-interaction-mobile-honeypot-2/
+
+ZynOS - 漏洞扫描器
+ZynOS扫描脚本利用包含路由器密码的未经身份验证的rom-o文件泄漏。
+https://packetstormsecurity.com/files/160972/zynos_scanner.pl.txt

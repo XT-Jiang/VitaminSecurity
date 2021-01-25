@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2020-4766：拒绝服务漏洞
+在IBM MQ Internet Pass-Thru中发现了一个问题，该问题可能使攻击者能够执行拒绝服务攻击。
+https://www.ibm.com/blogs/psirt/security-bulletin-ibm-mq-internet-pass-thru-is-vulnerable-to-a-denial-of-service-attack-cve-2020-4766/
+
+Shazam中的漏洞
+Shazam中漏洞CVE-2019-8791和CVE-2019-8792可暴露Android和iOS用户的位置。
+https://www.hackread.com/shazam-vulnerability-exposed-android-ios-users-location/
+
+Linux内核多个漏洞
+Linux内核中发现了多个漏洞，远程攻击者可以利用其中的一些漏洞触发拒绝服务条件、特权提升和敏感信息泄露。
+https://www.hkcert.org/security-bulletin/linux-kernel-multiple-vulnerabilities_20210122
+
+Nagios XI 5.7.5跨站点脚本
+Nagios XI版本5.7.5存在多个持久的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/161046/nagiosxi575-xss.txt
+
+Oracle跨站点脚本漏洞
+Oracle商业智能企业版11.1.1.7.140715版本存在持久的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/161034/obiee11117140715-xss.txt
+
+Hacker Pig Latin：安全分析师的Base64入门
+解释了什么是Base64编码方案，然后讨论如何将其用于善意和恶意的活动。
+https://www.darkreading.com/edge/theedge/hacker-pig-latin-a-base64-primer-for-security-analysts/b/d-id/1339921?_mc=rss_x_drr_edt_aud_dr_x_x-rss-simple
+
+BitLocker锁屏绕过
+BitLocker是一种现代数据保护功能，已与Windows内核深度集成，可通过6个简单的步骤绕过。
+https://secret.club/2021/01/15/bitlocker-bypass.html
+
+使用RedRabbit渗透测试
+介绍了如何使用RedRabbit进行Windows计算机的渗透测试和后期利用。
+https://null-byte.wonderhowto.com/how-to/use-redrabbit-for-pen-testing-post-exploitation-windows-machines-0294990/
+
+使用工作对象进行反调试
+通过为进程内存使用量设置一个小于或等于当前内存使用量的限制，可以防止创建线程和修改可执行内存。
+https://secret.club/2021/01/20/diet-process.html
+
+
+【安全工具】
+
+WPCracker - WordPress枚举工具
+适用于Windows和Linux的WordPress用户枚举和登录蛮力工具。
+https://www.kitploit.com/2021/01/wpcracker-wordpress-user-enumeration.html
+
+CDK - 渗透工具包
+CDK是一个开放源代码的容器渗透工具包，旨在在不依赖任何操作系统的情况下，在不同的瘦容器中提供稳定的利用。
+https://www.kitploit.com/2021/01/cdk-zero-dependency-container.html
+
+Reconftw - 侦察的简单脚本
+Reconftw是一个简单的脚本，旨在对具有多个子域的目标执行全面检查。
+https://www.kitploit.com/2021/01/reconftw-simple-script-for-full-recon.html
+
+MobileHackersWeapons - 工具集合
+移动应用的黑客使用的很酷的工具的集合。
+https://www.kitploit.com/2021/01/mobilehackersweapons-mobile-hackers.html
+
+Bettercap - 网络攻击和监视工具
+Bettercap是一个用Go语言编写的功能强、易于扩展和可移植的用于网络攻击和监视框架。
+https://haxf4rall.com/2021/01/21/bettercap-v2-29-releases-swiss-army-knife-for-network-attacks-and-monitoring/
+
+airgeddon - 多合一无线工具包
+airgeddon是Linux系统用于审核无线网络的多用途bash脚本。
+https://haxf4rall.com/2021/01/20/airgeddon-v10-4-releases-all-in-one-wireless-toolkit/
+
+Pentest协作框架 - 管理和共享项目信息
+Pentest Collaboration Framework Web应用程序可帮助安全专家管理和共享项目信息。
+https://haxf4rall.com/2021/01/18/pentest-collaboration-framework-help-security-specialist-manage-and-share-project-information/
+
+ATMMalScan - 在ATM上搜索恶意软件跟踪
+Windows操作系统的命令行工具，有助于在DFIR过程中在ATM上搜索恶意软件跟踪。
+https://haxf4rall.com/2021/01/17/atmmalscan-search-for-malware-traces-on-an-atm/
+
+Garud - 子域攻击工具
+Garud是自动化工具，它扫描子域、子域接管，然后过滤掉xss、ssti、ssrf和更多注入点参数。
+https://haxf4rall.com/2021/01/17/garud-v1-2-releases-automation-tool-that-scans-sub-domains-sub-domain-takeover/

@@ -1,0 +1,81 @@
+【安全分析】
+
+CVE-2021-1257：CSRF漏洞
+思科数字网络体系结构（DNA）中心存在CSRF）漏洞，使企业用户容易受到远程攻击和接管。
+https://threatpost.com/cisco-dna-center-bug-remote-attack/163302/
+
+PrusaSlicer中的多个漏洞
+PrusaSlicer存在越界写入漏洞（CVE-2020-28595）和基于堆栈的缓冲区溢出漏洞（CVE-2020-28598）
+https://blog.talosintelligence.com/2021/01/vulnerability-spotlight-out-of-bounds.html
+
+Micrium uC-HTTP HTTP Server中的DoS漏洞
+Micrium uC-HTTP HTTP Server存在未经检查的返回值DoS漏洞（CVE-2020-13582）和空指针取消引用DoS漏洞（CVE-2020-13583）。
+https://blog.talosintelligence.com/2021/01/vuln-spotlight-.html
+
+CVE-2021-1070：DoS漏洞
+Nvidia修复了三个影响其Jetson产品的漏洞，其中最严重的是DoS漏洞，CVSS评分为7.1。
+https://threatpost.com/nvidia-squashes-high-severity-jetson-dos-flaw/163360/
+
+Microsoft Edge添加了密码生成器
+稳定版的Microsoft Edge 88浏览器具有全新的密码生成器并能够对受到破坏的凭据发出警报，还会删除对FTP协议和Adobe Flash插件的支持。
+https://www.securityweek.com/microsoft-edge-adds-password-generator-drops-support-flash-ftp
+
+BitRat Dropper的分析
+该样本试图通过将其视为良性可执行文件来破坏分析。所有恶意操作均基于可执行文件的资源。
+https://github.com/Finch4/Malware-Analysis-Reports/blob/main/13e0f258cfbe3aece8a7e6d29ceb5697/README.md
+
+LSASS内存转储分析
+越来越常见的是，LSASS内存转储文件通过网络发送给攻击者，以便以更隐秘的方式提取凭证。
+https://www.deepinstinct.com/2021/01/24/lsass-memory-dumps-are-stealthier-than-ever-before/
+
+Firefox 85稳定版
+Mozilla发布Firefox 85稳定版，删除了Flash，并增加了针对超级cookie的保护。
+https://www.zdnet.com/article/firefox-85-removes-flash-and-adds-protection-against-supercookies/
+
+Win10 Conexant驱动程序问题
+Microsoft分享了Conexant ISST音频驱动程序的Windows 10设备中问题的解决方法。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-windows-10-conexant-driver-issues/
+
+	
+【安全工具】
+
+AIDE - 高级入侵检测环境
+AIDE是Tripwire（tm）的免费替代品，它生成一个数据库，可用于检查服务器上文件的完整性。
+https://packetstormsecurity.com/files/161098/aide-0.17.tar.gz
+
+Logwatch - 日志监视系统
+Logwatch是可自定义和可插入的日志监视系统，它将在给定的时间段内浏览日志并做出可自定义的报告。
+https://packetstormsecurity.com/files/161096/logwatch-7.5.5.tar.gz
+
+OpenStego - 隐写术的工具
+OpenStego是用Java实现的用于通用隐写术的工具，支持基于密码的数据加密，支持各种隐写算法的插件。
+https://packetstormsecurity.com/files/160992/openstego-0.8.0.zip
+
+WhatWeb - 下一代网络扫描仪
+WhatWeb识别包括内容管理系统（CMS）、博客平台、统计/分析包、JavaScript库、Web服务器和嵌入式设备在内的Web技术。
+https://packetstormsecurity.com/files/160968/WhatWeb-0.5.5.tar.gz
+
+Shellex - shellcode转换器
+C-shellcode到十六进制转换器，用于在gdb、windbg、radare2、ollydbg、x64dbg中粘贴和执行shellcode的便捷工具。
+https://www.kitploit.com/2021/01/shellex-c-shellcode-to-hex-converter.html
+
+Zmap - 网络扫描仪
+ZMap是一种快速的单包网络扫描仪，专门用于Internet范围内的网络调查。
+https://www.kitploit.com/2021/01/zmap-fast-single-packet-network-scanner.html
+
+WSuspicious - 提权工具
+这是一个概念证明程序，可以通过滥用WSUS来提升Windows主机上的特权。
+https://www.kitploit.com/2021/01/wsuspicious-tool-to-abuse-insecure-wsus.html
+
+ATMMalScan - 恶意软件搜索工具
+ATMMalScan是Windows 7和更高版本的Windows操作系统的命令行工具，有助于在DFIR流程中在ATM上搜索恶意软件跟踪。
+https://www.kitploit.com/2021/01/atmmalscan-tool-for-windows-which-helps.html
+
+Xnuspy - pongoOS模块
+xnuspy是一个pongoOS模块，它安装一个新的系统调用xnuspy_ctl，使您可以从用户空间挂钩内核函数。
+https://www.kitploit.com/2021/01/xnuspy-ios-kernel-function-hooking.html
+
+Sigurlx - Web应用程序攻击面映射工具
+Web应用程序攻击面映射工具，可区分URL的类别、探测HTTP请求的网址、查询URL等功能。
+https://www.kitploit.com/2021/01/sigurlx-web-application-attack-surface.html
+

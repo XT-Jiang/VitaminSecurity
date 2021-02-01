@@ -1,0 +1,82 @@
+【安全分析】
+
+CVE-2020-4949： XXE注入漏洞
+WebSphere Application Server（WAS）中的XML外部实体注入（XXE）漏洞（CVE-2020-4949），因为WAS不能正确处理XML数据。
+https://haxf4rall.com/2021/01/28/cve-2020-4949-websphere-application-server-xxe-injection-vulnerability-alert/
+
+phpGACL类中的多个漏洞
+phpGACL类中存在 CVE-2020-13562、CVE-2020-13564和CVE-2020-13565等漏洞。
+https://blog.talosintelligence.com/2021/01/vuln-spotlight-php-gacl-openemr.html
+
+Firefox和Thunderbird中的多个任意代码执行漏洞
+Mozilla Firefox、Firefox ESR和Thunderbird中发现了多个漏洞，其中最严重的可允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-and-thunderbird-could-allow-for-arbitrary-code-execution_2021-014/
+
+Fuji Electric中的漏洞
+Fuji Electric的产品中存在CVE-2021-22637、CVE-2021-22655、CVE-2021-22653、CVE-2021-22639和CVE-2021-22641。
+https://securityaffairs.co/wordpress/113950/ics-scada/fuji-electric-hmi-flaws.html
+
+加强Active Directory抵御SolarWinds攻击
+可以通过多种方式使用Microsoft的Active Directory（AD）来识别SolarWinds攻击中使用的此技术和其他技术。
+https://www.csoonline.com/article/3603951/tips-to-harden-active-directory-against-solarwinds-type-attacks.html#tk.rss_networksecurity
+
+恶意URL预测案例研究
+对使用Transformer模型解决网络安全问题进行案例研究，检测恶意URL。
+https://www.fireeye.de/blog/threat-research/2021/01/training-transformers-for-cyber-security-tasks-malicious-url-prediction.html
+
+苹果新增BlastDoor功能
+苹果添加BlastDoor功能以保护iPhone免受零点击攻击。
+https://www.securityweek.com/apple-adds-blastdoor-secure-iphones-zero-click-attacks
+
+安全情报手册
+为了保持领先地位，威胁分析人员需要能够在攻击之前了解并揭露其对手。
+https://www.recordedfuture.com/understanding-your-adversaries/
+
+适用于Office的Application Guard
+Microsoft宣布，具有受支持的许可证的所有Microsoft 365用户通常都可以使用Office的Application Guard。
+https://www.bleepingcomputer.com/news/security/microsoft-rolls-out-application-guard-for-office-to-all-customers/
+	
+	
+【安全工具】
+
+MetaFinder - 文档搜索工具
+MetaFinder可以通过Google在域中搜索文档，目的是提取元数据。
+https://www.kitploit.com/2021/01/metafinder-search-for-documents-in.html
+
+SharpEDRChecker - 进程检查
+检查正在运行的进程、进程元数据、当前进程中的Dll以及每个DLL元数据、公共安装目录、已安装的服务和每个服务二进制元数据等。
+https://www.kitploit.com/2021/01/sharpedrchecker-checks-running.html
+
+Emba - 固件分析器
+可以分析已经提取的基于Linux的固件映像，可以帮助您识别并关注巨大的固件映像的有趣区域。
+https://www.kitploit.com/2021/01/emba-analyzer-for-linux-based-firmware.html
+
+Batea - 网络设备排名框架
+是基于机器学习算法异常检测系列的网络设备排名框架，目标是允许安全团队使用nmap扫描报告自动过滤大型网络中的网络资产。
+https://www.kitploit.com/2021/01/batea-ai-based-context-driven-network.html
+
+Duf - 磁盘使用应用
+Duf是磁盘使用和释放实用程序，支持Linux、BSD、macOS和Windows。
+https://www.kitploit.com/2021/01/duf-disk-usagefree-utility-linux-bsd.html
+
+Tritium - 密码喷涂框架
+通过Kerberos预身份验证枚举和喷射有效Active Directory帐户的工具。
+https://www.kitploit.com/2021/01/tritium-password-spraying-framework.html
+
+electronegativity - 漏洞搜索工具
+识别基于电子的应用程序中的错误配置和安全性反模式的工具，利用AST和DOM解析来查找与安全性相关的配置。
+https://haxf4rall.com/2021/01/29/electronegativity-v1-8-releases-identify-misconfigurations-and-security-anti-patterns-in-electron-applications/
+
+phpvuln - php漏洞查找工具
+是用Python 3编写的开放源代码OWASP渗透测试工具，它可以加快在PHP代码中查找常见PHP漏洞的过程。
+https://haxf4rall.com/2021/01/27/phpvuln-finding-common-php-vulnerabilities-in-php-code/
+
+EndGame - 洋葱服务DDOS预防前端系统
+洋葱服务DDOS预防前端系统，旨在以安全和私密的方式保护洋葱服务上的核心应用程序服务器。
+https://haxf4rall.com/2021/01/26/endgame-onion-service-ddos-prevention-front-system/
+
+SharpSphere - 攻击vSphere基础架构
+是攻击vSphere基础设施，可使红队能够轻松地与vCenter管理的虚拟机的操作系统进行交互。
+https://haxf4rall.com/2021/01/26/sharpsphere-attacking-vsphere-infrastructure/
+
+

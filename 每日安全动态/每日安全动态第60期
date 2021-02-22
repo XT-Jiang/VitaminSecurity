@@ -1,0 +1,83 @@
+【安全分析】
+
+CVE-2021-3156：提权漏洞
+1.9.5p2之前的Sudo版本存在缓冲区溢出和特权提升漏洞。
+https://packetstormsecurity.com/files/161230/sudo-escalate.txt
+
+YARA中的漏洞
+在YARA中存在整数溢出和几个缓冲区溢出漏洞，可导致攻击者通过恶意的Mach-O文件导致拒绝服务或信息泄露。
+https://packetstormsecurity.com/files/161265/X41-2021-001.tgz
+
+GPG libgcrypt堆缓冲区溢出
+由于块缓冲区管理代码中的错误假设，libgcrypt中存在堆缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/161233/GS20210201164008.tgz
+
+Trickbot使用开源软件Masscan进行本地网络侦察
+新的Trickbot模块用于扫描本地网络中附近其他具有开放端口的系统,在公司内部快速横向移动。
+https://www.zdnet.com/article/new-trickbot-module-uses-masscan-for-local-network-reconnaissance/
+
+Mozilla欲启动其VPN服务
+Mozilla预计将于2021年第一季度在美国、英国、加拿大、新西兰、新加坡和马来西亚启动其VPN服务。
+https://www.zdnet.com/article/mozilla-expected-to-launch-its-vpn-service-in-germany-and-france-in-q1-2021/
+
+Sudo漏洞影响了macOS
+Sudo应用程序中最近出现的安全漏洞也影响了macOS操作系统。
+https://www.zdnet.com/article/recent-root-giving-sudo-bug-also-impacts-macos/
+
+LogoKit分析
+LogoKit黑客向受害者发送包含他们的电子邮件地址的个性化，特制URL。
+https://www.riskiq.com/blog/external-threat-management/logokit-phishing/
+
+Defender可检测macOS系统应用漏洞
+微软宣布Defender for Endpoint现在还将帮助管理员发现影响其组织网络上的macOS设备的OS和软件漏洞。
+https://www.bleepingcomputer.com/news/security/microsoft-defender-now-detects-macos-system-app-vulnerabilities/
+
+Apple推出适用于Windows 10的iCloud 12
+Apple推出适用于Windows 10的iCloud 12，具有iCloud钥匙串密码同步功能。
+https://www.bleepingcomputer.com/news/apple/apple-pulls-icloud-12-for-windows-10-with-keychain-sync-feature/
+
+
+【安全工具】
+
+Flawfinder - 静态分析工具
+Flawfinder是一个简单的程序，可以扫描C / C ++源代码并报告潜在的安全漏洞。
+https://www.kitploit.com/2021/02/flawfinder-static-analysis-tool-for.html
+
+OpenCVE-CVE警报平台
+OpenCVE（以前称为Saucs）是一个平台，用于本地导入CVE列表并在其上执行搜索（按供应商、产品、CVSS和CWE等）。
+https://www.kitploit.com/2021/01/opencve-cve-alerting-platform.html
+
+Web Brutator - 暴力攻击Web界面
+快速模块化Web界面，可执行暴力攻击。
+https://www.kitploit.com/2021/02/web-brutator-modular-web-interfaces.html
+
+MOSE - 后期利用工具
+MOSE是一种后期利用工具，可使几乎没有或几乎没有配置管理（CM）技术经验的安全专业人员可以利用它们来破坏环境。
+https://www.kitploit.com/2021/01/mose-post-exploitation-tool-for.html
+
+PSC - 端口转发
+PSC允许对单层传输或多跳外壳会话进行e2e加密，而与底层传输无关，可以发送/接收Base64编码的数据而无需修改和过滤。
+https://www.kitploit.com/2021/01/psc-e2e-encryption-for-multi-hop-tty.html
+
+SSRF King - SSRF检测
+burp的SSRF插件，可在所有请求中自动进行SSRF检测。
+https://www.kitploit.com/2021/01/ssrf-king-ssrf-plugin-for-burp.html
+
+CSSG - Shellcode生成器
+CSSG是一种干扰源和python脚本，用于更轻松地生成和格式化信标shellcode。
+https://www.kitploit.com/2021/01/cssg-cobalt-strike-shellcode-generator.html
+
+ditto - 同形异义词攻击工具
+Ditto是一个小型工具，它接受域名作为输入，并生成同形异义词攻击的所有变体作为输出，并检查哪些可用和哪些已经注册。
+https://haxf4rall.com/2021/02/01/ditto-tool-for-idn-homograph-attacks-and-detection/
+
+SharPyShell - ASP.NET Web Shell
+它执行由加密通道接收的命令，并在运行时将其编译到内存中，仅支持在.NET Framework上运行的C＃Web应用程序。
+https://haxf4rall.com/2021/02/01/sharpyshell-v1-2-1-releases-tiny-and-obfuscated-asp-net-webshell-for-c-web-applications/
+
+COM Code Helper - IDAPython脚本
+IDAPython脚本可重建Microsoft COM代码，尤在恶意软件反向器中非常有用。
+https://haxf4rall.com/2021/01/31/com-code-helper-idapython-scripts-help-you-to-reconstruct-microsoft-com-code/
+
+
+

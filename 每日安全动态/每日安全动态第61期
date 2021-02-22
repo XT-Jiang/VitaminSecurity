@@ -1,0 +1,78 @@
+【安全分析】
+
+Accusoft ImageGear中漏洞
+Accusoft ImageGear包含多个远程代码执行漏洞CVE-2020-13561和CVE-2020-13571等。
+https://blog.talosintelligence.com/2021/02/vuln-spotlight-accusoft-image.html
+
+研华WebAccess/SCADA中的漏洞
+Advantech WebAccess / SCADA软件包中存在两个漏洞 CVE-2020-13550和CVE-2020-13551。
+https://blog.talosintelligence.com/2021/02/advantech-web-access-scada.html
+
+CVE-2020-35734：远程执行代码漏洞
+Batflat CMS 1.3.6及更低版本具有远程执行代码漏洞。
+https://packetstormsecurity.com/files/161457/batflatcms136-exec.txt
+
+Telegram中内存损坏漏洞
+Telegram处理动画贴纸时出现多个远程内存损坏。
+https://seclists.org/fulldisclosure/2021/Feb/67
+
+Masslogger恶意软件分析
+Talos最近发现了一个利用Masslogger木马变种进行的活动，旨在从多种来源中检索和泄露用户凭据。
+https://blog.talosintelligence.com/2021/02/masslogger-cred-exfil.html
+
+LodaRAT恶意软件分析
+Loda现在具有Android版本，与Windows版本一样，A也是一种远程访问工具（RAT），以前被称为Gaza007。
+https://blog.talosintelligence.com/2021/02/kasablanka-lodarat.html
+
+家用路由器上的DNS劫持攻击
+最近发现针对家用路由器上的DNS劫持攻击，由于设备保护薄弱受害者通常不会检测到任何恶意活动。
+https://cujo.com/dns-hijacking-attacks-on-home-routers-in-brazil/
+
+Android渗透测试：APK反转
+Android反向工程指的是反编译APK的过程，目的是调查在应用程序后台运行的源代码。
+https://www.hackingarticles.in/android-penetration-testing-apk-reversing-part-2/
+
+Dirsearch综合指南
+关于dirsearch的系列综合指南，讨论了有关dirsearch的一些基本命令，以及更多选项。
+https://www.hackingarticles.in/comprehensive-guide-on-dirsearch-part-2/
+
+
+【安全工具】
+
+Linux Chrome Recon -信息收集工具
+信息收集工具，用于枚举来自任何Linux发行版的Google-Chrome浏览器中有关用户的所有可能数据
+https://www.kitploit.com/2021/02/linux-chrome-recon-information.html
+
+Uroboros - GNU/Linux监视和分析工具
+专注于单个进程，旨在通过提供一个工具来记录、重放和实时渲染终端中的过程运行时信息。
+https://www.kitploit.com/2021/02/uroboros-gnulinux-monitoring-and.html
+
+BurpMetaFinder - Burp Suite扩展
+用于从文件中提取元数据，当前支持、PDF、DOCX、PPTX和XLSX格式。
+https://www.kitploit.com/2021/02/burpmetafinder-burp-suite-extension-for.html
+
+WireBug - IP语音渗透测试的工具集
+WireBug是用于IP语音渗透测试的工具集，也是为单一使用而构建的，因此每个工具都是其自己的python或bash程序。
+https://www.kitploit.com/2021/02/wirebug-toolset-for-voice-over-ip.html
+
+Chimera - PowerShell模糊脚本
+Chimera是一个PowerShell 模糊脚本，旨在绕过AMSI和防病毒解决方案，并使用字符串替换和变量串联来逃避常见的检测签名。
+https://www.kitploit.com/2021/02/chimera-shiny-and-very-hack-ish.html
+
+PE-Packer - PE文件打包器
+PE-Packer是用于Windows PE文件的简单打包器，打包后的新PE文件可能会阻碍逆向工程的过程。
+https://www.kitploit.com/2021/02/pe-packer-simple-windows-x86-pe-file.html
+
+SSB -  SSH服务器暴力攻击
+一种更快速、更简单的SSH服务器暴力破解工具。
+https://www.kitploit.com/2021/02/ssb-faster-and-simpler-way-to.html 
+
+DirDar - 获取Dir列表的工具
+绕过403禁止目录，查找并标识目录列表，也可以将其用作目录暴力破解工具。
+https://www.kitploit.com/2021/02/dirdar-tool-that-searches-for-403.html
+
+SSRFuzz - 服务器端请求伪造漏洞查找
+SSRFuzz是使用CRLF链接功能查找服务器端请求伪造漏洞的工具。
+https://www.kitploit.com/2021/02/ssrfuzz-tool-to-find-server-side.html
+
+

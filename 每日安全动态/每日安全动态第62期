@@ -1,0 +1,80 @@
+【安全分析】
+
+CVE-2019-25024：命令注入漏洞
+OpenRepeater（ORP）允许通过外壳元字符在functions/ajax_system.php post_service参数中进行命令注入。
+https://cxsecurity.com/cveshow/CVE-2019-25024
+
+CVE-2020-35734：远程执行代码漏洞
+Batflat CMS 1.3.6及更低版本具有远程执行代码漏洞。
+https://packetstormsecurity.com/files/161457/batflatcms136-exec.txt
+
+CVE-2021-27370：XSS漏洞
+Monica version 2.19.1版本具有XSS漏洞。
+https://packetstormsecurity.com/files/161501/monica2191-xss.txt
+
+影子攻击可替换经过数字签名的PDF中内容
+研究人员展示了一种新颖的攻击类型，可破坏数字签名PDF文档的完整性保护。
+https://thehackernews.com/2021/02/shadow-attacks-let-attackers-replace.html
+
+Firefox的新功能防止基于Cookie的跟踪
+Mozilla本周宣布在Firefox 86中改善了用户隐私，并引入了一项新功能，旨在防止从站点到站点跟踪用户。
+https://www.securityweek.com/new-firefox-feature-ups-ante-against-cookie-based-tracking
+
+UPX防拆包技术分析
+分析了现代物联网恶意软件中的UPX防拆包的技术。
+https://cujo.com/upx-anti-unpacking-techniques-in-iot-malware/
+
+加密货币恶意软件分析
+通过更深入地研究基础架构和代码工件，分析Skidmap和Watchdog恶意软件。
+https://www.archcloudlabs.com/projects/tracking-crypto-miners-in-the-homelab-2-new-tricks/
+
+Google添加密码检查支持
+Google在Android自动填充中添加了密码检查支持，以在用户保存的密码遭到泄露或数据泄露时向用户发出警告。
+https://www.bleepingcomputer.com/news/security/google-adds-password-checkup-support-to-android-autofill/
+
+Offensive Security发布Kali Linux 2021.1
+这是最新版本的Kali，调整了DE和终端，增加很多新工具和用于Apple Silicon Mac的Kali ARM。
+https://www.helpnetsecurity.com/2021/02/24/kali-linux-2021-1-released/
+
+
+【安全工具】
+
+Horusec - 静态代码分析工具
+Horusec是一个开源工具，可以执行静态代码分析，以在开发过程中识别安全漏洞。
+https://www.kitploit.com/2021/02/horusec-open-source-tool-that-improves.html
+
+rmg - Java RMI漏洞查找
+remote-method- guesser（rmg）是用Java编写的命令行实用程序，可用于识别Java RMI端点上的安全漏洞。
+https://www.kitploit.com/2021/02/remote-method-guesser-tool-for-java-rmi.html
+
+RAT-el - 渗透测试工具
+开源渗透测试工具，可以控制Windows计算机，杀毒软件完全无法检测到该客户端。
+https://www.kitploit.com/2021/02/rat-el-open-source-penetration-test.html
+
+HaE - BurpSuite提取器
+HaE用于突出显示HTTP请求并从HTTP响应消息或请求消息中提取信息。
+https://www.kitploit.com/2021/02/hae-burpsuite-highlighter-and-extractor.html
+
+Tenable.ep - 漏洞管理平台
+Tenable启动了Tenable.ep，是一种基于风险的多合一漏洞管理平台，旨在随着动态计算需求的变化而扩展。
+https://www.helpnetsecurity.com/2021/02/24/tenable-ep-platform/
+
+SecurityHQ Response - 跟踪安全事件的状态
+SecurityHQ推出新移动应用程序SecurityHQ Response，可随时跟踪安全事件的状态。
+https://www.helpnetsecurity.com/2021/02/24/securityhq-response/
+
+Galer - URL提取工具
+通过爬网从HTML属性中获取URL的快速工具。
+https://www.kitploit.com/2021/02/galer-fast-tool-to-fetch-urls-from-html.html
+
+Ghidra_Kernelcache - Ghidra框架
+适用于iOS Kernelcache逆向工程的Ghidra框架，用Python编写的，可以扩展以构建工具。
+https://www.kitploit.com/2021/02/ghidrakernelcache-ghidra-framework-for.html
+
+CrackerJack - Hashcat的Web GUI
+Hashcat的Web界面，该项目旨在保持GUI和Hashcat独立。
+https://www.kitploit.com/2021/02/crackerjack-web-gui-for-hashcat.html
+
+
+
+

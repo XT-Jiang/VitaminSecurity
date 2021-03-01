@@ -1,0 +1,78 @@
+【安全分析】
+
+
+CVE-2020-28590：越界读取漏洞
+Talos最近在Slic3r的库中发现了一个越界读取漏洞，可能导致信息泄露。
+https://blog.talosintelligence.com/2021/02/vuln-spotlight-slic3r-oob.html
+
+CVE-2021-24093：远程执行代码漏洞
+Google披露Windows中的远程执行代码漏洞的详细信息，该漏洞的CVSS评分为8.8。
+https://www.securityweek.com/google-discloses-details-remote-code-execution-vulnerability-windows
+
+Python jsonpickle远程执行代码漏洞
+Python jsonpickle版本2.0.0存在远程代码执行漏洞。
+https://packetstormsecurity.com/files/161518/jsonpickle200-exec.txt
+
+CVE-2021-24085：CSRF漏洞
+Microsoft Exchange Server的Canary15类内部的HasValidCanary函数中存在一个CSRF漏洞。
+https://packetstormsecurity.com/files/161528/msexchange-xsrf.txt
+
+利用Expect脚本自动执行远程SSH控制
+指南介绍了如何获取Expect脚本并使用它来实际执行其他操作所需要更多的用户交互。
+https://null-byte.wonderhowto.com/how-to/automate-remote-ssh-control-computers-with-expect-scripts-0296286/
+
+利用Firefox的渗透测试：Hacktool
+Hacktool扩展程序可用于Google Chrome和Mozilla Firefox，对于执行Web渗透测试非常有用。
+https://www.hackingarticles.in/firefox-for-pentester-hacktool/
+
+使用MobSF进行自动分析的指南
+该指南介绍了MobSF，是由Ajin Abraham开发的开源工具，用于自动分析APK。
+https://www.hackingarticles.in/android-pentest-automated-analysis-using-mobsf/
+
+Intel修复Wind 10的蓝屏问题
+Intel发布无线驱动程序更新，修复导致Windows 10蓝屏死机（BSOD）和蓝牙设备失去连接或停止工作的Wi-Fi和无线蓝牙驱动程序问题。
+https://www.bleepingcomputer.com/news/software/intel-wireless-driver-updates-fix-windows-10-blue-screen-issues/
+
+微软共享检测SolarWinds恶意软件的工具
+Microsoft开源了CodeQL查询，开发人员可以使用它来扫描源代码以查找与SolarWinds供应链攻击有关的。
+https://www.bleepingcomputer.com/news/security/microsoft-shares-codeql-queries-to-scan-code-for-solarwinds-like-implants/
+
+
+【安全工具】
+
+Wapiti是 - Web应用漏洞扫描
+它将扫描已部署的Web应用程序的网页，并模糊URL参数和表单以查找常见的Web漏洞。
+https://packetstormsecurity.com/files/161497/wapiti3-3.0.4.tar.gz
+
+OpenDNSSEC - 域名管理工具
+是用于管理Internet上域名安全性的软件，旨在推动域名系统安全扩展的采用，以增强Internet安全性。
+https://packetstormsecurity.com/files/161499/opendnssec-2.1.8.tar.gz
+
+onionshare - 文件共享
+OnionShare可以安全匿名地共享任何大小的文件，它可以作为Torion服务访问。
+https://haxf4rall.com/2021/02/24/onionshare-v2-3-1-releases-securely-and-anonymously-share-file/?
+
+sslyze - SSL/TLS服务器扫描库
+SLyze是一个Python库和CLI工具，为快速而强大的SSL / TLS服务器扫描库。
+https://haxf4rall.com/2021/02/23/sslyze-v4-0-4-releases-fast-and-powerful-ssl-tls-server-scanning-library/
+
+Enlightn - 安全工具
+Enlightn为性能和安全顾问，将检查代码和服务器配置，并为用户提供有关提高性能、安全性和可靠性的可行建议。
+https://haxf4rall.com/2021/02/22/enlightn-boost-your-apps-performance-security/
+
+Privescker - 转储工具
+可转储所有常见的Windows枚举、privesc和后期利用脚本。
+https://haxf4rall.com/2021/02/22/privescker-dumping-all-your-common-windows-enum-privesc-and-post-exploitation-scripts/
+
+Uchihash - 处理嵌入式恶意软件
+Uchihash是一个小型实用程序，可以节省恶意软件分析师的时间来处理用于各种用途的嵌入式哈希值。
+https://haxf4rall.com/2021/02/21/uchihash-deal-with-malware-embedded-hashes/
+
+BugBountyScanner - 漏洞侦察工具
+用于Bug Bounty侦察的Bash脚本和Docker映像，资源低，信息输出高。
+https://www.kitploit.com/2021/02/bugbountyscanner-bash-script-and-docker.html
+
+BlackMamba - C2/后期开发框架
+是具有某些间谍软件功能的多客户端C2/post开发框架，由Python 3.8.6和QT Framework提供支持。
+https://www.kitploit.com/2021/02/blackmamba-c2post-exploitation-framework.html
+

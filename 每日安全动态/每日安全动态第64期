@@ -1,0 +1,77 @@
+【安全分析】
+
+CVE-2021-22681：身份验证旁路绕过
+罗克韦尔自动化Logix控制器中的身份验证绕过漏洞。
+https://ics-cert.kaspersky.com/advisories/klcert-advisories/2021/03/02/klcert-17-029-authentication-bypass-in-rockwell-automation-logix-controllers/
+
+2021年2月的新漏洞
+该档案文件包含2021年2月添加到Packet Storm中的全部189个漏洞。
+https://packetstormsecurity.com/files/161605/202102-exploits.tgz
+
+CVE-2020-16041：越界读取漏洞
+Chrome遭受网络DataElement结构特征的越界读取漏洞的困扰。
+https://packetstormsecurity.com/files/161581/GS20210226161202.tgz
+
+CVE-2021-24093：缓冲区溢出漏洞
+Microsoft DirectWrite在处理可变TTF字体时，在fsg_ExecuteGlyph中遇到了基于堆的缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/161582/GS20210226161633.tgz
+
+Windows提权的方法
+介绍了一些自动化脚本，这些脚本可在对基于Windows OS的设备进行初始访问后用于执行后期利用和枚举。
+https://www.hackingarticles.in/window-privilege-escalation-automated-script/
+
+使用MobSF进行自动分析
+MobSF是由Ajin Abraham开发的开源工具，用于自动分析APK。
+https://www.hackingarticles.in/android-pentest-automated-analysis-using-mobsf/
+
+Pwn20wnd发布unc0ver v 6.0越狱工具
+越狱工具“ unc0ver ”的作者Pwn20wnd已更新其软件，以支持iOS 14.3和更早版本。
+https://securityaffairs.co/wordpress/115182/mobile-2/jailbreaking-tool-unc0ver-6.html
+
+Microsoft 365 Defender添加威胁分析
+Microsoft宣布在公共预览版中增加了针对Microsoft 365 Defender客户的Threat Analytics和Microsoft 365 Insider Risk Management Analytics。
+https://www.bleepingcomputer.com/news/security/microsoft-365-defender-threat-analytics-enters-public-preview/	
+
+Microsoft Teams在通话中添加端到端加密（E2EE）
+Microsoft Teams聊天和协作解决方案添加了新的安全性、隐私和合规性功能，包括对一对一语音呼叫的端到端加密支持。
+https://www.bleepingcomputer.com/news/security/microsoft-teams-adds-end-to-end-encryption-e2ee-to-one-on-one-calls/
+
+
+【安全工具】
+
+KICS - 静态分析解决方案
+一种开源静态分析解决方案，使开发人员能够将更安全的基础结构编写为代码（IaC）。
+https://www.helpnetsecurity.com/2021/03/01/checkmarx-kics/
+
+Gatekeeper - 开源DDoS保护系统
+Gatekeeper是第一个开源的DoS保护系统，旨在扩展到任何峰值带宽，抵御的DoS攻击。
+https://www.kitploit.com/2021/02/gatekeeper-first-open-source-ddos.html
+
+APT Hunter - 威胁搜寻工具
+用于Windows事件日志的威胁搜寻工具，能够检测日志中隐藏的APT移动。
+https://www.kitploit.com/2021/02/apt-hunter-threat-hunting-tool-for.html
+
+Pillager - 信息窃取工具
+Pillager旨在提供一种简单的方法，利用Go强大的并发模型来递归搜索目录以查找文件中的敏感信息。
+https://www.kitploit.com/2021/02/pillager-filesystems-for-sensitive.html
+
+CornerShot - 侦察工具
+CornerShot程序包允许人们查看远程主机的网络访问权限，而无需对该主机具有任何特殊特权。
+https://www.kitploit.com/2021/02/cornershot-amplify-network-visibility.html
+
+ScareCrow - 有效负载创建框架
+用于生成加载程序，以供在合法Windows进程中使用侧面加载（而非注入）（绕过应用程序白名单控件）。
+https://www.kitploit.com/2021/02/scarecrow-payload-creation-framework.html
+
+Halogen - 创建yara规则
+Halogen是一种工具，可自动针对恶意文档中嵌入的图像文件创建yara规则。
+https://www.kitploit.com/2021/03/halogen-automatically-create-yara-rules.html
+
+Gitlab Watchman – GitLab监视工具
+GitLab Watchman是一个使用GitLab API来审核GitLab内部公开的敏感数据和凭证的应用程序。
+https://haxf4rall.com/2021/02/16/gitlab-watchman-monitoring-gitlab-for-sensitive-data-shared-publicly/
+
+OSV – 开源漏洞服务
+OSV是一个针对开源项目的漏洞数据库和分类基础结构，旨在帮助开源维护者和开源使用者。
+https://haxf4rall.com/2021/02/16/osv-open-source-vulnerabilities/
+

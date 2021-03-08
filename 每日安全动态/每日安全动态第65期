@@ -1,0 +1,85 @@
+【安全分析】
+
+CVE-2020-17049：KDC安全功能绕过漏洞
+Microsoft已公开了Kerberos身份验证协议中的最新漏洞CVE-2020-17049（称为Bronze Bit）。
+https://unit42.paloaltonetworks.com/cve-2020-17049/
+
+CVE-2020-28597：密码重置漏洞
+Epignosis eFront包含一个漏洞，该漏洞可能使对手重置他们选择的任何帐户的密码。
+https://blog.talosintelligence.com/2021/03/vulnerability-spotlight-password-reset.html
+
+CVE-2021-21784：内存损坏漏洞
+Accusoft ImageGear包含一个漏洞，可能使攻击者破坏软件的内存，从而执行任意代码。
+https://blog.talosintelligence.com/2021/03/vuln-spotlight-accusoft-oob-.html
+
+CVE-2020-13558：远程执行代码漏洞
+WebKit浏览器引擎在其WebAudio API界面中包含一个远程执行代码漏洞。
+https://blog.talosintelligence.com/2021/03/vuln-spotlight-webkit-audio-api.html
+
+Microsoft Exchange Server中的漏洞分析
+攻击者可以访问Microsoft Exchange Server，并安装其他工具来促进对受害者环境的长期访问。
+https://unit42.paloaltonetworks.com/microsoft-exchange-server-vulnerabilities/
+
+Windows DNS SIGRed错漏洞的PoC
+SIGRed在Microsoft的代码中已经存在17多年，影响了2003年至2019年的所有Windows Server版本。
+https://www.bleepingcomputer.com/news/security/windows-dns-sigred-bug-gets-first-public-rce-poc-exploit/
+
+OPC协议实施中发现的关键漏洞
+Claroty披露Softing、Kepware PTC和Matrikon Honeywell的OPC功能实现中漏洞。
+https://ics-cert.kaspersky.com/news/2021/03/04/more-critical-vulnerabilities-identified-in-opc-protocol-implementations/
+
+Cash App网络钓鱼组件
+16Shop网络钓鱼平台的开发人员添加了一个新组件，该组件针对流行的Cash App移动支付服务的用户。
+https://www.bleepingcomputer.com/news/security/cash-app-phishing-kit-deployed-in-the-wild-courtesy-of-16shop/
+
+Microsoft Edge提速41％
+利用新的Startup Boost功能，Microsoft Edge现在的速度提高了41％。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-is-now-41-percent-faster-with-new-startup-boost-feature/
+
+微软在更多设备上强制安装Windows 10 20H2
+Microsoft正在将Windows 10版本20H2的强制推出扩展到更多即将接近服务终止（EOS）的设备。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-force-installing-windows-10-20h2-on-more-devices/
+
+
+【安全工具】
+
+REDasm - 开源反汇编程序
+REDasm开源反汇编程序是一个跨平台的反汇编程序，具有现代的代码库。
+https://haxf4rall.com/2021/02/16/redasm-v3-0-beta4-releases-the-open-source-disassembler/
+
+Doldrums - Flutter/Dart逆向工程工具
+具体来说，它是Flutter/Dart Android二进制文件（通常名为libapp.so）的解析器和信息提取器。
+https://haxf4rall.com/2021/02/18/doldrums-flutter-dart-reverse-engineering-tool/
+
+jwtXploiter - 测试JSON Web令牌的安全性
+jwtXploiter一种测试JSON Web令牌安全性的工具，针对所有已知的CVE测试JWT。
+https://haxf4rall.com/2021/02/19/jwtxploiter-test-security-of-json-web-token/
+
+Gaidaros - 开源漏洞安全扫描程序
+Gaidaros为专注于Apache Web Server的快速、简单的开源漏洞安全扫描程序和渗透测试工具。
+https://haxf4rall.com/2021/02/20/gaidaros-open-source-vulnerability-security-scanner/
+
+chisel - 快速TCP隧道
+是通过HTTP传输并通过SSH保护的快速TCP隧道，单个可执行文件，包括客户端和服务器。
+https://haxf4rall.com/2021/02/20/chisel-v1-7-6-releases-a-fast-tcp-tunnel-over-http/
+
+SharpLAPS - 密码检索
+它将从Active Directory中检索LAPS密码。
+https://haxf4rall.com/2021/02/21/sharplaps-retrieve-laps-password-from-the-ldap/
+
+Teatime - 区块链节点的RPC攻击框架
+Teatime是一个RPC攻击框架，旨在使发现区块链节点中的错误配置，可检测各种各样的问题，从信息泄漏到开设帐户以及配置操作。
+https://www.kitploit.com/2021/03/teatime-rpc-attack-framework-for.html
+
+Threatspec - 威胁建模工具
+Threatspec是一个开源项目，旨在通过将威胁建模过程进一步带入开发过程来缩小开发与安全之间的鸿沟。
+https://www.kitploit.com/2021/03/threatspec-continuous-threat-modeling.html
+
+OWASP ASST - Web安全扫描程序
+OWASP ASST（自动化软件安全工具包是一个开源的源代码扫描工具，由JavaScript（Node.js框架）开发的CLI应用程序。
+https://www.kitploit.com/2021/03/owasp-asst-automated-software-security.html
+
+
+
+
+

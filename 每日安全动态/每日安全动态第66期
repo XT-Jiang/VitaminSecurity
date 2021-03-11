@@ -1,0 +1,80 @@
+【安全分析】
+
+IBM Java Runtime中的多个漏洞
+IBM Java Runtime存在CVE-2020-2830、CVE-2020-2781、CVE-2020-2800和CVE-2020-2757等漏洞。
+https://www.ibm.com/support/pages/node/6427737
+
+CVE-2020-5025：缓冲区溢出漏洞
+IBM Db2 db2fm容易受到缓冲区溢出的影响，可能允许本地攻击者以root特权在系统上执行任意代码。
+https://www.ibm.com/blogs/psirt/security-bulletin-ibm-db2-db2fm-is-vulnerable-to-a-buffer-overflow-cve-2020-5025/
+
+OpenCMS Shell上载漏洞
+OpenCMS版本11.0.2存在远程外壳程序上传漏洞。
+https://packetstormsecurity.com/files/161724/opencms1102-exec.pdf
+
+CVE-2021-22862：访问控制漏洞
+GitHub Enterprise Server中存在一个不当的访问控制漏洞。
+https://nvd.nist.gov/vuln/detail/CVE-2021-22862
+
+Nim恶意软件分析
+介绍了由Nim编写的恶意软件。
+https://medium.com/walmartglobaltech/investigation-into-the-state-of-nim-malware-14cc543af811
+
+新Microsoft Edge基于Chromium
+Microsoft Edge Legacy正式到期，Web浏览器将显示通知，将切换到基于Chromium的新Edge。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-legacy-will-now-prompt-you-to-install-chromium-edge/
+
+Exchange Server漏洞分析报告
+攻击者利用Microsoft Exchange中的四个危险漏洞在企业网络中立足。
+https://www.kaspersky.com/blog/exchange-vulnerabilities/38964/
+
+Microsoft 365添加'External'电子邮件标签
+Microsoft在基于云的电子邮件服务中添加外部电子邮件标签，来增强Exchange Online网络钓鱼防护功能。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-365-adds-external-email-tags-for-increased-security/
+
+Chrome关闭端口554抵御NAT Slipstreaming攻击
+Google Chrome浏览器将阻止浏览器访问TCP端口554，以防御使用NAT Slipstreaming 2.0漏洞的攻击。
+https://www.bleepingcomputer.com/news/security/google-chrome-to-block-port-554-to-stop-nat-slipstreaming-attacks/
+
+
+【安全工具】
+
+5个免费的网络漏洞扫描程序
+漏洞扫描程序可以帮助自动执行安全审核，并且可以在IT安全中发挥至关重要的作用。
+https://www.networkworld.com/article/2176429/security-6-free-network-vulnerability-scanners.html#tk.rss_security
+
+MSERT - 安全扫描程序
+Microsoft更新了安全扫描程序（MSERT）工具，以检测在Exchange Server攻击中使用的Web Shell。
+https://securityaffairs.co/wordpress/115388/hacking/microsoft-msert-microsoft-exchange-attacks.html
+
+Dalfox –自动化的XSS查找器
+Dalfox是基于DOM解析器的快速，强大的参数分析和XSS扫描器。
+https://latesthackingnews.com/2021/03/08/dalfox-an-automated-xss-finder/
+
+CertEagle - 资产监视实用程序
+CertEagle是使用实时CT日志提要的资产监视实用程序。
+https://www.kitploit.com/2021/03/certeagle-asset-monitoring-utility.html
+
+Kubestriker - 快速安全审计工具
+可发现安全工程师在使用Kubernetes时，特别是在生产和大规模生产中，可能会遇到的安全配置错误和挑战。
+https://www.kitploit.com/2021/03/kubestriker-blazing-fast-security.html
+
+uEmu-  IDA仿真器插件
+uEmu是一个基于unicorn引擎的IDA微型仿真器插件，支持x86、x64、ARM、ARM64、MIPS和MIPS64架构。
+https://www.kitploit.com/2021/03/uemu-tiny-cute-emulator-plugin-for-ida.html
+
+packetStrider - 网络数据包取证工具
+packetStrider是一种用于SSH的数据包取证工具，旨在为SSH流量的本质提供有价值的见解。
+https://www.kitploit.com/2021/03/packetstrider-network-packet-forensics.html
+
+BurpParamFlagger - SSRF工具
+BurpParamFlagger Burp扩展，添加了一个被动扫描检查，以标记其名称或值可能指示SSRF或LFI可能插入点的参数。
+https://haxf4rall.com/2021/02/26/burpparamflagger-indicate-a-possible-insertion-point-for-ssrf-or-lfi/
+
+maigret - OSINT用户名检查器
+Maigret的目的–仅通过用户名收集一个人的档案，检查大量站点上的帐户。
+https://haxf4rall.com/2021/02/27/maigret-osint-username-checker/
+
+echidna - 以太坊模糊测试框架
+Echidna是一款针对以太坊虚拟机EVM代码的模糊测试框架，该工具基于Haskell代码库实现，并支持相对复杂的基于语法的模糊测试任务。
+https://haxf4rall.com/2021/02/28/echidna-v1-7-releases-ethereum-fuzz-testing-framework/

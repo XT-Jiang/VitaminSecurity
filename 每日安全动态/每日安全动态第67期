@@ -1,0 +1,75 @@
+【安全分析】
+
+CVE-2021-21772:释放后使用漏洞
+3MF Consortium的lib3mf库存在释放后使用漏洞，可导致远程代码执行。
+https://blog.talosintelligence.com/2021/03/vuln-spotlight-3mf-lib-.html
+
+CVE-2021-1844：代码执行漏洞
+Apple的iOS、macOS、watchOS和Safari Web浏览器存在远程代码执行漏洞。
+https://www.cyberdefensemagazine.com/apple-fixes/
+
+GNU GRUB中的命令注入
+GNU GRUB中的漏洞允许Linux用户将命令注入GRUB -mkconfig进程中，以更高的权限执行任意命令。
+https://ssd-disclosure.com/ssd-advisory-gnu-grub-command-injection/
+
+WordPress插件中的漏洞
+WordPress插件Element Plus存在严重漏洞，可被用来获得网站的管理特权并接管该网站，已在野外被利用。
+https://securityaffairs.co/wordpress/115451/hacking/the-plus-addons-for-elementor-wordpress-flaw.html
+
+Microsoft Exchange漏洞的PoC
+安全研究人员Nguyen Jang在GitHub上发布了用于黑客入侵Microsoft Exchange服务器的概念验证工具。
+https://securityaffairs.co/wordpress/115513/hacking/microsoft-exchange-exploit-code.html
+
+Povlsomware勒索软件
+Povlsomware是一种概念验证（POC）勒索软件，其于2020年11月首次发布，用于安全地测试安全厂商产品的勒索软件保护功能。
+https://www.trendmicro.com/en_ca/research/21/c/povlsomware-ransomware-features-cobalt-strike-compatibility.html
+
+Managed DevOps平台
+Effectual推出了针对AWS云进行了优化的Managed DevOps平台，旨在满足行业合规性标准。
+https://www.helpnetsecurity.com/2021/03/12/effectual-managed-devops-platform/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+HelpNetSecurity+%28Help+Net+Security%29
+
+多个公司推出Sigstore服务
+Linux Foundation、Red Hat、Google和Purdue推出了免费的sigstore服务，可以对开放源代码进行代码签名和验证，以防止供应链攻击。
+https://www.bleepingcomputer.com/news/software/linux-foundation-unveils-sigstore-a-lets-encrypt-for-code-signing/	
+
+Mozilla发布Firefox 86.0.1
+新版本Firefox修复了在Linux系统上启动时频繁崩溃的问题，以及Apple Silicon挂起的问题。
+https://www.bleepingcomputer.com/news/software/new-firefox-version-fixes-linux-crashes-apple-silicon-hangs/
+
+【安全工具】
+
+SophosLabs发布Exchange的利用后工具
+metasploit_gather_exchange是一种利用后的数据收集工具，简化了从受害Exchange服务器中检索邮箱数据的过程。
+https://news.sophos.com/en-us/2021/03/09/sophoslabs-offensive-security-releases-post-exploitation-tool-for-exchange/
+
+Linux版本7-Zip 
+Pavlov发布了适用于Linux的7-Zip，分别为AMD64、ARM64、x86和armhf版本。
+https://www.bleepingcomputer.com/news/software/7-zip-developer-releases-the-first-official-linux-version/
+
+Malwoverview.py - 响应工具
+Malwoverview.py是用于威胁发现的第一个响应工具，它可以对恶意软件样本、URL、IP地址、域、恶意软件家族、IOC和哈希进行初始和快速分类。
+https://github.com/alexandreborges/malwoverview
+
+Cortex - 可观察分析引擎
+Cortex试图解决在威胁情报、数字取证和事件响应过程中SOC、CSIRT和安全研究人员经常遇到的常见问题。
+https://haxf4rall.com/2021/03/03/cortex-3-1-1-released-powerful-observable-analysis-engine/
+
+Writehat - Pentest报告工具
+WriteHat用Django（Python 3）编写，用于渗透测试人员生成任何类型的报告。
+https://www.kitploit.com/2021/03/writehat-pentest-reporting-tool-written.html
+
+Sub404 - 检查子域接管漏洞
+Sub 404是用python编写的工具，用于检查子域接管漏洞的可能性，并且它是异步的，因此速度很快。
+https://www.kitploit.com/2021/03/sub404-python-tool-to-check-subdomain.html
+
+Chameleon - 可定制的蜜罐
+Chameleon可用于监视网络流量，漫游器活动和用户名\密码凭据（DNS、HTTP代理和SSH等）。
+https://www.kitploit.com/2021/03/chameleon-customizable-honeypots-for.html
+
+Genisys - Telegram工具
+Genisys功能强大的电报成员抓取和添加工具包。
+https://haxf4rall.com/2021/03/01/genisys-powerful-telegram-members-scraping-and-adding-toolkit/
+
+SnitchDNS - DNS服务器
+SnitchDNS是数据库驱动的DNS服务器，具有用Python和Twisted编写的Web UI，简化了DNS管理。
+https://haxf4rall.com/2021/03/02/snitchdns-database-driven-dns-server/

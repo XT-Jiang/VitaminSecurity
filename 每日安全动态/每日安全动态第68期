@@ -1,0 +1,80 @@
+【安全分析】
+
+CVE-2021-1776：整数溢出/越界写入漏洞
+呈现特制字体时，可以使CoreGraphics写入越界内存，也可以通过Safari触发此漏洞。
+https://packetstormsecurity.com/files/161801/GS20210315205124.tgz
+
+CVE-2020-4851：恶意内容注入日志文件
+IBM Spectrum Scale HDFS Transparency存在安全漏洞，允许本地攻击者将恶意内容注入日志文件。
+https://www.ibm.com/support/pages/node/6405774
+
+CVE-2021-28144：命令注入漏洞
+D-Link DIR-3060版本1.11b04及以下版本具有经过身份验证的命令注入漏洞。
+https://packetstormsecurity.com/files/161757/IOT-20210311-0.txt
+
+VoIPmonitor缓冲区溢出漏洞
+VoIPmonitor实时监听功能存在缓冲区溢出漏洞，通过设置长请求或响应线路可触发漏洞。
+https://packetstormsecurity.com/files/161803/ES2021-03.txt
+
+CVE-2021-3156漏洞利用
+该存储库是针对Linux x64的CVE-2021-3156 (Sudo Baron Samedit)的漏洞利用。
+https://github.com/worawit/CVE-2021-3156
+
+Linux权限提升：自动化脚本
+介绍在基于Linux的设备上进行初始访问后，可用于执行后期利用和枚举的一些自动化脚本。
+https://www.hackingarticles.in/linux-privilege-escalation-automated-script/
+
+Microsoft发布Exchange本地缓解工具
+Microsoft已发布一键式Exchange内部部署缓解工具（EOMT）工具，以使小型企业缓解ProxyLogon漏洞。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-one-click-exchange-on-premises-mitigation-tool/
+
+2020年十大安全漏洞
+IBM X-Force发布2020年十大网络安全漏洞列表，2020年总计发现了17992个新漏洞。
+https://www.ehackingnews.com/2021/03/ibm-x-force-publishes-list-of-top-10.html
+
+Kasada V2平台上市
+Kasada宣布了其V2平台上市，可提供实时防御，以防御传统方法无法检测到的高级僵尸程序。
+https://www.helpnetsecurity.com/2021/03/17/kasada-v2-platform/
+
+
+【安全工具】
+
+PSGumshoe - 信息收集工具
+PSGumshoe是Windows PowerShell模块，用于收集OS和域工件，以执行实时响应、搜寻和取证。
+https://haxf4rall.com/2021/03/06/psgumshoe-windows-powershell-module-for-the-collection-of-os-and-domain-artifacts/
+
+efi_fuzz - 模糊器
+一个简单的、覆盖率导向的fuzzer，可用于对NVRAM变量的内容进行模糊测试。
+https://haxf4rall.com/2021/03/05/efi_fuzz-coverage-guided-fuzzer-for-uefi-nvram-variables/
+
+dockle - 构建Docker镜像	
+dockle是用于安全的Container Image Linter，帮建最佳实践Docker映像。
+https://haxf4rall.com/2021/03/04/dockle-container-image-linter-for-security/
+
+Boomerang - 将内部服务器公开到云
+Boomerang是使用HTTP + TCP隧道将多个内部服务器公开到Web/云的工具，服务器将在云上公开2个端口。
+https://haxf4rall.com/2021/03/08/boomerang-expose-multiple-internal-servers-to-web-cloud/
+
+Fake Sms - SMS验证工具
+一个简单的命令行工具，可以通过使用类似于代理的临时电话号码来跳过基于电话号码的SMS验证。
+https://haxf4rall.com/2021/03/02/fake-sms-a-simple-command-line-tool-using-which-you-can-skip-phone-number-based-sms-verification-by-using-a-temporary-phone-number-that-acts-like-a-proxy/
+
+uddup - URL重复数据删除工具
+该工具获取URL列表，并从可能重复的URL模式意义上删除“重复”页面，并指向同一Web模板。
+https://haxf4rall.com/2021/03/02/uddup-urls-deduplication-tool/
+
+objection - 运行时移动探索工具包
+是由Frida提供支持的运行时移动探索工具包，旨在评估移动应用程序的安全状况，而无需越狱。
+https://haxf4rall.com/2021/03/03/objection-v1-10-1-released-runtime-mobile-exploration/
+
+OWASP Mutillidae - 渗透测试应用
+OWASP Mutillidae II是一个开源的渗透测试应用，为Web安全爱好者提供了目标。
+https://haxf4rall.com/2021/03/07/owasp-mutillidae-ii-2-8-24-releases-owasp-mutillidae-ii-web-pen-test-practice-application/
+
+muraena - 反向代理
+Muraena是一种几乎透明的反向代理，旨在自动进行网络钓鱼和网络钓鱼后活动。
+https://haxf4rall.com/2021/03/08/muraena-v1-3-releases-almost-transparent-reverse-proxy-aimed-at-automating-phishing-and-post-phishing-activities/
+
+
+
+

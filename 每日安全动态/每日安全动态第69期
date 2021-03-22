@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-26855： SSRF/任意文件写入漏洞
+Microsoft Exchange 2019 proxylogon服务器端请求伪造为任意文件写入漏洞。
+https://packetstormsecurity.com/files/161846/msexchange2019-ssrfexec.txt
+
+CVE-2021-21086：任意堆栈操作漏洞
+Adobe Reader存在CoolType任意堆栈操作漏洞。
+https://packetstormsecurity.com/files/161857/GS20210318141522.tgz
+
+CVE-2020-5016：目录遍历漏洞
+WebSphere Application Server容易受到目录遍历漏洞的攻击。
+https://www.ibm.com/blogs/psirt/security-bulletin-websphere-application-server-is-vulnerable-to-a-directory-traversal-vulnerability-cve-2020-5016-2/
+
+Adobe产品中的多个漏洞
+Adobe产品存在CVE-2021-21085、CVE-2021-21068和CVE-2021-21078等多个可允许任意代码执行的漏洞。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution/
+
+Defender以自动缓解Exchange Server漏洞
+Microsoft在3月18日表示，已在Defender Antivirus中实现了自动缓解工具，以解决Exchange Server中的关键漏洞。
+https://www.zdnet.com/article/microsoft-defender-antivirus-now-patches-exchange-server-vulnerabilities/
+
+Cobalt Strike分析
+Cobalt Strike（CS）是一种付费的渗透测试工具包，它使攻击者可以在受害者的计算机上部署名为Beacon的组件。
+https://www.deepinstinct.com/2021/03/18/cobalt-strike-post-exploitation-attackers-toolkit/
+
+Thick客户端渗透测试：流量分析
+流量分析是任何成功的渗透测试的关键部分之一，讨论可用于分析Thick客户端应用程序的一些不同技术。
+https://www.hackingarticles.in/thick-client-penetration-testing-traffic-analysis/
+
+Taliware推出Biombeat
+Taliware宣布其身份管理软件开发人员工具箱（SDK）现在可用。
+https://www.helpnetsecurity.com/2021/03/19/taliware-biombeat/
+
+模糊测试方法、过程和示例
+利用FastStone图像查看器中的5个漏洞模糊测试，以及CVE-2021-26236的分析。
+https://voidsec.com/fuzzing-faststone-image-viewer-cve-2021-26236/
+
+
+【安全工具】
+
+SolarWinds恶意活动检测工具
+CISA发布了一种新工具，用于检测与本地企业环境中的SolarWinds黑客相关的入侵后恶意活动。
+https://www.bleepingcomputer.com/news/security/cisa-releases-new-solarwinds-malicious-activity-detection-tool/
+
+Wintriage是 - 实时响应工具
+实时响应工具，可提取Windows工件，它允许以选择性方式提取最多的工件。
+https://securityaffairs.co/wordpress/115719/security/wintriage-triage-tool-windows-dfirers.html
+
+Data Breaches Tracker - ElasticSearch监视
+网络安全研究公司WizCase建立了一种工具，用于跟踪Internet上可访问的ElasticSearch服务器。 
+https://securityaffairs.co/wordpress/115698/security/data-breaches-tracker-unsecured-elasticsearch.html
+
+CallObfuscator - 模糊处理工具
+CallObfuscator可模糊处理（隐藏）从静态或动态分析工具导入的PE。
+https://haxf4rall.com/2021/03/09/callobfuscator-obfuscate-hide-the-pe-imports-from-static-dynamic-analysis-tools/
+
+SearchThatHash - 现代哈希破解系统
+可在不到2秒的时间内自动完成网站哈希值的破解过程。
+https://haxf4rall.com/2021/03/09/search-that-hash-the-morden-hash-cracking-system/
+
+Obfuscation Detection - 混淆检测
+该自动检测控制流平化和其他状态机的脚本和二进制文件，以自动检测二进制中的控制流平化和其他状态机。
+https://haxf4rall.com/2021/03/10/obfuscation-detection-pinpoint-obfuscated-code/
+
+evil winrm - 远程管理shell
+此shell是用于黑客入侵/ pentesting的最终WinRM shell，可用于渗透测试。
+https://haxf4rall.com/2021/03/10/evil-winrm-v2-4-releases-windows-remote-management-shell-for-pentesting/
+
+traitor - 提权工具
+Traitor打包了许多方法来利用本地错误配置和漏洞，使Linux特权升级变得容易。
+https://haxf4rall.com/2021/03/10/traitor-automatic-linux-privesc-via-exploitation-of-low-hanging-fruit/
+
+Go RouterSocks - 路由器接口
+此工具将公开一个socks端口，并通过配置的路径路由通信。
+https://www.kitploit.com/2021/03/go-routersocks-router-sock-one-port.html

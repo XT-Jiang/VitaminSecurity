@@ -1,0 +1,77 @@
+【安全分析】
+
+CVE-2021-28133：	信息泄露漏洞
+Zoom版本5.4.3（54779.1115）和5.5.4（13142.0301）临时共享不在共享范围内的其他应用程序窗口。
+https://packetstormsecurity.com/files/161897/SYSS-2020-044.txt
+
+CVE-2021-3034：日志文件泄露
+在Cortex XSOAR软件中存在通过日志文件漏洞暴露信息的问题。
+https://nvd.nist.gov/vuln/detail/CVE-2021-3034
+
+CVE-2021-24148：身份验证绕过漏洞
+MStore API WordPress插件中可使用Apple登录进行身份验证绕过，允许未经验证用户使用邮件地址恢复身份验证Cookie。
+https://cxsecurity.com/cveshow/CVE-2021-24148
+
+Firefox中的多个漏洞
+成功利用这些漏洞可导致任意代码执行、缓冲区溢出、信息泄露、安全功能绕过、欺骗和应用程序崩溃。
+https://www.govcert.gov.hk/en/alerts_detail.php?id=563
+
+DEARCRY勒索软件分析
+Microsoft检测到多个零日漏洞被用来攻击Microsoft Exchange Server的本地版本。
+https://isasha.medium.com/dearcry-ransomware-80e13f305bcd
+
+大量恶意Chrome扩展程序
+Cato Networks的研究人员发现了二十二个恶意Google Chrome浏览器扩展程序和40个相关的恶意域。 	
+https://www.darkreading.com/vulnerabilities---threats/researchers-discover-two-dozen-malicious-chrome-extensions/d/d-id/1340482
+
+3种类型的帐户欺诈分析
+分析了三大类欺诈，包括帐户接管（ATO）欺诈、开户（AO）欺诈和付款欺诈。
+https://www.darkreading.com/edge/theedge/3-classes-of-account-fraud-that-can-cost-your-company-big-time/b/d-id/1340473
+
+Firefox 87增强用户隐私保护
+Mozilla宣布在稳定频道中发布Firefox 87，该版本装有新的智能跟踪器阻止机制。
+https://www.securityweek.com/firefox-87-adds-stronger-user-privacy-protections
+
+Cloudflare推出零信任浏览服务
+Cloudflare推出了一种新的零信任工具，旨在帮助保护远程员工免受网络攻击。 
+https://www.zdnet.com/article/cloudflare-debuts-zero-trust-browsing-service-for-remote-enterprise-workforce/
+
+
+【安全工具】
+
+Crystal Eye - 检测和响应平台
+Red Piranha推出了Crystal Eye XDR 4.0，具有高级保护和威胁检测功能。
+https://www.helpnetsecurity.com/2021/03/22/crystal-eye-xdr-4-0/
+
+Forensic - 取证工具包
+ElcomSoft更新了iOS Forensic取证工具包，无需越狱即可从Apple设备提取数据。
+https://www.helpnetsecurity.com/2021/03/19/elcomsoft-ios-forensic-toolkit/
+
+Gitls - Git存储库URL枚举工具
+可以使用此工具从组织/用户中包含的所有公共存储库中提取URL，或扫描和克隆多个存储库。
+https://www.kitploit.com/2021/03/gitls-enumerate-git-repository-url-from.html
+
+Girsh - 反向shell
+Girsh是检测操作系统并执行正确的命令以将其升级到完整的交互式反向shell。
+https://www.kitploit.com/2021/03/girsh-automatically-spawn-reverse-shell.html
+
+DLLHSC - DLL劫持扫描器
+一种生成线索并自动发现DLL搜索顺序劫持候选者的工具。
+https://www.kitploit.com/2021/03/dllhsc-dll-hijack-scanner-tool-to.html
+
+kubeletmein - Kubernetes安全测试工具
+是一个简单的渗透测试工具，它利用公共云提供程序的方法为Kubernetes集群中的节点提供kubelet凭据。
+https://haxf4rall.com/2021/03/11/kubeletmein-v0-14-2-releases-security-testing-tool-for-kubernetes/
+
+SYNwall - 零配置（IoT）防火墙
+SYNwall是一个暂时作为Linux内核模块构建的项目，旨在实现透明且无需配置/无需维护的防火墙。
+https://haxf4rall.com/2021/03/11/synwall-zero-configuration-iot-firewall/
+
+ronin - Ruby平台
+用于漏洞研究和漏洞利用开发的Ruby平台，允许通过存储库快速开发和分发代码、漏洞利用、有效负载和扫描程序等。
+https://haxf4rall.com/2021/03/11/ronin-ruby-platform-for-vulnerability-research-and-exploit-development/
+
+Arjun - 查找隐藏的GET＆POST参数
+Arjun是一个Python脚本，用于使用正则表达式和bruteforce查找隐藏的GET和POST参数。
+https://haxf4rall.com/2021/03/12/arjun-v2-1-1-releases-finding-hidden-get-post-parameters/
+

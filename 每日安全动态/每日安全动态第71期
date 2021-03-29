@@ -1,0 +1,75 @@
+【安全分析】
+
+iOS和iPadOS中0day
+在发现零日漏洞正在积极利用之后，苹果已为其iOS和iPadOS移动操作系统发布了紧急的带外安全更新。
+https://www.itnews.com.au/news/apple-patches-exploited-ios-ipados-zero-day-562690
+
+CVE-2021-3119：NULL指针
+Zetetic SQLCipher 4.x具有NULL指针，这可能允许攻击者执行远程拒绝服务攻击。
+https://www.security-database.com/detail.php?alert=CVE-2021-3119&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Last100Alerts+%28Security-Database+Alerts+Monitor+%3A+Last+100+Alerts%29
+
+Firefox和Thunderbird中的多个漏洞
+Mozilla Firefox、Firefox（ESR）和Mozilla Thunderbird中存在多个漏洞，最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-and-thunderbird-could-allow-for-arbitrary-code-execution_2021-038/
+
+Exchange Server漏洞攻击分析
+Microsoft继续监视和调查利用最近的本地Exchange Server漏洞的攻击。
+https://www.microsoft.com/security/blog/2021/03/25/analyzing-attacks-taking-advantage-of-the-exchange-server-vulnerabilities/
+
+Cloudflare恶意脚本的预警系统
+Cloudflare发布了一项新功能，旨在保护网站免受Magecart和其他基于JavaScript的恶意攻击。
+https://www.bleepingcomputer.com/news/security/cloudflare-page-shield-early-warning-system-for-malicious-scripts/
+
+利用Spectre漏洞从网站中渗出跨源数据
+谷歌安全工程师在本月初发布的PoC可利用Spectre漏洞从网站中渗出跨源数据。
+https://www.helpnetsecurity.com/2021/03/25/spectre-vulnerability/
+
+IBM推出新的增强服务
+IBM Securit新的增强服务，旨在帮助组织跨混合云环境管理其云安全战略、策略和控制。
+https://www.helpnetsecurity.com/2021/03/25/ibm-cloud-security-services/
+
+Chrome使用HTTPS作为默认导航协议
+Google Chrome浏览器将切换为在地址栏中键入的所有URL选择HTTPS作为默认协议。
+https://www.bleepingcomputer.com/news/google/google-chrome-will-use-https-as-default-navigation-protocol/
+
+
+【安全工具】
+
+AttackIQ AIDA - 防御架构
+AttackIQ推出明智防御架构（AIDA）的一系列技术创新，使安全团队可以更好地测试其人员、流程和防御技术，以应对高级多阶段攻击。
+https://www.helpnetsecurity.com/2021/03/25/attackiq-aida/
+
+Noction智能路由平台
+此版本集中于新的远程触发的黑洞功能，可更好地理解和减轻分布式拒绝服务（DDoS）攻击的影响。
+https://www.helpnetsecurity.com/2021/03/25/noction-intelligent-routing-platform-3-11/
+
+Cloudflare DLP - 数据丢失防护
+位于公司网络与员工使用的应用程序之间，以提供一层保护，控制所有进入或离开网络的数据。
+https://www.helpnetsecurity.com/2021/03/24/cloudflare-dlp/
+
+NFR - 评估网络流量
+Network Flight Recorder（NFR）是一个轻量级的应用，它使用AlphaSOC Analytics Engine处理网络流量。
+https://haxf4rall.com/2021/03/14/network-flight-recorder-v1-9-beta-2-releases-releases-score-network-traffic-and-flag-anomalies/
+
+Rubeus - Kerberos交互工具
+Rubeus是用于原始Kerberos交互和滥用的C＃工具集。
+https://haxf4rall.com/2021/03/14/rubeus-v1-6-2-releases-c-toolset-for-raw-kerberos-interaction-and-abuses/
+
+dalton - pcap测试系统
+允许用户使用定义的规则集或针对所选的入侵检测系统（IDS）传感器快速轻松地运行网络数据包捕获（pcap）。
+https://haxf4rall.com/2021/03/12/dalton-v3-0-releases-suricata-snort-ids-rule-and-pcap-testing-system/
+
+Confused - 混淆漏洞检查工具
+Confused是用于检查多个程序包管理系统中的依赖关系混淆漏洞的工具。
+https://www.kitploit.com/2021/03/confused-tool-to-check-for-dependency.html
+
+Lazy RDP - AutomRDPatic扫描和暴力破解脚本
+自动扫描地址列表中是否存在打开的3389端口的脚本，然后选择方法并启动破坏对登录名/密码。
+https://www.kitploit.com/2021/03/lazy-rdp-script-for-automrdpatic.html
+
+Turbo Intruder - Burp Suite扩展
+用于发送大量HTTP请求并分析结果，旨在通过处理需要非凡的速度，持续时间或复杂性的攻击来补充Burp Intruder。
+https://www.kitploit.com/2021/03/turbo-intruder-burp-suite-extension-for.html
+
+
+

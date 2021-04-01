@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-3275：跨站点脚本漏洞
+多个TP-Link设备遭受未经身份验证的持久性跨站点脚本漏洞。
+https://packetstormsecurity.com/files/161989/tplinkw9977-xss.txt
+
+CVE-2021-3378：任意文件上传漏洞
+这个Metasploit模块通过不安全的POST请求利用了FortiLogger中未经认证的任意文件上传。
+https://packetstormsecurity.com/files/161974/fortilogger_arbitrary_fileupload.rb.txt
+
+CVE-2020-35508：Linux内核中漏洞
+Linux内核在过滤信号处理程序时的漏洞，本地攻击者可以利用此漏洞绕过检查，以将任何信号发送到特权进程。
+https://cxsecurity.com/cveshow/CVE-2020-35508
+
+Dridex银行木马网络钓鱼的分析
+根据去年的全球威胁指数，Dridex已进入全球十大恶意软件列表。
+https://www.secplicity.org/2021/03/31/analysis-of-a-dridex-banking-trojan-phish/
+
+伪装成系统更新的恶意软件分析
+新的的Android恶意软件伪装成系统的重要资源，可以窃取所有数据并仍然可以远程控制该设备。
+https://digesttime.com/2021/03/30/new-android-malware-disguises-itself-as-a-system-update/
+
+使用微控制器进行Wi-Fi攻击
+使用基于ESP8266的微控制器可创建合法的Wi-Fi黑客游戏，以进行Wi-Fi攻击。
+https://null-byte.wonderhowto.com/how-to/play-wi-fi-hacking-games-using-microcontrollers-practice-wi-fi-attacks-legally-0238563/
+
+McAfee推出MVISION CNAPP
+迈克菲宣布推出McAfee MVISION云原生应用程序保护平台（CNAPP），旨在保护云原生应用程序安全。
+https://www.helpnetsecurity.com/2021/03/29/mvision-cnapp/
+
+PayPal推出加密货币结帐服务
+PayPal推出加密货币结帐服务，允许美国消费者使用其持有的加密货币向全球数百万在线商家付款。
+https://www.reuters.com/article/us-crypto-currency-paypal-exclusive/exclusive-paypal-launches-crypto-checkout-service-idUSKBN2BM10N
+
+Linux的Chrome将支持DoH
+Chrome开发人员已宣布计划向Linux的Chrome网络浏览器推出HTTP-over-HTTPS（DoH）支持。
+https://www.bleepingcomputer.com/news/security/google-chrome-for-linux-is-getting-dns-over-https-but-theres-a-catch/
+
+
+【安全工具】
+
+scanlogd - 系统守护程序
+scanlogd是一个系统守护程序，它试图以安全的方式将主机的所有端口扫描记录到syslog中。
+https://packetstormsecurity.com/files/161754/scanlogd-2.2.8.tar.gz
+
+THC-Hydra - 登录破解程序
+THC-Hydra是一款高质量的并行登录黑客，包括SSL支持，并行扫描，并且是Nessus的一部分。
+https://packetstormsecurity.com/files/161804/thc-hydra-9.2.tar.gz
+
+American Fuzzy Lop - 模糊测试工具
+Google的American Fuzzy Lop是蛮力的模糊测试工具，结合了极其简单但坚如磐石的仪器指导遗传算法。
+https://packetstormsecurity.com/files/161950/AFLplusplus-3.12c.tar.gz
+
+4种开源工具
+安全研究通常需要各种各样的工具和方法，包括Doxygen文档生成器、Z3约束求解器等。
+https://www.darkreading.com/application-security/4-open-source-tools-to-add-to-your-security-arsenal/a/d-id/1340487
+
+vajra - 自动化的黑客框架
+用于在Web应用程序渗透测试期间自动执行无聊的侦察任务和对多个目标的相同扫描。
+https://haxf4rall.com/2021/03/14/vajra-automated-web-hacking-framework/
+
+zynix fusion - pentest安全工具
+zynix-Fusion是一个框架，旨在为渗透测试专家集中，标准化和简化各种安全工具的使用。
+https://haxf4rall.com/2021/03/15/zynix-fusion-v8-0-releases-various-security-tools-for-pentest-professionals/
+
+smogcloud - 查找AWS云资产
+smogcloud可查找暴露的AWS，使安全工程师和渗透测试人员获得全面的资产清单。
+https://haxf4rall.com/2021/03/15/smogcloud-find-exposed-aws-cloud-assets/
+
+Strafer - Elasticsearch检测工具
+STRAFER允许安全研究人员、渗透测试人员和威胁情报专家检测运行恶意代码的受到感染的Elasticsearch。
+https://www.kitploit.com/2021/03/strafer-tool-to-detect-potential.html
+
+AnonX - 加密文件传输
+AnonX是加密的文件上传器和下载器，通过AES-256-CBC的加密文件传输。
+https://www.kitploit.com/2021/03/anonx-encrypted-file-transfer-via-aes.html

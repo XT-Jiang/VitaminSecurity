@@ -1,0 +1,80 @@
+【安全分析】
+
+CVE-2021-22986：远程执行代码漏洞
+F5 BIG-IP版本16.0.x遭受iControl REST远程执行代码漏洞。
+https://packetstormsecurity.com/files/162066/f5bigip16-exec.txt
+
+CVE-2021-26295：Java反序列化漏洞
+Apache OFBiz的未经身份验证的SOAP端点/webtools/control/SOAPService中的Java反序列化漏洞。
+https://packetstormsecurity.com/files/162104/apache_ofbiz_deserialization_soap.rb.txt
+
+Accusoft ImageGear中的越界写入漏洞
+Talos最近在Accusoft ImageGear中发现了多个越界写入漏洞，攻击者可能利用这些漏洞破坏目标计算机上的内存。
+https://blog.talosintelligence.com/2021/03/vuln-spotlight-accusoft-image-gear-march-2021.html
+
+ZBL EPON ONU宽带路由提权漏洞
+管理用户可以通过向配置备份端点或密码页面发送HTTP GET请求来提升其特权，并公开http超级用户密码。
+https://packetstormsecurity.com/files/162065/ZSL-2021-5647.txt
+
+CVE-2021-27137：缓冲区溢出漏洞
+DD-WRT中的漏洞使未经身份验证的攻击者溢出UPNP使用的内部缓冲区并触发代码执行漏洞。
+https://ssd-disclosure.com/ssd-advisory-dd-wrt-upnp-buffer-overflow/
+
+Masslogger木马回顾
+继续讨论Masslogger的来龙去脉，以及为什么不应该忽视这种威胁。
+https://blog.talosintelligence.com/2021/04/talos-takes-ep-47-looking-back-at.html
+
+IBM发布适用于x86 Linux的COBOL编译器
+COBOL是一种通用的面向业务的语言，它起源于1950年代，是大型机时代的代名词。
+https://www.theregister.com/2021/04/07/ibm_cobol_x86_linux/
+
+Wireshark教程：解密RDP流量
+RDP支持多种加密网络流量的操作模式，由于RDP内容被隐藏，因此这种加密使写入RDP签名变得困难。
+https://unit42.paloaltonetworks.com/wireshark-tutorial-decrypting-rdp-traffic/
+
+拦截Java thick客户端相互认证的TLS通信
+有关如何在实现这些保护的Java应用程序上快速设置拦截代理的小指南。
+https://offsec.almond.consulting/java-tls-intercept.html
+
+15个中小型企业的网络安全陷阱和修复
+详细描述了企业最常见的15种网络安全错误，并讨论了针对它们的补救措施。
+https://threatpost.com/cybersecurity-pitfalls-fixes-smbs/165225/
+
+
+【安全工具】
+
+JWTweak - 检测输入的JWT令牌的算法
+该工具旨在自动化修改输入JWT令牌的JWT算法，然后基于新算法生成新JWT的过程。
+https://github.com/rishuranjanofficial/JWTweak
+
+regexploit - 侦察工具
+查找容易受到正则表达式拒绝服务（ReDoS）影响的正则表达式。
+https://haxf4rall.com/2021/03/16/regexploit-find-regular-expressions-which-are-vulnerable-to-redos/
+
+tcpreplay - 重放工具
+Tcpreplay是一套用于UNIX的GPLv3许可实用程序套件，用于编辑和重放以前由tcpdump和Wireshark等工具捕获的网络流量。
+https://haxf4rall.com/2021/03/17/tcpreplay-v4-3-4-beta1-releases-pcap-editing-and-replay-tools-for-nix-and-windows/
+
+soc faker - 生成虚假数据
+soc-faker用于生成虚假数据，供安全运营中心、信息安全专业人等使用，与Python 2.x和3.x兼容。
+https://haxf4rall.com/2021/03/18/soc-faker-generating-fake-data-for-soc-and-security-automation/
+
+Rafel Rat - Android RAT
+用Java用WebPanel编写的用于控制受害者的Android RAT。
+https://www.kitploit.com/2021/03/rafel-rat-android-rat-written-in-java.html
+
+OffensivePipeline - 红队练习工具
+允许下载、编译（不使用Visual Studio）并模糊化C＃工具，用于Red Team练习。
+https://www.kitploit.com/2021/03/offensivepipeline-tool-to-download.html
+
+Reverse Shell Generator - 反向Shell生成器
+可生成公共侦听器和反向外壳、自动复制到剪贴板、URI和Base64编码，适用于对于CTF。
+https://www.kitploit.com/2021/03/reverse-shell-generator-hosted-reverse.html
+
+Invoke SocksProxy - 反向Socks代理
+该反向代理服务器创建通过启动outbond SSL连接，可以经过系统的代理TCP隧道，可用作远程主机上的socks代理，以转入本地主机的网络。
+https://www.kitploit.com/2021/03/invoke-socksproxy-socks-proxy-and.html
+
+Mole - 漏洞识别框架
+Mole是用来识别和利用带外（OOB）漏洞的框架。
+https://www.kitploit.com/2021/03/mole-framework-for-identifying-and.html

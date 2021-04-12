@@ -1,0 +1,80 @@
+【安全分析】
+
+CVE-2021-26709：缓冲区溢出漏洞
+D-Link DSL-320B-D1 ADSL调制解调器遭受多个预身份验证堆栈缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/162133/CVE-2021-26709_advisory.txt
+
+CVE-2021-30149：Shell上传漏洞
+Composr 10.0.36版具有一个远程Shell上传漏洞。
+https://packetstormsecurity.com/files/162128/composr10036-shell.txt
+
+CVE-2021-30147：跨站点请求伪造漏洞
+DMA Radius Manager版本4.4.0遭受跨站点请求伪造漏洞的困扰。
+https://packetstormsecurity.com/files/162136/dmarm440-xsrf.txt
+
+CVE-2019-11539：任意命令执行漏洞
+Pulse Secure VPN允许经过身份验证的攻击者注入和执行命令。
+https://packetstormsecurity.com/files/162092/pulsesecurevpn-exec.txt
+
+CVE-2020-6507：远程执行代码漏洞
+83.0.4103.106之前的版本在Google Chrome中用V8进行写操作，可以通过精心制作的HTML页面来利用堆损坏。
+https://packetstormsecurity.com/files/162088/googlechrome8304103106-exec.txt
+
+加密反向Shell
+通常在野外使用的反向Shell易于嗅探攻击，因此测试了大量工具及其对反向Shell通信进行加密的能力。
+https://www.hackingarticles.in/encrypted-reverse-shell-for-pentester/
+
+微软发布网络攻击模拟器
+微软已经发布了一个开源网络攻击模拟器Cyber​​BattleSim，该项目使用基于Python的Open AI Gym界面构建。 
+https://www.bleepingcomputer.com/news/security/microsoft-releases-a-cyberattack-simulator-shall-we-play-a-game/
+
+居家办公防止勒索软件
+概述勒索软件攻击的工作原理，还列出了预防指南，这些指南将帮助工人完全避免威胁。
+https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/return-to-sender-preventing-ransomware-while-working-from-home
+
+SOC基础知识：调整信噪比
+科学家和工程师因在有用数据和无关数据之间取得平衡而得名，这就是所谓的信噪比。
+https://www.sentinelone.com/blog/soc-fundamentals-tuning-the-signal-to-noise-ratio/
+
+
+【安全工具】
+
+Aviary：Sparrow检测工具
+Aviary是CISA和合作伙伴开发的一种新工具，用于帮助可视化和分析Sparrow检测工具的输出。
+https://us-cert.cisa.gov/ncas/current-activity/2021/04/08/using-aviary-to-analyze-post-compromise-threat-activity
+
+Subcert - 子域枚举工具
+Subcert是一个子域枚举工具，可从证书透明性日志中查找所有有效的子域。
+https://www.kitploit.com/2021/03/subcert-subdomain-enumeration-tool-that.html
+
+Netmap.Js - 快速网络发现工具
+基于浏览器的主机发现和端口扫描功能，可映射网站访问者的网络。
+https://www.kitploit.com/2021/03/netmapjs-fast-browser-based-network.html
+
+Godehashed - 搜索工具
+golang工具，使用用dehashed.com API来搜索受损的资产，将结果编译为CSV进行进一步分析。
+https://www.kitploit.com/2021/03/godehashed-tool-that-uses-dehashedcom.html
+
+CTF Party - 专为CTF player的Ruby库
+一个Ruby库，可以为CTF player加强和加快脚本/漏洞的编写。
+https://www.kitploit.com/2021/03/ctf-party-ruby-library-to-enhance-and.html
+
+Kraker - 密码暴力破解系统
+Kraker是一个分布式密码暴力破解系统，可以在不同服务器和工作站上运行和管理hashcat。
+https://www.kitploit.com/2021/03/kraker-distributed-password-brute-force.html
+
+getAir2U - 无线攻击工具
+接口模式切换器（由监视器管理）即使在接口名称更改时也保持选择，使用不同方法通过无线网络进行DoS。
+https://github.com/v1s1t0r999/getAir2U
+
+JARM - 服务器指纹识别工具
+是活动的传输层安全性（TLS）服务器指纹识别工具，可用于快速验证组中的所有服务器都具有相同的TLS配置。
+https://haxf4rall.com/2021/03/19/jarm-active-transport-layer-security-tls-server-fingerprinting-tool/
+
+retoolkit - 逆向工程师工具包
+可用于对x86和x64 Windows系统上的逆向工程和恶意软件进行分析。
+https://github.com/mentebinaria/retoolkit
+
+VulnerableApp - 安全工具测试工具
+尽管有多个漏洞扫描工具，但是在开发这些工具时，开发人员需要对其进行测试，VulnerableApp解决以上问题。
+https://owasp.org/www-project-vulnerableapp/

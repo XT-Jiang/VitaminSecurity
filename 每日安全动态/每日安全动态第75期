@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2021-28310：提权漏洞
+BITTER APT小组在野外使用的Desktop Window Manager中的零日漏洞。
+https://securelist.com/zero-day-vulnerability-in-desktop-window-manager-cve-2021-28310-used-in-the-wild/101898/
+
+CVE-2021-28797：远程代码执行漏洞
+QNAP QTS的Surveillance Station插件上存在预身份验证的远程代码执行漏洞。
+https://ssd-disclosure.com/ssd-advisory-qnap-pre-auth-cgi_find_parameter-rce/
+
+WhatsApp中的漏洞
+WhatsApp中存在漏洞漏洞可让任何人将您锁定在您的帐户之外
+https://www.welivesecurity.com/2021/04/13/whatsapp-flaw-lets-anyone-lock-you-out-account/
+
+Google Chrome中的多个漏洞
+Chrome中发现了多个漏洞，其中最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2021-047/
+
+OpenClinic GA网站门户中的多个漏洞
+OpenClinic的GA Web门户中存在SQL注入漏洞（CVE-2020-27226）、命令注入漏洞（CVE-2020-27227）和提权漏洞（CVE-2020-27228）等。
+https://blog.talosintelligence.com/2021/04/vuln-spotlight-open-clinic-we.html
+
+Clop勒索软件分析
+Clop勒索软件是以前称为CryptoMix的病毒变种，自从2020年3月启动以来，还利用了双重勒索方式并拥有一个泄漏网站。
+https://unit42.paloaltonetworks.com/clop-ransomware/	
+
+Carbine加密劫持活动分析
+该活动通过面向公众的Nagios XI应用程序的远程代码执行来进行，其装载程序脚本被称为Carbine Loader。
+https://www.lacework.com/carbine-loader-cryptojacking-campaign/
+
+AutoRecon全面指南
+AutoRecon工具被设计为网络侦察工具，它是执行服务枚举的多线程工具。
+https://www.hackingarticles.in/comprehensive-guide-to-autorecon/
+
+Windows删除Edge Legacy
+Microsoft发布的4月份星期二更新将自动删除Edge Legacy，并替换为新的基于Chromium的Edge。
+https://www.bleepingcomputer.com/news/microsoft/rip-microsoft-edge-legacy-nuked-by-april-windows-updates/
+
+
+【安全工具】
+
+Gitrecon - OSINT工具
+Gitrecon是OSINT工具可从github档案中获取信息，并查找提交时泄漏的GitHub用户的电子邮件地址。
+https://www.kitploit.com/2021/03/gitrecon-osint-tool-to-get-information.html
+
+cve_manager_VS - shell脚本
+可每天通过电子邮件发送给xlsx电子表格，其中包含NIST CVE数据库及其相关产品中的新漏洞。
+https://www.kitploit.com/2021/03/cvemanagervs-collection-of-python-apps.html
+
+Search That Hash - 哈希破解网站
+可在不到2秒的时间内自动完哈希破解，如果未自动找到哈希，则搜索哈希API以快速破解哈希。
+https://www.kitploit.com/2021/03/search-that-hash-searches-hash-apis-to.html
+
+CallObfuscator - 模糊处理工具
+模糊处理（隐藏）从静态/动态分析工具导入的PE，使用不同的API混淆特定的Windows APIs。
+https://www.kitploit.com/2021/03/callobfuscator-obfuscate-specific.html
+
+VulnerableApp - OWASP VulnerableApp项目
+漏洞扫描工具的性能测试工具。
+https://owasp.org/www-project-vulnerableapp/
+
+OWASP风险评估计算器
+OWASP风险评估计算器风险管理是一个管理过程，包含识别、评估和控制可能威胁到企业或公司活动连续性的风险。
+https://haxf4rall.com/2021/03/21/owasp-risk-assessment-calculator/
+
+BPF编译器集合 - 渗透测试工具包
+是用于创建有效的内核跟踪和操纵程序的工具包，具有基于BPF的Linux IO分析、网络连接、监视等功能。
+https://haxf4rall.com/2021/03/21/bpf-compiler-collection-v0-19-releases-bpf-based-linux-io-analysis-networking-monitoring-and-more/
+
+gargamel - 电子取证工具
+目前，此应用仅在Windows上有效，并且目标计算机必须使用Windows或Linux。
+https://securityonline.info/gargamel-forensic-evidence-acquirer/

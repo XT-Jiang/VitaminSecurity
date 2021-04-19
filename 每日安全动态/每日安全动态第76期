@@ -1,0 +1,73 @@
+【安全分析】
+
+CVE-2021-20291：DoS漏洞
+影响容器引擎CRI-O和Podman的新漏洞，可导致拒绝服务（DoS）。
+https://unit42.paloaltonetworks.com/cve-2021-20291/
+
+Microsoft Azure Sphere中的多个漏洞
+Azure Sphere存在多个远程代码执行漏洞CVE-2021-27047、CVE-2021-27047和CVE-2021-27080等。
+https://blog.talosintelligence.com/2021/04/vuln-spotlight-azure-sphere-april-2021.html
+
+CVE-2021-28459：跨站点脚本漏洞
+Microsoft Azure DevOps Server版本2020.0.1遭受跨站点脚本漏洞。
+https://packetstormsecurity.com/files/162190/SA-20210414-0.txt
+
+CVE-2021-27086：提权漏洞
+可以通过请求MAXIMUM_ALLOWED来绕过远程访问SCM时对非本地管理员的访问限制检查，从而获得对启动服务的访问权限。
+https://packetstormsecurity.com/files/162157/GS20210414154643.tgz
+
+俄罗斯黑客使用的漏洞Top 5
+NSA、CISA和FBI联合披露了俄罗斯外国情报局（SVR）使用的漏洞Top 5。
+https://www.bleepingcomputer.com/news/security/nsa-top-5-vulnerabilities-actively-abused-by-russian-govt-hackers/
+
+DDR4 Rowhammer新技术
+该技术被称为SMASH（同步单面锤击），可用于成功触发现代DDR4 RAM卡上JavaScript的攻击。
+https://thehackernews.com/2021/04/new-javascript-exploit-can-now-carry.html
+
+谷歌浏览器90以HTTPS作为默认协议发布
+Google在2021年4月14日发布了Chrome 90，其中包括安全性改进，新的AV1编码器以及默认协议更改为HTTPS。
+https://www.bleepingcomputer.com/news/google/google-chrome-90-released-with-https-as-the-default-protocol/
+
+Vivaldi、Brave、DuckDuckGo拒绝Google的FLoC广告跟踪技术
+Google宣布了针对Chrome浏览器和广告投放网站推出一项新的针对隐私的功能FLoC，并未受到所有人的欢迎。
+https://www.bleepingcomputer.com/news/security/vivaldi-brave-duckduckgo-reject-googles-floc-ad-tracking-tech/
+
+ffuf综合指南
+该综合指南深入研究了开源的Web模糊工具Fuzz Faster U Fool（ffuf）。
+https://www.hackingarticles.in/comprehensive-guide-on-ffuf/
+
+
+【安全工具】
+
+Morpheus - 网络安全框架
+NVIDIA发布了Morpheus，这是一种云原生应用程序框架，旨在帮助网络安全提供商分析更多数据而又不牺牲性能。
+https://www.securityweek.com/nvidia-unveils-morpheus-cybersecurity-framework
+
+URLCrazy - 域名错字工具
+URLCrazy是一个工具，可以生成和测试域错字和变体，以检测和执行错字抢注、URL劫持、网络钓鱼和企业间谍活动。
+https://packetstormsecurity.com/files/162184/urlcrazy-0.7.3.tar.gz
+
+BadOutlook - 恶意Outlook阅读器
+一个简单的PoC，它利用Outlook应用程序接口（COM接口）在系统上基于特定的触发器主题行执行Shellcode。
+https://www.kitploit.com/2021/03/badoutlook-kinda-malicious-outlook.html
+
+Android_Hid - Rubber Ducky
+将Android用作针对Android的Rubber Ducky，来进行HID攻击的演示。
+https://www.kitploit.com/2021/03/androidhid-use-android-as-rubber-ducky.html
+
+ClearURLs - 浏览器优化工具
+ClearURLs是基于新WebExtensions技术的附加组件，并针对基于Firefox和Chrome的浏览器进行了优化。
+https://www.kitploit.com/2021/03/clearurls-add-on-based-on-new.html
+
+AMSITrigger - 寻找恶意字符串
+AMSITrigger将通过逐行反复使用AMSIScanBuffer调用AMSI来识别Powershell文件中的所有恶意字符串。
+https://haxf4rall.com/2021/03/23/amsitrigger-the-hunt-for-malicious-strings/
+
+InveighZero - 中间人工具
+InveighZero是C＃LLMNR/NBNS/mDNS/DNS/DHCPv6欺骗程序和中间人工具，仅限于Windows系统的渗透测试人员和红队使用。
+https://www.kitploit.com/2021/03/inveighzero-windows-c.html
+
+Seatbelt - 安全性检查工具
+Seatbelt是一个C＃项目，它从进攻性和防御性安全性角度执行许多面向主机调查安全性检查。
+https://www.kitploit.com/2021/04/seatbelt-c-project-that-performs-number.html
+

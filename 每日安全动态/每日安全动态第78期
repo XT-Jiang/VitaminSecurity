@@ -1,0 +1,83 @@
+【安全分析】
+
+Windows 10可运行Linux GUI应用
+在Microsoft向Linux的Windows子系统（WSL）添加GUI支持之后，Windows 10可以在不使用虚拟机的情况下运行Linux GUI应用程序。
+https://www.bleepingcomputer.com/news/microsoft/windows-10-now-lets-you-seamlessly-run-linux-gui-apps/
+
+PrusaSlicer中的代码执行漏洞
+PrusaSlicer存在越界写入漏洞（CVE-2020-28595）和缓冲区溢出漏洞（CVE-2020-28596）。
+https://blog.talosintelligence.com/2021/04/vuln-spotlight-.html
+
+CVE-2021-0248：硬编码问题
+在NFX系列设备上，通过在Juniper Networks Junos OS中使用硬编码凭据，攻击者可以接管NFX部署的任何实例。
+https://www.security-database.com/detail.php?alert=CVE-2021-0248&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Last100Alerts+%28Security-Database+Alerts+Monitor+%3A+Last+100+Alerts%29
+
+CVE-2021-31152：跨站点请求伪造漏洞
+Multilaser路由器RE018 AC1200遭受跨站点请求伪造漏洞的攻击。
+https://packetstormsecurity.com/files/162258/multilasterrouter-xsrf.txt
+
+CVE-2021-30481：代码执行漏洞
+利用Steamworks API结合Source引擎的各种特性和属性，通过恶意的Steam游戏邀请获得远程代码执行(RCE)。
+https://secret.club/2021/04/20/source-engine-rce-invite.html
+
+影响IBM Netezza Performance Server的多个漏洞
+GNU Binutils中的CVE-2018-18607和CVE-2018-18606等漏洞影响IBM Netezza Performance Server。
+https://www.ibm.com/support/pages/node/6445777
+
+Microsoft DiagHub中的提权漏洞
+Microsoft Diaghub存在特权升级漏洞，CVE-2021-28313、CVE-2021-28321、CVE-2021-28322和CVE-2021-28323。
+https://packetstormsecurity.com/files/162251/microsoft-diaghub-case-sensitivity-eop-cve-main.zip
+
+OverlayFS PE漏洞分析
+介绍了OverlayFS中的漏洞如何使Ubuntu下的本地用户获得root特权。
+https://ssd-disclosure.com/ssd-advisory-overlayfs-pe/
+
+2020年最常见的网络攻击技术
+Red Canary统计的2020年最常见的网络攻击技术为PowerShell（24％）攻击。
+https://www.csoonline.com/article/3615296/most-common-cyberattack-techniques-on-windows-networks-for-2020.html#tk.rss_networksecurity
+
+微软发布首个非订阅式Office 2021
+微软已经发布了针对Windows的Microsoft Office长期服务频道（LTSC）和针对Mac的Office 2021的首个商业预览版本。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-first-non-subscription-office-2021-ltsc-previews/
+
+
+【安全工具】
+
+CORScanner - 漏洞扫描程序
+CORScanner是一个python工具，旨在发现网站的CORS错误配置漏洞。
+https://haxf4rall.com/2021/03/25/corscanner-v0-9-11-releases-fast-cors-misconfiguration-vulnerabilities-scanner/
+
+mediator - 反向shell
+是一个端到端的加密反向shell，其中，操作员和shell连接到桥接连接的“mediator”服务器。
+https://haxf4rall.com/2021/03/25/mediator-end-to-end-encrypted-extensible-reverse-shell/
+
+CIMplant - WMImplant的C＃端口
+WMImplant的C＃端口，它使用CIM或WMI查询远程系统，可以使用提供的凭据或当前用户的会话。
+https://securityonline.info/cimplant-c-port-of-wmimplant/
+
+r77 Rootkit - ring 3 Rootkit
+可在所有进程中隐藏文件、目录、命名管道、计划任务、CPU使用率、注册表项和值、TCP和UDP连接。
+https://github.com/bytecode77/r77-rootkit
+
+3klCon - 自动化侦查工具
+完全自动化的侦察工具，适用于中小型示波器，它将发现密钥并搜索漏洞。
+https://securityonline.info/3klcon-full-automation-recon-tool/
+
+corsair_scan - 安全测试工具
+Corsair_scan是用于测试跨域资源共享（CORS）错误配置的安全工具。
+https://securityonline.info/corsair_scan-test-cross-origin-resource-sharing-cors-misconfigurations/
+
+DefenderCheck - 代码分析工具
+将二进制文件作为输入并将其拆分，定位Microsoft Defender在其上进行标记的确切字节，然后输出。
+https://www.kitploit.com/2021/04/defendercheck-identifies-bytes-that.html
+
+SharpHound3 - C＃数据收集器
+BloodHound项目的C＃数据收集器，可收集组成员资格、域信任、本地组、会话、ACL、对象属性和SPN目标。
+https://www.kitploit.com/2021/04/sharphound3-c-data-collector-for.html
+
+Watson - 漏洞利用工具
+Watson是一个.NET工具，旨在枚举丢失的KB并建议针对特权升级漏洞的利用。
+https://www.kitploit.com/2021/04/watson-enumerate-missing-kbs-and.html
+
+
+

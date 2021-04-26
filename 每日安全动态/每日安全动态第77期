@@ -1,0 +1,75 @@
+【安全分析】
+
+Cosori家电中的远程代码执行突破
+Cosori智能空气炸锅存在的远程代码执行突破CVE-2020-28592和CVE-2020-28593。
+https://blog.talosintelligence.com/2021/04/vuln-spotlight-co.html
+
+Mozilla Firefox和Thunderbird中的多个扩展
+Mozilla Firefox和Thunderbird存在CVE-2021-23961，CVE-2021-23994和CVE-2021-23995等漏洞。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-and-thunderbird-could-allow-for-arbitrary-code-execution_2021-051/
+
+Synology DiskStation Manager中的多个突破
+Synology DiskStation Manager存在CVE-2021-26564，CVE-2021-26565和CVE-2021-26566等漏洞。
+https://blog.talosintelligence.com/2021/04/vuln-spotlight-synology-dsm.html
+
+Facebook中的编码突破
+Facebook的实时视频服务中存在编码楼的那个，该问题使攻击者无需所有者同意即可有效删除内容。 
+https://www.zdnet.com/article/coding-error-allowed-attackers-to-delete-facebook-live-video/
+
+XCSSET恶意软件苹果新M1芯片
+XCSSET是针对Xcode开发人员的Mac恶意软件，进行重新设计并针对苹果新M1芯片的活动。
+https://securityaffairs.co/wordpress/116983/malware/xcsset-malware-apple-m1.html
+
+Rowhammer攻击回归
+Rowhammering是一个可靠性问题，影响许多计算机存储芯片，尤其是笔记本电脑或移动电话中的RAM。
+https://nakedsecurity.sophos.com/2021/04/19/serious-security-rowhammer-is-back-but-now-its-所谓的-smash /
+
+清楚入侵Linux系统的日志和Bash历史
+介绍了如何清除入侵Linux系统的日志和Bash历史，以掩盖攻击踪迹并保持不被发现。
+https://null-byte.wonderhowto.com/how-to/clear-logs-bash-history-hacked-linux-systems-cover-your-tracks-remain-undetected-0244768/
+
+目录服务还原模式（DSRM）指南
+介绍了如何使用目录服务还原模式（DSRM）在域控制器上进行持久性攻击。
+https://www.hackingarticles.in/domain-persistence-dsrm/
+
+微软将推出Cloud PC服务
+微软预计在2021夏季年推出代号为项目德舒特的云PC，一项基于Azure中的服务。
+https://www.zdnet.com/article/microsoft-marches-toward-launching-its-cloud-pc-service-possfully-this-summer/
+
+
+【安全工具】
+kube信标-开源审核扫描程序
+Kube-Beacon是一个开源审核扫描程序，它对已部署的kubernetes进行执行审核检查并输出安全报告。
+https://haxf4rall.com/2021/03/24/kube-beacon-perform-security-audit-checks-based-on-cis-kubernetes-benchmark-specification/
+
+CobaltStrike BOF-信标BOF合集
+DCOM横向移动一种快速的PoC，它通过信标对象文件使用DCOM（ShellWindows）进行横向移动。
+https://haxf4rall.com/2021/03/24/cobaltstrike-bof-collection-of-beacon-bof/
+
+Accurics-安全解决方案
+提前帮助使用常见的基础架构作为代码工具，例如Terraform，Kubernetes YAML或OpenFaaS YAML文件
+https://www.helpnetsecurity.com/2021/04/20/product-showcase-accurics/
+
+AppMoat360-安全解决方案
+该解决方案可以帮助客户保护其企业网络合并勒索软件和零日攻击的侵害。
+https://www.helpnetsecurity.com/2021/04/19/seventh-knight-appmoat360/
+
+感染猴-攻击模拟工具
+开源攻击模拟工具Infection Monkey能够对AWS环境进行零信任评估，以帮助确定组织的AWS安全态势中的潜在差距。
+https://www.helpnetsecurity.com/2021/04/16/infection-monkey-zero-trust-aws/
+
+SharpDPAPI-C＃端口
+Mimikatz项目中某些DPAPI功能的C＃端口，目的是为了更好地了解流程并进行进行操作。
+https://www.kitploit.com/2021/04/sharpdpapi-c-port-of-some-mimikatz.html
+
+SecretScanner-密码搜索工具
+SecretScanner可以在容器映像或文件系统中找到任何潜在的密码。
+https://www.kitploit.com/2021/04/secretscanner-find-secrets-and.html
+
+Tuf-用于保护软件更新系统的框架
+TUF可帮助开发人员维护软件更新系统的安全性，甚至是攻击破坏存储库或签名密钥的攻击者也是如此。
+https://www.kitploit.com/2021/04/tuf-framework-for-securing-software.html
+
+SharpGPOAbuse-.NET应用程序
+SharpGPOAbuse是一个用C＃编写的.NET应用程序，可用于利用用户对组策略对象（GPO）的编辑权限，以破坏为该GPO控制的对象。
+https://www.kitploit.com/2021/04/sharpgpoabuse-tool-to-take-advantage-of.html

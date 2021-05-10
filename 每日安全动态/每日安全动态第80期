@@ -1,0 +1,84 @@
+【安全分析】
+
+CVE-2020-28588：释放后使用漏洞
+福昕PDF阅读器存在释放后使用漏洞，可在受害者计算机上执行任意代码。
+https://blog.talosintelligence.com/2021/05/vuln-spotlight-foxit-use-after-free.html
+
+CVE-2021-0473：内存泄漏漏洞
+Android在NFC的Felica标签处理中遭受内存泄漏，越界写入和双重释放漏洞的困扰。
+https://packetstormsecurity.com/files/162499/GS20210507153817.tgz
+
+CVE-2021-3410：缓冲区溢出漏洞
+攻击者可以通过libcaca的caca_resize（）触发缓冲区溢出，以触发拒绝服务并可能运行代码。
+https://vigilance.fr/vulnerability/libcaca-buffer-overflow-via-caca-resize-34757
+
+Deepfake检测方法
+陆军研究人员开发了一种深度伪造检测方法Deepfake，针对轻量级、低训练复杂度和高性能人脸生物识别技术。
+https://www.helpnetsecurity.com/2021/05/07/defakehop-deepfake-detection-method/
+
+新的Windows恶意软件Pingback
+研究人员发现新的Windows恶意软件Pingback，使用Internet控制消息协议（ICMP）进行命令和控制（C2）活动。
+https://www.bleepingcomputer.com/news/security/new-windows-pingback-malware-uses-icmp-for-covert-communication/
+
+Google Play为所有Android应用添加隐私信息
+Google宣布从2022年第一季度开始在其Google Play商店数字分发服务中列出的Android应用程序条目中引入隐私信息部分。
+https://www.bleepingcomputer.com/news/google/google-play-store-to-add-privacy-information-for-all-android-apps/
+
+朝鲜APT Kimsuky分析
+朝鲜APT小组Kimsuky在针对全球的攻击中采用了新的战术、技术和程序。
+https://beta.darkreading.com/operations/how-north-korean-apt-kimsuky-is-evolving-its-tactics
+
+Lemon Duck攻击活动分析
+自2021年4月以来，Cisco Talos观察到与Lemon Duck加密货币挖掘僵尸网络相关的更新基础架构和新组件。
+https://blog.talosintelligence.com/2021/05/lemon-duck-spreads-wings.html
+
+防御Web爬虫攻击
+Web抓取与Internet一样古老，有几种方法可以减少Web抓取的风险。
+https://beta.darkreading.com/endpoint/defending-against-web-scraping-attacks
+
+4个Google重大隐私和安全更新
+Google宣布了一系列面向用户和后台的更改，旨在提高隐私和安全性，包括自动向所有符合条件的用户推出两因素身份验证。
+https://thehackernews.com/2021/05/4-major-privacy-and-security-updates.html
+
+
+【安全工具】
+
+LibInjection –检测SQLi和XSS
+LibInjection是一个C库，用于通过对实际攻击的词法分析来检测SQL注入（SQLi）和跨站点脚本（XSS）。
+https://www.darknet.org.uk/2021/05/libinjection-detect-sql-injection-sqli-and-cross-site-scripting-xss/
+
+Arsinal - 威胁防护和报告的工具包
+Arete推出Arsinal，可为各种类型和规模的组织提供更为广泛的保护。
+https://www.helpnetsecurity.com/2021/05/07/arete-arsinal-sentinelone/
+
+Max - 最大化BloodHound
+最大限度地发挥BloodHound的作用。
+https://www.kitploit.com/2021/04/max-maximizing-bloodhound.html
+
+Redcloud - Red Team基础架构部署
+是一个功能强大且用户友好的工具箱，用于使用Docker部署功能全面的Red Team Infrastructure。
+https://www.kitploit.com/2021/04/redcloud-automated-red-team.html
+
+PoisonApple - macOS持久性工具
+用于在macOS上执行各种持久性机制技术的命令行工具，旨在供黑客用于网络威胁仿真目的。
+https://www.kitploit.com/2021/04/poisonapple-macos-persistence-tool.html
+
+Gotestwaf - WAF检测检测工具
+一个开源Go项目，用于测试不同的Web应用程序防火墙（WAF）的检测逻辑和旁路。
+https://www.kitploit.com/2021/04/gotestwaf-go-test-waf-is-tool-to-test.html
+
+mubeng - 代理检查器
+快速代理检查器和IP转换器，支持所有HTTP/S方法，跨平台。
+https://securityonline.info/mubeng-incredibly-fast-proxy-checker-ip-rotator/
+
+ipcdump - 跟踪进程间通信（IPC）
+pcdump是用于在Linux上跟踪进程间通信（IPC）的工具，涵盖了大多数常见的IPC机制。
+https://securityonline.info/ipcdump-tracing-interprocess-communication-ipc-on-linux/
+
+VulnerableCode - 漏洞数据库
+VulnerableCode是一个免费且开放的FOSS软件包漏洞数据库，它是创建和保持数据最新的工具。
+https://securityonline.info/vulnerablecode/
+
+dnsobserver - 漏洞检测
+用Go语言编写的便捷DNS服务，可帮助检测多种类型的blind漏洞。
+https://securityonline.info/dnsobserver-detection-of-several-types-of-blind-vulnerabilities/

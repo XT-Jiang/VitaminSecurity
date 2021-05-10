@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-30459：SQL漏洞
+基于Python的开源Web框架Debug工具栏中存在一个高严重性的SQL漏洞，CVSS评分为9.8。
+https://latesthackingnews.com/2021/04/26/serious-sql-vulnerability-found-in-django-debug-toolbar/
+
+John Deere API中多个漏洞
+美国农业设备商的软件存在两个漏洞，可用户的个人详细信息。
+https://latesthackingnews.com/2021/04/27/security-vulnerabilities-in-john-deere-api-could-expose-tractor-customers/
+
+WebSphere Application Server XML外部实体注入漏洞
+IBM WebSphere Application Server存在CVE-2021-20453和CVE-2021-20454漏洞。
+https://haxf4rall.com/2021/04/22/cve-2021-20453-cve-2021-20454-websphere-application-server-xml-external-entity-injection-vulnerability/
+
+NTLM中继攻击滥用Windows RPC协议漏洞
+安全公司SentinelOne透露，一种新发现的NTLM（新技术LAN管理器）中继攻击滥用了远程过程调用（RPC）漏洞来实现特权提升。
+https://www.securityweek.com/ntlm-relay-attack-abuses-windows-rpc-protocol-vulnerability
+
+Defender使用Intel TDT阻止加密劫持恶意软件
+Microsoft Defender现在支持使用英特尔基于硅的威胁检测技术（TDT）阻止加密劫持恶意软件。
+https://www.bleepingcomputer.com/news/security/microsoft-defender-now-blocks-cryptojacking-malware-using-intel-tdt/
+
+Adobe发布开源异常检测工具OSAS
+Adobe发布了一站式异常商店OSAS的开放源代码，该工具旨在帮助安全团队发现数据集中的异常情况。
+https://www.securityweek.com/adobe-releases-open-source-anomaly-detection-tool-osas
+
+Windows 10软件包管理器可从命令行删除应用
+Windows 10软件包管理器具有新功能，用户可以直接从命令行管理所有已安装的应用程序。
+https://www.bleepingcomputer.com/news/microsoft/windows-10-package-manager-can-now-remove-any-app-from-the-command-line/
+
+黑客使用名人欺骗受害者的4种常见方式
+ESET研究人员骗子滥用富人和名人的名字和形象来欺骗受害者的几种常见方式。
+https://www.welivesecurity.com/2021/04/26/4-common-ways-scammers-use-celebrities-lure-victims/
+
+Microsoft宣布多个.NET Framework版本的生命周期终止
+微软宣布，使用传统和不安全的安全哈希算法1（SHA-1）签名的多个.NET Framework版本将于明年终止支持。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-end-of-life-for-multiple-net-framework-versions/
+
+
+【安全工具】
+
+SniperPhish - 钓鱼工具包
+SniperPhish是一个多合一的开源网络钓鱼工具包，可以用来设置和执行电子鱼叉式网络钓鱼活动。
+https://www.helpnetsecurity.com/2021/04/26/sniperphish-phishing-toolkit/
+
+UAC - 事件响应的实时响应收集工具
+它使用内置工具来自动收集类Unix系统工件，也可以针对已安装的取证图像运行。
+https://www.kitploit.com/2021/04/uac-unix-like-artifacts-collector.html
+
+Scylla - 信息收集引擎
+Scylla是使用Python 3.6开发的OSINT工具，允许用户在Instagram和Twitter帐户、网站/网络服务器、电话号码和姓名上执行高级搜索。
+https://www.kitploit.com/2021/04/scylla-simplistic-information-gathering.html
+
+ThreatMapper - 威胁识别工具
+是Deepfence云本机工作负载保护平台的一个子集，识别正在运行的容器、图像、主机和存储库中的漏洞。
+https://www.kitploit.com/2021/04/threatmapper-identify-vulnerabilities.html
+
+Columbo - 取证分析工具
+Columbo是一种计算机取证分析工具，用于简化和识别受损数据集中的特定模式。
+https://www.kitploit.com/2021/04/columbo-computer-forensic-analysis-tool.html
+
+CANalyse - 车辆网络分析和攻击工具
+CANalyse是一种用于分析日志文件以自动查找唯一数据集并能够连接到简单用户界面（例如Telegram）的工具。
+https://securityonline.info/canalyse-vehicle-network-analysis-and-attack-tool/
+
+honeypots - 16个不同的蜜罐
+单个PyPI包中有16个不同的蜜罐，用于监视网络流量、漫游器活动以及用户名、密码凭据。
+https://securityonline.info/honeypots-16-honeypots-in-a-single-pypi-package/
+
+nmapAutomator - 自动枚举工具
+nmapAutomator脚本的主要目标是使每次运行的所有重新验证、枚举过程自动化，主要用于渗透测试。
+https://securityonline.info/nmapautomator-automate-all-of-the-process-of-recon-enumeration/
+
+Gel4y Mini Shell后门
+Gel4y Webshell是使用PHP编程语言以隐身模式构建的后门程序，每个功能都已转换为十六进制代码以渗透到WAF服务器系统。
+https://securityonline.info/mini-shell-backdoor/

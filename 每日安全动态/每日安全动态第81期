@@ -1,0 +1,80 @@
+【安全分析】
+
+CVE-2021-28562：代码执行漏洞
+思科Talos最近在Adobe Acrobat Reader中发现了一个任意代码执行漏洞。  
+https://blog.talosintelligence.com/2021/05/vuln-spotlight-adobe-acrobat-js.html
+
+CVE-2021-3493：提权漏洞
+Linux内核中overlayFS文件系统中的存在漏洞，可以使Ubuntu下的本地用户获得root特权。
+https://ssd-disclosure.com/ssd-advisory-overlayfs-pe/
+
+CVE-2020-4535：跨站点脚本漏洞
+带有Watson的IBM OpenPages已解决了由不正确的验证引起的跨站点脚本漏洞。
+https://www.ibm.com/blogs/psirt/security-bulletin-ibm-openpages-with-watson-has-addressed-a-cross-site-scripting-vulnerability-cve-2020-4535/
+
+Google Chrome中的多个漏洞
+成功利用这些漏洞可能导致受影响的系统上的缓冲区溢出、安全限制绕过或系统损坏。
+https://www.govcert.gov.hk/en/alerts_detail.php?id=583
+
+AWS CloudShell远程执行代码漏洞
+AWS CloudShell使用的javascript终端模拟器错误地处理了某些终端转义码，可能导致远程执行代码。
+https://packetstormsecurity.com/files/162518/GS20210510143332.txt
+
+GitHub通过SSH使用Git时支持安全密钥
+GitHub增加了使用FIDO2安全密钥来保护SSH Git操作的支持，从而增强了防止帐户接管尝试的保护。
+https://www.bleepingcomputer.com/news/security/github-now-supports-security-keys-when-using-git-over-ssh/
+
+微软采用Linux内核的超级工具eBPF
+eBPF是一个基于寄存器的虚拟机，旨在通过Linux内核内部的即时编译来运行自定义的类似于RISC的64位体系结构。
+https://www.theregister.com/2021/05/11/microsoft_linux_ebpf/
+
+缓冲区溢出入门指南
+本指南介绍了什么是缓冲区溢出以及如何发生缓冲区溢出。
+https://www.hackingarticles.in/a-beginners-guide-to-buffer-overflow/
+
+常见的Python漏洞以及如何避免它们
+Python已成为超越Java的全球第二大流行编程语言，如此广泛的使用会带来越来越多的攻击和威胁。
+https://infosecwriteups.com/most-common-python-vulnerabilities-and-how-to-avoid-them-5bbd22e2c360
+
+英特尔推出第11代Intel Core H系列移动处理器
+新的第11代Intel Core H系列移动处理器（代号为“ Tiger Lake-H”）在全球范围内推出，速度高达5.0 GHz。
+https://www.helpnetsecurity.com/2021/05/12/intel-h-series-mobile-processors/
+
+
+【安全工具】
+
+Google发布cosign
+Google发布了一个名为cosign的新开源工具，使管理签名和验证容器映像的过程变得更加容易。
+https://www.securityweek.com/google-releases-open-source-tool-verifying-containers
+
+Lucifer - 渗透工具
+一个强大的渗透工具，可自动执行渗透任务，例如本地特权升级、枚举、渗透等
+https://securityonline.info/lucifer-powerful-penetration-tool-for-automating-penetration-tasks/
+
+ldsview - LDAP目录转储的搜索工具
+用于LDIF格式的LDAP目录转储的脱机搜索工具，可快速且高效地解析LDIF文件。
+https://securityonline.info/ldsview-search-tool-for-ldap-directory-dumps/
+
+spraygen - 密码列表生成器
+用于喷涂密码的密码列表生成器，还接受单个单词或外部单词列表。
+https://securityonline.info/spraygen-password-list-generator-for-password-spraying/
+
+HackBar - Burpsuite的HackBar插件
+HackBar是一个插件，可帮助进行Web应用程序安全性测试，其目的是帮助使这些繁琐的任务变得简单一些。
+https://securityonline.info/hackbar-v2-0-releases-hackbar-plugin-for-burpsuite/
+
+AzureC2Relay - Azure功能
+可通过基于Cobalt Strike可延展的C2配置文件验证传入的请求来验证和中继Cobalt Strike Beacon通信。
+https://www.kitploit.com/2021/04/azurec2relay-azure-function-that.html
+
+Cpufetch - CPU架构获取工具
+简单但花哨的CPU架构获取工具，当前支持x86_64 CPU（Intel和AMD）和ARM。
+https://www.kitploit.com/2021/04/cpufetch-simplistic-yet-fancy-cpu.html
+
+Dwn - Docker Pwn工具管理器
+使用类似于的简单YAML“计划”格式docker-compose定义了映像名称，版本和卷/端口映射，以设置要使用的工具。
+https://www.kitploit.com/2021/04/dwn-dockerpwn-docker-pwn-tool-manager.html
+
+Ronin - 用于漏洞研究的Ruby平台
+Ronin是一个用于漏洞研究和漏洞利用开发的Ruby平台，允许通过存储库快速开发和分发代码、漏洞利用、有效载荷、扫描程序等。
+https://www.kitploit.com/2021/04/ronin-ruby-platform-for-vulnerability.html

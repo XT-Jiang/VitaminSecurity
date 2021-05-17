@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2021-31166：HTTP协议栈远程执行代码漏洞
+HTTP协议堆栈（http.sys）中存在的远程执行代码漏洞，CVSS分数是9.8。
+https://haxf4rall.com/2021/05/12/cve-2021-31166-http-protocol-stack-remote-code-execution-vulnerability/
+
+CVE-2019-17026：类型混淆漏洞
+Firefox 72 IonMonkey JIT类型混淆漏洞利用。
+https://packetstormsecurity.com/files/162568/firefox72ionmonkeyjit-typeconfusion.txt
+
+OpenPLC WebServer 3远程执行代码漏洞
+OpenPLC WebServer 3存在身份验证远程代码执行漏洞。
+https://packetstormsecurity.com/files/162563/OpenPLCv3_RCE.py.txt
+
+CVE-2020-0674：释放后使用漏洞
+Microsoft Internet Explorer 8/11和WPAD服务Jscript.dll存在释放后使用漏洞。
+https://packetstormsecurity.com/files/162565/msie811-uaf.txt
+
+Spectrum Discover中的多个安全漏洞
+Spectrum Discover修复CVE-2020-13401和CVE-2019-20372。
+https://www.ibm.com/blogs/psirt/security-bulletin-spectrum-discover-has-addressed-multiple-security-vulnerabilities-cve-2020-13401-cve-2019-20372-2/
+
+Windows特权升级
+展示一种当该设备中包含DnsAdmins Group的一个受损用户时，在基于windows的设备上升级特权的方法。
+https://www.hackingarticles.in/windows-privilege-escalation-dnsadmins-to-domainadmin/
+
+DARKSIDE勒索软件的分析
+Mandiant当前跟踪部署了该勒索软件的多个黑客团伙，这与使用DARKSIDE的多个分支机构一致。
+https://www.fireeye.com/blog/threat-research/2021/05/shining-a-light-on-darkside-ransomware-operations.html
+
+Web应用程序和服务器提取指纹
+描述了如何在Web应用程序和服务器提取指纹，以实现更好的侦查和更多成功的黑客攻击。
+https://null-byte.wonderhowto.com/how-to/fingerprint-web-apps-servers-for-better-recon-more-successful-hacks-0302807/
+
+
+【安全工具】
+
+Adfsbrute - ADFS测试凭据的脚本
+用于根据Active Directory联合身份验证服务（ADFS）测试凭据，允许密码喷雾或暴力破解攻击的脚本。
+https://www.kitploit.com/2021/04/adfsbrute-script-to-test-credentials.html
+
+MoveKit - Cobalt Strike工具
+是利用SharpMove和SharpRDP .NET程序集的execute_assembly功能对内置Cobalt Strike横向运动的扩展。
+https://www.kitploit.com/2021/04/movekit-cobalt-strike-kit-for-lateral.html
+
+Swissknife - VSCode扩展
+用于生成或处理数据的可编写脚本的VSCode扩展，在Visual Studio市场上可用。
+https://www.kitploit.com/2021/04/swissknife-scriptable-vscode-extension.html
+
+PSoft Webscanner - 漏洞扫描程序
+适用于Windows平台的强大的Dork搜索程序和漏洞扫描程序。
+https://www.kitploit.com/2021/05/apsoft-web-scanner-v2-powerful-dork.html
+
+red detector - 漏洞扫描
+使用Vuls扫描EC2实例以查找其漏洞，审核EC2实例以使用Lynis查找安全性错误配置。
+https://securityonline.info/red-detector-scan-your-ec2-instance-to-find-its-vulnerabilities/
+
+kiterunner - 探索工具
+能够以闪电般的速度执行传统的内容发现，而且还能够在现代应用程序中对路径/端点进行暴力破解。
+https://securityonline.info/kiterunner-contextual-content-discovery-tool/
+
+BetterXencrypt - 加密程序
+Xencrypt本身是一个Powershell运行时加密程序，旨在逃避AV。
+https://securityonline.info/betterxencrypt-powershell-runtime-crypter-designed-to-evade-avs/
+
+Kubesploit - 命令和控制服务器
+Kubesploit是一个跨平台的利用后的HTTP / 2命令与控制服务器和代理。
+https://securityonline.info/kubesploit-cross-platform-post-exploitation-http-2-command-control-server/
+
+
+
+

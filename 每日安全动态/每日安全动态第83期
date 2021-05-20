@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-29505：远程命令执行漏洞
+XStream存在远程命令执行漏洞，可以构造特定的xml，绕过XStream黑名单，在服务器上执行本地命令。
+https://haxf4rall.com/2021/05/17/cve-2021-29505-xstream-remote-command-execution-vulnerability-alert/
+
+Microsoft ACL的漏洞
+Microsoft Windows实现文件安全性的方式似乎存在一些重大缺陷。
+https://packetstormsecurity.com/files/162620/ms-acls.txt
+
+OpenPLC WebServer 3远程执行代码
+OpenPLC WebServer版本3存在身份验证的远程代码执行漏洞。
+https://packetstormsecurity.com/files/162563/OpenPLCv3_RCE.py.txt
+
+Microsoft Windows TokenMagic特权升级
+此Metasploit模块利用UAC绕过（TokenMagic）来生成进程/进行DLL劫持攻击以获取系统级特权。
+https://packetstormsecurity.com/files/162605/tokenmagic.rb.txt
+
+NoCry勒索软件分析
+NoCry是Judge勒索软件的一种变体，可通过NoMoreRansom获得该解密器。
+https://securityaffairs.co/wordpress/118054/malware/nocry-ransomware-analysis.html
+
+这是您必须知道的5个MacBook技巧
+MacBook的破解和快捷方式层出不穷，有AirDrop、iMessage，这些选项是无限的。
+https://www.hackread.com/5-macbook-hacks-you-must-know/
+
+使用Deauther破解网络
+介绍了如何使用Wi-Fi Deauther手表从直接破解网络和设备。
+https://null-byte.wonderhowto.com/how-to/hack-networks-devices-right-from-your-wrist-with-wi-fi-deauther-watch-0296283/
+
+Mozilla将网站隔离部署到所有Firefox通道
+Mozilla已开始将站点隔离安全性功能推广到所有Firefox通道，以保护用户免受通过恶意网站发起的攻击。
+https://www.bleepingcomputer.com/news/security/mozilla-starts-rolling-out-site-isolation-to-all-firefox-channels/
+
+Windows 10 21H1发布
+Microsoft已经发布了Windows 10 21H1，具有更高性能和安全性，改善操作系统的整体体验。
+https://www.bleepingcomputer.com/news/microsoft/windows-10-21h1-is-released-these-are-the-new-features/
+
+
+【安全工具】
+
+PacketFence - 网络访问控制（NAC）系统
+它可以用来有效地保护从小型到大型异构网络的网络，提供面向NAC的功能。
+https://packetstormsecurity.com/files/162571/packetfence-10.3.0.tar.gz
+
+Eyeballer - 卷积神经网络分析
+Eyeballer适用于大型网络渗透测试，您需要从大量基于Web的主机中找到“有趣的”目标。
+https://www.kitploit.com/2021/05/eyeballer-convolutional-neural-network.html
+
+DFIR O365RC - 日志收集
+DFIR-O365RC PowerShell模块是允许DFIR分析人员收集与Office 365商业电子邮件妥协调查相关的日志的一组功能。
+https://www.kitploit.com/2021/05/dfir-o365rc-powershell-module-for.html
+
+Red Kube - 红队K8S对手仿真
+Red Kube是kubectl命令的集合，编写这些命令是为了从攻击者的角度评估Kubernetes集群的安全状态。
+https://www.kitploit.com/2021/05/red-kube-red-team-k8s-adversary.html
+
+CIMplant - WMImplant的C＃端口
+CMImplant的C＃端口，它使用CIM或WMI查询远程系统，可以使用提供的凭据或当前用户的会话。
+https://www.kitploit.com/2021/05/cimplant-c-port-of-wmimplant-which-uses.html
+
+siembol - 事件管理工具
+Siembol开源的实时安全信息和事件管理工具，提供了基于大数据技术的可扩展的高级安全分析框架。
+https://securityonline.info/siembol-open-source-real-time-security-information-event-management-tool/
+
+SHEPARD - IN PROGRESS持久性工具
+这是使用Windows后台智能传输服务（BITS）的IN PROGRESS持久性工具。
+https://securityonline.info/shepard-in-progress-persistent-tool/
+
+gopep - Python脚本
+gopep（Go语言可移植可执行分析器）是一个Python脚本，用于从在Go中编译的PE可执行文件中提取属性。
+https://securityonline.info/gopep-extracting-attributes-from-pe-executables-compiled-in-go/
+
+Dent - 攻击框架
+该框架生成的代码可利用Microsoft Defender的“减少攻击面”规则来执行Shellcode，而不会被检测到或阻止。
+https://securityonline.info/dent-creating-com-based-bypasses-utilizing-vulnerabilities/

@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-21160：缓冲区溢出漏洞
+思科Talos最近在Google Chrome中发现了一个可利用的基于堆的缓冲区溢出漏洞。  
+https://blog.talosintelligence.com/2021/05/vuln-spotlight-google-chrome-heap.html
+
+Eufy监控中的漏洞
+由于服务器升级故障，Eufy Camera的内部服务器存在漏洞，可泄露用户的私人视频。
+https://threatpost.com/eufy-cam-private-feeds/166288
+
+WordPress Statistics中的SQL注入漏洞
+Wordfence在WP Statistics中发现了一个基于时间的SQL盲注漏洞，影响超过60万用户。
+https://securityaffairs.co/wordpress/118099/hacking/wordpress-wp-statistics-flaw-2.html/
+
+MountLocker勒索软件分析
+现在，MountLocker勒索软件操作使用企业Windows Active Directory API遍历网络。
+https://www.bleepingcomputer.com/news/security/mountlocker-ransomware-uses-windows-api-to-worm-through-networks/
+
+macOS上的iOS应用如何在后台运行
+这篇简短的文章解释了如何为iOS编译的代码可以在Apple Silicon Macs上本地运行。
+https://googleprojectzero.blogspot.com/2021/05/fuzzing-ios-code-on-macos-at-native.html
+
+微软发布SimuLand
+微软发布了一个用于模拟网络攻击的测试实验室SimuLand，可帮助测试和改进针对实际攻击方案。
+https://www.bleepingcomputer.com/news/security/microsoft-releases-simuland-a-test-lab-for-simulated-cyberattacks/
+
+Google将在Android版Chrome中恢复RSS支持
+2013年，Google停止了其RSS应用，接下来美国部分的Android版Chrome中将实验性的恢复RSS支持。
+https://www.theregister.com/2021/05/20/google_rss_chrome_android/
+
+NTLM降级攻击
+探讨攻击者想要提取目标用户的哈希值或凭据但不能使用Mimikatz或任何其他嘈杂工具的情况。
+https://www.hackingarticles.in/ntlm-downgrade-attack-internal-monologue/
+
+基于ESP8266的WiFi Deauth
+如何使用基于ESP8266的WiFi Deauth扫描、伪造和攻击Wi-Fi网络。
+https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/
+
+
+【安全工具】
+
+Cypheroth - 可扩展的工具集
+自动化、可扩展的工具集，可对Bloodhound的Neo4j后端运行密码查询，并将输出保存到电子表格中。
+https://www.kitploit.com/2021/04/cypheroth-automated-extensible-toolset.html
+
+Modded Ubuntu - Ubuntu GUI
+在Termux上运行具有许多功能的Ubuntu GUI，支持固定音频输出、轻量级，Katoolin3工具，用于安装kali工具。
+https://www.kitploit.com/2021/04/modded-ubuntu-run-ubuntu-gui-on-your.html
+
+KubiScan - 扫描工具
+一种在Kubernetes的基于角色的访问控制（RBAC）授权模型中扫描Kubernetes群集以获取危险权限的工具。
+https://www.kitploit.com/2021/04/kubiscan-tool-to-scan-kubernetes.html
+
+Reproxy - 反向代理
+Reproxy是一个简单的边缘HTTP服务器/反向代理，支持各种提供程序（docker、static、file）。
+https://www.kitploit.com/2021/04/reproxy-simple-edge-server-reverse-proxy.html
+
+ARTi C2 - 开发后框架
+ARTi-C2是一个现代的执行框架，旨在使安全团队能够从单个和多个跨点目标扩展攻击方案的执行。
+https://securityonline.info/arti-c2-post-exploitation-framework/
+
+metarget - 基础架构的框架
+Metarget = meta + target，用于快速、自动地部署简单或复杂的易受攻击的云原生目标。
+https://securityonline.info/metarget-framework-vulnerable-infrastructures/
+
+PageBuster - 页面收集工具
+以隐秘的方式转储所有可执行页面，例如打包的恶意软件样本。
+https://securityonline.info/pagebuster-gather-dumps-of-all-executable-pages-of-packed-processes/
+
+Lepus3 - 子域查找器
+Lepus是用于识别和收集给定域的子域的实用程序，子域发现是侦察阶段的关键部分。
+https://securityonline.info/lepus3-subdomain-finder-with-various-api-integrations/
+
+
+
+

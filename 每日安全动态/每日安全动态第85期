@@ -1,0 +1,79 @@
+【安全分析】
+
+趋势科技家庭网络安全工作站中的多个漏洞
+趋势科技家庭网络安全工作站中存在CVE-2021-32457、CVE-2021-32458和CVE-2021-32459。
+https://blog.talosintelligence.com/2021/05/vuln-spotlight-trend-i.html
+
+CVE-2021-30497：目录遍历漏洞
+Ivanti Avalanche中的一个漏洞允许未经身份验证的远程用户请求位于“ image”文件夹之外的文件。
+https://ssd-disclosure.com/ssd-advisory-ivanti-avalanche-directory-traversal/
+
+McAfee ePolicy Orchestrator的多个漏洞
+McAfee ePolicy Orchestrator存在CVE-2021-23888、CVE-2021-23889和CVE-2021-23890。
+https://vigilance.fr/vulnerability/McAfee-ePolicy-Orchestrator-three-vulnerabilities-34947
+
+CVE-2021-20487：恶意代码注入漏洞
+Power Systems中存在漏洞，自助启动引擎（SBE）可能会受到服务处理器的破坏，以允许注入恶意代码。
+https://www.ibm.com/blogs/psirt/security-bulletin-this-power-system-update-is-being-released-to-address-cve-2021-20487/
+
+微软修复FLAC音乐文件的Windows 10错误
+Microsoft已修复Windows 10的已知问题，该问题将导致更改其标题、艺术家时，FLAC编码的音乐文件损坏。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-new-windows-10-bug-corrupting-flac-music-files/
+
+如何收集应用服务指纹
+有许多可用的指纹识别工具，例如httprint和WebTech，以实现更好的侦查和更成功的黑客。
+https://null-byte.wonderhowto.com/how-to/fingerprint-web-apps-servers-for-better-recon-more-successful-hacks-0302807/
+
+Active Directory枚举
+重点介绍通过SMB和RPC通道进行的域枚举，用于所有枚举和操作的工具将是rpcclient。
+https://www.hackingarticles.in/active-directory-enumeration-rpcclient/
+
+使用密码保护Google活动历史记录
+Google现在允许用户对帐户的“我的活动”页面进行密码保护，以使共享您设备的其他人无法窥探其活动。
+https://www.bleepingcomputer.com/how-to/google/how-to-password-protect-your-google-activity-history/	
+
+
+【安全工具】
+
+SlackPirate - Slack枚举工具
+这是在Python中开发的工具，使用给定访问令牌的Slack本机API来从Slack工作空间中提取信息。
+https://www.kitploit.com/2021/04/slackpirate-slack-enumeration-and.html
+
+OverRide - 二进制开发和逆向工程
+通过10个小挑战来探索反汇编、二进制开发和逆向工程。
+https://www.kitploit.com/2021/04/override-binary-exploitation-and.html
+
+Posta - 安全性研究工具
+Posta是用于研究跨文档消息传递通信的工具，允许跟踪、探索和利用postMessage漏洞
+https://www.kitploit.com/2021/04/posta-cross-document-messaging-security.html
+
+Tscopy - 文件搜索工具
+解析NTFS $ MFT文件以查找和复制特定文件的工具。
+https://www.kitploit.com/2021/04/tscopy-tool-to-parse-ntfs-mft-file-to.html
+
+Shield - 防止进程注入
+Shield是一款可防止在macOS上进行进程注入的应用程序，没有普通的窗口模式应用程序，仅是菜单栏。
+https://securityonline.info/shield-protect-against-process-injection-and-suspicious-file-links-on-macos/
+
+Dir Thief - Red Team工具
+用于通过Google的People API传播您有权访问的目标组织的Google People Directory。
+https://securityonline.info/dir-thief-red-team-tool-for-exfiltrating-the-target-organizations-google-people-directory/
+
+aws enumerator - AWS服务枚举
+AWS Enumerator是为服务枚举和信息转储而创建的，用于在黑匣子测试期间调查渗透测试人员。
+https://securityonline.info/aws-enumerator-aws-service-enumeration/
+
+MacHound - 收集Active Directory关系
+MacHound是Bloodhound审核工具的扩展，允许在MacOS主机上收集和提取Active Directory关系。
+https://securityonline.info/machound/
+
+link - C2框架
+rust C2框架，可以HTTPS通讯、进程注入、内存中的.NET程序集执行、SharpCollection工具、用于生成Shellcode的sRDI实现。
+https://securityonline.info/link-command-and-control-framework-written-in-rust/
+
+Php Code Analysis - 漏洞扫描
+可以扫描PHP代码存在漏洞，具有快速地和简单报告的特性。
+https://www.kitploit.com/2021/05/phpcodeanalysis-san-your-php-code-for.html
+
+
+

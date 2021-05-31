@@ -1,0 +1,91 @@
+【安全分析】
+
+CVE-2021-30461：远程执行代码漏洞
+VoIPmonitor中存在漏洞，允许未经身份验证的攻击者执行任意代码。
+https://ssd-disclosure.com/ssd-advisory-voipmonitor-unauth-rce/
+
+TG8防火墙中远程执行代码漏洞
+TG8防火墙中的漏洞允许未经身份验证的远程用户在远程设备上执行任意代码。
+https://ssd-disclosure.com/ssd-advisory-tg8-firewall-preauth-rce-and-password-disclosure/
+
+CVE-2020-24949：远程执行代码漏洞
+PHPFusion 9.03.50中存在远程执行代码漏洞。
+https://www.exploit-db.com/exploits/49911
+
+CVE-2021-1557：提权漏洞
+Cisco DNA Spaces Connector中的多个漏洞可能允许经过身份验证的本地攻击者提升特权。
+https://nvd.nist.gov/vuln/detail/CVE-2021-1557
+
+CVE-2020-2773：数据泄露漏洞
+IBM Java SDK中的漏洞CVE-2020-14803和CVE-2020-2773影响IBM Security Guardium。
+https://www.ibm.com/support/pages/node/6455277
+
+匿名登录服务
+重点介绍支持匿名登录的各种服务，了解在本地目标系统上设置这些服务的过程。
+https://www.hackingarticles.in/anonymous-logins-for-pentesters/
+
+如何编写子域枚举脚本
+创建自己的子域枚举脚本很容易，以便更好地进行侦查。
+https://null-byte.wonderhowto.com/how-to/write-your-own-subdomain-enumeration-script-for-better-recon-0341688/
+
+防止在Windows上进行内存检查
+这次的主要攻击者是NtMapViewOfSection，主要用于实现共享内存和内存映射文件。
+https://secret.club/2021/05/23/big-memory.html
+
+Chrome速度提高23%
+由于对开源V8 JavaScript和WebAssembly引擎进行了改进，新版本的Chrome性能显着提高。
+https://www.bleepingcomputer.com/news/google/google-chrome-now-23-percent-faster-after-javascript-engine-improvements/	
+
+微软发布首个Windows 10软件包管理器稳定版
+Microsoft已发布本地Winget Windows 10程序包管理器的稳定版本，可直接从命令行管理应用程序。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-first-windows-10-package-manager-stable-version/
+
+
+【安全工具】
+
+Kaboxer - 容器管理工具
+Kali Linux 团队发布 Kaboxer，一个用于管理容器应用程序的工具。
+https://www.helpnetsecurity.com/2021/05/27/kali-linux-team-releases-kaboxer/
+
+Vulhub – Docker环境
+Vulhub是一个预先构建的易受攻击的docker环境的开源集合，用于学习黑客。
+https://www.darknet.org.uk/2021/05/vulhub-pre-built-vulnerable-docker-environments-for-learning-to-hack/
+
+BlackDragon - Web侦察工具
+针对Linux系统开发的Web-Recon高级自动化工具，使收集目标信息更加容易。
+https://securityonline.info/blackdragon-advanced-automation-tool-for-web-recon/
+
+CDK - 开源容器渗透工具包
+CDK是一个开源容器渗透工具包，旨在在不依赖任何操作系统的情况下，在不同的容器中提供稳定的利用。
+https://securityonline.info/cdk-open-sourced-container-penetration-toolkit/
+
+MemProcFS Analyzer - 自动取证分析
+MemProcFS-Analyzer.ps1是一个PowerShell脚本，用于简化MemProcFS的使用并协助分析工作流程。
+https://securityonline.info/memprocfs-analyzer/
+
+RedWarden - 重定向器
+灵活的CobaltStrike可延展重定向器，模仿了Apache2作为简单的HTTP（S）反向代理的根源。
+https://securityonline.info/redwarden-flexible-cobaltstrike-malleable-redirector/
+
+caronte - 分析网络流量
+Caronte是在捕获攻击/防御类型的标志事件期间分析网络流量的工具。
+https://securityonline.info/caronte-analyze-the-network-flow-during-attack-defence/
+
+DNS Black Cat - 多平台工具包
+用于交互式DNS Shell命令渗透的多平台工具包，通过使用DNS-Cat，在Shell模式下通过DNS协议执行系统命令。
+https://www.kitploit.com/2021/05/dns-black-catdbc-multi-platform-toolkit.html
+
+GraphQLmap - 渗透测试工具
+GraphQLmap是一个脚本引擎，可以与graphql端点进行交互以进行渗透测试。
+https://www.kitploit.com/2021/05/graphqlmap-scripting-engine-to-interact.html
+
+DivideAndScan - 端口扫描
+划分全端口扫描结果，并将其用于目标Nmap运行。
+https://www.kitploit.com/2021/05/divideandscan-divide-full-port-scan.html
+
+
+
+
+
+
+

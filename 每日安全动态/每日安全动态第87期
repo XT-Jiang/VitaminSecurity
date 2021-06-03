@@ -1,0 +1,80 @@
+【安全分析】
+
+OpenShift容器平台中的多个漏洞
+OpenShift容器平台存在CVE-2020-15586、CVE-2020-16845和CVE-2021-21642等多个漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2021060101
+
+VSCode Extension中的漏洞
+Visual Studio Code扩展中发现的严重安全漏洞，可能导致供应链攻击。
+https://www.itsecurityguru.org/2021/05/27/vscode-extension-vulnerabilities-could-lead-to-cyberattacks-on-the-supply-chain/
+
+CVE-2021-27852 ：任意代码执行漏洞
+7.0版之前的复选框调查不安全地反序列化ASP.NET视图状态数据，可导致执行任意代码。
+https://kb.cert.org/vuls/id/706695
+
+CVE-2021-32924：PHP代码注入
+IPS Community Suite 4.5.4.2及以下版本存在PHP代码注入漏洞。
+https://packetstormsecurity.com/files/162868/KIS-2021-04.txt
+
+DARKSIDE勒索软件操作滥用受信任的平台
+DARKSIDE网络钓鱼电子邮件带有每天滥用受信任平台的嵌入式链接。
+https://cofense.com/blog/darkside-ransomware-operations/
+
+微软在Edge中添加了自动HTTPS
+启用自动HTTPS后，Microsoft Edge现在可以在通过HTTP访问网站时自动将用户切换到HTTPS连接。
+https://www.bleepingcomputer.com/news/security/microsoft-adds-automatic-https-in-edge-for-secure-browsing/
+
+保护数据隐私的基于AI的诊断过程
+TUM的团队开发了一种独特的基于人工智能的放射图像数据诊断过程组合，以保护数据隐私。
+https://www.helpnetsecurity.com/2021/06/02/privacy-preserving-ai-method/
+
+Mozilla正式发布Firefox 89 
+Mozilla发布Firefox 89，称它经过专门重新设计后变得更干净、更吸引人、更易于使用。
+https://news.softpedia.com/news/firefox-89-officially-launched-with-a-new-ui-533091.shtml
+
+Amazon设备自动与邻居共享Wi-Fi
+从6月8日起，亚马逊将自动在其硬件设备系列上启用一项功能，与附近的邻居共享互联网带宽。
+https://thehackernews.com/2021/05/your-amazon-devices-to-automatically.html
+
+
+【安全工具】
+
+Cloudtopolis - 密码破解工具
+Cloudtopolis是一种工具，可在Google Cloud Shell平台上快速、完全无人值守安装和配置Hashtopolis。
+https://securityonline.info/cloudtopolis-zero-infrastructure-password-cracking/
+
+NamedPipePTH - PoC代码
+该项目是一个PoC代码，用于使用哈希传递对本地命名管道用户模拟进行身份验证。
+https://securityonline.info/namedpipepth-pass-the-hash-to-a-named-pipe-for-token-impersonation/
+
+bn uefi helper - Helper插件
+用于分析UEFI固件的Helper插件。
+https://securityonline.info/bn-uefi-helper-helper-plugin-for-analyzing-uefi-firmware/
+
+onelinepy - Python混淆器
+用于FUD Python代码的Python混淆器。
+https://securityonline.info/onelinepy-python-obfuscator-for-fud-python-code/
+
+HatVenom - payload生成
+所有的HatVenom基本功能都可用于生成有效负载，隐蔽数据或注入shellcode。
+https://securityonline.info/hatvenom-native-powerful-payload-generation-and-shellcode-injection-tool/
+
+magicRecon - Shell脚本
+一个强大的Shell脚本，可最大化目标的侦察和数据收集过程并查找常见漏洞。
+https://www.kitploit.com/2021/05/magicrecon-powerful-shell-script-to.html
+
+Bucky - 自动S3存储桶发现
+Bucky是旨在发现S3桶配置错误的自动工具，Bucky由两个模块Bucky firefox插件和Bucky后端引擎组成。
+https://www.kitploit.com/2021/05/bucky-automatic-s3-bucket-discovery-tool.html
+
+Kaiju - 二进制分析工具集合
+CERT Kaiju是Ghidra的二进制分析工具的集合，这是CERT Pharos二进制分析框架的某些功能的Ghidra/Java实现。
+https://www.kitploit.com/2021/05/kaiju-binary-analysis-framework.html
+
+CheeseTools - 代码执行工具
+CheeseTools是自主开发的横向运动/代码执行工具。
+https://www.kitploit.com/2021/05/cheesetools-self-developed-tools-for.html
+
+IMAPLoginTester - Python脚本
+它读取包含大量电子邮件和密码的文本文件，并尝试登录到相应的IMAP服务器来检查那些凭据是否有效。
+https://www.kitploit.com/2021/05/imaplogintester-script-that-reads-text.html

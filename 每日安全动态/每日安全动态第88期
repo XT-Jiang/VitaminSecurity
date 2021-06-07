@@ -1,0 +1,78 @@
+【安全分析】
+
+
+CVE-2021-21779：释放后使用漏洞
+WebKit浏览器引擎的其GraphicsContext函数中包含一个释放后使用漏洞（CVE-2021-21779）。
+https://blog.talosintelligence.com/2021/06/vulnerability-spotlight-use-after-free.html
+
+macOS SMB服务器中多个漏洞
+Cisco Talos在macOS SMB服务器中发现了多个漏洞，可以被用来执行各种恶意操作。
+https://blog.talosintelligence.com/2021/06/vuln-spotlight-smb-mac-deep-dive.html
+
+CVE-2021-28114：XSS漏洞
+流行的轻量级的所见即所得 (WYSIWYG) 网站编辑器Froala中存在XSS漏洞。
+https://www.zdnet.com/article/xss-vulnerability-found-in-popular-wysiwyg-website-editor/
+
+CODESYS ICS中的多个漏洞
+研究人员在用于工业控制系统的CODESYS自动化软件中发现了10个漏洞。
+https://www.helpnetsecurity.com/2021/06/04/critical-vulnerabilities-codesys-ics/
+
+ARIN计划在7月关闭RPKI 30分钟
+美国互联网号码注册机构 (ARIN)计划在7月突击关闭RPKI 30分钟以测试用户的BGP路由。
+https://www.bleepingcomputer.com/news/security/arin-will-take-down-its-rpki-for-30-minutes-to-test-your-bgp-routes/
+
+现已发布Kali Linux 2021.2
+Kali Linux 2021.2现已发布，包括新的主题和功能，例如访问特权端口、新工具和基于控制台的配置程序。
+https://www.bleepingcomputer.com/news/security/kali-linux-20212-released-with-new-tools-improvements-and-themes/
+
+Baffle为Amazon RDS带来安全计算能力
+Baffle宣布已扩展其高级多方计算功能以支持Amazon Relational Database Service(Amazon RDS)。
+https://www.helpnetsecurity.com/2021/06/04/baffle-amazon-rds/
+
+Microsoft Teams通话将进行端到端加密
+从7月开始，Microsoft Teams将为1:1 VoIP呼叫进行端到端加密，以便保持讨论的完全私密。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-calls-are-getting-end-to-end-encryption-in-july/
+
+诺顿360防病毒用户可以挖掘加密货币
+NortonLifeLock新功能Norton Crypto，为Norton 360杀毒平台的用户提供专用的加密货币挖掘设置。
+https://www.zdnet.com/article/a-new-surprise-feature-for-norton-360-antivirus-users-you-can-mine-for-cryptocurrency/
+
+
+【安全工具】
+
+Deadshot - 标记敏感内容
+开源工具，防止开发人员不小心将任何个人或敏感数据附加到他们的将代码上传到存储库。
+https://www.ehackingnews.com/2021/06/deadshot-tool-that-marks-sensitive.html
+
+red shadow - 漏洞扫描器
+该工具检测以下IAM对象中的错误配置：托管策略、用户内联策略、组内联策略、角色内联策略。
+https://securityonline.info/red-shadow-lightspin-aws-iam-vulnerability-scanner/
+
+MASAPT - 多代理系统
+它是一个概念验证、多代理系统，用Python开发，旨在以结构化和智能的方式自动化渗透测试过程。
+https://securityonline.info/masapt-multi-agent-system-for-automated-penetration-testing/
+
+OpenAttack - 对抗性攻击工具包
+OpenAttack是一个开源的基于Python的文本对抗性攻击工具包，它处理文本对抗性攻击的整个过程。
+https://securityonline.info/openattack-open-source-python-based-textual-adversarial-attack-toolkit/
+
+FileInsight plugins - 解码工具箱
+FileInsight plugins是用于McAfee FileInsight十六进制编辑器的大量插件。
+https://securityonline.info/fileinsight-plugins-decoding-toolbox-of-mcafee-fileinsight-hex-editor/
+
+403Fuzzer - 绕过Fuzz 403/401Ing
+它还将对路径上的每个端点应用通常用于目录遍历、路径规范化等的不同有效载荷。
+https://www.kitploit.com/2021/06/403fuzzer-fuzz-403401ing-endpoints-for.html
+
+Arkhota - 暴力破解器
+Arkhota是适用于Android的Web (HTTP/S) 暴力破解器。
+https://www.kitploit.com/2021/06/arkhota-web-brute-forcer-for-android.html
+
+HookDump - 安全产品Hook检测
+HookDump的误报率很低，这是通过加载每个DLL检查两次来实现的。
+https://zeroperil.co.uk/hookdump/
+
+AutoPentest DRL - 自动化渗透测试
+AutoPentest DRL 是一种基于深度强化学习 (DRL) 技术的自动化渗透测试框架。
+https://www.kitploit.com/2021/05/autopentest-drl-automated-penetration.html
+

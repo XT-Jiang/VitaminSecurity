@@ -1,0 +1,75 @@
+【安全分析】
+
+CVE-2021-30522：代码执行漏洞
+Google Web Audio API中存在两个释放后使用漏洞，攻击者可以利用这些漏洞在受害机器上执行远程代码。
+https://blog.talosintelligence.com/2021/06/chrome-web-audio.html
+
+Microsoft中的四个安全漏洞
+Check Point发现Microsoft Office中的CVE-2021-31174、CVE-2021-31178、CVE-2021-31179和CVE-2021-31939。
+https://blog.checkpoint.com/2021/06/08/four-security-vulnerabilities-were-found-in-microsoft-office/
+
+Adobe 6月份安全更新
+Adobe发布了6月份安全更新，修复了十个应用程序中的漏洞，包括Adobe Acrobat、Reader和Photoshop。
+https://www.bleepingcomputer.com/news/security/adobe-issues-security-updates-for-41-vulnerabilities-in-10-products/
+
+谷歌发布Android安全更新
+谷歌在其Android操作系统中修复了90多个影响其Pixel设备和第三方Android手机的安全漏洞。
+https://threatpost.com/android-critical-rce-bug/166723/
+
+3个开源MQTT消息代理中的DoS漏洞
+Synopsys CyRC披露RabbitMQ、EMQ X和VerneMQ中容易触发的拒绝服务(DoS)漏洞CVE-2021-22116、CVE-2021-33175和CVE-2021-33176。
+https://www.theregister.com/2021/06/08/mqtt_dos_vulnerabilities/
+
+Nefilim勒索团伙分析
+深入分析Nefilim，这是一个勒索软件集团，着眼于收入超过10亿美元的公司。
+https://www.zdnet.com/article/a-deep-dive-into-nefilim-a-double-extortion-ransomware-group/
+
+TeamTNT使用WatchDog TTP扩大其加密劫持足迹
+TeamTNT的新脚本公然复制基础架构命名约定并劫持了已知的WatchDog C2托管系统199.199.226[.]117。
+https://unit42.paloaltonetworks.com/teamtnt-cryptojacking-watchdog-operations/
+
+Linux提权：Python库劫持
+展示另一种通过利用Python库和脚本在基于Linux的设备上提升权限的方法。
+https://www.hackingarticles.in/linux-privilege-escalation-python-library-hijacking/
+
+SystemBC恶意软件分析
+该恶意软件本身非常简单，虽然有效，但自首次发布以来，它大多演变为后门和代理机器人。
+https://medium.com/walmartglobaltech/inside-the-systembc-malware-as-a-service-9aa03afd09c6
+
+
+【安全工具】
+
+Tenet - 跟踪浏览器
+Tenet是IDA Pro用于探索执行跟踪的插件，可提供更自然的人工控制，以针对给定的二进制文件导航执行跟踪。
+https://securityonline.info/tenet-trace-explorer-for-reverse-engineers/
+
+Krane - Kubernetes RBAC 静态分析
+Krane是一个简单的Kubernetes RBAC静态分析工具，它识别K8s RBAC设计中的潜在安全风险。
+https://www.kitploit.com/2021/06/krane-kubernetes-rbac-static-analysis.html
+
+BeaconHunter - 监控和搜寻工具
+基于行为的监控和搜寻工具内置C#工具，利用ETW跟踪。
+https://securityonline.info/beaconhunter-detect-and-respond-to-potential-cobalt-strike-beacons/
+
+Typodetect - 检测域的活动突变
+该工具使蓝队、SOC、研究人员和公司能够检测其域的活跃突变，从而防止将这些域用于欺诈活动。
+https://www.kitploit.com/2021/06/typodetect-detect-active-mutations-of.html
+
+PPLdump - 转储PPL内存
+该工具实现以管理员身份转储任何PPL的内存。
+https://securityonline.info/ppldump-dumping-the-memory-of-any-ppl/
+
+Penglab - 破解哈希
+Penglab是 Google Colab 上的一个即装即用设置，用于以令人难以置信的能力破解哈希，对CTF非常有用。
+https://www.kitploit.com/2021/06/penglab-abuse-of-google-colab-for.html
+
+joern - 代码分析平台
+Joern是一个强大的C/C++代码分析平台，生成代码属性图。
+https://securityonline.info/joern-open-source-code-analysis-platform-for-c-c-java/
+
+Ghidra Evm - 逆向工程智能合约模块
+它可用于从以太坊区块链下载以太坊虚拟机（EVM）字节码并反汇编和反编译智能合约。
+https://www.kitploit.com/2021/05/ghidra-evm-module-for-reverse.html
+
+
+

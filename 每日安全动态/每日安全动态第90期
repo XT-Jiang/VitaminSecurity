@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-21480：代码注入漏洞
+SAP MII中存在一个远程代码执行漏洞，CVSSv3评分9.9。
+https://cxsecurity.com/issue/WLB-2021060090
+
+CVE-2021-3560：本地提权漏洞
+Polkit 版本 Polkit 0.105-26 0.117-2 存在本地提权漏洞。
+https://packetstormsecurity.com/files/163142/polkit010526-escalate.txt
+
+Microsoft Teams中的漏洞
+该漏洞可被利用来建立对Microsoft基础设施的持久读/写访问，包括Teams聊天、OneDrive和SharePoint。
+https://www.securitynewspaper.com/2021/06/15/vulnerability-in-microsoft-teams-could-expose-users-sensitive-information/
+
+QNAP Q'center中的远程代码执行漏洞
+Shielder披露QNAP Q'center中的远程代码执行漏洞
+https://securityaffairs.co/wordpress/118668/hacking/qnap-qcenter-rce.html
+
+三星推出8nm射频芯片架构
+三星推出了基于8纳米(nm)工艺的最新射频(RF)技术以加强5G通信。
+https://www.helpnetsecurity.com/2021/06/10/samsung-8nm-rf-chip/
+
+谷歌开源全同态加密（FHE）工具包
+Google开源了一组C++库，用于在现代应用程序中实现完全同态加密(FHE)。
+https://therecord.media/google-open-sources-fully-homomorphic-encryption-fhe-toolkit/
+
+Panaseer发布网络测量指南
+Panaseer发布了关于最佳实践网络安全措施的指南，以帮助避免事件发生。
+https://www.helpnetsecurity.com/2021/06/10/panaseer-cyber-measurement-guidance/
+
+CISA和Bugcrowd推出联邦众VD 平台
+此举将允许联邦民事执行部门(FCEB)机构与民间黑客社区就其关键系统中的漏洞进行协调。
+https://www.infosecurity-magazine.com/news/cisa-bugcrowd-federal-vdp-platform/
+
+GitHub扫描暴露的PyPI和RubyGems秘密
+GitHub最近将其机密扫描功能扩展到包含PyPI和RubyGems注册表机密的存储库。
+https://www.bleepingcomputer.com/news/security/github-now-scans-for-accidentally-exposed-pypi-rubygems-secrets/
+
+
+【安全工具】
+
+Petalus - 加密钱包微服务
+Petalus是一个用Python编写的加密钱包微服务，它允许用户在虚拟钱包上存储任何类型的信息。
+https://packetstormsecurity.com/files/163075/petalus-1.0.0.tar.gz
+
+Httpx -  HTTP工具包
+快速且多用途的HTTP工具包，可使用Retryablehttp库运行多个探测器，旨在通过增加线程来保持结果的可靠性。
+https://www.kitploit.com/2021/05/httpx-fast-and-multi-purpose-http.html
+
+Msldap - 用于审计MS AD的LDAP库
+带有内置控制台LDAP客户端，所有参数都可以通过一个URL来控制，支持使用NTLM和KERBEROS的集成Windows身份验证(SSPI)。
+https://www.kitploit.com/2021/05/msldap-ldap-library-for-auditing-ms-ad.html
+
+SQLFluff - SQL linter
+SQLFluff是一种方言灵活且可配置的SQL linter，也适用于jinja模板和dbt。
+https://www.kitploit.com/2021/05/sqlfluff-sql-linter-and-auto-formatter.html
+
+FireStorePwn - 数据库漏洞扫描程序
+使用APK的Firestore数据库漏洞扫描程序，会扫描APK并检查Firestore数据库中是否存在不安全的规则。
+https://www.kitploit.com/2021/05/firestorepwn-firestore-database.html
+
+Hexrays工具箱
+Hexrays Toolbox是Hexrays Decompiler的脚本，可用于在反编译代码中查找代码模式
+https://securityonline.info/hexrays-toolbox-find-code-patterns-within-the-hexrays-ast/
+
+lazyrecon - 自动化侦察
+Lazyrecon是一个子域发现工具，它发现并解析有效的子域，然后执行SSRF/LFI/SQLi模糊测试和端口扫描。
+https://securityonline.info/lazyrecon-automate-your-reconnaissance-process/
+
+Nebula - 渗透测试框架
+Nebula是一个云和DevOps渗透测试框架，由每个提供程序和每个功能的模块构建。
+https://securityonline.info/nebula-cloud-and-devops-penetration-testing-framework/
+
+403 fuzzer - 绕过的Fuzz 403/401端点
+它还将对路径上的每个端点应用通常用于目录遍历、路径规范化等的不同有效载荷。
+https://securityonline.info/403-fuzzer-fuzz-403-401-endpoints-for-bypasses/

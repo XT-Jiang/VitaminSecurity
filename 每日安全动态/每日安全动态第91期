@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-21777：信息泄露漏洞
+EIP Stack Group OpENer的以太网/IP UDP处理程序中存在信息泄露漏洞。  
+https://blog.talosintelligence.com/2021/06/vulnerability-spotlight-eip-stack-group.html
+
+CVE-2021-25407：越界写入漏洞
+三星 NPU（神经处理单元）在 npu_session_format 中存在越界写入漏洞。
+https://packetstormsecurity.com/files/163198/GS20210617181023.tgz
+
+CVE-2021-20527：命令注入漏洞
+IBM Resilient SOAR存在命令注入漏洞。
+https://www.ibm.com/blogs/psirt/security-bulletin-ibm-resilient-soar-is-vulnerable-to-command-injection-cve-2021-20527-2/
+
+Internet Explorer jscript9.dll内存损坏漏洞
+jscript9中存在漏洞（CVE-2020-1380和CVE-2021-31959），可能被利用来执行任意代码。
+https://packetstormsecurity.com/files/163056/GS20210609134455.tgz
+
+防止鱼叉式网络钓鱼的4个步骤
+用户是攻击者最好的目标，可以按照以下步骤更好地保护它们。
+https://www.csoonline.com/article/3620868/4-steps-to-prevent-spear-phishing.html#tk.rss_networksecurity
+
+Colonial Pipeline勒索攻击要点
+更详细的细节仍有待发现，但早期报告表明，此事件体现了勒索软件攻击增加的许多原因。
+https://threatpost.com/takeaways-colonial-pipeline-ransomware/166980/
+
+谷歌推出SLSA框架以加强供应链完整性
+谷歌推出新的端到端框架SLSA（软件工件的供应链级别），希望将推动标准和指南的执行以确保整个软件供应链中软件工件的完整性。
+https://www.securityweek.com/google-intros-slsa-framework-enforce-supply-chain-integrity
+
+Windows 11改进窗口捕捉功能
+Windows 11的早期预览版本在网上泄露，得以一窥微软下一代操作系统的前景。
+https://www.bleepingcomputer.com/news/microsoft/windows-11-introduces-a-revamped-windows-snapping-feature/
+
+深入了解DarkSide
+自2020年8月首次在野外发现以来，DarkSide已在超过15个国家/地区被观察到。
+https://www.deepinstinct.com/2021/06/04/the-ransomware-conundrum-a-look-into-darkside/
+
+
+【安全工具】
+
+开源工具UChecker
+CloudLinux发布了UChecker，可以扫描Linux服务器中是否存在过时并被其他应用程序使用的易受攻击的库。
+https://www.helpnetsecurity.com/2021/06/16/open-source-uchecker-tool/
+
+Dystopia - 蜜罐
+用Python编码的低到中等Ubuntu Core蜜罐，可记录使用的命令和IP地址。
+https://www.kitploit.com/2021/05/dystopia-low-to-medium-multithreaded.html
+
+AnalyticsRelationships - 子域查找
+此脚本尝试通过查看URL中的Google Analytics ID来获取相关域/子域。
+https://www.kitploit.com/2021/05/analyticsrelationships-get-related.html
+
+Bn Uefi Helper - 分析UEFI固件
+用于分析UEFI固件的辅助插件，可将正确的原型应用到入口点函数和修复段。
+https://www.kitploit.com/2021/06/bn-uefi-helper-helper-plugin-for.html
+
+Link - 命令和控制框架
+link是一个用Rust编写的命令和控制框架，提供MacOS、Linux和Windows植入程序，目前处于测试阶段。
+https://www.kitploit.com/2021/06/link-command-and-control-framework.html
+
+iOS Malicious Bit Hunter 
+针对iOS应用程序的恶意插件检测引擎，是一种准确识别iOS恶意代码行为的新方法。
+https://securityonline.info/ios-malicious-bit-hunter/
+
+Curiefense - 新的应用程序安全平台
+Curiefense是一个新的应用程序安全平台，可保护站点、服务和API。
+https://securityonline.info/curiefense-new-application-security-platform/
+
+iPwn - 访问iOS设备
+iPwn是一个框架，旨在利用和访问iOS设备。
+https://securityonline.info/ipwn-exploiting-and-gaining-access-to-ios-devices/
+
+RdpCacheStitcher - 重建图像
+dpCacheStitcher是一种支持取证分析人员从RDP缓存位图重建有用图像的工具。
+https://securityonline.info/rdpcachestitcher-reconstructing-useful-images-out-of-rdp-cache-bitmaps/

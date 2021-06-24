@@ -1,0 +1,78 @@
+【安全分析】
+
+CVE-2021-20019：内存泄露漏洞
+SonicWall VPN设备中的一个被认为在去年已修复的严重内存泄露漏洞现仍然存在。
+https://thehackernews.com/2021/06/sonicwall-left-vpn-flaw-partially.html
+
+CVE-2020-14871：远程root漏洞
+Solaris SunSSH version 11.0 on x86 libpam上的远程root漏洞利用。
+https://packetstormsecurity.com/files/163232/solarissunssh110x86-exec.txt
+
+CVE-2017-5941：远程代码执行漏洞
+Node.JS 节点序列化远程代码执行漏洞。
+https://packetstormsecurity.com/files/163222/nodejsns-exec.txt
+
+Linux内核(OEM)漏洞
+Linux 内核中修复了几个安全问题CVE-2020-24586、CVE-2020-24587和CVE-2020-24588等。
+https://linuxsecurity.com/advisories/ubuntu/ubuntu-5001-1-linux-kernel-oem-vulnerabilities-01-20-07
+
+DARKSIDE的分步分析
+新版DARKSIDE RANSOMWARE (V. 2.1.2.3)的详细技术分析。
+https://cybergeeks.tech/a-step-by-step-analysis-of-a-new-version-of-darkside-ransomware/
+
+无线渗透测试：密码破解
+演示了可用于密码破解以在无线设备上执行渗透测试的各种方法。
+https://www.hackingarticles.in/wireless-penetration-testing-password-cracking/
+
+iOS版谷歌浏览器增强的隐私功能
+iOS版Google Chrome允许您将自己的隐身标签锁定在面容ID后面，这样其他人就无法窥探您正在访问的网站。
+https://www.bleepingcomputer.com/news/google/google-chrome-on-ios-is-getting-an-enhanced-privacy-feature/
+
+MITRE推出D3FEND 
+D3FEND是MITRE公司推动的一个新项目，旨在将防御性网络安全技术添加到ATT&CK框架中。
+https://securityaffairs.co/wordpress/119263/security/mitre-d3fend-project.html
+
+Brave推无跟踪搜索引擎	
+Brave推出了他们的非跟踪以隐私为中心的搜索引擎Brave Search。
+https://www.bleepingcomputer.com/news/software/brave-launches-its-privacy-focused-no-tracking-search-engine/
+
+
+【安全工具】
+
+DroidMorph - 生成Android恶意软件克隆
+Boffins开发了一个名为DroidMorph的工具，提供Android应用程序(APK)的变形并允许创建Android应用程序（恶意软件/良性）克隆。
+https://securityaffairs.co/wordpress/119206/malware/droidmorph-tool-generates-android-malware-clones-that.html
+
+Hashcat -  GPU哈希破解应用
+Hashcat 是一种先进的GPU哈希破解实用程序，包括世界上最快的md5crypt、phpass、mscash2和WPA/WPA2破解器。
+https://packetstormsecurity.com/files/163163/hashcat-6.2.2.tar.gz
+
+TiEtwAgent - 进程注入检测
+基于ETW的进程注入检测，旨在研究、构建和测试不同的内存注入检测用例和绕过技术。
+https://securityonline.info/tietwagent-etw-based-process-injection-detection/
+
+Bbscope - 收集工具
+Bbscope是用于HackerOne、Bugcrowd和Intigriti的范围收集工具。
+https://www.kitploit.com/2021/06/bbscope-scope-gathering-tool-for.html
+
+afl_ghidra_emu - 模糊测试工具
+使用AFL++和Ghidra仿真引擎对运行在奇异架构上的嵌入式设备中的程序进行模糊测试。
+https://securityonline.info/afl_ghidra_emu-fuzz-exotic-architecture-using-afl-and-ghidra-emulation/
+
+SharpWebServer - 捕获Net-NTLM哈希
+具有Net-NTLM哈希捕获功能的HTTP和WebDAV服务器，用C#编写。
+https://www.kitploit.com/2021/06/sharpwebserver-http-and-webdav-server.html
+
+Pingtunnel - 流量转发工具
+Pingtunnel是一个将tcp/udp/sock5流量广告为icmp流量进行转发的工具。
+https://securityonline.info/pingtunnel-advertises-tcp-udp-socks5-traffic-as-icmp-traffic-for-forwarding/
+
+Neurax - 二进制文件构建框架
+Neurax是构建自传播二进制文件的框架，具有从ARP缓存中提取候选目标的功能。
+https://www.kitploit.com/2021/06/neurax-framework-for-constructing-self.html
+
+BlueCloud - Windows VM
+Terraform和Ansible脚本的集合，可自动（且快速）部署小型HELK + Velociraptor研发实验室。
+https://www.kitploit.com/2021/06/bluecloud-cyber-range-including.html
+
+

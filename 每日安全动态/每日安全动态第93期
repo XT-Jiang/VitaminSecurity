@@ -1,0 +1,81 @@
+【安全分析】
+
+微软修复Windows 10中的高频噪音错误
+微软发布了Windows 10 KB5003690预览累积更新，现在为受影响的用户修复了这个音频错误。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-high-pitched-noise-bug-in-windows-10/
+
+CVE-2021-20019：内存泄露漏洞
+SonicWall终于推出了针对影响约800000台设备的漏洞的完整修复程序。
+https://threatpost.com/sonicwall-botches-critical-vpn-bug/167152/
+
+CVE-2021-3044：Cortex XSOAR中漏洞
+Palo Alto Networks修复Cortex XSOAR服务器中的漏洞，可通过REST API执行未经授权的操作。
+https://www.securityweek.com/palo-alto-networks-patches-critical-vulnerability-cortex-xsoar
+
+CVE-2020-35575：命令注入漏洞
+TP-Link TL-WR841N存在远程命令注入漏洞。
+https://packetstormsecurity.com/files/163274/tplinktlwr841nb-exec.txt
+
+CVE-2009-2265：远程命令执行漏洞
+Adobe ColdFusion 8存在远程命令执行漏洞。
+https://packetstormsecurity.com/files/163271/adobecf8-exec.txt
+
+利用Xerosploit执行中间人攻击
+Bettercap可用于执行中间人攻击，但Xerosploit可以自动执行需要在Bettercap中进行更多配置工作的高级功能。
+https://null-byte.wonderhowto.com/how-to/perform-advanced-man-middle-attacks-with-xerosploit-0384705/
+
+建立动态恶意软件分析实验室
+介绍了一些可用于在家中分析恶意软件行为的工具。
+https://hackerspot.net/2021/06/21/building-your-own-dynamic-malware-analysis-lab/
+
+这些功能将在Windows 11中消失
+Microsoft发布了一份Windows 10功能列表，指出升级到Windows 11时将删除或更改的功能。
+https://www.bleepingcomputer.com/news/microsoft/these-features-are-going-away-with-windows-11/
+
+欧盟宣布联合网络单位应对大规模安全事件
+欧盟宣布成立一个联合网络单位，负责协调对袭击欧盟成员国的大规模网络攻击的联合反应。
+https://therecord.media/eu-announces-joint-cyber-unit-to-respond-to-large-scale-security-incidents/
+
+
+
+
+【安全工具】
+
+Interactsh - 解决方案
+Interactsh是带外数据提取的开源解决方案，该工具旨在检测导致外部交互的错误，例如-Blind SQLi、Blind CMDi、SSRF等。
+https://www.kitploit.com/2021/06/interactsh-oob-interaction-gathering.html
+
+pyWhat - 识别工具
+pyWhat可以识别任何东西，可以轻松地识别电子邮件、IP 地址等。
+https://www.kitploit.com/2021/06/pywhat-identify-anything-easily-lets.html
+
+EmailFinder - 搜索电子邮件
+通过搜索引擎从域中搜索电子邮件，包括Google、bing和百度。
+https://www.kitploit.com/2021/06/emailfinder-search-emails-from-domain.html
+
+Redpill - 反向Tcp Shell
+redpill项目旨在在探索后任务中协助反向tcp shell。
+https://www.kitploit.com/2021/06/redpill-assist-reverse-tcp-shells-in.html
+
+aggrokatz - CobaltStrike插件
+aggrokatz是用于侵略者插件扩展CobaltStrike使pypykatz到接口与远程信标。
+https://securityonline.info/aggrokatz-enables-pypykatz-to-interface-with-the-beacons-remotely/
+
+gundog - PowerShell
+Microsoft 365 Defender 中基于 PowerShell 的引导式狩猎。
+https://securityonline.info/gundog-guided-hunting-for-microsoft-365-defender/
+
+A2P2V - 自动攻击路径规划和验证
+自动攻击路径规划和验证(A2P2V)是一种规划和网络攻击工具，可让用户根据特定攻击者目标确定一组排名攻击序列。
+https://securityonline.info/a2p2v-automated-attack-path-planning-and-validation/
+
+kconfig hardened check
+检查Linux内核配置中的强化选项，帮助根据强化首选项检查Linux内核Kconfig选项列表。
+https://securityonline.info/kconfig-hardened-check/
+
+
+
+
+
+
+

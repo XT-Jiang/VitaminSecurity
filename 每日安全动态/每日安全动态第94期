@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2021-21871：内存损坏漏洞
+Cisco Talos最近在处理DMG文件的PowerISO处理程序中发现了一个内存损坏漏洞。 
+https://blog.talosintelligence.com/2021/06/vulnerability-spotlight-memory-.html
+
+CVE-2019-6447：意文件读取漏洞
+ES File Explorer版本4.1.9.7.4存在任意文件读取漏洞利用。
+https://packetstormsecurity.com/files/163303/esfileexplorer41974-fileread.txt
+
+CVE-2020-24186：shell上传
+这个Metasploit模块利用WordPress wpDiscuz插件版本7.0.0到7.0.4中的任意文件上传。
+https://packetstormsecurity.com/files/163302/wp_wpdiscuz_unauthenticated_file_upload.rb.txt
+
+Windows 11 DNS-over-HTTPS隐私功能 
+微软在Win 11中添加了DNS-over-HTTPS隐私功能，允许用户执行加密的DNS查找以绕过审查和互联网活动。
+https://www.bleepingcomputer.com/news/microsoft/windows-11-includes-the-dns-over-https-privacy-feature-how-to-use/
+
+基于SIM的验证
+新的tru.ID API可以让应用开发者可以通过SIM卡验证用户身份。
+https://thehackernews.com/2021/06/new-api-lets-app-developers.html
+
+谷歌要求开发者使用2FA
+谷歌宣布了针对Play商店的新措施，包括要求开发者帐户开启两步验证 (2SV)、提供地址并验证他们的联系方式。
+https://thehackernews.com/2021/06/google-now-requires-app-developers-to.html
+
+ANY.RUN在线沙盒的攻击
+介绍了关于操纵在线沙箱以及如何使用MSP自动化此过程的研究。
+https://malwation.com/offensive-approach-to-online-sandboxes-1-any-run/
+
+无线渗透测试：检测隐藏的SSID
+介绍了不同的方法来检测我们周围隐藏的SSID。
+https://www.hackingarticles.in/wireless-penetration-testing-detect-hidden-ssid/
+
+
+【安全工具】
+
+DefenselessV1 - 易受攻击的Web应用
+Defenseless是一个用PHP/MySQL编写的易受攻击的Web应用程序，旨在为安全方面的开发人员和新手建立安全意识。
+https://www.kitploit.com/2021/06/defenselessv1-just-another-vulnerable.html
+
+TChopper - 新攻击方式
+将恶意二进制文件作为base64块使用TChopper工具自动化该过程，从而使用Windows服务显示名称和WMI横向移动。
+https://www.kitploit.com/2021/06/tchopper-conduct-lateral-movement.html
+
+ioccheck - 简化研究IOC的过程
+一种用于简化研究文件哈希、IP 地址和其他入侵指标 (IOC) 过程的工具。
+https://securityonline.info/ioccheck-simplifying-the-process-of-researching-iocs/
+
+scared - 侧信道分析框架
+scared是一个库，旨在提供实现侧信道分析的工具，具有高级的API、泄漏和反向分析等。
+https://securityonline.info/scared-side-channel-analysis-framework/
+
+FalconEye - 实时检测软件
+FalconEye是一款用于实时进程注入的Windows端点检测软件。
+https://securityonline.info/falconeye-real-time-detection-software-for-windows-process-injections/
+
+rustcat - Netcat替代方案
+Rustcat是一个端口侦听器，可用于不同目的，它基本上类似于netcat，但选项较少。
+https://securityonline.info/rustcat-basic-netcat-alternative-in-rust/
+
+Squalr内存编辑器
+Squalr是高性能的内存编辑软件，允许用户在他们的 Windows 桌面游戏中创建和分享作弊。
+https://www.kitploit.com/2021/06/squalr-squalr-memory-editor-game.html
+
+Swift Attack - 蓝队工具
+蓝队的单元测试，以帮助为一些常见的 macOS后利用方法构建检测。
+https://www.kitploit.com/2021/06/swift-attack-unit-tests-for-blue-teams.html

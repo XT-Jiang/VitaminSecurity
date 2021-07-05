@@ -1,0 +1,73 @@
+【安全分析】
+
+红帽内核多个漏洞
+红帽内核中发现了多个漏洞，可在目标系统上触发远程代码执行、拒绝服务条件和安全限制绕过。
+https://www.hkcert.org/security-bulletin/red-hat-kernel-multiple-vulnerabilities_20210702
+
+CVE-2020-35948：远程代码执行漏洞
+WordPress XCloner插件版本4.2.12存在经过身份验证的远程代码执行漏洞。
+https://packetstormsecurity.com/files/163336/wpxcloner4212-exec.txt
+
+Apache Superset账户枚举漏洞
+Apache Superset 1.1.0 版存在基于时间的帐户枚举漏洞。
+https://packetstormsecurity.com/files/163322/apachesuperset110-enumerate.txt
+
+CVE-2021-35523：本地提权漏洞
+Securepoint SSL VPN客户端2.0.30版存在本地提权漏洞。
+https://packetstormsecurity.com/files/163320/securepointsslvpn2030-escalate.txt
+
+GitHub推出Copilot
+GitHub发布了一种新的基于人工智能的结对编程工具，旨在帮助软件开发人员使用各种编程语言编写代码。
+https://thehackernews.com/2021/06/github-launches-copilot-ai-powered-code.html
+
+Twitter允许用户禁用SMS 2FA
+Twitter更新了其平台，允许用户使用安全密钥作为他们唯一的双因素身份验证(2FA)形式。
+https://therecord.media/twitter-lets-users-disable-sms-2fa-and-use-only-security-keys/
+
+谷歌为Chrome开发HTTPS-Only模式
+Chrome浏览器也将接受HTTPS-Only模式 ，将所有未加密的HTTP连接升级为加密的HTTPS替代方案。
+https://therecord.media/google-is-working-on-an-https-only-mode-for-chrome/
+
+Windows 11：TPM和数字主权
+本文是部分成员对Microsoft实施TPM以使用Windows 11和各种功能的潜在计划的看法。
+https://secret.club/2021/06/28/windows11-tpms.html
+
+VNC渗透测试
+VNC服务器上的渗透测试，通过安装和配置、枚举和预防措施来解释攻击者如何在各种场景中破坏安全。
+https://www.hackingarticles.in/vnc-penetration-testing/
+
+
+【安全工具】
+
+RRA - 自我评估应用
+CISA在其网络安全评估工具(CSET)中发布了一个新模块：勒索软件就绪评估(RRA)。
+https://us-cert.cisa.gov/ncas/current-activity/2021/06/30/cisas-cset-tool-sets-sights-ransomware-threat
+
+Proxmark - 自定义固件
+这是为 Proxmark3 设备编写的自定义固件，它扩展了当前可用的固件。
+https://packetstormsecurity.com/files/163304/proxmark3-4.13441.tar.gz
+
+HashCheck - 搜索泄露密码
+该项目旨在协助搜索泄露的密码，同时使用 k-匿名方法保持高度的隐私。
+https://www.kitploit.com/2021/06/hashcheck-tool-to-assist-in-search-for.html
+
+CamOver - 摄像机开发工具
+一种允许泄露网络摄像机管理员密码的摄像机开发工具。
+https://www.kitploit.com/2021/06/camover-camera-exploitation-tool-that.html
+
+Stormspotter - Azure红队工具
+创建Azure订阅中资源的“攻击图”，使红队和渗透测试人员能够可视化攻击面并调整机会。
+https://securityonline.info/stormspotter-azure-red-team-tool/
+
+emp3r0r - linux 后开发框架
+Linux用户制作的Linux后期开发框架，拥有多种功能。
+https://securityonline.info/emp3r0r-v0-9-27-releases-linux-post-exploitation-framework/
+
+rome webshell - PHP WebShell
+这是一个轻量级的PHP webshell，只使用普通的JavaScript和CSS，没有jQuery/Bootstrap bloat。
+https://securityonline.info/rome-webshell-powerful-and-delightful-php-webshell/
+
+hacker container - 黑客容器
+是一个简单的基于alpine的docker容器，带有常用的工具和程序，同时对容器化和Kubernetes集群环境执行安全评估。
+https://securityonline.info/hacker-container-hacker-container-for-kubernetes-security-assessments/
+

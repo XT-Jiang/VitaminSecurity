@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2021-33012：拒绝服务漏洞
+罗克韦尔自动化 MicroLogix 1100中存在拒绝服务漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2021070905
+
+IOBit Advanced SystemCare Ultimate中漏洞
+Cisco Talos 最近在 IOBit Advanced SystemCare Ultimate 中发现了多个漏洞。 
+https://blog.talosintelligence.com/2021/07/vuln-spotlight-iobit0-.html
+
+CVE-2019-14322：路径遍历漏洞
+Pallets Werkzeug 0.15.4 版中路径遍历漏洞的概念利用证明。
+https://packetstormsecurity.com/files/163398/CVE-2019-14322.py.txt
+
+CVE-2021-28474：程代码执行漏洞
+通过服务器端控制解释冲突的SHAREPOINT远程代码执行漏洞。
+https://www.zerodayinitiative.com/blog/2021/7/7/cve-2021-28474-sharepoint-remote-code-execution-via-server-side-control-interpretation-conflict
+
+Tor浏览器新增反审查功能
+Tor发布了Tor浏览器10.5，其中包含V2洋葱URL弃用警告、重新设计的Tor连接体验和改进的反审查功能。
+https://www.bleepingcomputer.com/news/security/tor-browser-adds-new-anti-censorship-feature-v2-onion-warnings/
+
+Amadey窃取器分析
+Amadey更新为新版本a2021 Amadey，本文旨在介绍他们的窃取插件组件的一些有趣的补充。
+https://medium.com/walmartglobaltech/amadey-stealer-plugin-adds-mikrotik-and-outlook-harvesting-518efe724ce4
+
+GotYou.exe分析论文
+对于GotYou.exe（Evasive btc miner）的分析文章。
+https://www.reddit.com/r/Malware/comments/ofj4wm/gotyouexe_evasive_btc_miner_analysis_paper/
+
+无线渗透测试：Aircrack-ng
+Aircrack-ng不是一个工具，而是一套工具，可以执行与无线接入点相关的不同类型的攻击或活动。
+https://www.hackingarticles.in/wireless-penetration-testing-aircrack-ng/
+
+关于macOS Monterey和安全性的12件事
+这篇文章从macOS 12的安全角度介绍新功能，其中大部分内容将围绕人们如何相互共享数据和体验。
+https://www.sentinelone.com/blog/twelve-things-to-know-about-macos-monterey-and-security/
+
+
+【安全工具】
+
+WAF A MoLE - 变异模糊器
+一种基于ML的Web应用程序防火墙的基于引导的变异模糊器。
+https://www.kitploit.com/2021/06/waf-mole-guided-mutation-based-fuzzer.html
+
+CamRaptor - 凭据收集工具
+CamRaptor 是一种利用流行 DVR 摄像机中的多个漏洞来获取网络摄像机凭据的工具。
+https://www.kitploit.com/2021/06/camraptor-tool-that-exploits-several.html
+
+SharpHook - 凭据窃取工具
+使用各种API Hook来为提供所需的凭据，在后台它使用EasyHook项目。
+https://www.kitploit.com/2021/06/sharphook-tool-tath-uses-various-api.html
+
+HoneyCreds - 网络凭据注入
+HoneyCreds网络凭据注入以检测响应者和其他网络中毒者。 
+https://www.kitploit.com/2021/06/honeycreds-network-credential-injection.html
+
+Memprocfs Hunter - 内存取证包装器
+此脚本是MemProcFS的内存取证包装器用于内存速度分析。
+https://securityonline.info/memprocfs-hunter-memory-forensic-wrapper/
+
+HopLa - Burp Suite扩展
+此扩展在Burp Suite中添加了自动完成支持和有用的有效负载，使入侵更容易。
+https://securityonline.info/hopla-adds-autocompletion-support-and-useful-payloads-in-burp-suite/
+
+Mystikal - 有效载荷生成器
+Mystikal是一个与Mythic集成的macOS负载生成器。
+https://securityonline.info/mystikal-macos-initial-access-payload-generator/
+
+kube knark - 开源跟踪器
+它使用pcap和ebpf技术在已部署的kubernetes集群上执行运行时跟踪。
+https://securityonline.info/kube-knark-detect-malware-code-execution/

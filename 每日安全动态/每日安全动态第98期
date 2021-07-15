@@ -1,0 +1,72 @@
+【安全分析】
+
+Mozilla Firefox中的多个漏洞
+Firefox中存在多个漏洞，包括CVE-2021-29958、CVE-2021-29959和CVE-2021-29966等。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-could-allow-for-arbitrary-code-execution-16/
+
+WordPress插件Front File Manager中漏洞
+这些漏洞允许对网站进行一系列攻击，包括删除博客页面和远程代码执行。
+https://threatpost.com/frontend-file-manager-wordpress-bugs/167687/
+
+CVE-2021-1675和CVE-2021-34527
+Kaspersky针对Windows Print Spooler服务中漏洞（又名PrintNightmare）的分析。
+https://securelist.com/quick-look-at-cve-2021-1675-cve-2021-34527-aka-printnightmare/103123/
+
+Less.js中的严重漏洞
+预处理器语言Less.js存在严重的漏洞，黑客可以利用该漏洞来实现远程代码执行攻击。
+https://www.ehackingnews.com/2021/07/vulnerability-in-lessjs-causes-website.html
+
+Etherpad中的多个漏洞
+文本编辑器中的CVE-2021-34816和CVE-2021-34817使攻击者能够劫持管理员帐户、执行系统命令，甚至窃取敏感文档。
+https://thehackernews.com/2021/07/critical-flaws-reported-in-etherpad.html
+
+Magecart黑客将信用卡数据隐藏到图像中
+Magecart黑客可以混淆评论块中的恶意代码，并将信用卡数据编码隐藏到图像和其他文件中以逃避检测。
+https://thehackernews.com/2021/07/magecart-hackers-hide-stolen-credit.html
+
+Google Play中Cryptomining的应用
+由于假冒加密货币应用程序充斥Google Play，成千上万的Android用户损失了数百万美元。
+https://latesthackingnews.com/2021/07/09/numerous-scam-cryptomining-apps-discovered-on-google-play-store/
+
+Pentester的Metasploit：会话
+介绍渗透测试人员可以使用的Metasploit框架的各种机制，此次重点为会话命令。
+https://www.hackingarticles.in/metasploit-for-pentester-sessions/
+
+
+【安全工具】
+
+网络安全自动化工具
+LogRhythm发布了一套新的自动化工具，使组织能够快速遵守卡塔尔的国家网络安全框架。
+https://www.helpnetsecurity.com/2021/07/14/logrhythm-automation-tools/
+
+RevOK - 响应模糊器
+Reversed Overtaking Kit通过模拟恶意目标和在安全扫描器中跟踪数据来支持分析师。
+https://securityonline.info/reversed-overtaking-kit-an-http-response-fuzzer/
+
+Mythic - 红队框架
+使用python3、docker、docker-compose和Web浏览器UI构建的跨平台、后利用、红队框架。
+https://www.kitploit.com/2021/06/mythic-collaborative-multi-platform-red.html
+
+Scour - AWS开发框架
+Scour是一个现代的基于模块的AWS开发框架，用golang编写，专为红队测试和蓝队分析而设计。
+https://securityonline.info/scour-aws-exploitation-framework/
+
+S3 Account Search - S3账户搜索
+此工具可用来查找S3存储桶所属的帐户ID，但需要从存储桶下载已知文件的权限。
+https://www.kitploit.com/2021/06/s3-account-search-s3-account-search.html
+
+MySQL Fake Server - 假MySQL
+一个用于渗透的假MySQL服务器，由原生python3实现，没有任何其他依赖包。
+https://securityonline.info/mysql-fake-server-fake-mysql-server-used-for-penetration/
+
+Forblaze - 隐写术payload生成器
+Forblaze是一个旨在为Mac OS有效负载提供隐写功能的项目。
+https://www.kitploit.com/2021/06/forblaze-python-mac-steganography.html
+
+mobsfscan - 静态分析工具
+mobsfscan是一个静态分析工具，可以在Android和iOS源代码中查找不安全的代码模式。
+https://securityonline.info/mobsfscan-find-insecure-code-patterns-in-your-android-and-ios-source-code/
+
+Invoke DNSteal - DNS数据过滤器
+简单且可定制的DNS数据过滤器，此工具可帮助通过UDP和TCP上的DNS协议窃取数据
+https://www.kitploit.com/2021/07/invoke-dnsteal-simple-and-customizable.html

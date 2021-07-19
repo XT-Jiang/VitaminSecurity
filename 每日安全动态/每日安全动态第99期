@@ -1,0 +1,72 @@
+【安全分析】
+
+研华R-SeeNet中的多个漏洞
+Cisco Talos在研华R-SeeNet监控软件中发现了CVE-2021-21799、CVE-2021-21800和CVE-2021-21801等漏洞。
+https://blog.talosintelligence.com/2021/07/vuln-spotlight-r-see-net.html
+
+CVE-2021-22000：DLL劫持漏洞
+由于DLL加载不安全，VMware ThinApp包含一个DLL劫持漏洞。
+https://seclists.org/fulldisclosure/2021/Jul/35
+
+CVE-2021-35519：XSS漏洞
+SmarterMail中的跨站点脚本漏洞允许远程攻击者获取用于对用户进行身份验证的JWT令牌。
+https://ssd-disclosure.com/ssd-advisory-smartermail-xss/
+
+CVE-2021-0276：基于堆栈的溢出
+Juniper SBR Carrier使用未知输入进行操作会导致内存损坏漏洞，CVSS评分9.4.
+https://vuldb.com/?id.178760
+
+Windows Terminal 1.10的新功能
+微软发布了Windows Terminal Preview v1.10，带来了许多方便的改进，包括粗体文本支持等等。
+https://www.bleepingcomputer.com/news/microsoft/hands-on-with-windows-terminal-110s-new-and-useful-features/
+
+抵御Twitter诈骗
+kaspersky发布了有关如何避免成为支持Twitter诈骗的受害者的指南。
+https://www.kaspersky.com/blog/brand-scams-on-twitter/40615/
+
+在自己的电脑上引爆勒索软件
+安全研究员Topher Tebow在受控环境中引爆了Conti勒索软件，以证明适当网络保护的重要性。
+https://www.bleepingcomputer.com/news/security/detonating-ransomware-on-my-own-computer-don-t-try-this-at-home/
+
+美国政府推出StopRansomware.gov网站
+美国政府推出了一个阻止勒索软件的一站式新网站StopRansomware.gov。
+https://us-cert.cisa.gov/ncas/current-activity/2021/07/15/new-stopransomwaregov-website-us-governments-one-stop-location
+
+Visual Studio 2022添加C++构建和调试
+Visual Studio 2022 Preview 2添加了WSL2工具集，允许在WSL2发行版上进行C++代码调试。
+https://www.theregister.com/2021/07/15/vs2022_wsl2_c_plus_plus/
+
+
+【安全工具】
+
+GitDump - 从.git转储源代码
+当目录遍历被禁用时，GitDump可以从.git转储源代码。
+https://securityonline.info/gitdump-dumps-the-source-code-from-git-when-the-directory-traversal-is-disabled/
+
+Gorsair - 渗透测试工具
+Gorsair是一种渗透测试工具，用于从易受攻击的Docker容器中发现和远程访问Docker API。
+https://www.kitploit.com/2021/07/gorsair-hacks-its-way-into-remote.html
+
+StegoCracker - 隐写工具
+开源且免费的隐写工具，可以将秘密文件隐藏在图像或音频文件中。
+https://securityonline.info/stegocracker-open-source-and-free-steganography-tool/
+
+GDir Thief - 红队工具
+Red Team工具，用于通过Google的People API泄露您有权访问的目标组织的Google People Directory。
+https://www.kitploit.com/2021/07/gdir-thief-red-team-tool-for.html
+
+Sharperner - 生成.NET dropper
+Sharperner是一个用CSharp编写的工具，它使用AES和XOR混淆的shellcode生成一个.NET dropper。
+https://securityonline.info/sharperner-generate-net-dropper-with-aes-and-xor-obfuscated-shellcode/
+
+FRIDA DEXDump - 搜索和转储Dex
+可在内存中快速搜索和转储Dex，兼容所有安卓版本。
+https://www.kitploit.com/2021/07/frida-dexdump-fast-search-and-dump-dex.html
+
+Salus - 扫描器
+Salus是用于协调安全扫描程序执行的工具，可以通过Docker守护程序在存储库上运行。
+https://securityonline.info/salus-security-automation/
+
+Backstab - 保护进程的工具
+Backstab是一种工具，能够利用sysinternals的Process Explorer(ProcExp)驱动程序杀死受反恶意软件保护的进程。
+https://www.kitploit.com/2021/07/backstab-tool-to-kill-antimalware.html

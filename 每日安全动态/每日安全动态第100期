@@ -1,0 +1,78 @@
+【安全分析】
+
+Oracle 数据库服务器中的多个漏洞
+Oracle存在CVE-2021-2326、CVE-2021-2336、CVE-2021-2335和CVE-2021-2334等13个漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2021072053	
+
+CVE-2020-6010：SQL注入漏洞
+3.2.6.8之前的WordPress LearnPress插件版本存在基于远程时间的盲SQL注入漏洞。
+https://packetstormsecurity.com/files/163536/wplearnpress-sql.txt
+
+CVE-2021-22555：堆越界写入漏洞
+自2.6.19-rc1版本以来，在net/netfilter/x_tables.c中发现了影响Linux内核的堆越界写入漏洞。
+https://packetstormsecurity.com/files/163528/linuxnetflow-exec.txt
+
+CVE-2021-35054：路径遍历漏洞
+Mojang Studios Minecraft存在由于处理目录遍历序列时输入验证错误造成的路径遍历漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2021072102
+
+软件定义无线电(SDR)存在root访问权限后门
+根据作者的说法，后门已经存在于所有版本的 KiwiSDR 设备中，用于远程管理和调试，现已移除。
+https://www.bleepingcomputer.com/news/security/software-maker-removes-backdoor-giving-root-access-to-radio-devices/
+
+Defender可以检测PrintNightmare攻击
+Microsoft已向Microsoft Defender for Identity添加对PrintNightmare漏洞利用检测的支持。
+https://www.bleepingcomputer.com/news/security/microsoft-defender-for-identity-now-detects-printnightmare-attacks/
+
+万事达卡增强用于加密货币钱包的卡项目
+万事达卡宣布将加强其加密货币钱包和交易所卡的计划，使合作伙伴更容易将加密货币转换为传统的法定货币。
+https://www.helpnetsecurity.com/2021/07/21/mastercard-cryptocurrency/
+
+DuckDuckGo新电子邮件隐私服务
+DuckDuckGo正在推出一项电子邮件隐私功能，可以去除跟踪器的传入消息。
+https://www.bleepingcomputer.com/news/security/duckduckgos-new-email-privacy-service-forwards-tracker-free-messages/
+
+如何检测NSO group的Pegasus
+这份电子取证的方法报告显示如何检测NSO group“不会留下任何痕迹”的Pegasus。
+https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/
+
+
+【安全工具】
+
+APICheck - 工具集
+APICheck是一个完整的工具集，专为测试REST API而设计和创建。
+https://securityonline.info/apicheck-toolset-designed-and-created-for-testing-rest-apis/
+
+FindObjects - BOF项目
+一个Cobalt Strike Beacon对象文件(BOF)项目，它使用直接系统调用来枚举特定模块或进程句柄的进程。
+https://www.kitploit.com/2021/07/findobjects-bof-cobalt-strike-beacon.html
+
+jimi - 自动化优先平台
+自动化首先意味着消除了通常的产品限制，为IT的所有方面开启了自动化的可能性。
+https://securityonline.info/jimi-orchestration-automation-response-and-more/
+
+Cariddi - 信息收集
+Cariddi可用来获取域列表、抓取 URL 并扫描端点、秘密、Api 密钥、文件扩展名、令牌等。
+https://www.kitploit.com/2021/07/cariddi-take-list-of-domains-crawl-urls.html
+
+Whisker - 接管Active Directory用户
+Whisker是一种C#工具，通过操纵Active Directory用户和计算机帐户的msDS-KeyCredentialLink属性，将影子凭据添加到目标帐户。
+https://securityonline.info/whisker-taking-over-active-directory-user-and-computer-accounts/
+
+Ipa Medit - 内存搜索和修补工具 
+ipa-medit 是一款无需越狱的ipa的内存搜索和补丁工具，为手机游戏安全测试而创建的。
+https://www.kitploit.com/2021/07/ipa-medit-memory-search-and-patch-tool.html
+
+x8 v2.4 - 隐藏参数发现组件
+用Rust编写的，该工具有助于找到可能容易受到攻击的隐藏参数。
+https://securityonline.info/x8-hidden-parameters-discovery-suite-written-in-rust/
+
+WFH - Windows功能猎人
+WFH 是一个概念验证Python脚本，使用Frida来帮助潜在地识别Windows可执行文件中的常见漏洞或功能。
+https://www.kitploit.com/2021/07/wfh-windows-feature-hunter.html
+
+
+
+
+
+

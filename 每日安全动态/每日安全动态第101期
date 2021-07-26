@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2021-20090：路径遍历漏洞
+基于Arcadyan的路由器和调制解调器存在路径遍历漏洞，容易绕过身份验证。
+https://kb.cert.org/vuls/id/914124
+
+CVE-2021-22145：内存泄露漏洞
+ElasticSearch 7.13.3版本存在内存泄露漏洞。
+https://packetstormsecurity.com/files/163648/elasticsearch7133-disclose.txt
+
+Sage X3 AdxSrv身份验证绕过漏洞
+该Metasploit模块利用Sage X3 AdxSrv管理协议中的身份验证绕过漏洞，以SYSTEM身份对运行执行任意命令。
+https://packetstormsecurity.com/files/163624/x3_adxsrv_auth_bypass_cmd_exec.rb.txt
+
+CODESYS工业自动化软件中多个漏洞
+CODESYS自动化软件和WAGO可编程逻辑控制器(PLC)平台的多个安全漏洞，可被远程利用以控制公司的云运营技术(OT)基础设施。
+https://thehackernews.com/2021/07/several-new-critical-flaws-affect.html
+
+Mozilla将FTP从Firefox中移除
+Mozilla宣布将在Firefox 90中终止对FTP的支持，作为其推动浏览器始终使用HTTPS的一部分。
+https://www.theregister.com/2021/07/21/firefox_ends_ftp_support/
+
+Chrome网络钓鱼检测速度提高50倍
+从最新发布的92版开始，谷歌浏览器现在的网络钓鱼检测速度提高了50倍，加速源于Chrome图像处理技术的改进。
+https://www.bleepingcomputer.com/news/security/google-chrome-now-comes-with-up-to-50x-faster-phishing-detection/
+
+Metasploit：数据库和工作区
+重点介绍渗透测试人员可以使用的Metasploit框架中的工作区和数据库命令。 
+https://www.hackingarticles.in/metasploit-for-pentester-database-workspace/
+
+矩阵的演变：ATT&CK for Containers是如何构建的
+新矩阵的一些亮点包括相关软件条目、帮助网络防御者更好地理解新的以容器为中心的技术的过程示例等等。
+https://www.microsoft.com/security/blog/2021/07/21/the-evolution-of-a-matrix-how-attck-for-containers-was-built/
+
+
+【安全工具】
+
+tpotce - 一体化蜜罐平台
+T-Pot基于Debian(Stable)网络安装程序，蜜罐守护进程以及其他支持组件被dockered。
+https://securityonline.info/tpotce-the-all-in-one-honeypot-platform/
+
+Security Scorecards
+开源的安全健康指标，对开源项目的安全状况进行自动化分析和信任决策。
+https://www.kitploit.com/2021/07/security-scorecards-security-health.html
+
+Bifrost - 开源Discord BOT
+Bifrost是一个开源Discord BOT，可用作命令和控制(C2)，该C2使用Discord API进行客户端和服务器之间的通信。
+https://securityonline.info/bifrost-open-source-post-exploitation-using-discord-api/
+
+The Bastion
+Bastions为整个基础设施提供身份验证、授权、可追溯性和可审计性机制，通常使用ssh。
+https://www.kitploit.com/2021/07/the-bastion-authentication.html
+
+Javascript security analysis
+Javascript安全分析(JSA)是在Web应用程序安全评估期间进行javascript分析的程序。
+https://securityonline.info/javascript-security-analysis/
+
+Nexfil - OSINT工具
+NExfil是一个用python编写的OSINT工具，用于按用户名查找配置文件。
+https://www.kitploit.com/2021/07/nexfil-osint-tool-for-finding-profiles.html
+
+Injector - 内存注入
+对位于远程服务器和本地存储的shellcode的进程注入支持。
+https://securityonline.info/injector-memory-injection-and-other-techniques-for-red-teaming/
+
+RemotePotato0 - 漏洞利用
+RemotePotato0是一个漏洞利用，它允许将权限从普通用户提升到域管理员。
+https://www.kitploit.com/2021/07/remotepotato0-just-another-wont-fix.html
+
+
+
+

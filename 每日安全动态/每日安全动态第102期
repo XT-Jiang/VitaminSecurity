@@ -1,0 +1,72 @@
+【安全分析】
+
+CODESYS 开发系统中的多个漏洞
+Cisco Talos 在 CODESYS 开发系统中发现了多个漏洞 CVE-2021-21863 和 CVE-2021-21864 等。
+https://blog.talosintelligence.com/2021/07/vuln-spotlight-codesys-.html
+
+Kaseya Unitrends备份产品中的漏洞
+荷兰漏洞披露研究所 (DIVD) 发布了 TLP:AMBER 公告，披露 Kaseya Unitrends 备份产品中的 3 个漏洞。
+https://www.bleepingcomputer.com/news/security/researchers-warn-of-unpatched-kaseya-unitrends-backup-vulnerabilities/
+
+CVE-2021-36380：命令注入漏洞
+Sunhillo SureLine 应用程序中的以指令注入漏洞可能允许攻击者root权限执行任意命令。
+https://www.securityweek.com/critical-vulnerability-found-sunhillo-aerial-surveillance-product
+
+EspoCRM、Pimcore 和 Akaunting 中的 9 个漏洞
+研究人员披露了影响三个开源项目 EspoCRM、Pimcore 和 Akaunting 中的 9 个安全漏洞。
+https://thehackernews.com/2021/07/several-bugs-found-in-3-open-source.html
+
+Microsoft 365于8月停止支持Internet Explorer 11
+微软提醒客户Microsoft 365将于2021年8月17日停止对旧版Internet Explorer 11浏览器的支持。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-365-drops-support-for-internet-explorer-11-in-august/
+
+Mac内部SSD以保护隐私
+苹果不再使用硬盘驱动器在Macbook中进行存储。
+https://www.hackread.com/dead-mac-internal-ssd-protect-your-privacy/
+
+不再赎金，5 天节省了近 10 亿欧元的赎金
+No More Ransom庆祝其成立五周年，帮助超过600万勒索软件同时恢复文件并节省近10亿欧元。
+https://www.bleepingcomputer.com/news/security/no-more-ransom-saves-almost-1-billion-in-ransomware-payments-in-5-years/
+
+LockBit勒索软件使用组策略Windows域
+已发现新版本的LockBit 2.0勒索软件使用Active Directory组策略自动睡眠域。
+https://www.bleepingcomputer.com/news/security/lockbit-ransomware-now-encrypts-windows-domains-using-group-policies/
+
+勒索团伙Haron系列Avaddon的构建器和Thanos的网站
+韩国安全公司 S2W Labs 发现新的勒索团伙 Haron 学习阿瓦登的构建器和灭霸的网站。
+https://therecord.media/new-haron-ransomware-gang-emerges-borrowing-from-avaddon-and-thanos/
+
+
+【安全工具】
+
+mailMeta - 取证工具
+mailMeta 是一个基于python 的取证工具，从邮件文件中读取标题并提取关键信息来识别邮件是否合法。 
+https://securityonline.info/mailmeta-forensics-tool-to-help-aid-in-the-investigation-of-spoofed-emails/
+
+Sx - 网络扫描仪
+sx 是追求 UNIX 哲学的命令行网络扫描仪，用简单的简单的代码创建程序的网络扫描仪。
+https://www.kitploit.com/2021/07/sx-fast-modern-easy-to-use-network.html
+
+sqlvet - 月亮分析
+Sqlvet 对Go代码库中的原始SQL执行运行分析，以在构建时发现潜在的运行时错误。
+https://securityonline.info/sqlvet-performs-static-analysis-on-raw-sql-queries/
+
+DcRat - 远程工具
+DcRat是一个用C#写的远程简单工具，使用TCP连接带证书验证。
+https://www.kitploit.com/2021/07/dcrat-simple-remote-tool-written-in-c.html
+
+侦察镜头
+执行自动初始网络和检查错误镜头的脚本，如果出现，它会进行一些测试。
+https://securityonline.info/inter-recon-perform-automatic-initial-web-and-vulnerability-recon/
+
+wpscvn - 扫描工具
+wpscvn是一个渗透测试者、网站信息测试他们的网站是否有一些易受攻击的插件或主题的工具。
+https://www.kitploit.com/2021/07/wpscvn-wpscvn-is-tool-for-pentesters.html
+
+SECMON - 信息安全观察工具
+SECMON是一种基于Web的工具，用于通过Web界面实现信息安全监视和漏洞管理的自动化。
+https://securityonline.info/secmon-web-based-tool-for-the-automation-of-infosec-watching-and-vulnerability-management/
+
+Redteam 硬件工具包 
+红队行动的集合，包含大量的工具。
+https://www.kitploit.com/2021/07/redteam-hardware-toolkit-red-team.html

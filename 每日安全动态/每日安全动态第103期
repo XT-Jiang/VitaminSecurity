@@ -1,0 +1,77 @@
+【安全分析】
+
+
+CVE-2021-34470：权限提升漏洞
+在Exchange安装期间添加的msExchStorageGroup架构类可用于创建几乎所有AD对象。
+https://packetstormsecurity.com/files/163706/GS20210729135149.tgz
+
+Oracle Fatwire中多个漏洞
+Oracle Fatwire 6.3版本存在跨站点脚本漏洞和远程SQL注入漏洞。
+https://packetstormsecurity.com/files/163703/oraclefatwire63-sqlxss.txt
+
+CVE-2021-22146：数据库转储漏洞
+Elasticsearch ECE 版本 7.13.3 匿名数据库转储漏洞利用。
+https://packetstormsecurity.com/files/163655/elasticsearchexe7133-disclose.txt
+
+CVE-2021-29766：信息泄露漏洞
+IBM i2 Analyze在某些情况下，通过错误消息或请求传达的信息超出了必要范围
+https://www.ibm.com/blogs/psirt/security-bulletin-information-disclosure-vulnerability-in-ibm-i2-analyze-cve-2021-29766/
+
+缓解CVE-2021-33909
+介绍了如何使用Falco缓解影响Linux文件系统的新提权漏洞Sequoia（CVE-2021-33909）。
+https://sysdig.com/blog/cve-2021-33909-sequoia-falco-linux-filesystem/
+
+谷歌推出Bug Hunters漏洞奖励平台
+谷歌宣布了一个新平台和社区，旨在托管其所有漏洞奖励计划 (VRP)。
+https://www.bleepingcomputer.com/news/google/google-launches-new-bug-hunters-vulnerability-rewards-platform/
+
+Combing through the fuzz
+讨论了一种将深度学习与模糊哈希相结合的新方法，来对抗恶意软件检测绕过技术。
+https://www.microsoft.com/security/blog/2021/07/27/combing-through-the-fuzz-using-fuzzy-hashing-and-deep-learning-to-counter-malware-detection-evasion-techniques/
+
+2021年最新的5大暗网搜索引擎
+5大暗网搜索引擎为Ahmia.fi、The Hidden Wiki、Haystak、Torch和DuckDuckGo。
+https://www.hackread.com/5-dark-web-search-engines-2021/
+
+阻止BEC攻击的最佳实践
+组织必须专注于金三角：人员、流程和技术的一致性来阻止商业电子邮件入侵 (BEC)攻击。
+https://thehackernews.com/2021/07/best-practices-to-thwart-business-email_29.html
+
+
+【安全工具】
+
+Ventoy - USB解决方案
+Ventoy是一个开源工具，用于为ISO/WIM/IMG/VHD(x)/EFI文件创建可启动的USB驱动器。
+https://www.kitploit.com/2021/07/ventoy-new-bootable-usb-solution.html
+
+clouditor - 支持持续云保障
+Clouditor是一种支持持续云保障的工具，主要目标是持续评估基于云的应用程序是否以安全方式配置。
+https://securityonline.info/clouditor-supports-continuous-cloud-assurance/
+
+Exploit Mitigations - 漏洞库
+目标是列出随着时间的推移在各种操作系统、软件、库或硬件中添加的漏洞利用缓解措施。
+https://www.kitploit.com/2021/07/exploitmitigations-knowledge-base-of.html
+
+MANSPIDER - 抓取SMB共享
+抓取SMB共享以获取信息，如果提供的凭据不起作用，它将退回到访客然后返回到空会话。
+https://securityonline.info/manspider-crawl-smb-shares-for-juicy-information/
+
+Kali Whoami - 隐私工具
+Whoami工具的目的是让用户在Kali linux上尽可能匿名，易于使用且界面简单，用户友好。
+https://www.kitploit.com/2021/07/kali-whoami-privacy-tool-developed-to.html
+
+pstf^2 - 被动安全工具指纹识别框架
+pstf^2是一个能够进行被动浏览器指纹识别的HTTP服务器的实现。
+https://securityonline.info/passive-security-tools-fingerprinting-framework/
+
+Bughound - 静态代码分析工具
+Bughound是一种开源静态代码分析工具，可分析代码并将结果发送到Elasticsearch和Kibana。
+https://www.kitploit.com/2021/07/bughound-static-code-analysis-tool.html
+
+ARTIF - 高级实时威胁情报框架
+ARTIF在MISP的顶部添加了另一个抽象层，以根据IP信誉和历史数据识别威胁和恶意Web流量。
+https://securityonline.info/artif-advanced-real-time-threat-intelligence-framework/
+
+Black Hat USA将推出8种安全工具
+安全研究人员和从业人员分享了大量用于渗透测试、逆向工程、恶意软件防御等的新网络工具。
+https://www.darkreading.com/attacks-breaches/8-security-tools-to-be-unveiled-at-black-hat-usa/d/d-id/1341574

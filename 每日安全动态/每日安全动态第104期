@@ -1,0 +1,76 @@
+【安全分析】
+
+PyPI库中的多个漏洞
+安全研究人员披露了PyPI中的3个漏洞，其中最严重的一个可导致整个PyPI基础设施遭到破坏。
+https://securityaffairs.co/wordpress/120755/hacking/pypi-potential-rce.html
+
+CVE-2021-37840：CSWH劫持漏洞
+aaPanel中的CSWH劫持漏洞允许远程攻击者在aaPanel的托管服务器内执行任意命令。
+https://ssd-disclosure.com/ssd-advisory-aapanel-cswh-to-rce/
+
+Neo4j 3.4.18中远程代码执行
+Neo4j 3.4.18版基于RMI的java反序列化远程代码执行漏洞利用。
+https://packetstormsecurity.com/files/163717/neo4j3418-exec.txt
+
+电子学习平台Moodle中漏洞
+电子学习平台Moodle中严重的安全漏洞可以被用来访问学生数据和试卷，甚至篡改考试结果。
+https://www.ehackingnews.com/2021/08/this-vulnerability-in-e-learning.html
+
+恶意软件Raccoon Stealer升级
+Raccoon Stealer 已由其开发人员升级，以便在窃取金融信息的同时窃取加密货币。 
+https://www.zdnet.com/article/raccoon-stealer-as-a-service-will-now-try-to-steal-your-cryptocurrency/
+
+CISA推出漏洞披露平台
+美国CISA联邦民事机构推出了一个新的漏洞披露政策(VDP)平台。
+https://www.bleepingcomputer.com/news/security/cisa-launches-vulnerability-disclosure-platform-for-federal-agencies/
+
+微软机器人保护功能
+Microsoft宣布Web应用程序防火墙(WAF)机器人保护功能已在Azure应用网关上全面可用。
+https://www.bleepingcomputer.com/news/security/bot-protection-now-generally-available-in-azure-web-application-firewall/
+
+PDF成为网络安全战场上的首选武器
+PDF的武器化是不法分子拓宽网络安全战场的一种方式，将许多人视为无害的文件变成恶意文件。
+https://www.deepinstinct.com/2021/07/28/pdf-as-a-weapon-of-choice-on-the-cybersecurity-battlefield/
+
+Windows 权限提升：SeImpersontate
+较少了在运行Windows Server 2019计算机的IIS服务器上创建实验室环境的过程。
+https://www.hackingarticles.in/windows-privilege-escalation-seimpersontate/
+
+
+【安全工具】
+
+Jarvis - 分析工具
+BlackBerry 发布了 BlackBerry Jarvis 2.0，这是其旗舰软件组成分析工具的最新版本。
+https://channellife.co.nz/story/blackberry-releases-jarvis-2-0-the-latest-edition-of-its-flagship-analysis-tool
+
+ppfuzz - 原型污染模糊器
+一种用Rust编写的用于扫描原型污染漏洞的快速工具。
+https://securityonline.info/ppfuzz-scan-prototype-pollution-vulnerability/
+
+Orbitaldump - SSH暴力破解工具
+Orbitaldump是一个用Python编写的简单多线程分布式SSH暴力破解工具。
+https://www.kitploit.com/2021/07/orbitaldump-simple-multi-threaded.html
+
+DNSStager -  隐藏和传输payload
+DNSStager是一个基于Python的开源项目，用于使用DNS隐藏和传输payload。
+https://securityonline.info/dnsstager-hide-and-transfer-your-payload-using-dns/
+
+Hash Buster - 哈希破解工具
+可在几秒钟内破解哈希，自动哈希类型识别，支持MD5、SHA1、SHA256、SHA384、SHA512。
+https://www.kitploit.com/2021/07/hash-buster-v30-crack-hashes-in-seconds.html
+
+cilium - 实现安全性、网络和可见性
+Cilium是开源软件，基于eBPF的网络，用于提供和观察保护应用程序工作负载之间的网络连接和负载平衡。
+https://securityonline.info/cilium-ebpf-based-networking-security-and-observability/
+
+Allsafe - 易受攻击的Android应用
+Allsafe是一个故意存在各种漏洞的应用程序，不像CTF而更像是一个使用现代库和技术的真实应用。
+https://www.kitploit.com/2021/07/allsafe-intentionally-vulnerable.html
+
+Alan Framework - 后开发框架
+Alan是一个后开发框架，旨在确保受感染系统的持久性并使横向移动任务更容易。
+https://securityonline.info/alan-framework-post-exploitation-framework/
+
+Beanshooter - JMX枚举和攻击工具
+Beanshooter是一个用Java编写的命令行工具，它有助于识别JMX端点上的常见漏洞。
+https://www.kitploit.com/2021/07/beanshooter-jmx-enumeration-and.html

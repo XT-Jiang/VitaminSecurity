@@ -1,0 +1,83 @@
+【安全分析】
+
+CVE-2020-28589：释放后使用漏洞
+tinyobjloader v0.9.25和v1.0.6的tiny_obj_loader.h::LoadObj()功能中存在释放后使用漏洞。
+https://blog.talosintelligence.com/2021/08/vuln-spotlight-.html
+
+WordPress下载管理器插件中多个漏洞
+WordPress下载管理器插件中存在CVE-2021-34639和CVE-2021-346380漏洞。
+https://latesthackingnews.com/2021/08/04/wordpress-download-manager-plugin-vulnerabilities-could-allow-code-execution/
+
+安全漏洞允许接管胶囊旅馆房间
+研究人员发现能够通过Nasnos漏洞远程控制智能酒店房间的灯光、床和通风。
+https://threatpost.com/security-bugs-takeover-capsule-hotel/168376/
+
+影响托管DNS服务提供商的漏洞
+研究人员在Black Hat大会上披露了影响托管DNS服务提供商的漏洞，可用来劫持平台的节点。	
+https://therecord.media/amazon-and-google-patch-major-bug-in-their-dns-as-a-service-platforms/
+
+Windows管理员可以通过分层组策略阻止外部设备
+Microsoft增加了分层组策略，允许管理员控制用户在组织网络的企业端点上安装哪些内部或外部设备。
+https://www.bleepingcomputer.com/news/microsoft/windows-admins-now-can-block-external-devices-via-layered-group-policy/
+
+Graph基金会启动漏洞赏金计划
+Graph基金会启动了一项漏洞赏金计划，承诺为智能合约漏洞提供高达250万美元的奖励。 
+https://www.zdnet.com/article/graph-foundation-launches-bug-bounty-program/
+
+Microsoft Edge新功能
+Edge正在试验名为“Super Duper Secure Mode”的新功能，旨在在不显着性能损失的情况下带来安全改进。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-just-got-a-super-duper-secure-mode-upgrade/
+
+Deadwood分析论文 
+Wiper恶意软件Deadwood的分析，这是对恶意软件执行期间/之后的检查。
+https://www.dropbox.com/s/69jeqk8l96wh2fb/Deadwood_analysis_paper.pdf
+
+恶意软件Vultur分析
+ThreatFabric检测到一种新的RAT恶意软件Vultur，因为它可以通过VNC在目标设备上完全可见。
+https://www.threatfabric.com/blogs/vultur-v-for-vnc.html
+
+
+【安全工具】
+
+InvisibilityCloak - PoC 混淆工具包
+用于C#后开发工具的概念验证混淆工具包，可更改工具名称、更改项目GUID等。
+https://securityonline.info/invisibilitycloak-poc-obfuscation-toolkit-for-c-post-exploitation-tools/
+
+TeamsUserEnum - 用户枚举
+使用 Microsoft Teams API进行用户枚举，确定电子邮件是否已注册Teams。
+https://www.kitploit.com/2021/07/teamsuserenum-user-enumeration-with.html
+
+domhttpx - 谷歌搜索引擎dorker
+domhttpx是谷歌搜索引擎dorker，带有一个用python构建的HTTP工具包，可以更轻松地一次找到多个URL/IP。
+https://securityonline.info/domhttpx-google-search-engine-dorker/
+
+In0ri - 污损检测系统
+In0ri是一种利用图像分类卷积神经网络的污损检测系统。
+https://www.kitploit.com/2021/07/in0ri-defacement-detection-with-deep.html
+
+karton - 分布式恶意软件处理框架
+基于Python、Redis和MinIO的分布式恶意软件处理框架，用于创建灵活且轻量级的恶意软件分析后端。
+https://securityonline.info/karton-distributed-malware-processing-framework/
+
+Pathprober - 暴力破解网站目录
+使用蛮力方法探测和发现HTTP路径名，并一次按特定单词或2个单词过滤。
+https://www.kitploit.com/2021/07/pathprober-probe-and-discover-http.html
+
+reconmap - 漏洞评估和渗透测试平台
+Reconmap是漏洞评估和渗透测试 (VAPT) 平台，帮助信息安全人员在安全项目上进行协作，从规划到实施和文档。
+https://securityonline.info/reconmap-vulnerability-assessment-and-penetration-testing-platform/
+
+Ppmap - 扫描器/漏洞利用工具
+一个用GO编写的简单扫描器/利用工具，它自动利用已知和现有的小工具通过Prototype Pollution执行XSS。
+https://www.kitploit.com/2021/07/ppmap-scannerexploitation-tool-written.html
+
+
+
+
+
+
+
+
+
+
+

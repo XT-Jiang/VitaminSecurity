@@ -1,0 +1,75 @@
+【安全分析】
+
+AT&T Labs Xmill中存在多个漏洞
+AT&T Labs的Xmill实用程序中存在CVE-2021-21810、CVE-2021-21811和CVE-2021-21825等。
+https://blog.talosintelligence.com/2021/08/vuln-spotlight-att.html
+
+IPCop 2.1.9远程代码执行漏洞
+IPCop 2.1.9版存在认证远程代码执行漏洞。
+https://packetstormsecurity.com/files/163769/ipcop219-exec.txt
+
+CVE-2020-35847：NoSQL注入漏洞
+Cockpit CMS 0.11.1版存在用户名枚举和密码重置NoSQL注入漏洞。
+https://packetstormsecurity.com/files/163762/cockpitcms0111-inject.txt
+
+Web代理中的HTTP请求走私
+为HTTP/1.1后端网络服务器支持HTTP/2的HTTP网络代理和网络加速器容易受到HTTP请求走私的攻击。
+https://kb.cert.org/vuls/id/357312
+
+谷歌停止使用蓝牙安全密钥
+谷歌宣布计划停止其基于蓝牙的Titan安全密钥，并专注于未来的基于NFC的版本。
+https://therecord.media/google-discontinues-bluetooth-security-keys-to-focus-on-nfc-versions/
+
+微软添加Fusion勒索软件攻击检测
+微软Azure Sentinel云原生SIEM平台使用Fusion机器学习模型检测勒索软件活动。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-fusion-ransomware-attack-detection-to-azure-sentinel/
+
+扩展自动化虚假信息
+研究人员展示了深度神经网络可以创建一支具有塑造公众舆论和激发QAnon 2.0火力的机器人军队。
+https://threatpost.com/scaling-automated-disinformation/168484/
+
+Mozilla测试“Firefox/100.0”用户代理是否破坏网站
+Mozilla 发起了一项实验，他们将 Firefox 浏览器用户代理更改为三位数的“Firefox/100.0”版本，以查看它是否会破坏网站。
+https://www.bleepingcomputer.com/news/software/mozilla-tests-if-firefox-1000-user-agent-breaks-websites/
+
+在XOR DDoS中解密字符串数组的Ghidra脚本
+本文重点介绍恶意软件家族的一小部分：内部使用的加密字符串数组及其解密。
+https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-decrypt-a-string-array-in-xor-ddos/
+
+
+【安全工具】
+
+PowerShellArmoury - PowerShell工具库
+PowerShell Armory适用于渗透测试人员下载所有喜欢的PowerShell脚本并将其存储在单个加密文件中。
+https://securityonline.info/powershellarmoury-powershell-armoury-for-penetration-testers/
+
+Terraguard - 创建和销毁VPN服务
+该项目的目标是使用WireGuard轻松创建和销毁用户自己的VPN服务。
+https://www.kitploit.com/2021/07/terraguard-create-and-destroy-your-own.html
+
+YAPS - PHP Shell
+这是另一种PHP反向shell，是一个包含所有功能的PHP文件。
+https://securityonline.info/yaps-yet-another-php-shell/
+
+Rconn - 多平台程序
+rconn是一个用于创建反向连接的多平台程序，可使用NAT和防火墙之后的服务，而无需添加防火墙规则或端口转发。
+https://www.kitploit.com/2021/07/rconn-rconn-is-multiplatform-program.html
+
+Blue Pigeon - 数据泄露和代理工具
+是一种基于蓝牙的数据泄露和代理工具，可实现远程命令和控制(C2)服务器与受感染主机之间的通信。
+https://securityonline.info/blue-pigeon-bluetooth-based-data-exfiltration-and-proxy-tool-for-red-teamers/
+
+Juumla - 扫描工具
+Juumla是一个Python工具，用于识别当前的Joomla版本并扫描可读的Joomla配置文件。
+https://www.kitploit.com/2021/07/juumla-tool-designed-to-identify-and.html
+
+tiuku - 扫描工具
+Tiuku是一种用于扫描各种系统和环境以获取安全相关信息并在基于浏览器的用户界面中显示结果的工具。
+https://securityonline.info/tiuku-scanning/
+
+Dorothy - 检测工具
+Dorothy是一种工具，可帮助安全团队测试他们对Okta环境的监控和检测能力。
+https://www.kitploit.com/2021/07/dorothy-tool-to-test-security.html
+
+
+

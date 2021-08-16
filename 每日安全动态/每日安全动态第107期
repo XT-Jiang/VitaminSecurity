@@ -1,0 +1,76 @@
+【安全分析】
+
+ICS周二补丁：西门子、施耐德修复50多个漏洞
+此此安全更新西门子总计修复了32个漏洞，施耐德电气总共修复了25个漏洞。
+https://www.securityweek.com/august-2021-ics-patch-tuesday-siemens-schneider-address-over-50-flaws
+
+英特尔修复产品中的多个漏洞
+英特尔修复了NUC 9 Extreme笔记本电脑、以太网Linux驱动程序中的严重缺陷。
+https://www.securityweek.com/intel-patches-high-severity-flaws-nuc-9-extreme-laptops-ethernet-linux-drivers
+
+CVE-2021-35449：提权漏洞
+Lexmark通用打印机驱动程序允许低权限用户可以使用驱动程序在添加打印机过程中执行他们选择的DLL，从而将权限提升到SYSTEM。
+https://packetstormsecurity.com/files/163811/lexmark_driver_privesc.rb.txt
+
+托管DNS服务云中的漏洞
+研究人员披露了影响主要DNS即服务(DNSaaS)提供商的漏洞，允许攻击者从网络中窃取敏感信息。
+https://thehackernews.com/2021/08/bugs-in-managed-dns-services-cloud-let.html
+
+谷歌将Allstar项目开源
+谷歌开源了Allstar项目，其可以可通过不断观察和执行一组安全策略来保护GitHub项目。
+https://therecord.media/google-open-sources-allstar-a-tool-to-protect-github-repos/
+
+GitHub弃用帐户密码验证方式
+GitHub 8月12日宣布，从明天开始，将不再接受帐户密码来验证Git操作。
+https://www.bleepingcomputer.com/news/security/github-deprecates-account-passwords-for-authenticating-git-operations/
+
+僵尸网络修改CPU配置以提高挖矿能力
+一个加密挖掘僵尸网络正在修改被黑的Linux服务器上的CPU配置，以提高挖矿效率。
+https://therecord.media/crypto-mining-botnet-modifies-cpu-configurations-to-increase-its-mining-power/
+
+无线渗透测试：Wifipumpkin3
+本文介绍了如何使用此工具创建一个虚假的Wi-Fi接入点供我们的受害者连接，以及如何利用该系统。
+https://www.hackingarticles.in/wireless-penetration-testing-wifipumpkin3/
+
+当今的供应链攻击如何改变企业安全
+本文探讨一些供应链遭到破坏的例子，并望从这些事件中吸取教训，以帮助识别并缓解未来潜在的问题。
+https://www.sentinelone.com/blog/how-todays-supply-chain-attacks-are-changing-enterprise-security/
+
+
+【安全工具】
+
+Codespaces
+GitHub发布了Codespaces，是在线开发环境，在2020年的GitHub Satellite虚拟活动中首次推出。
+https://www.theregister.com/2021/08/12/github_codespaces/
+
+TokenTactics - Azure JWT令牌操作工具集
+Azure访问令牌允许你以使用设备代码登录的用户身份对某些终结点进行身份验证。
+https://www.kitploit.com/2021/07/tokentactics-azure-jwt-token.html
+
+meterpeter　-　命令和控制框架
+C2 Powershell命令和控制框架，在 Windows|Linux攻击者机器上启动侦听器服务器。
+https://securityonline.info/meterpeter-c2-powershell-command-control-framework/
+
+kmon　-　Linux内核管理器
+kmon提供了一个基于文本的用户界面，用于管理Linux内核模块和监控内核活动。
+https://securityonline.info/kmon-linux-kernel-manager-and-activity-monitor/
+
+LogiC.NET　-　.NET 混淆器
+LoGiC.NE是一个免费开源的.NET混淆器，使用dnlib为那些想要了解比Goldfuscator更复杂的混淆器的人。
+https://www.kitploit.com/2021/07/logicnet-more-advanced-free-and-open.html
+
+ppmmap　-　XSS工具
+一个用GO编写的简单扫描器/漏洞利用工具，自动利用已知小工具通过 Prototype Pollution执行XSS。
+https://securityonline.info/ppmap-leverages-prototype-pollution-to-xss-by-exploiting-known-gadgets/
+
+CredPhish　-　窃取密码
+CredPhish是一个PowerShell脚本，旨在调用凭据提示和泄露密码。
+https://www.kitploit.com/2021/07/credphish-powershell-script-designed-to.html
+
+mushikago　-　自动渗透测试工具
+Mushikago是一款使用游戏AI的自动渗透测试工具，专注于渗透测试工具之间的后漏洞验证。
+https://securityonline.info/mushikago-automatic-penetration-testing-tool-using-game-ai/
+
+Radare2　-　逆向工程框架
+Radare是对radare 从头开始的重写，提供了一组库、工具和插件来简化逆向工程任务。
+https://www.kitploit.com/2021/07/radare2-unix-like-reverse-engineering.html

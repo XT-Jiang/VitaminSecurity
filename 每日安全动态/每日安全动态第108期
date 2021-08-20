@@ -1,0 +1,79 @@
+【安全分析】
+
+CVE-2021-34641:XSS漏洞
+WordPress插件SEOPress中存在XSS漏洞，允许完全接管网站。
+https://threatpost.com/xss-bug-seopress-wordpress-plugin/168702/
+
+CVE-2021-21832：内存损坏漏洞
+专业的仿真软件Daemon Tools Pro存在内存损坏漏洞CVE-2021-21832。
+https://blog.talosintelligence.com/2021/08/vulnerability-spotlight-memory.html
+
+GPAC项目中多个整数溢出漏洞
+Cisco Talos披露GPAC中多个可能导致内存损坏的整数溢出漏洞CVE-2021-21834和CVE-2021-21852等。
+https://blog.talosintelligence.com/2021/08/vulnerability-spotlight-multiple.html
+
+Photoshop中2个漏洞
+Adobe披露Photoshop中的2个漏洞CVE-2021-36065和CVE-2021-36066。
+https://www.securityweek.com/adobe-plugs-critical-photoshop-security-flaws
+
+数十个与STARTTLS相关的漏洞
+研究人员披露了40个与STARTTLS相关漏洞，可能导致MitM攻击，允许入侵者伪造邮箱内容并窃取凭据。
+https://thehackernews.com/2021/08/dozens-of-starttls-related-flaws-found.html
+
+利用中间件进行放大DDoS攻击
+研究人员在USENIX安全研讨会上详细介绍了利用TCP不合规的网络中间件，例如防火墙、DPI盒，的放大DDoS攻击。
+https://thehackernews.com/2021/08/attackers-can-weaponize-firewalls-and.html
+
+Nmap for Pentester：密码破解
+Nmap包含一个基于NSE的脚本，可以对安全服务执行字典暴力攻击。
+https://www.hackingarticles.in/nmap-for-pentester-password-cracking/
+
+被忽视的云安全风险
+Prevaliion讨论了那些采用虚拟机、公共云存储和远程工作云策略的人的首要安全问题。
+https://threatpost.com/security-risks-cloud/168754/
+
+如何为勒索软件攻击做准备
+报告揭示了安全和风险管理领导者如何帮助保护组织免受勒索软件的侵害。
+https://www.cybereason.com/blog/analyst-report-how-to-prepare-for-ransomware-attacks
+
+
+【安全工具】
+
+x8 Burp - 隐藏参数发现工具
+该工具有助于找到可能容易受到攻击的隐藏参数，或者可以揭示其他猎人错过的有趣功能。
+https://securityonline.info/x8-burp-hidden-parameters-discovery-suite-wrapper/
+
+Solitude - 隐私分析工具
+Solitude是一种隐私分析工具，使任何人都可以进行自己的隐私调查。
+https://www.kitploit.com/2021/08/solitude-privacy-analysis-tool-that.html
+
+Invoke Stealth - PowerShell脚本混淆器
+是一个简单而强大的PowerShell脚本混淆器，可在PowerShell中编写的任何脚本的混淆过程自动化使用不同技术。
+https://securityonline.info/invoke-stealth-simple-powerful-powershell-script-obfuscator/
+
+cThreadHijack - 信标对象文件(BOF)
+用于远程进程注入的信标对象文件(BOF)，通过线程劫持，而不产生远程线程。
+https://www.kitploit.com/2021/08/cthreadhijack-beacon-object-file-bof.html
+
+o365spray - 枚举和密码喷涂工具
+o365spray是针对Microsoft Office 365(O365)的用户名枚举和密码喷涂工具。
+https://securityonline.info/o365spray-username-enumeration-and-password-spraying-tool/
+
+Go Shellcode
+Windows Shellcode运行程序和支持实用程序的存储库，使用各种API调用或技术加载和执行Shellcode。
+https://www.kitploit.com/2021/08/go-shellcode-repository-of-windows.html
+
+RedHerd Framework - 协作框架
+RedHerd是一个协作和无服务器框架，用于编排地理分布的资产组，能够模拟复杂的进攻性网络空间行动。
+https://securityonline.info/redherd-framework/
+
+Sniffle - 嗅探器
+Sniffle是使用TI CC1352/CC26x2硬件的适用于蓝牙5和4.x(LE)嗅探器。
+https://www.kitploit.com/2021/07/sniffle-sniffer-for-bluetooth-5-and-4x.html
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+【安全分析】
+
+CVE-2021-39249和CVE-2021-39250
+IP-Board中存在XSS漏洞，可以进行远程代码执行。
+https://ssd-disclosure.com/ssd-advisory-ip-board-stored-xss-to-rce-chain/
+
+CVE-2021-30799：释放后使用漏洞
+WebKit在Element::dispatchMouseEvent中存在堆释放后使用漏洞。
+https://packetstormsecurity.com/files/163886/GS20210819154639.tgz
+
+CVE-2006-1236：缓冲区溢出漏洞
+Crossfire Server 1.0 版 SetUp()存在远程缓冲区溢出漏洞。
+https://packetstormsecurity.com/files/163873/crossfireserver190-overflow.txt
+
+Ubuntu Linux补丁修复7个漏洞
+Ubuntu Linux安全更新修复CVE-2021-3564和CVE-2021-3573等漏洞
+https://www.linuxtoday.com/developer/new-ubuntu-linux-security-patches-fix-up-to-seven-vulnerabilities-update-now/
+
+微软发布第一个官方Windows 11 ISO
+微软终于发布了Windows 11的第一个官方ISO，允许用户执行新操作系统的全新安装。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-first-official-windows-11-isos/
+
+如何主动防御Mozi物联网僵尸网络
+Mozi是一种点对点(P2P)僵尸网络，它使用类似BitTorrent的网络来感染物联网设备，例如网络网关和数字视频记录(DVR)。
+https://www.microsoft.com/security/blog/2021/08/19/how-to-proactively-defend-against-mozi-iot-botnet/
+
+PetitPotam NTLM中继攻击的第二个非官方补丁
+针对Windows PetitPotam NTLM中继攻击的第二个非官方补丁已发布，以修复Microsoft官方安全更新未解决的更多问题。
+https://www.bleepingcomputer.com/news/security/new-unofficial-windows-patch-fixes-more-petitpotam-attack-vectors/	
+
+XSS攻击实用指南
+本文讨论跨站点脚本攻击，以便掌握必要的知识来避免它并练习安全编码。
+https://www.securecoding.com/blog/xss-attacks/
+
+Pentester的Metasploit：Creds
+在本文中，讨论了工作区中可供渗透测试人员使用的另一个数据库：Creds。
+https://www.hackingarticles.in/metasploit-for-pentester-creds/
+
+
+【安全工具】
+
+Rtl_433 - 通用数据接收器
+通用数据接收器，主要用于433.92 MHz、868 MHz(SRD)、315 MHz、345 MHz和915 MHz ISM频段。
+https://www.kitploit.com/2021/07/rtl433-program-to-decode-radio.html
+
+Packet Sender - 发送接收数据包
+Packet Sender是一个开源实用程序，允许发送和接收TCP、UDP和SSL（加密 TCP）数据包。
+https://securityonline.info/packet-sender/
+
+LightMe -  HTTP 服务器
+LightMe是一个简单的HTTP服务器，在混淆它们之后提供Powershell脚本/有效负载，并在后台运行混淆作为服务。
+https://www.kitploit.com/2021/07/lightme-http-server-serving-obfuscated.html
+
+tsharkVM - tshark+ELK分析虚拟机
+tshark可以通过这种方式用作监控探针，将数据推送到Elasticsearch集群。
+https://securityonline.info/tsharkvm-tshark-elk-analytics-virtual-machine/
+
+Ruse - 基于移动相机的应用
+基于移动相机的应用程序试图更改照片以保留其对人类的效用，同时使它们无法用于面部识别系统。
+https://www.kitploit.com/2021/07/ruse-mobile-camera-based-application.html
+
+CSIRT Collect - 磁盘取证
+用于收集内存和磁盘取证以进行事件响应调查的PowerShell脚本，利用网络共享从中访问和复制所需的可执行文件。
+https://securityonline.info/csirt-collect-collect-memory-and-triage-disk-forensics/
+
+Cerbrutus - 暴力破解工具
+用Python编写的模块化暴力破解工具，用于非常快速的密码喷射SSH、FTP以及不久的将来的其他网络服务。
+https://www.kitploit.com/2021/07/cerbrutus-network-brute-force-tool.html
+
+Beaconator - beacon生成器
+Beaconator是Cobalt Strike的攻击者脚本，用于生成原始无阶段shellcode并使用PEzor打包生成的shellcode。
+https://securityonline.info/beaconator-v1-1-releases-beacon-generator-using-cobalt-strike-and-pezor/
+
+
+

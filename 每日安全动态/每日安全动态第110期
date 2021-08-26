@@ -1,0 +1,73 @@
+【安全分析】
+
+NetModule路由器中多个漏洞
+NetModule路由器存在CVE-2021-39289、CVE-2021-39290和CVE-2021-39291等漏洞。
+https://packetstormsecurity.com/files/163892/SA-20210820-0.txt
+
+Altus Nexto和Hadron系列产品中的多个漏洞
+Altus Nexto和Hadron系列存在CVE-2021-39243、CVE-2021-39243和CVE-2021-39243等漏洞。
+https://seclists.org/fulldisclosure/2021/Aug/21
+
+RaspAP中的远程代码执行漏洞
+RaspAP版本2.6.6存在认证远程代码执行漏洞。
+https://packetstormsecurity.com/files/163896/raspap266-exec.txt
+
+三星S10+/S9内核中漏洞
+在三星S10+/S9内核中发现的漏洞可以导致敏感函数地址信息泄露。
+https://ssd-disclosure.com/ssd-advisory-samsung-s10-s9-kernel-4-14-android-10-kernel-function-address-text-and-heap-address-information-leak/
+
+Firefox阻止不安全的下载
+Mozilla开发人员正在对一项新功能进行收尾工作，该功能将阻止Firefox中的不安全文件下载。
+https://therecord.media/firefox-follows-chrome-and-prepares-to-block-insecure-downloads/
+
+保护企业免受ShinyHunters攻击的方法
+Intel471发布报告来建议组织如何保护自己免受ShinyHunters攻击。
+https://intel471.com/blog/shinyhunters-data-breach-mitre-attack
+
+三星可在全球范围内远程禁用电视
+三星表示，它可以使用TV Block远程禁用全球范围内所有三星电视机。
+https://www.bleepingcomputer.com/news/security/samsung-can-remotely-disable-their-tvs-worldwide-using-tv-block/
+
+kaspersky发现FMWhatsapp被植入Triada和广告SDK
+WhatsApp的修改工具FMWhatsapp被植入Triada和软件开发工具包 (SDK) 。
+https://securelist.com/triada-trojan-in-whatsapp-mod/103679/
+
+Pentester的MSSQL：发现
+MS-SQL是由Microsoft创建的关系数据库管理器，文章探索各种方法，以便在本地和远程发现网络中的MS-SQL服务器。
+https://www.hackingarticles.in/mssql-for-pentester-discovery/
+
+
+【安全工具】
+
+Rz Ghidra - 反编译器
+Rz Ghidra是用于Rizin的深度Ghidra反编译器和雪橇反汇编器集成。
+https://www.kitploit.com/2021/08/rz-ghidra-deep-ghidra-decompiler-and.html
+
+Racketeer - 勒索软件仿真工具包
+该项目的目标是为团队提供一种方法，以受控方式针对一组公司资产和网络端点模拟和测试常见勒索软件操作的检测。
+https://securityonline.info/racketeer-project-ransomware-emulation-toolkit/
+
+ChangeTower - 查看网页篡改
+ChangeTower旨在帮助您查看网页中的更改，使用Go编写，并在任何被篡改时获得通知。
+https://www.kitploit.com/2021/08/changetower-tool-to-help-you-watch.html
+
+BadAssMacros - 恶意宏生成器
+概念证明工具，利用VBA Purging和Shellcode Obfuscation等技术生成恶意宏来逃避AV引擎。
+https://securityonline.info/badassmacros-c-based-automated-malicous-macro-generator/
+
+Elpscrk - 密码分析器
+基于排列和统计的智能通用用户密码分析器，会询问目标的所有信息然后尝试生成所有可能的密码。
+https://www.kitploit.com/2021/08/elpscrk-intelligent-common-user.html
+
+PickleC2 - 后开发和横向移动框架
+PickleC2是一个用python3编写的简单C2框架，用于帮助渗透测试人员参与红队活动。
+https://securityonline.info/picklec2-post-exploitation-and-lateral-movements-framework/
+
+Uchihash - 哈希分析
+Uchihash 是一个小型实用程序，可以节省恶意软件分析人员处理用于各种事物的嵌入式哈希值的时间。
+https://www.kitploit.com/2021/08/uchihash-small-utility-to-deal-with.html
+
+移动验证工具包 v1.2.1
+移动验证工具包(MVT)是一组实用程序，用于简化和自动化收集取证痕迹的过程，有助于识别Android和iOS设备的潜在危害。
+https://securityonline.info/mobile-verification-toolkit-forensic-tool/
+

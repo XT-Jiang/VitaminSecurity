@@ -1,0 +1,76 @@
+【安全分析】
+
+Atlassian警告Confluence中的漏洞
+Confluence中的代码执行漏洞编号为CVE-2021-26084，CVSS评分为9.8。
+https://www.securityweek.com/atlassian-patches-critical-code-execution-vulnerability-confluence
+
+谷歌浏览器中的多个漏洞
+谷歌浏览器中存在CVE-2021-30598和CVE-2021-30599等多个漏洞，其中最严重的可导致任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-27/
+
+Ethreum敦促Go开发人员修复漏洞
+Ethreum项目称CVE-2021-39137漏洞会影响Geth，导致区块链服务大规模中断。
+https://www.bleepingcomputer.com/news/security/ethereum-urges-go-devs-to-fix-severe-chain-split-vulnerability/
+
+B.Braun输液泵中存在多个漏洞
+B. Braun输液泵中的CVE-2021-33886和CVE-2021-33885等漏洞，可用来篡改药物剂量的漏洞
+https://www.mcafee.com/blogs/enterprise/mcafee-enterprise-atr/mcafee-enterprise-atr-uncovers-vulnerabilities-in-globally-used-b-braun-infusion-pump/
+
+IBM推出新的SASE服务支持零信任企业安全
+IBM宣布了一种新的安全访问服务边缘(SASE)解决方案，旨在鼓励企业中的零信任安全方法。 
+https://www.zdnet.com/article/ibm-launches-new-sase-service-to-bolster-zero-trust-security/#ftag=RSSbaffb68
+
+Facebook允许漏洞猎人提交联合报告
+Facebook更新了其漏洞赏金计划，允许安全研究人员提交联合报告并分配漏洞赏金。
+https://therecord.media/facebook-will-let-bug-hunters-submit-joint-reports/
+
+西部数据确认SN550 SSD闪存速度下降
+西部数据证实，它更改了WD Blue SN550中的NAND闪存，降低了写入速度，导致性能下降50%。
+https://www.bleepingcomputer.com/news/hardware/western-digital-confirms-speed-crippling-sn550-ssd-flash-change/
+
+移动消息服务被滥用于网络钓鱼
+文章介绍了利用Verizon多媒体消息服务Vzwpix的一项网络钓鱼活动的攻击模式。
+https://cofense.com/blog/mobile-messaging-phish/
+
+恶意软件文件签名己其工作原理
+文章探讨了恶意软件文件签名是如何创建的，解释了它们的工作原理，并讨论它们的优缺点。
+https://www.sentinelone.com/blog/what-is-a-malware-file-signature-and-how-does-it-work/
+
+
+【安全工具】
+
+smartbrute - 暴力破解工具
+用于Active Directory域服务的智能密码喷射和暴力破解工具。
+https://securityonline.info/smartbrute-smart-password-spraying-and-bruteforcing-tool-for-active-directory-domain-services/
+
+WARCannon - 低成本 CommonCrawl RegExp
+WARCannon可以在几个小时内以大约100美元的价格处理400TB的多个正则表达式模式。
+https://www.kitploit.com/2021/08/warcannon-high-speedlow-cost.html
+
+SGXRay - 漏洞检测工具
+它是一种开源工具，可自动检测源于违反可信边界的SGX enclave错误。
+https://securityonline.info/sgxray-automating-vulnerability-detection-for-sgx-apps/
+
+TwiTi - 提取IOC
+TwiTi，一个从推文中提取IOC的工具，可以收集大量最新的、准确的IOC。
+https://www.kitploit.com/2021/08/twiti-tool-for-extracting-iocs-from.html
+
+ESP32 Marauder - 攻防工具
+ESP32 Marauder是为ESP32创建的一套WiFi/蓝牙攻防工具，是一种便携式设备。
+https://securityonline.info/esp32-marauder-suite-of-wifi-bluetooth-offensive-and-defensive-tools-for-the-esp32/
+
+Php Jpeg Injector - 注入脚本
+此脚本将PHP代码注入指定的jpeg图像，如果Web应用程序解释图像，它将执行有效负载。
+https://www.kitploit.com/2021/08/php-jpeg-injector-injects-php-payloads.html
+
+VulWebaju - 渗透测试环境
+VulWebaju是一个脚本，可以自动设置您的渗透测试环境以用于学习目的。
+https://securityonline.info/vulwebaju-set-up-your-pentesting-environment-for-learning-purpose/
+
+Sigurlfind3R - 侦察工具
+一种被动侦察工具，它从AlienVault的OTX、Common Crawl、URLScan、Github和Wayback Machine中获取已知URL。
+https://www.kitploit.com/2021/08/sigurlfind3r-reconnaissance-tool-it.html
+
+
+
+

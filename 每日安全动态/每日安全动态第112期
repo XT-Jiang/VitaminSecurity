@@ -1,0 +1,68 @@
+【安全分析】
+
+WordPress插件elFinder文件管理器中多个漏洞
+研究人员在插件中发现了五个不同的安全漏洞，他们具有相同的CVE编号CVE-2021-32682。	
+https://latesthackingnews.com/2021/08/28/multiple-vulnerabilities-spotted-in-elfinder-file-manager-wordpress-plugin/
+
+HPE警告一个严重的Sudo漏洞
+该漏洞追踪为CVE-2021-3156，为攻击者提供了Aruba平台的根权限。
+https://threatpost.com/hpe-sudo-bug-aruba-platform/169038/
+
+CVE-2021-36359：XML注入漏洞
+BSCW Server 7.4.2及以下、7.3.2及以下、5.2.3及以下、5.1.9及以下、5.0.11及以下版本存在XML标记注入漏洞。
+https://packetstormsecurity.com/files/163988/SA-20210827-1.txt
+
+Apple ID服务器中的XSS漏洞
+Apple ID服务器上存在XSS漏洞，攻击者可以弹出一个自动填充用户凭据和2FA的Apple登录页面。
+https://seclists.org/fulldisclosure/2021/Aug/25
+
+CISA在其“不良实践”目录中添加了单因素身份验证
+美国CISA启动了一个名为“不良实践（Bad Practices）”的新项目，并在其中添加了单因素身份验证。
+https://therecord.media/cisa-adds-single-factor-authentication-to-its-catalog-of-bad-practices/
+
+Windows 11仅支持一个英特尔第7代CPU
+微软宣布，在调查了其他可能兼容Windows 11的处理器后，他们只发现一个第7代Intel CPU兼容，没有第一代AMD Zen CPU。
+https://www.bleepingcomputer.com/news/microsoft/windows-11-to-only-support-one-intel-7th-gen-cpu-no-amd-zen-cpus/
+
+勒索软件不会被阻止的 6 个原因
+讨论了为什么我们现在才看到真正的勒索软件开始繁荣的六个关键原因。
+https://www.sentinelone.com/blog/6-reasons-why-ransomware-is-not-going-to-be-stopped/
+
+用于Pentester的MSSQL：使用CLR程序集执行命令
+在本文中，将全面的介绍Microsoft提供的CLR程序集功能，以及如何发挥其潜力。
+https://www.hackingarticles.in/mssql-for-pentester-command-execution-with-clr-assembly/
+
+WordPress pod的Sysrv-Hello僵尸网络
+Sysdig安全研究团队发现了一次针对运行WordPress的Kubernetes pod的Cryptominer攻击。
+https://sysdig.com/blog/crypto-sysrv-hello-wordpress/
+
+
+【安全工具】
+
+ADCSPwn - 提权工具
+通过强制从机器帐户(Petitpotam)进行身份验证并中继到证书服务来提升活动目录网络中的权限的工具。
+https://www.kitploit.com/2021/08/adcspwn-tool-to-escalate-privileges-in.html
+
+raider - 身份验证测试框架
+Raider旨在通过提供与现代身份验证系统中发现的所有重要元素进行交互的界面，使测试更容易。
+https://securityonline.info/raider-authentication-testing-framework/
+
+UnhookMe - Windows API解析器
+一个通用的Windows API解析器和Unhooker，解决了从红队恶意软件内部调用不受监控的系统调用的问题。
+https://www.kitploit.com/2021/08/unhookme-universal-windows-api-resolver.html
+
+BlackDex - 安卓解包工具
+BlackDex是一款Android解包工具，支持Android 5.0~12，无需依赖任何环境。
+https://securityonline.info/blackdex-android-unpack-tool/
+
+Karton - 恶意软件处理框架
+基于 Python、Redis和MinIO的分布式恶意软件处理框架，用于创建灵活且轻量级的恶意软件分析后端。
+https://www.kitploit.com/2021/08/karton-distributed-malware-processing.html
+
+XSS Catcher - 盲XSS检测框架
+XSS Catcher是一个简单的应用程序，它有助于盲目跨站脚本攻击和旨在收集数据的攻击。
+https://securityonline.info/xss-catcher-blind-xss-detection-framework/
+
+Wsh - Web Shell生成器
+wsh是一个web shell生成器和命令行界面，这开始只是一个 http 客户端，因为与用来与webshell交互。
+https://www.kitploit.com/2021/08/wsh-web-shell-generator-and-command.html

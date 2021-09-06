@@ -1,0 +1,73 @@
+【安全分析】
+
+谷歌浏览器中的多个漏洞 	
+谷歌浏览器存在CVE-2021-30606、CVE-2021-30607和CVE-2021-30608等漏洞。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-28/
+
+WordPress插件中漏洞
+WordPress的Gutenberg模板库和Redux框架插件中两个漏洞影响上百万网站。
+https://threatpost.com/gutenberg-template-library-redux-bugs-wordpress/169111/
+
+AMD Zen处理器中漏洞
+德累斯顿工业大学的研究人员披露AMD的Zen处理器中的漏洞
+https://www.ehackingnews.com/2021/09/experts-find-vulnerabilities-in-amd-zen.html
+
+CVE-2021-31797：授权绕过漏洞
+CyberArk在TCP端口18923上的凭据提供程序环回通信使用具有极低熵的密钥材料进行加密。
+https://packetstormsecurity.com/files/164033/KL-001-2021-009.txt
+
+Windows 10 KB5005101累积更新发布
+微软发布Windows 10 KB5005101累积更新，修复34个问题，仅包含错误修复、性能增强和改进。
+https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5005101-cumulative-update-released-with-34-fixes/
+
+微软：Windows Server 2022现已正式发布
+Microsoft已宣布Window Server 2022，一个具有十年支持的长期服务频道(LTSC)版本，从9月1日开始可用。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-is-now-generally-available/
+
+Krypton加密器
+分析新的Krypton加密器和最近的Data Exfiltrator Samples。
+https://medium.com/walmartglobaltech/looking-at-the-new-krypton-crypter-and-recent-data-exfiltrator-samples-4c484875cf70
+
+优秀终端安全系统的5个特征
+终端是每个组织的核心，需要考虑任何现代安全解决方案所需的五个基本特征。
+https://www.sentinelone.com/blog/5-traits-of-a-great-endpoint-security-system/
+
+
+【安全工具】
+
+Hashcat - GPU哈希破解实用程序
+是一种先进的GPU哈希破解实用程序，拥有第一个也是唯一一个基于GPGPU的规则引擎。
+https://packetstormsecurity.com/files/163996/hashcat-6.2.4.tar.gz
+
+penelope - shell处理程序
+高级的shell处理程序，主要目的是在利用RCE漏洞期间将netcat替换为shell捕获器。
+https://securityonline.info/penelope-advanced-shell-handler/
+
+Nimplant - 跨平台植入物
+Nimplant是用Nim编写的跨平台植入物。
+https://www.kitploit.com/2021/08/nimplant-cross-platform-implant-written.html
+
+ligolo-ng - 隧道工具
+使用TUN接口的高级隧道工具，允许渗透测试人员在不需要SOCKS的情况下从反向TCP/TLS连接建立隧道。
+https://securityonline.info/ligolo-ng-advanced-tunneling-pivoting-tool/
+
+NinjaDroid - Android APK包
+NinjaDroid是一个简单的逆向工程工具Android APK包。
+https://www.kitploit.com/2021/08/ninjadroid-ninja-reverse-engineering-on.html
+
+Process Dump - 逆向工程命令行工具
+Process Dump是一个Windows逆向工程命令行工具，用于将恶意软件内存组件转储回磁盘进行分析。
+https://securityonline.info/process-dump-windows-reverse-engineering-command-line-tool/
+
+Bantam - 后门管理和生成工具 
+一种高级PHP后门管理工具，具有轻量级服务器占用空间、多线程通信以及高级负载生成和混淆工具。
+https://www.kitploit.com/2021/08/bantam-php-backdoor-management-and.html
+
+InQL Scanner - Burp 扩展
+InQL Scanner是一种安全测试工具，用于促进GraphQL技术安全审计工作。
+https://securityonline.info/inql-scanner/
+
+Tko Subs - 子域接管工具 
+Tko Subs是一种可以帮助检测和接管具有dead DNS记录的子域的工具。
+https://www.kitploit.com/2021/08/tko-subs-tool-that-can-help-detect-and.html
+

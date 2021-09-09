@@ -1,0 +1,73 @@
+【安全分析】
+
+CVE-2021-21897：堆缓冲区溢出漏洞
+Ribbonsoft的dxflib库中发现了一个可利用的基于堆的缓冲区溢出漏洞，该漏洞可能导致代码执行。
+https://blog.talosintelligence.com/2021/09/vuln-spotlight-ribbonsoft.html
+
+CVE-2021-23406：任意代码执行漏洞
+Pac-Resolver NPM包中的任意代码执行漏洞影响了290000个存储库。
+https://www.securityweek.com/critical-flaw-pac-resolver-npm-package-affects-290000-repositories
+
+WordPress插件elFinder中多个漏洞
+研究人员在elFinder中发现了五个不同的安全漏洞，它们具有相同的CVE编号CVE-2021-32682。
+https://latesthackingnews.com/2021/08/28/multiple-vulnerabilities-spotted-in-elfinder-file-manager-wordpress-plugin/
+
+CVE-2021-39608：代码执行漏洞
+FlatCore CMS版本2.0.7存在认证远程代码执行漏洞。
+https://packetstormsecurity.com/files/164048/antminermonitor050-bypass.txt
+
+用于Pentester的MSSQL：提权
+在本文中，介绍了如何为只有基本公共权限的用户授予系统管理员权限。
+https://www.hackingarticles.in/mssql-for-pentester-abusing-trustworthy/
+
+移动消息服务被滥用于网络钓鱼
+Cofense发现最近几周攻击者使用Vzwpix攻击了各种不同行业的客户。
+https://cofensestaging.wpengine.com/blog/mobile-messaging-phish/
+
+Office 365安全强化
+微软正在改变Office应用的行为，以强制执行阻止可信文档上的活动内容（例如宏、ActiveX、DDE）的策略。
+https://www.bleepingcomputer.com/news/security/office-365-to-let-admins-block-active-content-on-trusted-docs/
+
+Haron勒索软件案例研究
+解码SmartAssembly字符串，分析最近出现的基于Avaddon和Thanos的勒索软件Haron。
+https://medium.com/walmartglobaltech/decoding-smartassembly-strings-a-haron-ransomware-case-study-9d0c5af7080b
+
+
+【安全工具】
+
+Chainsaw - 分析Windows事件日志
+名为Chainsaw的新工具，可以加快搜索Windows事件日志记录以识别威胁的速度。
+https://www.bleepingcomputer.com/news/security/new-chainsaw-tool-helps-ir-teams-analyze-windows-event-logs/
+
+KnockOutlook - 红队Outlook工具
+KnockOutlook是一个C#项目，它与Outlook的COM对象交互，以执行许多在红队参与中有用的操作。
+https://securityonline.info/knockoutlook-red-team-tool-to-play-with-outlook/
+
+CamPhish - 摄像头攻击
+CamPhish是一种技术，可以拍摄目标手机前摄像头或PC网络摄像头的摄像头。
+https://www.kitploit.com/2021/08/camphish-grab-cam-shots-from-targets.html
+
+Cloud Katana - 云原生工具
+Cloud Katana 是一种基于在多云和混合云环境中自动执行仿真步骤的需求而开发的云原生工具。
+https://securityonline.info/cloud-katana-unlocking-serverless-computing-to-assess-security-controls/
+
+AuraBorealisApp - Python包审计工具
+AuraBorealis 是一个Web应用程序，用于可视化Python包注册表中的异常和潜在恶意代码。
+https://www.kitploit.com/2021/08/auraborealisapp-do-you-know-whats-in.html
+
+auth analyzer - Burp扩展
+auth analyzer是用于测试授权问题的Burp扩展。
+https://securityonline.info/auth_analyzer-burp-extension-for-testing-authorization-issues/
+
+Jsleak - 信息窃取工具
+Jsleak是一种通过正则表达式模式识别JS文件中敏感数据的工具。
+https://www.kitploit.com/2021/08/jsleak-go-code-to-detect-leaks-in-js.html
+
+dns Monster - 被动DNS监控框架
+使用Golang、Clickhouse和Grafana构建的被动DNS收集和监控，为DNS流量实现了一个数据包嗅探器。
+https://securityonline.info/dns-monster-passive-dns-capture-monitoring-framework/
+
+FisherMan - CLI 程序
+FisherMan是通过Selenium从Facebook用户配置文件收集信息的CLI程序。
+https://www.kitploit.com/2021/08/fisherman-cli-program-that-collects.html
+

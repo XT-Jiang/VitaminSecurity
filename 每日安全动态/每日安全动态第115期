@@ -1,0 +1,74 @@
+【安全分析】
+
+CVE-2021-26084：OGNL注入漏洞
+该Metasploit模块利用Atlassian Confluence中的OGNL注入以Tomcat用户身份执行命令。
+https://packetstormsecurity.com/files/164122/atlassian_confluence_webwork_ognl_injection.rb.txt
+
+Internet Explorer中的内存损坏漏洞
+Internet Explorer存在jscript9.dll中不正确的JIT优化导致内存损坏的问题。
+https://packetstormsecurity.com/files/164121/GS20210910050931.tgz
+
+CVE-2021-3145：身份验证绕过漏洞
+Ionic Identity Vault 4.7及以下版本在Android上存在生物识别身份验证绕过漏洞。
+https://packetstormsecurity.com/files/164085/CSNC-2021-001.txt
+
+POMS-PHP中的SQL注入漏洞
+POMS-PHP 1.0版存在允许绕过身份验证的远程SQL注入漏洞。
+https://packetstormsecurity.com/files/164104/pompsphp10-sql.txt
+
+针对勒索软件的工具网络检测和响应
+讨论了如何在对抗勒索软件时有效地使用网络流数据。
+https://threatpost.com/network-detection-response-ransomware/169290/
+
+保护SAP SuccessFactors的3种方法
+详细介绍了基于云的HCM带来的一些挑战，以及为什么需要专门为云应用构建安全性。
+https://thehackernews.com/2021/09/3-ways-to-secure-sap-successfactors-and.html
+
+针对Chrome隔离功能的CPU侧信道攻击
+新的CPU侧信道攻击可以从受站点隔离功能保护的谷歌Chrome和基 Chromium的浏览器中恢复数据。
+https://therecord.media/new-cpu-side-channel-attack-takes-aim-at-chromes-site-isolation-feature/
+
+金融网络犯罪分析
+文章讨论了出于经济动机的网络诈骗者如何使用和滥用加密货币。
+https://threatpost.com/financial-cybercrime-cryptocurrency/169327/
+
+使用LLVM处理VMProtect：第1部分
+本系列文章深入探讨了使用LLVM和VMProtect时所做的一系列实验。
+https://secret.club/2021/09/08/vmprotect-llvm-lifting-1.html
+
+
+【安全工具】
+
+PSPKIAudit - PowerShell 工具包
+PSPKIAudit是用于审核Active Directory证书服务(AD CS)的PowerShell工具包。
+https://securityonline.info/pspkiaudit-powershell-toolkit-for-ad-cs-auditing/
+
+PackageDNA - 代码分析
+该工具使开发人员、研究人员和公司能够分析正在或将在其代码中使用的不同编程语言的软件包。
+https://www.kitploit.com/2021/08/packagedna-tool-to-analyze-software.html
+
+magpie - 云安全框架
+Magpie是一个免费的开源框架和一组社区开发的插件，可用于构建完整的端到端安全工具。
+https://securityonline.info/magpie-open-ravens-open-source-cloud-security-framework/
+
+Brutus - 教育开发框架
+在模块化和高度可扩展的多任务和多处理架构上提供的教育开发框架。
+https://www.kitploit.com/2021/08/brutus-educational-exploitation.html
+
+SigFlip - 修补验证码签名的PE文件
+SigFlip是一种以不影响或破坏现有Authenticode签名的方式修补签名的PE文件的工具
+https://securityonline.info/sigflip-patching-authenticode-signed-pe-files/
+
+SQLancer - DBMS检测工具
+SQLancer是一种自动测试数据库管理系统 (DBMS) 以查找其实现中的逻辑错误的工具。
+https://www.kitploit.com/2021/08/sqlancer-detecting-logic-bugs-in-dbms.html
+
+AuraBorealis - Python包注册表安全审计
+AuraBorealis是一个Web应用程序，用于可视化Python包注册表中的异常和潜在恶意代码。
+https://securityonline.info/auraborealisapp-visualizing-python-package-registry-security-audit-data/
+
+Keimpx - 有效凭据收集
+keimpx是一个开源工具，它可用于通过SMB快速检查网络中的有效凭据。
+https://www.kitploit.com/2021/08/keimpx-check-for-valid-credentials.html
+
+

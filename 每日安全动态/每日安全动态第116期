@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2021-23406：代码执行漏洞
+NPM包Pac-Resolver存在代码执行漏洞，可能被滥用以在Node.js应用程序中运行恶意代码。
+https://thehackernews.com/2021/09/critical-bug-reported-in-npm-package.html
+
+CVE-2021-21798：代码执行漏洞
+Nitro Pro PDF阅读器中存在代码执行漏洞，攻击者可以利用该漏洞在应用程序中执行代码。 
+https://blog.talosintelligence.com/2021/09/nitro-pro-code-execution.html	
+
+WooCommerce插件中漏洞可改变电商平台定价
+WordPress电子商务插件WooCommerce中漏洞，允许为国际购物者设置定价。
+https://threatpost.com/woocommerce-multi-currency-bug-pricing/169394/
+
+黑客公开Windows MSHTML零日漏洞利用
+攻击者在黑客论坛上分享Windows MSHTML零日漏洞(CVE-2021-40444)教程和漏洞利用。
+https://www.bleepingcomputer.com/news/microsoft/windows-mshtml-zero-day-exploits-shared-on-hacking-forums/
+
+Instagram上5个常见骗局
+介绍了Instagram上的网络钓鱼、克隆帐户的攻击、 帐户验证骗局、约会骗局和有问题的卖家。
+https://www.welivesecurity.com/2021/09/13/beware-common-scams-instagram/
+
+Facebook推出WhatsApp E2EE备份
+Facebook宣布将允许WhatsApp用户在云中加密他们的消息历史备份。
+https://securityaffairs.co/wordpress/122156/security/whatsapp-e2ee-backups.html
+
+使用LLVM处理VMProtect：第2部分
+这篇文章将介绍表达式切片和部分CFG的概念，将它们结合起来实现一个SMT驱动的算法来探索虚拟化的CFG。
+https://secret.club/2021/09/08/vmprotect-llvm-lifting-2.html
+
+利用MSSQL链接数据库
+在本文中，介绍了如何利用MSSQL创建链接服务器并利用它。
+https://www.hackingarticles.in/mssql-for-pentester-abusing-linked-database/
+
+
+【安全工具】
+
+lockc - 安全审计
+lockc是开源软件，用于为容器工作负载提供MAC（强制访问控制）类型的安全审计。
+https://securityonline.info/lockc-ebpf-based-mac-security-audit-for-container-workloads/
+
+LazySign - 创建假证书
+LazySign使用Windows二进制文件和bat文件的强大功能为二进制文件创建假证书。
+https://www.kitploit.com/2021/08/lazysign-create-fake-certs-for-binaries.html
+
+fpicker - 模糊测试套件
+fpicker是一个基于Frida的模糊测试套件，它为进程内模糊测试提供了多种模糊测试模式。
+https://securityonline.info/fpicker-frida-based-fuzzing-suite/
+
+Git Secret - 查找API密钥
+Git Secret是用于在存储库中查找API密钥或某些关键字的Go脚本。
+https://www.kitploit.com/2021/08/git-secret-go-scripts-for-finding-api.html
+
+assless chaps - 破解MSCHAPv2挑战
+assless chaps使用NT哈希数据库快速破解MSCHAPv2/NTLMv1挑战/响应。
+https://securityonline.info/assless-chaps-crack-mschapv2-challenge-responses-quickly/
+
+BeaconEye - 扫描CobaltStrike Beacon
+可以扫描正在运行的进程以寻找活动的CobaltStrike信标，以此监视每个进程的C2活动。
+https://www.kitploit.com/2021/08/beaconeye-hunts-out-cobaltstrike.html
+
+mobile Audit - 恶意软件分析
+是Django Web应用程序，用于执行静态分析和检测Android APK中的恶意软件。
+https://securityonline.info/mobile-audit-performs-sast-and-malware-analysis-for-android-apks/
+
+Pantagrule - 生成Hashcat规则集
+Pantagrule是hashcat密码破解程序从大量真实世界密码泄露数据中生成的一系列规则。
+https://www.kitploit.com/2021/08/pantagrule-large-hashcat-rulesets.html

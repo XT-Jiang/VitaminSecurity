@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2020-28653：反序列化漏洞
+管理引擎OpManager智能更新管理器组件使用的HTTP端点可用于反序列化任意Java对象。
+https://packetstormsecurity.com/files/164231/opmanager_sumpdu_deserialization.rb.txt
+
+OpenCats 0.9.4 XML注入漏洞
+OpenCats 0.9.4版本存在XML外部实体注入漏洞。
+https://packetstormsecurity.com/files/164227/opencat094-xml.txt
+
+CVE-2021-26333：信息泄露漏洞
+多CPU架构的AMD平台安全处理器(PSP)芯片组驱动程序存在信息泄露漏洞。
+https://zeroperil.co.uk/cve-2021-26333/
+
+IBM Java Runtime中的多个漏洞
+IBM Java Runtime中的CVE-2021-2388和CVE-2021-2369影响IBM MessageGateway。
+https://www.ibm.com/blogs/psirt/security-bulletin-multiple-vulnerabilities-in-ibm-java-runtime-affect-ibm-messagegateway-3/
+
+适用于Windows和Mac的Office LTSC 2021
+微软推出适用于Windows和macOS的Office LTSC（长期服务频道），这是面向商业和政府客户的非订阅Office版本。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-office-ltsc-2021-for-windows-and-mac/
+
+身份成为现代安全中心的3大趋势
+身份成为现代安全中心因为网络犯罪已成为网络战、使用云是新常态、无处不在的去中心化计算需要新的信任结构。
+https://www.microsoft.com/security/blog/2021/09/21/3-trends-shaping-identity-as-the-center-of-modern-security/
+
+使用LLVM处理VMProtect：第3部分
+这篇文章将介绍7个自定义传递，一旦添加到优化管道中，将使整个LLVM-IR输出更具可读性。
+https://secret.club/2021/09/08/vmprotect-llvm-lifting-3.html
+
+OWASP安全编码指南
+安全编码标准很重要，安全标准如果使用得当，可以避免、识别和消除可能危及软件完整性的漏洞。
+https://www.cybersecurity-insiders.com/a-guide-to-owasps-secure-coding/
+
+
+【安全工具】
+
+SourcePoint - C2 配置文件生成器
+SourcePoint是Cobalt Strike C2的多态C2配置文件生成器，用Go编写。
+https://securityonline.info/sourcepoint-polymorphic-c2-profile-generator-for-cobalt-strike-c2s/
+
+Huan - PE加载器生成器
+它加密每次使用不同密钥运行的PE文件，并将其嵌入到加载程序二进制文件的新部分中。
+https://www.kitploit.com/2021/08/huan-encrypted-pe-loader-generator.html
+
+h0neytr4p - 蜜罐
+Honeytrap（又名 h0neytr4p）易于配置、部署蜜罐以防止网络侦察和利用。
+https://securityonline.info/h0neytr4p-configure-honeypot-for-blue-team/
+
+MEAT - 	取证工具
+移动证据采集工具包，旨在帮助取证人员在iOS设备上执行不同类型的采集。
+https://www.kitploit.com/2021/08/meat-this-toolkit-aims-to-help.html
+
+packetifter - IOC分析
+PacketSifter是一种对PCAP数据执行批处理以发现潜在IOC的工具。
+https://securityonline.info/packetsifter-perform-batch-processing-of-pcap-data-to-uncover-potential-iocs/
+
+Speakeasy - 二进制模拟器
+Speakeasy是一种便携式、模块化的二进制模拟器，旨在模拟Windows内核和用户模式恶意软件。
+https://www.kitploit.com/2021/08/speakeasy-windows-kernel-and-user-mode.html
+
+Epiphany - 安全评估工具
+Epiphany是一种自我评估工具，用于从DDoS攻击者的角度识别网络资产的弱点。
+https://securityonline.info/epiphany-pre-ddos-security-assessment-tool/
+
+Keyhacks - 一个存储库
+KeyHacks展示了可以使用在漏洞赏金计划中找到的特定API密钥的方法，以检查它们是否有效。
+https://www.kitploit.com/2021/08/keyhacks-repository-which-shows-quick.html

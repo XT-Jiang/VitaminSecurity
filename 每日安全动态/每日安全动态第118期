@@ -1,0 +1,77 @@
+【安全分析】
+
+Nagios网络管理系统中的多个漏洞
+Nagios网络管理系统中存在CVE-2021-37353、CVE-2021-37352、CVE-2021-37351和CVE-2021-37350等11个漏洞。
+https://securityaffairs.co/wordpress/122464/hacking/nagios-network-management-systems-flaws.html
+
+CVE-2021-21913：信息泄露漏洞
+D-LINK DIR-3040智能WiFi网状路由器中存在信息泄露漏洞CVE-2021-21913，可关闭设备或从网络中删除其他设备。
+https://blog.talosintelligence.com/2021/09/vuln-spotlight-d-link-.html
+
+CVE-2021-31604：跨站点请求伪造漏洞
+OpenVPN Monitor 1.1.3 及以下版本存在跨站点请求伪造漏洞，允许攻击者断开任意 VPN 客户端的连接。
+https://packetstormsecurity.com/files/164281/CSNC-2021-011.txt
+
+Apple计划在iOS和macOS中禁用不安全的TLS
+Apple在最近推出的iOS和macOS版本中弃用了不安全的TLS1.0和1.1协议，并计划在未来完全取消支持。
+https://www.bleepingcomputer.com/news/apple/apple-will-disable-insecure-tls-in-future-ios-macos-releases/
+
+Manifest V2 Chrome扩展将于2023年停止工作
+Google宣布2022年1月17日网上应用店不再接受新的Manifest V2扩展，2023年1月不再运行Manifest V2。
+https://www.bleepingcomputer.com/news/google/google-manifest-v2-chrome-extensions-to-stop-working-in-2023/
+
+勒索软件LockBit 2.0分析
+分析LockFile的新变种，该变种从Lockbit 2.0演变而来，并使用新的攻击技术突破了安全防御。
+https://www.deepinstinct.com/2021/09/21/lockbit-2-0-ransomware-becomes-lockfile-ransomware-with-a-never-before-seen-encryption-method/
+
+攻击者如何在野利用CVE-2021-40444
+在这篇文章中，提供了有关如何在野外利用CVE-2021-40444的技术分析。
+https://www.sentinelone.com/blog/peeking-into-cve-2021-40444-ms-office-zero-day-vulnerability-exploited-in-the-wild/
+
+
+【安全工具】
+
+litefuzz - 多平台模糊器
+litefuzz 是一个多平台模糊器，用于查看用户态二进制文件和服务器。
+https://packetstormsecurity.com/files/164204/litefuzz-1.0.tar.gz
+
+QLOG - Windows安全日志记录
+QLOG为基于Windows的系统上的安全相关事件提供了丰富的事件日志记录。
+https://securityonline.info/qlog-windows-security-logging/
+
+Zuthaka - C2集成框架
+一个协作式免费开源命令与控制集成框架，允许开发人员专注于其C2的核心功能和目标。
+https://www.kitploit.com/2021/09/zuthaka-open-source-application.html
+
+autoharness - 模糊测试工具生成
+AutoHarness是一种自动生成模糊测试工具的工具，研究人员可以使用它来初步测试代码库。
+https://securityonline.info/autoharness-automatically-creates-fuzzing-harnesses/
+
+GoPurple - shell代码注入技术集合
+该项目是各种shell代码注入技术的简单集合，旨在简化端点检测评估的过程，同时挑战自己进入Golang世界。
+https://www.kitploit.com/2021/09/gopurple-yet-another-shellcode-runner.html
+
+dismap - 资产发现和识别工具
+Dismap是一种资产发现和识别工具，其特色功能是快速识别Web指纹信息，定位资产类型。
+https://securityonline.info/dismap-asset-discovery-and-identification-tool/
+
+Ligolo Ng - 隧道工具
+简单、轻量级和快速的工具，它允许渗透测试人员在不需要SOCKS的情况下从反向TCP/TLS连接建立隧道。
+https://www.kitploit.com/2021/09/ligolo-ng-advanced-yet-simple.html
+
+Karta -  IDA Python插件
+Karta（俄语为“Map”）是一个IDA Python插件，用于识别和匹配给定二进制文件中的开源库。
+https://securityonline.info/karta-source-code-assisted-fast-binary-matching-plugin-for-ida/
+
+Nettacker - 自动化渗透测试框架
+OWASP Nettacker项目旨在自动化信息收集、漏洞扫描并最终生成网络报告，包括服务、错误、漏洞、错误配置和其他信息。
+https://www.kitploit.com/2021/09/nettacker-automated-penetration-testing.html
+
+
+
+
+
+
+
+
+

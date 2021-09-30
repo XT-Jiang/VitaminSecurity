@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2020-17148：远程代码执行漏洞
+Visual Studio Code远程开发扩展中发现了一个远程代码执行漏洞CVE-2020-17148。
+https://securityaffairs.co/wordpress/122638/hacking/rce-visual-studio-code-remote-development-extension.html
+
+Microsoft Edge中的多个漏洞
+Microsoft Edge中存在多个漏洞，其中最严重的漏洞可能导致远程代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2021-123/
+
+西门子SIPROTEC 5中的多个漏洞
+Siemens SIPROTEC 5存在CVE-2021-33719、CVE-2021-33720和CVE-2021-37206漏洞。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-siemens-siprotec-5-could-allow-for-arbitrary-code-execution_2021-115/
+
+FatPipe Networks提权漏洞
+FatPipe Networks WARP/IPVPN/MPVPN版本10.2.2存在远程提权漏洞。
+https://packetstormsecurity.com/files/164323/ZSL-2021-5685.txt
+
+反混淆PowerShell恶意软件Dropper分析
+在本文中，将讨论Dropper的运行方式，以及如何进入第2阶段（即DLL有效负载）。
+https://ryancor.medium.com/deobfuscating-powershell-malware-droppers-b6c34499e41d
+
+微软宣布在Exchange Online中禁用基本身份验证
+微软宣布，从2022年10月1日起，将在所有租户中永久禁用基本身份验证，以保护数百万用户。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-will-disable-basic-auth-in-exchange-online-in-october-2022/
+
+保护网络边界的5个步骤
+组织应该关闭不必要服务、保持软件最新、确保配置安全、 使用有效的漏洞管理流程以及测试周长的稳健性。
+https://threatpost.com/securing-network-perimeter/175043/
+
+对抗勒索软件的指南：第2部分
+在这篇文章中，将解决人为操作的勒索软件的风险，并详细介绍DART
+https://www.microsoft.com/security/blog/2021/09/27/a-guide-to-combatting-human-operated-ransomware-part-2/
+
+2021 年如何防止账户被盗
+Approov提出了六项最佳实践，来帮助组织抵御代价高昂的帐户接管攻击。
+https://threatpost.com/protect-account-takeover-cyberattacks/175090/	
+
+
+【安全工具】
+
+TIGMINT - OSINT GUI软件框架
+OSINT（开源情报）软件框架，其目标是通过实施抽象机制来隐藏背景技术复杂性。
+https://www.kitploit.com/2021/09/tigmint-osint-open-source-intelligence.html
+
+Subrake - 子域枚举和验证工具
+Subrake是用于漏洞赏金和渗透测试的子域枚举和验证工具。
+https://securityonline.info/subrake-subdomain-enumeration-and-validation-tool-for-bug-bounty-and-pentesters/
+
+TREVORspray - SOCKS代理
+TREVORproxy是一个SOCKS代理，它通过SSH主机循环请求，基于MSOLSpray，使用Microsoft Graph API。
+https://www.kitploit.com/2021/09/trevorspray-featureful-round-robin.html
+
+erebus - 漏洞扫描工具
+Erebus用于基于Yaml模板测试跨目标的每个参数，从而导致零误报并在大量主机上提供快速扫描。
+https://securityonline.info/erebus-fast-tool-for-parameter-based-vulnerability-scanning/
+
+SharpStrike - 后期开发工具
+SharpStrike是一个用C#编写的后开发工具，它使用CIM或WMI来查询远程系统。
+https://www.kitploit.com/2021/09/sharpstrike-post-exploitation-tool.html
+
+peirates - 渗透测试工具
+是Kubernetes渗透测试工具，专注于提升权限和横向运动。
+https://securityonline.info/peirates-kubernetes-penetration-testing-tool/
+
+Graphw00F - GraphQL指纹识别工具
+graphw00f是GraphQL指纹的GQL端点的工具，它发送和良性的混合畸形查询来确定运行幕后GraphQL引擎。
+https://www.kitploit.com/2021/09/graphw00f-graphql-fingerprinting-tool.html
+
+BoobSnail - 生成Excel 4.0 XLM宏
+允许生成XLM(Excel 4.0)宏，使用了各种感染技术和混淆技术，可以用作库。
+https://securityonline.info/boobsnail-generating-excel-4-0-xlm-macro/

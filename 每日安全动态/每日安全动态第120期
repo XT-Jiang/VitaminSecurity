@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2021-22557：代码执行漏洞
+Google SLO-Generator 2.0.0 及以下版本存在代码执行漏洞。
+https://packetstormsecurity.com/files/164426/googleslogenerator200-exec.txt
+
+Salesforce DX CLI 未充分保护 sfdxurl 凭据
+Salesforce 中的默认安全配置允许使用 Salesforce-CLI 的经过身份验证的用户创建 URL。
+https://kb.cert.org/vuls/id/883754
+
+Axis Gear监控中的多个漏洞
+Axis Communications的IP视频监控系统存在CVE-2021-31986、CVE-2021-31987和CVE-2021-31988。
+https://threatpost.com/ip-surveillance-bugs-axis-rce-data-theft/175350/
+
+Canopy中存在XSS漏洞
+家长控制应用程序Canopy中存在XSS漏洞。
+https://threatpost.com/canopy-parental-control-app-unpatched-xss-bugs/175384/
+
+谷歌默认为1.5亿用户开启两步验证
+谷歌计划在年底前自动将1.5亿用户注册到其双因素身份验证方案中，以提高账户安全性。
+https://thehackernews.com/2021/10/google-to-turns-on-2-factor.html
+
+微软禁用Excel 4.0宏
+微软计划禁用Excel 4.0中宏，该功能在过去几十年中被广泛滥用。
+https://therecord.media/microsoft-to-disable-excel-4-0-macros-one-of-the-most-abused-office-features/
+
+Windows 11：微软正在调查这八个问题
+文章介绍了了八个影响 Windows 11的已知问题，以及预计何时修复。
+https://www.bleepingcomputer.com/news/microsoft/windows-11-microsoft-is-investigating-these-eight-problems/
+
+马里奥主题恶意软件分析
+发现通过 Facebook 广告活动( super-mario-kart8-deluxe.com)分发恶意软件。
+https://serhack.me/articles/analyzing-mario-malware-en/
+
+
+【安全工具】
+
+Jaws语言
+Jaws是一种隐形的解释型编程语言，专为防病毒研究而创建，可以与其他语言共存以创建多语言代码。
+https://github.com/lawndoc/jaws
+
+Zed Attack Proxy  - 渗透测试工具
+Zed Attack Proxy (ZAP) 是一种易于使用的集成渗透测试工具，用于查找 Web 应用程序中的漏洞。
+https://packetstormsecurity.com/files/164458/ZAP_2.11.0_Crossplatform.zip
+
+Owt - WiFi 审计工具
+该工具在具有用户友好界面的 unix bash 脚本中编译了一些用于 wifi审计的必要工具。
+https://www.kitploit.com/2021/09/owt-most-compact-wifi-auditing-tool.html
+
+PyRDP - RDP中间人工具
+PyRDP 是 Python 远程桌面协议 (RDP) 中间人 (MITM) 工具和库。
+https://packetstormsecurity.com/files/164378/pyrdp-master.zip
+
+StreamDivert - 流量重定向
+StreamDivert 是一种工具，用于在系统上进行中间人或中继进出网络连接。
+https://securityonline.info/streamdivert-redirecting-specific-tcp-udp-and-icmp-traffic/
+
+Seth - RDP中间人工具
+Seth 是一个用 Python 和 Bash 编写的工具，通过尝试降级连接以提取明文凭据来连接 MitM RDP 连接。
+https://packetstormsecurity.com/files/164377/Seth-master.zip
+
+EDD - 枚举域数据
+Enumerate Domain Data设计为类似于PowerView，但在 .NET 中，本质上是终极域枚举工具。
+https://www.kitploit.com/2021/09/edd-enumerate-domain-data.html
+
+MedSec - 网络实用工具
+MedSec 是一种网络实用工具，开发用于执行一些网络、安全管理员和渗透测试任务。
+https://packetstormsecurity.com/files/164376/medsec-master.zip
+
+cloudquery - 合规工具
+CloudQuery 将来自不同云和 SaaS 提供商的分散 API 的数据提取、转换（规范化）和加载 (ETL) 到 PostgreSQL 关系数据库中。
+https://securityonline.info/cloudquery-pulls-normalize-expose-and-monitor-your-cloud-infrastructure-and-saas-apps/

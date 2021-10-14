@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2021-40474：释放后使用漏洞
+ Microsoft Office Excel 2019 的 ConditionalFormatting 功能中发现了一个释放后使用漏洞，可导致任意代码执行。
+https://blog.talosintelligence.com/2021/10/vuln-spotlight-excel-code-execution.html
+
+Anker Eufy Homebase中的两个漏洞
+Anker Eufy Homebase中存在缓冲区溢出漏洞(CVE-2021-21940)和释放后使用漏洞(CVE-2021-21941)。
+https://blog.talosintelligence.com/2021/10/vuln-spotlight-anker-.html
+
+ICS发布周二补丁，修复了50多个漏洞
+工业巨头西门子和施耐德电气本周二发布了近十个安全公告，修复了影响其产品的50多个漏洞。
+https://www.securityweek.com/ics-patch-tuesday-siemens-and-schneider-electric-address-over-50-vulnerabilities
+
+InHand 工业路由器存在多个漏洞
+安全公司 OTORIO 的研究人员在InHand的IR615 LTE 路由器中发现了 13 个漏洞。
+https://www.securityweek.com/inhand-router-flaws-could-expose-many-industrial-companies-remote-attacks
+
+零信任采用的 5 个阶段
+五个关键阶段包括不允许匿名访问任何内容、维护显式信任模型、隔离以控制攻击范围、实施持续数据保护和使用实时分析、可视化。
+https://www.darkreading.com/endpoint/the-5-phases-of-zero-trust-adoption
+
+GitHub撤销客户端生成的 SSH 密钥
+代码托管平台 GitHub 已撤销通过 GitKraken git GUI 客户端生成的弱 SSH 身份验证密钥。
+https://thehackernews.com/2021/10/github-revoked-insecure-ssh-keys.html
+
+利用 USB 连接的 Brother 打印机无法在 Win 11 中运行
+Brother称，在 Windows 11 中使用 USB 连接时，他们的许多打印机可能不再工作或显示错误。
+https://www.bleepingcomputer.com/news/microsoft/brother-printers-may-not-work-in-windows-11-if-connected-via-usb/
+
+Windows 提权：弱服务权限
+Microsoft Windows 提供了广泛的细粒度权限和特权，利用错误配置的服务是一种提高权限的技术。
+https://www.hackingarticles.in/windows-privilege-escalation-weak-services-permission/
+
+
+【安全工具】
+
+Qu1cksc0pe - 静态分析工具
+是多合一恶意软件分析工具，允许静态分析 Windows、Linux、OSX 可执行文件和 APK 文件。
+https://www.kitploit.com/2021/10/qu1cksc0pe-all-in-one-static-malware.html
+
+AzureHunter - 云取证工具
+一个Powershell模块，用于运行来自Azure和O365的数据的威胁搜索脚本，以实现云取证目的。
+https://securityonline.info/azurehunter-cloud-forensics-powershell-module/
+
+FUSE - 渗透测试工具
+FUSE 是一种渗透测试系统，旨在识别不受限制的可执行文件上传 (UEFU) 漏洞。
+https://www.kitploit.com/2021/10/fuse-penetration-testing-tool-for.html
+
+Certipy - Python 工具
+Certipy 是一个 Python 工具，用于枚举和滥用Active Directory证书服务 (AD CS) 中的错误配置。
+https://securityonline.info/certipy-active-directory-certificate-abuse/
+
+BruteLoops - 密码猜测 API
+与协议无关的在线密码猜测 API，为针对身份验证接口的有效密码暴力攻击提供基本逻辑。
+https://www.kitploit.com/2021/10/bruteloops-protocol-agnostic-online.html
+
+HTTPUploadExfil - 简单的 HTTP 服务器
+是一个用 Go 编写的非常简单的 HTTP 服务器，旨在用于低风险的进攻场景（例如，CTF）。
+https://securityonline.info/httpuploadexfil-http-server-for-exfiltrating-files-data/
+
+Azur3Alph4 - PowerShell 模块
+Azur3Alph4 是一个PowerShell模块，可自动执行目标操作的红队任务。
+https://www.kitploit.com/2021/10/azur3alph4-powershell-module-that.html
+
+SillyRAT - 跨平台多功能 RAT
+是用 Python 编写的跨平台（Windows/Linux/Mac）多功能 RAT。
+https://securityonline.info/sillyrat-cross-platform-multifunctional-windows-linux-mac-rat/

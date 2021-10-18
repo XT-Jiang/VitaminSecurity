@@ -1,0 +1,79 @@
+【安全分析】
+
+Nitro Pro PDF中的多个漏洞
+Cisco Talos 在 Nitro Pro PDF 中发现了多个漏洞，攻击者可以利用这些漏洞在应用中执行代码。 
+https://blog.talosintelligence.com/2021/10/vuln-spotlight-nitro-pro.html
+
+Exterity IPTV 系统中特权升级漏洞
+Minh Duong利用漏洞接管了伊利诺伊州乡镇高中 214 区六所高中内的所有联网电视和显示器。
+https://whitehoodhacker.net/posts/2021-10-04-the-big-rick
+
+WordPress插件Brizy中漏洞
+结合使用插件中的存储型 XSS 和任意文件上传漏洞可完全接管网站。
+https://threatpost.com/brizy-wordpress-plugin-exploit-site-takeovers/175463/
+
+OpenSea中的漏洞
+OpenSea存在安全漏洞，允许远程攻击者使用恶意NFT用来窃取目标资金。
+https://www.hackread.com/opensea-vulnerability-crypto-stealing-malicious-nfts/
+
+微软发布 Linux 版 Windows Sysmon 工具
+微软发布了 Windows 系统监控应用的 Linux 版本，允许 Linux 管理员监控设备中恶意活动。 
+https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-linux-version-of-the-windows-sysmon-tool/
+
+终极 SaaS 安全态势管理 (SSPM) 清单
+对 SaaS 安全设置的深入可见性和补救的需求变得越来越重要，有效的 SSPM 解决方案可以解决这些难题。
+https://thehackernews.com/2021/10/the-ultimate-saas-security-posture.html
+
+欧盟立法禁止匿名域名注册
+欧盟正在起草立法，可能很快就会终止个人在欧洲大陆匿名注册域名。
+https://www.bleepingcomputer.com/news/government/eu-legislation-introduced-to-ban-anonymous-domain-registration/
+
+Windows 权限提升：Unquoted服务路径
+Unquoted Path 为 Windows 中的严重漏洞，允许攻击者将权限提升至NT AUTHORITY/SYSTEM的权限。
+https://www.hackingarticles.in/windows-privilege-escalation-unquoted-service-path/
+
+如何自己修复 iPhone 循环启动和黑屏
+在本文中，介绍了修复 iPhone 启动循环的最佳选项，以及系统修复(iOS)Dr.Fone。
+https://www.hackread.com/how-to-fix-iphone-boot-loop-iphone-black/
+
+
+【安全工具】
+
+Psst - 密码安全共享工具
+1Password推出了一项名为 Psst 的全新功能，允许共享密码，而无需担心任何与隐私相关的问题。
+https://www.hackread.com/1password-tool-psst-share-passwords-link/
+
+ad honeypot autodeploy - RDP 蜜罐
+完全自动为 RDP 蜜罐部署一个小的、故意不安全的、易受攻击的 Windows 域。
+https://securityonline.info/ad-honeypot-autodeploy-rdp-honeypot-fully-automatically/
+
+LinuxCatScale - 事件响应脚本
+带有自动报告脚本的事件响应收集和处理脚本，它使用现场工具从基于 Linux 的主机收集大量数据。
+https://www.kitploit.com/2021/10/linuxcatscale-incident-response.html
+
+Firezone - VPN 服务器和防火墙
+基于WireGuard的 VPN 服务器和 Linux 防火墙，旨在实现简单性和安全性。
+https://securityonline.info/firezone-wireguard-based-vpn-server-and-firewall/
+
+Shisho - 静态分析器
+Shisho 是一个面向开发人员的轻量级静态分析器。
+https://www.kitploit.com/2021/10/shisho-lightweight-static-analyzer-for.html
+
+DonPAPI - 信息收集
+在没有AV 检测的情况下转储有关目标的相关信息。
+https://securityonline.info/donpapi-dumping-revelant-information-on-compromised-targets
+
+Rdesktop - RDP协议的开源客户端
+是微软 RDP 协议的开源客户端，它适用于从 NT 4 终端服务器到 Windows 2012 R2 RDS 的Windows版本。
+https://www.kitploit.com/2021/10/rdesktop-open-source-client-for.html
+
+Registry Recon - 侦察工具
+执行系统/AV/EDR 侦察的Cobalt Strike Aggressor 脚本。
+https://securityonline.info/registry-recon-performs-system-av-edr-recon/
+
+PowerShx - PowerShell执行
+PowerShx 是对PowerShdll项目的重写和扩展，提供绕过AMSI 和运行 PS Cmdlet 的功能。
+https://www.kitploit.com/2021/10/powershx-run-powershell-without.html
+
+
+

@@ -1,0 +1,68 @@
+【安全分析】
+
+中兴MF971R LTE路由器存在多个漏洞
+中兴通讯 MF971R LTE 便携式路由器中缓冲区溢出和跨站点脚本等多个漏洞。
+https://blog.talosintelligence.com/2021/10/vuln-spotlight-.html
+
+CVE-2021-42299：安全功能绕过漏洞
+Microsoft 已发布有关影响 Surface Pro 3 平板电脑的安全功能绕过漏洞的公告。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-issues-advisory-for-surface-pro-3-tpm-bypass-vulnerability/
+
+CVE-2018-16060：源代码泄露漏洞
+三菱电机和INEA SmartRTU 存在源代码泄露漏洞。
+https://packetstormsecurity.com/files/164538/meineasmartrtu-disclose.txt
+
+CVE-2021-24719:跨站脚本漏洞
+WordPress Enfold 主题版本 4.8.3 存在跨站点脚本漏洞。
+https://packetstormsecurity.com/files/164548/wpenfold483-xss.txt
+
+Canonical推出 Ubuntu 21.10
+Linux 发行版 Ubuntu 21.10 的最新版本，代号为“Impish Indy”，已经登陆 Canonical 的下载渠道。 
+https://www.bleepingcomputer.com/news/linux/canonical-launches-ubuntu-2110-for-desktop-and-server/
+
+即使盖住ATM机也能猜出信用卡密码
+研究人员称可以利用深度学习算法，在目标用手遮住密码板后猜出 4 位卡 PIN 码。 
+https://www.bleepingcomputer.com/news/security/credit-card-pins-can-be-guessed-even-when-covering-the-atm-pad/  
+
+Brave 放弃谷歌改用自己的搜索引擎
+Brave 浏览器已用其自己的无跟踪、以隐私为中心的 Brave 搜索取代了谷歌。
+https://www.bleepingcomputer.com/news/software/brave-ditches-google-for-its-own-privacy-centric-search-engine/
+
+Windows 提权：弱注册表权限
+Windows 提供了广泛的细粒度权限和特权，利用弱注册表权限是一种提高权限的技术。
+https://www.hackingarticles.in/windows-privilege-escalation-weak-registry-permission/
+
+
+【安全工具】
+
+Xmap - 快速网络扫描仪
+XMap 是一种快速网络扫描仪，专为执行 Internet 范围内的 IPv6 和 IPv4 网络研究扫描而设计。
+https://www.kitploit.com/2021/10/xmap-fast-network-scanner-designed-for.html
+
+EXOCET - AV绕过
+EXOCET 实际上是一种加密类型的恶意软件植入程序，可绕过AV检测，传递payload的时候不被检测。
+https://securityonline.info/exocet-av-evasion-av-evading-undetectable-payload-delivery-tool/
+
+ForgeCert - 伪造证书
+ForgeCert 使用BouncyCastle C# API和窃取的CA证书和私钥为能够对为任意用户伪造证书。
+https://www.kitploit.com/2021/10/forgecert-golden-certificates.html
+
+stacs - 静态凭证扫描器
+由 YARA 驱动的静态凭证扫描器，它支持二进制文件格式、嵌套档案分析、可组合规则集和忽略列表以及 SARIF 报告。
+https://securityonline.info/stacs-static-token-and-credential-scanner/
+
+Networkit - 网络分析
+用于高性能网络分析的开源工具套件，目的是为分析规模从数千到数十亿条边的大型网络提供工具。
+https://www.kitploit.com/2021/10/networkit-growing-open-source-toolkit.html
+
+Tor Rootkit - tor工具
+一个 Python 3 独立的 Windows 10/Linux Rootkit，通过 tor 网络建立网络通信。
+https://securityonline.info/tor-rootkit-python-3-standalone-windows-10-linux-rootkit/
+
+Crawlergo - 浏览器爬虫
+crawlergo 是一个浏览器爬虫，使用chrome headless模式进行 URL 收集。
+https://www.kitploit.com/2021/10/crawlergo-powerful-browser-crawler-for.html
+
+smuggler - 请求走私/去同步测试工具
+用 Python 3 编写的HTTP 请求走私/去同步测试工具，不保证任何误报或漏报。
+https://securityonline.info/smuggler-http-request-smuggling-desync-testing-tool/

@@ -1,0 +1,79 @@
+【安全分析】
+
+CVE-2021-20034：密码重置漏洞
+SonicWall SMA 版本 10.2.1.0-17sv 存在远程密码重置漏洞。
+https://packetstormsecurity.com/files/164564/sonicwallsma10-reset.txt
+
+CVE-2018-16061：跨站点脚本漏洞
+三菱电机和INEA SmartRTU 存在跨站点脚本漏洞。
+https://packetstormsecurity.com/files/164537/meineasmartrtu-xss.txt
+
+CVE-2021-34362：命令注入漏洞
+QNAP Systems Media Streaming Add-On 中存在的命令注入漏洞。
+https://www.cybersecurity-help.cz/vdb/SB2021102202
+
+CVE-2021-32028：数据泄露漏洞    
+IBM Connect:Direct Web Service 使用的 PostgreSQL 版本中存在漏洞。
+https://www.ibm.com/blogs/psirt/security-bulletin-postgresql-vulnerability-affects-ibm-connectdirect-web-service-cve-2021-32028/
+
+Microsoft 365 将增强内部风险管理工具
+Microsoft 365 允许管理员通过改进风险活动检测和可见性来管理内部安全威胁。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-365-will-get-enhanced-insider-risk-management-tools/
+
+2022 年需要关注的 5 大攻击媒介
+重点介绍组织在 2022 年应注意和防御的前五种攻击媒介钓鱼、被盗凭证、API 漏洞、远程技术和物联网设备。
+https://securityaffairs.co/wordpress/123636/security/top-5-attack-vectors-2022.html
+
+微软、英特尔和高盛联手实施供应链安全计划
+微软已与英特尔和高盛合作推动硬件安全改进，以帮助降低供应链风险。
+https://www.infosecurity-magazine.com/news/microsoft-teams-up-hardware-supply/
+
+Windows 漏洞利用技巧：中继 DCOM 身份验证
+这主要是一种从同一台机器上的另一个用户获取中继身份验证并将其转发到网络服务（如 LDAP）的技术。
+https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html
+
+使用 Kerberos 进行身份验证中继攻击
+总结了在 Windows 域环境中中继 Kerberos 身份验证所做的一些研究。
+https://googleprojectzero.blogspot.com/2021/10/using-kerberos-for-authentication-relay.html
+
+
+【安全工具】
+
+Packet Sniffer - 嗅探工具
+一个简单的纯 Python 网络数据包嗅探器，不依赖第三方模块，可以由任何 Python 3.x 解释器运行。
+https://www.kitploit.com/2021/10/packet-sniffer-pure-python-network.html
+
+hashdb ida - 哈希查找
+用于IDA Pro 的恶意软件字符串哈希查找插件，连接到 OALABS  HashDB 查找服务。
+https://securityonline.info/hashdb-ida-malware-string-hash-lookup-plugin-for-ida-pro/
+
+Fapro - 协议服务器模拟器
+FaPro 是一个 Fake Protocol Server 工具，可以轻松启动或停止多个网络服务。
+https://www.kitploit.com/2021/10/fapro-free-cross-platform-single-file.html
+
+TIWAP - Web 安全测试实验室
+TIWAP 是一个 Web 安全测试实验室，它使用 Flask 制作，供新兴安全爱好者了解各种 Web 漏洞。
+https://securityonline.info/tiwap-totally-insecure-web-application-project/
+
+DorkScou - Google Dork 扫描
+dorkrscout是Golang 工具，用于针对整个互联网或特定目标自动执行 Google Dork 扫描。
+https://www.kitploit.com/2021/10/dorkscout-golang-tool-to-automate.html
+
+whoc - 提取底层容器runtime
+传统的 Linux 容器运行时通过/proc/self/exe将自己暴露给它们正在运行的容器，whoc 使用此链接读取容器runtime。
+https://securityonline.info/whoc-extracts-the-underlying-container-runtime/
+
+Domain Protect - 防止子域接管
+防止子域接管，在AWS 组织中扫描 Amazon Route53 以查找容易被接管的域记录
+https://www.kitploit.com/2021/10/domain-protect-protect-against.html
+
+nosferatu - Lsass NTLM 身份验证后门
+Lsass NTLM 身份验证后门，必须编译为 64 位 DLL，使用带有 SeDebugPrivilege 的 DLL 注入器注入。
+https://securityonline.info/nosferatu-lsass-ntlm-authentication-backdoor/
+
+
+
+
+
+
+

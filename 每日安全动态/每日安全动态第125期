@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-3654：开放重定向漏洞
+noVNC 组件中存在开放重定向漏洞，导致OpenStack Nova 允许远程攻击者进行网络钓鱼攻击。
+https://www.ibm.com/blogs/psirt/security-bulletin-openstack-compute-nova-novnc-proxy/
+
+CVE-2021-41173：Go Ethereum中漏洞
+Go Ethereum 1.10.9 之前存在漏洞，受影响节点在处理来自对等方的恶意制作的消息时容易崩溃。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41173
+
+Chrome Ad-Heavy 检测机制绕过
+Chrome 跟踪 Ad-Heavy 广告的方式存在漏洞，允许攻击者使用消耗大量内存或 CPU 的广告来绕过检测。
+https://ssd-disclosure.com/ssd-advisory-chrome-ad-heavy-bypass-via-sharedworker/
+
+WordPress 插件存在漏洞
+WordPress 插件 Hashthemes Demo Importer中漏洞允许攻击者重置和擦除易受攻击的网站。
+https://www.bleepingcomputer.com/news/security/brutal-wordpress-plugin-bug-allows-subscribers-to-wipe-sites/
+
+Microsoft 365 将支持自定义 ARC 配置
+Microsoft Defender for Office 365 将添加自定义身份验证接收链 (ARC) 配置支持。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-365-will-get-support-for-custom-arc-configurations/
+
+DiploFoundation 开发模拟网络攻击游戏
+卡巴斯基和 DiploFoundation作开发了一款游戏，使缺乏技术背景的外交官和专业人士了解网络攻击。
+https://www.infosecurity-magazine.com/news/diplofoundation-simulated/
+
+终结勒索软件的三个秘诀
+Cybereason提出三种方式抵御勒索攻击：采用以运营为中心的方法、保持领先于勒索软件曲线和解决动机。
+https://www.cybereason.com/blog/three-secrets-to-ending-ransomware
+
+渗透测试的步骤
+介绍了渗透测试，包括：渗透测试包括什么；它们是如何执行的，由谁执行；渗透测试后应该采取哪些步骤等。
+https://thehackernews.com/2021/10/before-and-after-pen-test-steps-to-get.html
+
+Windows 权限提升：启动登录自动启动执行
+Windows Startup 文件夹可能成为攻击者的目标，以提升权限或持久性攻击。
+https://www.hackingarticles.in/windows-privilege-escalation-boot-logon-autostart-execution-startup-folder/
+
+
+【安全工具】
+
+AntiRansom - 反勒索软件攻击
+AntiRansom 是一种能够使用蜜罐检测和减轻勒索软件攻击的工具。
+https://packetstormsecurity.com/files/164577/AntiRansom-5.tar.gz
+
+Kunyu - 企业资产收集
+它更像是一张网络空间地图，用于综合描述和展示网络空间资产、网络空间的各种要素、要素之间的关系，以及网络空间与现实空间的关系。
+https://securityonline.info/kunyu-more-efficient-corporate-asset-collection/
+
+ImpulsiveDLLHijack - DLL 劫持工具
+基于 C# 的工具，可自动发现和利用目标二进制文件中的 DLL 劫持。
+https://www.kitploit.com/2021/10/impulsivedllhijack-c-based-tool-which.html
+
+LDAP Monitor - 监控 LDAP 对象
+LDAP Monitor可用于实时监控 LDAP 对象的创建、删除和更改。
+https://securityonline.info/ldap-monitor-monitor-creation-deletion-and-changes-to-ldap-objects-live/
+
+Inceptor - AV/EDR 绕过框架
+基于模板的 PE 打包程序，旨在帮助渗透测试人员和红队人员绕过常见的 AV 和 EDR 解决方案。
+https://www.kitploit.com/2021/10/inceptor-template-driven-avedr-evasion.html
+
+aDLL - 二进制分析工具
+aDLL 是一个二进制分析工具，专注于自动发现 DLL Hijacking漏洞。
+https://securityonline.info/adll-adventure-of-dynamic-lynk-library/
+
+Karma V2 - 自动侦察框架
+Karma V2是被动开源情报 (OSINT) 自动侦察框架，需要 Shodan Premium API 密钥。
+https://www.kitploit.com/2021/10/karmav2-passive-open-source.html
+
+cumulus - Web 应用程序弱点监控
+Cumulus 是一项服务，可帮助实时监控和修复安全漏洞，并这些问题将在网络页面上报告。
+https://securityonline.info/cumulus-web-application-weakness-monitoring/
+
+LazyCSRF - CSRF PoC 生成器
+LazyCSRF 是一个更有用的 CSRF PoC生成器，它运行在Burp Suite 上。
+https://www.kitploit.com/2021/10/lazycsrf-more-useful-csrf-poc-generator.html

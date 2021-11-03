@@ -1,0 +1,77 @@
+【安全分析】
+
+富士电机工厂监控软件中存在多个漏洞
+富士电机 Tellus Lite V-Simulator 和 V-Server Lite存在CVE-2021-38413等多个漏洞。
+https://www.securityweek.com/fuji-electric-patches-vulnerabilities-factory-monitoring-software
+
+CVE-2021-30892：Shrootless 漏洞
+Microsoft 在 macOS 中发现了一个名为 Shrootless 的漏洞，可绕过系统完整性保护 (SIP) 。
+https://www.microsoft.com/security/blog/2021/10/28/microsoft-finds-new-macos-vulnerability-shrootless-that-could-bypass-system-integrity-protection/
+
+CVE-2021-39341：WordPress插件中漏洞
+WordPress插件OptinMonster中漏洞允许未经授权的 API 访问和敏感信息泄露。
+https://www.bleepingcomputer.com/news/security/wordpress-plugin-bug-impacts-1m-sites-allows-malicious-redirects/
+
+CVE-2021-38647:身份验证绕过漏洞
+Microsoft OMI 管理接口存在身份验证绕过漏洞，可以 root 用户身份执行操作系统命令。
+https://packetstormsecurity.com/files/164694/cve_2021_38647_omigod.rb.txt
+
+AtomSilo 和 LockFile 解密器
+安全公司 Avast 发布了勒索软件 AtomSilo 和 LockFile 的免费解密器。
+https://securityaffairs.co/wordpress/123854/malware/atomsilo-lockfile-ransomware-decryptor.html
+
+通过滥用可重入性绕过EDR 检测
+本文将探索一种利用可重入性的新方法，该方法可用于逃避 EDR 和旧防病毒产品的行为分析。
+https://www.deepinstinct.com/blog/evading-antivirus-detection-with-inline-hooks
+
+Qakbot IOCs
+恶意软件Qakbot的IOCs。
+https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-28%20Qakbot%20IOCs
+
+Windows 权限提升：存储的凭据 (Runas)
+如果攻击者识别出管理员帐户存储的凭据条目，则可以在 runas 实用程序的帮助下通过执行恶意文件来提升权限。
+https://www.hackingarticles.in/windows-privilege-escalation-stored-credentials-runas/       
+
+安全团队集中日志管理指南
+XDR 提供商 Cynet 提供了一份新指南，可帮助精益组织了解集中日志管理 (CLM) 的重要性。
+https://thehackernews.com/2021/10/ebook-guide-to-centralized-log.html
+
+
+【安全工具】
+
+L0phtCrack - 密码审计工具
+拥有数十年历史的密码审计和恢复工具 L0phtCrack 现在终于可供所有人作为开源使用。
+https://latesthackingnews.com/2021/10/25/l0phtcrack-password-auditing-tool-now-available-as-open-source/
+
+pwnspoof - 欺骗日志文件生成
+pwnSpoof为具有可定制攻击场景的常见 Web 服务器生成逼真的欺骗日志文件。
+https://securityonline.info/pwnspoof-generates-realistic-spoofed-log-files/
+
+Limelighter - 签名伪造工具
+一种创建欺骗代码签名证书并对二进制文件和DLL文件进行签名以帮助规避EDR产品并绕过 MSS 和 sock scruitney 的工具。
+https://www.kitploit.com/2021/10/limelighter-tool-for-generating-fake.html
+
+riotpot - 蜜罐
+RIoTPot 是一个可互操作的媒体交互蜜罐，主要专注于物联网和 OT 协议的模拟，但它也能够模拟其他服务。
+https://securityonline.info/riotpot-resilient-iot-and-operational-technology-honeypot/
+
+Metabadger - SSRF 攻击防御
+通过自动升级到更安全的实例元数据服务 V2 (IMDSv2) 来防止对 AWS EC2 的 SSRF 攻击。
+https://www.kitploit.com/2021/10/metabadger-prevent-ssrf-attacks-on-aws.html
+
+Kit Hunter - 扫描器
+Kit Hunter是用于专用和半专用主机的基本网络钓鱼工具包扫描器。
+https://securityonline.info/kit_hunter-basic-phishing-kit-scanner-for-dedicated-and-semi-dedicated-hosting/
+
+NTFSTool - NTFS 取证工具
+专注于 NTFS 的取证工具，支持读取分区信息（mbr、分区表、vbr）以及有关 bitlocker 加密卷、EFS 加密文件等的信息。
+https://www.kitploit.com/2021/10/ntfstool-forensics-tool-for-ntfs-parser.html
+
+cloudspec - 验证资源
+CloudSpec 是一种开源工具，用于使用每个人都能理解的逻辑语言验证您在云提供商中的资源。
+https://securityonline.info/cloudspec-open-source-tool-for-validating-your-resources/
+
+PortBender - TCP 端口重定向应用
+PortBender 是 TCP 端口重定向应用，它允许红队将目的地为一个 TCP 端口的入站流量重定向到另一个 TCP 端口。
+https://www.kitploit.com/2021/10/portbender-tcp-port-redirection-utility.html
+

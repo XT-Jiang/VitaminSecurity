@@ -1,0 +1,76 @@
+【安全分析】
+
+Pentaho商业分析软件中多个漏洞
+Pentaho Business Analytics存在远程执行代码CVE-2021-31599和SQL 注入CVE-2021-34684等漏洞
+https://thehackernews.com/2021/11/critical-flaws-uncovered-in-pentaho.html
+
+GoCD中构建管道的预授权接管
+该漏洞允许未经身份验证的攻击者从易受攻击的 GoCD 服务器实例中泄露高度敏感的信息。
+https://blog.sonarsource.com/gocd-pre-auth-pipeline-takeover
+
+爱立信中的权限提升漏洞
+此 Metasploit 模块利用了爱立信网络定位移动定位系统中的权限提升漏洞。
+https://packetstormsecurity.com/files/164750/enlmpsgmpc21-escalate.rb.txt
+
+CVE-2021-34593：拒绝服务漏洞
+CODESYS V2 运行时工具包中存在拒绝服务漏洞。
+https://seclists.org/fulldisclosure/2021/Oct/64
+
+如何破解 Wincor Cineo ATM 
+研究人员演示如何利用Wincor Cineo ATM 中漏洞绕过黑盒攻击保护并提取现金。
+https://securityaffairs.co/wordpress/124038/hacking/black-box-wincor-cineo-atms.html
+
+谷歌推出新的开源数据隐私协议
+谷歌开源了一种加密协议Private Set Membership (PSM) ，其旨在确保特定查询期间的隐私。
+https://www.securityweek.com/google-introduces-new-open-source-data-privacy-protocol 
+
+蜜罐日志：对住宅终端的攻击
+通过蜜罐日志快速查看和分析住宅攻击，介绍了在 DSL（数字用户线路）上检测到的攻击。
+https://cujo.com/honeypot-journals-part-ii-attacks-on-residential-endpoints/
+
+恶意软件Shellbot分析 
+安全研究团队Sysdig介绍了Shellbot恶意软件的工作原理以及如何检测到它。
+https://sysdig.com/blog/malware-analysis-shellbot-sysdig/
+
+2021 年 10 种免开源的最佳开源情报工具
+2020 年 10 种最佳OSINT是Nuwber、OSINT framework、Spiderfoot、Google Dorks和Shodan等。
+https://www.hackread.com/free-best-osint-tools-2021/
+
+
+【安全工具】
+
+Graudit - 脚本和签名集
+Graudit 是一个简单的脚本和签名集，允许使用 GNU 实用程序 grep 查找源代码中的潜在安全漏洞。
+https://packetstormsecurity.com/files/164708/graudit-3.2.tar.gz
+
+SyntheticSun - 深度防御框架
+深度防御安全自动化和监控框架，利用威胁情报、机器学习、托管 AWS 安全服务来持续预防、检测和响应威胁。
+https://securityonline.info/syntheticsun-defense-in-depth-security-automation-and-monitoring-framework/
+
+SubCrawl - 模块化框架
+用于发现开放目录、通过签名识别唯一内容以及使用可选输出模块（如 MISP）组织数据的模块化框架
+https://www.kitploit.com/2021/10/subcrawl-modular-framework-for.html 
+
+ZipExec - POC 工具
+ipExec 是一种概念验证 (POC) 工具，用于将基于二进制的工具包装到受密码保护的 zip 文件中。
+https://securityonline.info/zipexec-execute-binaries-from-a-password-protected-zip/
+
+SysFlow - 云原生系统遥测管道
+该存储库托管所有 SysFlow 项目的文档和问题跟踪器。
+https://www.kitploit.com/2021/10/sysflow-cloud-native-system-telemetry.html 
+
+crawpy - 内容发现工具
+crawpy是用python编写的内容发现工具。
+https://securityonline.info/crawpy-content-discovery-tool/
+
+Terra - 开源情报工具
+Terra是Twitter 和 Instagram 上的开源情报工具。
+https://www.kitploit.com/2021/10/terra-osint-tool-on-twitter-and.html
+
+binocle - 可视化二进制数据的图形工具
+binocle根据不同的规则对字节进行着色，并将它们呈现为矩形网格中的像素。
+https://securityonline.info/binocle-graphical-tool-to-visualize-binary-data/
+
+VECTR - 跟踪红蓝团队测试活动
+VECTR 是一种工具，可帮助跟踪红蓝团队测试活动，以衡量跨不同攻击场景的检测和预防能力。
+https://www.kitploit.com/2021/10/vectr-tool-that-facilitates-tracking-of.html

@@ -1,0 +1,73 @@
+【安全分析】
+
+CVE-2021-22205：命令注入漏洞
+这个 Metasploit 模块利用了 GitLab 中未经身份验证的文件上传和命令注入漏洞。
+https://packetstormsecurity.com/files/164768/gitlab_exif_rce.rb.txt
+
+CVE-2018-16763：远程代码执行
+Fuel CMS 1.4.1 版存在远程代码执行漏洞利用。
+https://packetstormsecurity.com/files/164756/fuelcms141v2-exec.txt
+
+Opencart 3 SQL 盲注漏洞
+Opencart 3 Extension TMD Vendor System 存在远程 SQL 盲注漏洞。
+https://packetstormsecurity.com/files/164766/opencart3etmdvs-sql.txt
+
+CVE-2021-34593：拒绝服务漏洞
+CODESYS V2 中的拒绝服务漏洞，可通过发送定义无效数据包大小的请求触发内存分配错误。
+https://seclists.org/fulldisclosure/2021/Oct/64
+
+Hive 勒索软件分析
+研究人员已经确定了 Hive 勒索软件的Linux和 FreeBSD 变体，并展示它们如何进入其他操作系统并攻击云应用。
+https://www.scmagazine.com/news/cloud-security/hive-ransomware-group-extends-to-cloud-based-linux-variants
+
+最常检测到的 MITRE ATT&CK 策略
+思科分析了防火墙的 Snort 遥测数据，确定最常检测到的策略为初始访问、执行、命令与控制和发现。
+https://www.darkreading.com/edge-threat-monitor/5-mitre-attck-tactics-most-frequently-detected-by-cisco-secure-firewalls
+
+发展零信任——经验教训和新兴趋势
+零信任白皮书介绍了成功组织的经验教训、新兴行业趋势和更紧密的零信任架构。   
+https://www.microsoft.com/security/blog/2021/11/03/evolving-zero-trust-lessons-learned-and-emerging-trends/
+
+开发过程中应该做的 10 件事
+概述了每个开发人员在开发例程中应该做的 10 件事，以确保他们高效、安全地完成工作。 
+https://www.hackread.com/top-10-things-to-do-during-development/
+
+
+【安全工具】
+
+Webdiscover - 自动化 Web 枚举
+此脚本的目的是自动化 Web枚举过程并搜索漏洞。
+https://www.kitploit.com/2021/10/webdiscover-purpose-of-this-script-is.html
+
+rescope -  cli 工具
+Rescope 是一个 cli 工具（用 Go 编写），旨在使在Burp Suite和 OWASP ZAP 中定义范围时更轻松。
+https://securityonline.info/rescope-v2-2-releases-scope-generator-tool-for-burp-suite-and-zap/
+
+Lorsrf - SSRF 参数暴力破解
+暴力破解隐藏参数以使用和方法查找SSRF 漏洞GETPOST
+https://www.kitploit.com/2021/10/lorsrf-ssrf-parameter-bruteforce.html
+
+Impacket - 处理网络协议的 Python 类
+Impacket 专注于提供对数据包的低级编程访问，并为某些协议提供协议实现本身。
+https://securityonline.info/impacket-v0-9-24-releases-collection-of-python-classes-for-working-with-network-protocols/
+
+Clash - Go 中基于规则的隧道
+具有身份验证支持的本地 HTTP/HTTPS/SOCKS 服务器，内置 DNS 服务器旨在最小化 DNS 污染攻击的影响，
+https://www.kitploit.com/2021/10/clash-rule-based-tunnel-in-go.html
+
+CaptfEncoder - 安全工具套件
+Captfencoder 是一个可扩展的跨平台网络安全工具套件，提供代码转换、密码学等工具。
+https://securityonline.info/captfencoder-extensible-cross-platform-network-security-tool-suite/
+
+PeTeReport - 应用漏洞报告工具
+开源应用程序的漏洞报告工具，通过简化报告、书面方式和生成任务报告来协助帮助渗透测试人员和红队。
+https://www.kitploit.com/2021/10/petereport-open-source-application.html
+
+tarian - 保护Kubernetes上应用 
+通过运行时进程监控、更改检测等应操作保护在Kubernetes 上运行的应用程序免受恶意攻击。
+https://securityonline.info/tarian-protect-your-applications-running-on-kubernetes-from-malicious-attacks/
+
+
+
+
+

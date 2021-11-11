@@ -1,0 +1,73 @@
+【安全分析】
+
+西门子和施耐德电气中的 50 多个安全漏洞
+工业巨头西门子和施耐德电气共发布了 20 个补丁星期二公告，以解决影响其产品的 50 多个漏洞。
+https://www.securityweek.com/ics-patch-tuesday-siemens-and-schneider-electric-address-over-50-vulnerabilities-0 
+
+Kmaleon 中的 SQL 注入漏洞
+Kmalen 1.1.0.205 版本存在远程 SQL 注入漏洞。
+https://packetstormsecurity.com/files/164806/kmaleon110205-sql.txt
+
+CVE-2021-42078：跨站脚本漏洞
+PHP Event Calendar Lite Edition 存在持续的跨站点脚本漏洞。
+https://packetstormsecurity.com/files/164783/SYSS-2021-049.txt
+
+Ubuntu Linux 内核安全更新
+Canonical 已在其产品组合中发布了新的 Ubuntu Linux 内核安全更新。
+https://9to5linux.com/canonical-releases-new-ubuntu-linux-kernel-security-updates-to-fix-13-vulnerabilities
+
+谷歌将终止 Chrome 48 及更早版本的同步支持
+在 Chrome 96 稳定版本后，将终止对 Chrome 48 及更早版本的用户的 Chrome 同步功能的支持。
+https://www.bleepingcomputer.com/news/google/google-will-kill-chrome-sync-support-on-chrome-48-and-earlier/
+
+新的 PowerShell 附带 Microsoft Update 支持
+MSI 安装程序将自动启用更新 PowerShell 7 以及启用 Microsoft 更新。
+https://www.bleepingcomputer.com/news/microsoft/new-powershell-version-comes-with-microsoft-update-support/
+
+逐步构建 Blackmatter ESXi 负载配置提取器
+本文将讨论Blackmatter识别、提取和解码配置文件所采取的步骤。
+https://michaelgoodman.co.uk/extracting-the-config-from-blackmatter-esxi-elf-encryptors
+
+Windows JavaScript 威胁态势
+概述 JavaScript 领域中的五种主要恶意软件，重点介绍几种“纯”JavaScript 恶意软件。
+https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape
+
+Powercat使用教程
+Powercat 是一个简单的网络实用程序，用于执行低级网络通信操作，本文将演示和学习此工具的功能。
+https://www.hackingarticles.in/powercat-for-pentester/
+
+
+【安全工具】
+
+DInjector - shellcode注入技术的集合
+这个存储库是使用出色的D/Invoke API 的各种shellcode 注入技术的代码片段的集合。
+https://securityonline.info/dinjector-collection-of-shellcode-injection-techniques/
+
+GC2 - 命令和控制应用
+是一个命令和控制应用，允许攻击者使用 Google Sheet 在目标机器上执行命令并使用 Google Drive 窃取数据。
+https://www.kitploit.com/2021/10/gc2-command-and-control-application.html
+
+mesh kridik - 安全扫描器
+mesh-kridik 是一个开源安全扫描器，它使用 istio 服务网格对Kubernetes集群执行各种安全检查并输出安全报告。
+https://securityonline.info/mesh-kridik-performs-various-security-checks-on-a-kubernetes-cluster/
+
+Dockerized Android - 基于容器的框架
+是一个基于容器的框架，允许在 Docker 内部执行 Android Emulator 并通过浏览器控制它。
+https://www.kitploit.com/2021/10/dockerized-android-container-based.html
+
+toutatis - 信息收集
+Toutatis 是一种工具，可让您从 Instagram 帐户中提取信息，例如电子邮件、电话号码等。
+https://securityonline.info/toutatis-extract-information-from-instagrams-accounts/
+
+Melting Cobalt - Cobalt Strike扫描
+Cobalt Strike扫描器，可将检测到的团队服务器信标检索到 JSON 对象中。
+https://www.kitploit.com/2021/11/melting-cobalt-cobalt-strike-scanner.html
+
+NimHollow - Nim 实现
+使用NimlineWhispers触发 Windows Native API 函数的直接系统调用。
+https://securityonline.info/nimhollow-nim-implementation-of-process-hollowing/
+
+Web Hacking Toolkit - 黑客工具包
+具有图形用户界面 (GUI) 支持的多平台 Web黑客工具包Docker 映像。
+https://www.kitploit.com/2021/10/web-hacking-toolkit-multi-platform-web.html
+

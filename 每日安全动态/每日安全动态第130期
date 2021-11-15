@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2021-3064：任意代码执行漏洞
+Palo Alto Networks GlobalProtect VPN中新的零日漏洞CVE-2021-3064，CVSS评分9.8。
+https://thehackernews.com/2021/11/palo-alto-warns-of-zero-day-bug-in.html
+
+ChaosDB漏洞的技术细节
+研究人员在在BLACK HAT EUROPE 2021 披露Microsoft Azure Cosmos DB数据库中漏洞未公开的调查细节
+https://www.darkreading.com/cloud/chaosdb-researchers-share-technical-details-of-azure-flaw
+
+WordPress 插件中的漏洞
+WordPress 插件WP Reset PRO中漏洞允许攻击者完全擦除网站的数据库。
+https://securityaffairs.co/wordpress/124458/security/wp-reset-pro-wordpress-plugin-flaw.html 
+
+AWS API Gateway 中漏洞
+AWS 修复了使 API 服务面临的 HTTP 头走私攻击风险的安全漏洞。
+https://www.darkreading.com/vulnerabilities-threats/researcher-details-vulnerabilities-found-in-aws-api-gateway
+
+CVE-2021-22955：DoS漏洞
+该漏洞影响已配置为 VPN 或 AAA 虚拟服务器的 Citrix Application Delivery Controller (ADC) 和网关设备。
+https://securityaffairs.co/wordpress/124452/security/citrix-dos-adc-gateway.html
+
+Apple CSAM 扫描很容易被绕过
+伦敦帝国理工学院提出了一种简单的方法来逃避图像内容扫描机制的检测，例如 Apple 的 CSAM。
+https://www.bleepingcomputer.com/news/technology/researchers-show-that-apple-s-csam-scanning-can-be-fooled-easily/
+
+数据泄露后要采取的 10 个关键步骤
+组织在发生数据泄露后需要采取遵循响应计划、评估违规的范围、告诉执法部门等步骤。
+https://www.welivesecurity.com/2021/11/11/alarms-go-off-10-steps-take-data-breach/
+
+Mirai恶意软件分析
+Lacework Labs观察到使用 TLS 的 Mirai 版本（称为“scsihelper”）的有针对性的攻击。
+https://www.lacework.com/blog/mirai-goes-stealth-tls-iot-malware/
+
+OT 安全的 5 大网络威胁
+运营技术 (OT) 面临的威胁包括漏洞、不运行杀毒软件、资产管理盲目、缺乏SoC团队以及OT团队不被倾听。
+https://www.itsecurityguru.org/2021/11/11/the-top-5-cybersecurity-threats-to-ot-security/
+
+
+【安全工具】
+
+forbidden v4.8 - 绕过4xx状态代码
+使用多线程，并且基于暴力破解，绕过4xx HTTP 响应状态代码。
+https://securityonline.info/forbidden-bypass-4xx-http-response-status-codes/
+
+Vimana - 安全框架
+Vimana 是一个模块化安全框架，旨在审核Python Web 应用程序。
+https://www.kitploit.com/2021/11/vimana-experimental-security-framework.html
+
+AirStrike - 破解 Wi-Fi 凭证
+AirStrike是一种使用客户端-服务器架构自动破解WPA-2 Wi-Fi 凭证的工具。
+https://securityonline.info/airstrike-automates-cracking-of-wpa-2-wi-fi-credentials-using-a-client-server-architecture/
+
+ADLab - 实验室环境
+此模块的目的是自动部署Active Directory实验室以练习内部渗透测试。
+https://www.kitploit.com/2021/11/adlab-custom-powershell-module-to-setup.html
+
+haptyc - 测试生成框架
+Haptyc 是一个 Python 库，旨在为 Turbo Intruder 添加有效载荷位置支持和攻击类型。
+https://securityonline.info/haptyc-test-generation-framework/
+
+Androidqf - 取证工具
+是一种便携式工具，用于简化从 Android 设备获取相关取证数据的过程。
+https://www.kitploit.com/2021/11/androidqf-android-quick-forensics-helps.html
+
+Web 缓存漏洞扫描程序
+Web缓存漏洞扫描（WCVS）是一种快速和灵活的CLI扫描器，由Hackmanit为网页缓存中毒所开发。
+https://securityonline.info/web-cache-vulnerability-scanner/
+
+Etl Parser - 日志文件解析器
+Python 中的事件跟踪日志文件解析器。
+https://www.kitploit.com/2021/11/etl-parser-event-trace-log-file-parser.html

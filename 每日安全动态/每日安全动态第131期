@@ -1,0 +1,72 @@
+【安全分析】
+
+Lantronix PremierWave 2050 中多个漏洞
+其中 12 个漏洞可能允许攻击者操纵 Web 管理器，如CVE-2021-21876 和 CVE-2021-21877等。
+https://blog.talosintelligence.com/2021/11/lantronix-premier-wave-vuln-spotlight.html
+
+视频会议平台Zoom存在3个漏洞
+分别为CVE-2021-34414、CVE-2021-34415和CVE-2021-34416，攻击者可以用其以root权限执行任意代码。
+https://www.hackread.com/vulnerabilities-attackers-spy-your-zoom-meetings/
+
+索尼PS5中2个内核漏洞窃取根密钥
+攻击者声称可利用PS5中2个内核漏洞窃取根密钥，同一天研究人员宣布其发现了零一个漏洞。
+https://securityaffairs.co/wordpress/124596/hacking/sony-ps5-exploits.html
+
+CVE-2021-26795：SQL 注入漏洞
+Talariax sendQuick Alertplus 服务器管理版本 4.3 中存在 SQL 注入漏洞。
+https://seclists.org/fulldisclosure/2021/Nov/37
+
+谷歌、Adobe 宣布新的开源安全工具
+谷歌发布了ClusterFuzzLite 的开源版本，Adobe 发布Living-off-the-land (LotL)。
+https://www.securityweek.com/google-adobe-announce-new-open-source-security-tools
+
+Defender 新增 AI 驱动的勒索软件保护
+Defender for Endpoint 推出 AI 勒索软件攻击检测系统，评估风险并在外围拦截攻击者，补充了现有的云保护。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-ai-driven-ransomware-protection-to-defender/
+
+Krane恶意软件分析
+在本文中，将介绍恶意软件的特性并详细介绍技术分析中的发现。
+https://cujo.com/threat-alert-krane-malware/
+
+Msfvenom Cheatsheet工具利用
+在这篇文章中，将介绍如何使用MsfVenom来生成利用windows平台的所有类型的payload。
+https://www.hackingarticles.in/msfvenom-cheatsheet-windows-exploitation/
+
+僵尸网络Muhstik分析
+介绍 Muhstik 恶意软件的特征、这种特定攻击的分步进行以及如何保护基础设施免受攻击。
+https://sysdig.com/blog/muhstik-malware-botnet-analysis/
+
+
+【安全工具】
+
+ADenum - 渗透测试工具
+AD Enum 是一种渗透测试工具，它允许通过协议LDAP发现错误配置并利用 Kerberos 来利用其中的一些弱点。
+https://securityonline.info/adenum-find-misconfiguration-through-the-protocol-ldap/
+
+Ddosify - 高性能负载测试工具
+高性能负载测试工具，目前支持HTTP、HTTPS、HTTP/2，其他协议正在开发中。
+https://www.kitploit.com/2021/11/ddosify-high-performance-load-testing.html
+
+detect secrets - 检测代码库中的秘密
+用于检测代码库中的秘密，与类似软件包不同，该软件包还考虑了企业客户，提供向后兼容的方法。
+https://securityonline.info/detect-secrets-detecting-and-preventing-secrets-in-code/
+
+RottenPotatoNG - 攻击工具
+生成一个 DLL 和 EXE 文件，DLL 包含执行 RottenPotato 攻击和获取特权令牌所需的所有代码。
+https://www.kitploit.com/2021/11/rottenpotatong-c-dll-and-standalone-c.html
+
+SMBeagle - 文件共享审计工具
+SMBeagle 是一种 (SMB) 文件共享审计工具，它可以找出它可以在网络中看到的所有文件。
+https://securityonline.info/smbeagle-smb-fileshare-auditing-tool/
+
+FormatFuzzer - 生成和解析二进制输入
+FormatFuzzer是一个高效、高质量地生成和解析二进制输入的框架。
+https://www.kitploit.com/2021/11/formatfuzzer-framework-for-high.html
+
+ntlm_theft - 哈希文件窃取
+是一个开源 Python3 工具，用于生成多种类型的 NTLMv2 哈希盗窃文件的工具。
+https://securityonline.info/ntlm_theft-generating-multiple-types-of-ntlmv2-hash-theft-files/
+
+Covert Control - 远程控制系统
+通过使用 Python 创建文件和侦听器将文件上传到 Google Drive、OneDrive、Youtube或Telegram来远程控制系统。
+https://www.kitploit.com/2021/11/covert-control-google-drive-onedrive.html

@@ -1,0 +1,79 @@
+【安全分析】
+
+LibreCAD 中的多个漏洞
+LibreCAD的libdfxfw开源库中存在三个漏洞CVE-2021-21898、CVE-2021-21899和CVE-2021-21900。
+https://blog.talosintelligence.com/2021/11/libre-cad-vuln-spotlight-.html
+
+CVE-2021-30602：释放后使用漏洞
+Google Chrome 中存在了一个释放后使用漏洞，可导致任意代码执行。
+https://blog.talosintelligence.com/2021/11/vulnerability-spotlight-user-after-free.html
+
+CVE-2021-43397： 权限提升漏洞
+LiquidFiles 3.5.13 版存在权限提升漏洞，允许用户管理员访问系统管理员的密钥。
+https://packetstormsecurity.com/files/164997/liquidfiles3513-escalate.txt
+
+CVE-2021-22204：远程代码执行漏洞
+GitLab 13.10.2 存在远程代码执行漏洞CVE-2021-22204和CVE-2021-22205，可反向 shell。
+https://packetstormsecurity.com/files/164994/gitlab13102reverse-exec.txt
+
+英特尔音频驱动程序中问题导致win 11蓝屏
+该问题是由英特尔智能声音技术 (SST) 音频驱动程序和 Windows 11 版本 21H2 之间的兼容性问题引起的。
+https://www.bleepingcomputer.com/news/microsoft/windows-11-issue-with-intel-audio-drivers-triggers-blue-screens/
+
+在数据生命周期中采用零信任方法
+介绍零信任基于的原则，以及加密和数据保护如何在为数据中心的潜在违规做好准备方面发挥重要作用。
+https://www.microsoft.com/security/blog/2021/11/17/adopting-a-zero-trust-approach-throughout-the-lifecycle-of-data/
+
+媒体播放器WinampWinamp将重新启动
+Winamp 即将发布，重新设计的网站、徽标和新的 Beta 版注册允许用户很快测试即将发布的媒体播放器版本。
+https://www.bleepingcomputer.com/news/software/winamp-prepares-a-relaunch-new-beta-version-almost-ready/
+
+抵御网络钓鱼攻击的 3 种顶级工具
+可以通过高级电子邮件安全、入侵检测和防御系统和基于流的网络检测和响应(NDR)抵御网络钓鱼攻击。
+https://threatpost.com/tools-defending-phishing-attacks/176463/
+
+利用HiveNightmare提权
+介绍如何利用HiveNightmare漏洞（CVE-2021-36934）在Windows中提升权限。
+https://www.hackingarticles.in/windows-privilege-escalation-hivenightmare/
+
+
+【安全工具】
+
+DoubleX - 静态分析器工具
+由于扩展劫持很难检测和管理，研究人员提设计了DoubleX的来识别恶意浏览器扩展。
+https://latesthackingnews.com/2021/11/17/new-doublex-extension-analyzer-tool-detects-rogue-browser-extensions/
+
+xsstools - xss 开发框架
+xsstools 是一个xss开发框架，目标是使有效负载编写更容易。
+https://securityonline.info/xsstools-xss-development-frameworks/
+
+Boofuzz - 模糊测试
+Boofuzz 是古老的Sulley模糊测试框架的一个分支和继承者，还旨在实现可扩展性。
+https://www.kitploit.com/2021/11/boofuzz-network-protocol-fuzzing-for.html
+
+DLLHijackingScanner - PoC
+这是一个 使用 DLL 劫持 和滥用“可信目录”验证绕过UAC的 PoC。
+https://securityonline.info/dllhijackingscanner-bypassing-uac-using-dll-hijacking/
+
+Abaddon - 红队管理软件
+Abaddon 旨在使红队运营更快、更可重复、更隐蔽，同时包括增值工具和众多报告功能。
+https://www.kitploit.com/2021/11/abaddon-make-red-team-operations-faster.html
+
+Umay - 物联网恶意软件分析
+该项目提供基于共享代码的物联网恶意软件相似性分析，有助于识别与分析文件共享代码的其他恶意软件。
+https://securityonline.info/umay-iot-malware-similarity-analysis-platform/
+
+ChopChop - 信息收集CLI
+ChopChop 是一种 CLI，可帮助开发人员扫描端点并识别敏感服务/文件/文件夹的暴露。
+https://www.kitploit.com/2021/11/chopchop-chopchop-is-cli-to-help.html
+
+IDA2Obj - 静态分析
+IDA2Obj 是一个实现静态二进制检测（SBI）的工具。
+https://securityonline.info/ida2obj-tool-to-implement-static-binary-instrumentation/
+
+Canadian Furious Beaver
+用于监控IRP处理程序在Windows驱动程序，并促进过程分析，重放和Fuzzing Windows驱动程序的漏洞。
+https://www.kitploit.com/2021/11/canadian-furious-beaver-tool-for.html
+
+
+

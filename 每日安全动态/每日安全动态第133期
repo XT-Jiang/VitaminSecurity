@@ -1,0 +1,76 @@
+【安全分析】
+
+CVE-2021-34704：拒绝服务漏洞
+思科自适应安全设备软件和 Firepower 威胁防御软件 Web 服务存在拒绝服务漏洞。
+https://www.infosecurity-magazine.com/news/cisco-flaw-affects-firewalls/
+
+Microsoft Edge 中代码执行漏洞
+在 Microsoft Edge 中发现了一个可能导致远程代码执行的漏洞。
+https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2021-149/
+
+研华 R-SeeNet 中的多个漏洞
+用于监控研华路由器的系统R-SeeNet存在CVE-2021-21920、CVE-2021-21921和CVE-2021-21922等漏洞。
+https://blog.talosintelligence.com/2021/11/re-see-net-advantched-vuln-spotlight.html
+
+CVE-2021-2442：权限提升漏洞
+影响 Oracle VM VirtualBox 的漏洞可能被攻击者利用来破坏虚拟机管理程序并导致拒绝服务 (DoS) 。
+https://thehackernews.com/2021/11/researchers-detail-privilege-escalation.html
+
+Fortinet FortiWeb任意代码执行漏洞
+研究人员在 Fortinet FortiWeb 中发现了一个允许任意代码执行的漏洞。
+https://www.cisecurity.org/advisory/a-vulnerability-in-fortinet-fortiweb-could-allow-for-arbitrary-code-execution_2021-150/
+
+Azure Sphere 漏洞回顾
+总结之前关于该漏洞的发现，以及攻击者如何利用它们，和这对用户意味着什么。
+https://blog.talosintelligence.com/2021/11/a-review-of-azure-sphere.html
+
+如何调查云中的服务提供商信任链
+此博客概述了事件响应者可以采取的步骤，以调查这些委派管理员权限的潜在滥用，独立于攻击者。
+https://www.microsoft.com/security/blog/2021/11/22/how-to-investigate-service-provider-trust-chains-in-the-cloud/
+
+使用绕过生物识别身份验证
+研究人员证明，无需使用任何复杂或不常见的工具，只需 5 美元即可克隆指纹以进行生物识别认证。
+https://www.bleepingcomputer.com/news/security/biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue/
+
+Microsoft Edge 新增 Super Duper 安全模式
+Microsoft Edge 浏览器中添加了“Super Duper 安全模式”，可在不显着降低性能的情况下提高安全。
+https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-adds-super-duper-secure-mode-to-stable-channel/
+
+
+【安全工具】
+
+GNUnet - 点对点框架
+GNUnet 是一个点对点框架，提供了一个传输抽象层将网络流量封装在 UDP、TCP、HTTP和SMTP 消息中。
+https://packetstormsecurity.com/files/164924/gnunet-0.15.3.tgz
+
+Atomic Threat Coverage
+自动生成可操作的分析，旨在从检测、响应、缓解和模拟的角度对抗基于MITRE ATT&CK的威胁。
+https://securityonline.info/atomic-threat-coverage-combat-threats-based-on-mitres-attck/
+
+Gotanda - 浏览器的OSINT扩展
+Gotanda 是 Firefox/Chrome 的 OSINT扩展，可以从网页中的某个 IOC 中收集OSINT信息。
+https://www.kitploit.com/2021/11/gotanda-browser-web-extension-for-osint.html
+
+SQLbit - SQL盲注的脚本
+用于自动化基于布尔值的SQL盲注的脚本，与 SQLite 一起使用支持使用 cookie。
+https://securityonline.info/sqlbit-automatize-boolean-based-blind-sql-injections/
+
+HyenaeNg - 数据包生成器
+Hyenae NG（下一代）是 Hyenae 工具的重写，是高级跨平台网络数据包生成器。
+https://www.kitploit.com/2021/11/hyenae-ng-advanced-cross-platform.html
+
+Spam Scanner - 垃圾邮件扫描器
+是一种反垃圾邮件、电子邮件过滤和网络钓鱼防护服务。
+https://securityonline.info/spam-scanner-the-best-anti-spam-email-filtering-and-phishing-prevention-service/
+
+Fhex - 十六进制编辑器
+功能齐全的十六进制编辑器，基于qhexedit2、capstone和keystone引擎。
+https://www.kitploit.com/2021/11/fhex-full-featured-hexeditor.html
+
+SGC - 自动化攻击
+SGC 是一种自动合成小工具链的工具，可以实现代码重用攻击自动化。
+https://securityonline.info/sgc-towards-automating-code-reuse-attacks-using-synthesized-gadget-chains/
+
+JVMXRay - Java 安全事件分析
+用于监控对 Java 虚拟机内系统资源的访问的技术，对软件质量流程和诊断很有帮助。
+https://www.kitploit.com/2021/11/jvmxray-make-java-security-events-of.html

@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2019-13272：本地提权漏洞
+Linux 内核版本 5.1.x PTRACE_TRACEME pkexec 存在本地提权漏洞。
+https://packetstormsecurity.com/files/165051/linuxkernel51x-escalate.txt
+
+三星 NPU 中的内存损坏漏洞
+三星 NPU（神经处理单元）的共享内存解析中存在内存损坏漏洞。
+https://packetstormsecurity.com/files/165044/GS20211123165816.tgz
+
+Aimeos Laravel中 SQL 注入漏洞
+Aimeos Laravel 电子商务平台版本 2021.10 LTS 存在远程 SQL 注入漏洞。
+https://packetstormsecurity.com/files/165033/aimeoslep202110-sql.txt
+
+CVE-2021-43778：路径遍历漏洞
+安装了Barcode插件的 2.6.1 版之前的 GLPI 实例 2.x 版容易受到路径遍历漏洞的影响。
+https://www.security-database.com/detail.php?alert=CVE-2021-43778
+
+多个支付终端存在XSS漏洞
+Authorize.net支付终端v2.4.1、Stripe Payment Terminal和PayPal PRO支付终端v3.1存在XSS漏洞。
+https://www.vulnerability-lab.com/get_content.php?id=2280
+
+Krane 恶意软件分析
+在本文中，将介绍恶意软件的特性并详细介绍技术分析中的发现。
+https://cujo.com/threat-alert-krane-malware/
+
+气隙系统：虚假的安全感
+尽管气隙系统在某些情况下可以提供更高的安全性，但事实证明，它们也容易受到攻击。
+https://www.sentinelone.com/blog/air-gapped-networks-a-false-sense-of-security/
+
+Windows 权限提升技术
+当合法用户登录时，将自动执行与注册表的服务链接，由于注册表运行键，这种攻击被称为登录自动启动执行。
+https://www.hackingarticles.in/windows-privilege-escalation-logon-autostart-execution-registry-run-keys/
+
+
+【安全工具】
+
+Kube Applier - Kubernetes自动部署
+它通过将声明性配置文件从 Git 存储库应用到 Kubernetes 集群来实现Kubernetes 对象的持续部署。
+https://www.kitploit.com/2021/11/kube-applier-enables-automated.html
+
+onionservice - 洋葱服务管理器
+用于类 UNIX 操作系统的功能丰富的洋葱服务管理器，由符合 POSIX 的 shellscript 编写。
+https://securityonline.info/onionservice-feature-rich-onion-service-manager-for-unix-like-operating-systems/
+
+Msticpy - 威胁情报安全工具
+Microsoft 威胁情报安全工具，在 Jupyter Notebooks 中进行信息安全调查的库。
+https://www.kitploit.com/2021/11/msticpy-microsoft-threat-intelligence.html
+
+PMAT labs - 恶意软件分析实验室
+此存储库包含用于实用恶意软件分析和分类课程 (PMAT) 的实时恶意软件样本。
+https://securityonline.info/pmat-labs-labs-for-practical-malware-analysis-triage/
+
+ThreadBoat - 代码注入工具
+该程序使用线程劫持将本地 Shellcode 注入标准Win32应用程序。
+https://www.kitploit.com/2021/11/threadboat-program-uses-thread.html
+
+Skrull - 恶意软件 DRM
+Skrull 是一种恶意软件 DRM，可防止 AV/ EDR自动提交样本以及从内核进行签名扫描。
+https://securityonline.info/skrull-run-malware-on-the-victim-using-the-process-ghosting-technique/
+
+ThreatBox - 攻击平台
+一个标准的、受控的基于 Linux 的攻击平台，创建、管理和使用红色团队或渗透测试的标准攻击平台。
+https://www.kitploit.com/2021/11/threatbox-standard-and-controlled-linux.html    
+
+vshell - 远程管理工具
+vshell 是一个用 Go (RAT) 编写的远程管理工具，它使用AntSword控制主机。
+https://securityonline.info/vshell-remote-administration-tool-written-in-go/

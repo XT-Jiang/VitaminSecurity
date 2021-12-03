@@ -1,0 +1,68 @@
+【安全分析】
+
+CVE-2018-19825：Opera中漏洞
+Opera 为其 Turbo 服务器中的一个漏洞发布了一个补丁，该漏洞可追溯到 2018 年。
+https://securityaffairs.co/wordpress/125155/hacking/opera-turbo-servers-flaw.html
+
+Azure Sphere 内核漏洞利用
+详细介绍了如何利用Azure Sphere中的本地权限提升漏洞。
+https://blog.talosintelligence.com/2021/11/an-azure-sphere-kernel-exploit-or-how-i.html
+
+Orangescrum 中的 SQL 注入漏洞
+Orangescrum版本1.8.0 存在多个远程 SQL 注入漏洞。
+https://packetstormsecurity.com/files/165093/orangescrum180-sql.txt
+
+CVE-2021-3560：身份验证绕过漏洞
+Polkit存在允许本地提权的 Polkit 身份验证绕过漏洞。
+https://packetstormsecurity.com/files/165088/Polkit_CVE-2021-3560.pdf
+
+lib__mdma.so.1分析
+利用一个样本，针对用户空间rootkit lib__mdma.so.1的分析。
+https://darrenmartyn.ie/2021/11/29/analysis-of-the-lib__mdma-so-1-userland-rootkit/
+
+Zoom 推出自动更新功能
+Zoom为 Windows 和 macOS 客户端推出自动更新功能，旨在简化更新过程。
+https://www.bleepingcomputer.com/news/security/zoom-finally-adds-automatic-updates-to-windows-macos-clients/
+
+Emotet 的重新出现 
+研究人员分析新的 DLL，分解新的解包技术和新功能，并回顾新变体与先前版本的相似之处。
+https://www.deepinstinct.com/blog/the-re-emergence-of-emotet
+
+儿童智能手表是隐私和安全的噩梦
+研究人员分析了四种流行的儿童智能手表的安全性，发现预装下载器、弱密码和未加密的数据传输。
+https://www.bleepingcomputer.com/news/security/smartwatches-for-children-are-a-privacy-and-security-nightmare/
+
+
+【安全工具】
+
+CleanMyMac X - Macbook安全软件
+是一款可优化 Mac 性能和安全性的综合软件，旨在替代 Mac 的多个优化应用。
+https://thehackernews.com/2021/11/cleanmymac-x-performance-and-security.html
+
+UDP Hunter - 网络评估工具
+UDP Hunter 是一个基于 Python 的开源网络评估工具，专注于 UDP 服务扫描。
+https://www.kitploit.com/2021/11/udp-hunter-network-assessment-tool-for.html
+
+rpcfirewall -  RPC 防火墙
+可以被配置为仅阻止和审计潜在恶意RPC调用，一旦检测到潜在的恶意 RPC 调用，它就会立即阻止和审计。
+https://securityonline.info/rpcfirewall-open-source-ransomware-kill-switch-tool/
+
+Whispers - 静态代码分析工具
+解析各种常见数据格式以搜索硬编码凭据和危险功能，可以在 CLI 中运行。
+https://www.kitploit.com/2021/11/whispers-identify-hardcoded-secrets-in.html
+
+Mariana Trench - 静态分析平台
+是一个针对Android 的以安全为中心的静态分析平台，利用了构建在Redex之上的现有静态分析基础设施。
+https://securityonline.info/mariana-trench-security-focused-static-analysis-platform-targeting-android/
+
+Nanobrok - Android保护应用
+用 Python 编写的 Web 服务用于远程控制和保护android 设备，可以在 PlayStore 上找到。 
+https://www.kitploit.com/2021/11/nanobrok-web-service-for-control-and.html
+
+lsarelayx - NTLM 中继工具
+lsarelayx 是一个系统范围的NTLM中继工具，旨在将传入的基于 NTLM 的身份验证中继到运行它的主机。
+https://securityonline.info/lsarelayx-system-wide-ntlm-relay-tool/
+
+goEnumBruteSpray - 暴力破解工具
+Azure、ADFS、OWA、O365 上的用户枚举和密码暴力破解工具，并可在 Linkedin 上收集电子邮件。
+https://www.kitploit.com/2021/11/goenumbrutespray-user-enumeration-and.html

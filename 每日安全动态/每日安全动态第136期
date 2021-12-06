@@ -1,0 +1,72 @@
+【安全分析】
+
+CVE-2021-42367：XSS漏洞
+WordPress插件WooCommerce存在跨站脚本(XSS)漏洞，影响80000多个网站。 
+https://threatpost.com/retail-woocommerce-sites-plugin-xss-bug/176704/
+
+CVE-2021-30625： 释放后使用漏洞
+Google Chrome 中存在释放后使用漏洞，可导致任意代码执行。
+https://blog.talosintelligence.com/2021/12/vuln-spotlight-chrome-.html  
+
+CVE-2022-20002：不安全的安装
+Android 的 vold 增量 fs API 信任来自 system_server 的路径以进行挂载。
+https://packetstormsecurity.com/files/165123/GS20211202160033.tgz
+
+MilleGPG5 本地提权漏洞
+MilleGPG5 版本 5.7.2 Luglio 2021 存在本地提权漏洞。
+https://packetstormsecurity.com/files/165111/millegpg5572luglio2021-escalate.txt
+
+确保整个 API 生命周期的可见性
+IBM、德勤和马士基等专家讨论组织对其 API 的可见性的重要性，作为加速补救工作和提高整体安全态势。
+https://thehackernews.com/2021/12/let-there-be-light-ensuring-visibility.html
+
+VirusTotal 推出 VirusTotal Collections
+VirusTotal 宣布推出一项新服务 VirusTotal Collections，允许安全研究人员共享一组妥协指标 (IoC)。
+https://securityaffairs.co/wordpress/125199/security/virustotal-collections.html
+
+网络流量解密如何提高安全性
+由于对合规性、隐私和安全性以及性能和成本的担忧，组织一直对采用解密持谨慎态度，文章介绍了一些常见误区。
+https://threatpost.com/decryption-improve-security/176613/
+
+Apple Mac 企业安全性的完整指南 
+是任何需要了解 Apple Mac 和 macOS 平台内置安全控制优缺点的人的重要参考。
+https://www.sentinelone.com/blog/the-complete-guide-to-understanding-apple-mac-security-for-enterprise-read-the-free-ebook/
+
+Tardigrade恶意软件分析
+一种隐蔽且高度复杂的新型恶意软件，在制药行业的关键疫苗生产设备中肆无忌惮地传播。
+https://medium.com/@semisi.ganon/the-water-bear-that-wasnt-tardigrade-6d3ed4d8e86b
+
+
+【安全工具】
+
+fileless xec - 隐形dropper
+可以在目标机器上使用fileless-xec在攻击者控制的机器上执行二进制文件。
+https://securityonline.info/fileless-xec-a-stealth-dropper/
+
+ELFXtract - 自动分析工具
+ELFXtract是一个自动分析工具，用于枚举 ELF 二进制文件，由Radare2和r2ghidra提供支持。
+https://www.kitploit.com/2021/11/elfxtract-automated-analysis-tool-used.html
+
+cookiemonster - 命令行工具
+是一个命令行工具和API，用于解码和修改来自多个不同框架的易受攻击的会话 cookie。
+https://securityonline.info/cookiemonster-detect-and-abuse-vulnerable-implementations-of-stateless-sessions/
+
+FakeDataGen - 伪造数据生成器
+完全有效的伪造数据生成器，此工具可帮助使用这些数据创建虚假帐户。
+https://www.kitploit.com/2021/11/fakedatagen-full-valid-fake-data.html
+
+FiddleZAP - 标记恶意流量
+使用 ZAP 作为您的 Web 代理，可以根据预定义的正则表达式标记恶意流量。
+https://securityonline.info/fiddlezap-flag-malicious-traffic-based-on-predefined-regular-expressions/
+
+4 ZERO 3 - 403/401绕过
+4 ZERO 3是 403/401 绕过方法 + Bash 自动化。
+https://www.kitploit.com/2021/11/4-zero-3-403401-bypass-methods-bash.html
+
+swurg - OpenAPI 解析器
+旨在通过允许安全专业人员使用 Burp Suite 作为基于 OpenAPI 的 API 进行安全评估的独立工具来简化整个过程。
+https://securityonline.info/swurg-automating-openapi-testing-burp-suite/
+
+XC - 小型反向 Shell
+适用于 Linux 和 Windows 的小型反向 Shell。
+https://www.kitploit.com/2021/12/xc-small-reverse-shell-for-linux-and.html

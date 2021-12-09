@@ -1,0 +1,70 @@
+【安全分析】
+
+WebHMI 中存在多个漏洞
+在分布式数据系统 WebHMI 中发现了多个漏洞，其中最严重的漏洞可能允许任意代码执行。
+https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-distributed-data-systems-webhmi-could-allow-for-arbitrary-code-execution_2021-154/
+
+GOautodial中两个API漏洞
+GOautodial存在身份验证漏洞 CVE-2021-43175和远程代码执行漏洞 CVE-2021-43176。
+https://www.infosecurity-magazine.com/news/vulnerabilities-found-in-goautodial/
+
+Eltima SDK 中的多个漏洞
+研究人员在 Eltima SDK 中发现了 27 个漏洞，影响数百万云用户。
+https://www.bleepingcomputer.com/news/security/27-flaws-in-usb-over-network-sdk-affect-millions-of-cloud-users/  
+
+Auerswald COMpact中的后门
+Auerswald COMpact 5500R PBX 的固件中存在几个后门，可用来对设备进行完全管理访问。  
+https://packetstormsecurity.com/files/165168/rt-sa-2021-007.txt
+
+抵御STOP勒索软件
+德国安全软件公司 G DATA 发布了一种产品，可以阻止 STOP Ransomware 在感染后加密受害者的文件。
+https://www.bleepingcomputer.com/news/security/stop-ransomware-vaccine-released-to-block-encryption/
+
+Firefox 95 推出 RLBox 沙箱
+Mozilla 为Firefox 95 新沙盒技术 RLBox ，可防止不受信任的代码和漏洞导致意外或供应链攻击。
+https://thehackernews.com/2021/12/latest-firefox-95-includes-rlbox.html
+
+漏洞扫描频率最佳实践
+本指南将帮助用户根据组织或系统类型确定应多久运行一次漏洞扫描。
+https://thehackernews.com/2021/12/vulnerability-scanning-frequency-best.html
+
+GuLoader恶意软件分析
+GuLoader 的独特之处在于它是用Visual Basic 6编写的，并且包含一个封装在其中的Shellcode负载。
+https://www.deepinstinct.com/blog/-down-loaded-by-guloader-malware
+
+
+【安全工具】
+
+Photon - 爬虫
+相对较快的爬虫，专为自动化 OSINT而设计，具有简单的界面和大量的自定义选项。
+https://packetstormsecurity.com/files/165104/Photon-1.3.2.zip
+
+ShonyDanza - 渗透测试工具
+一个可定制的、易于导航的工具，用于研究、渗透测试和利用 Shodan 的力量进行防御。
+https://www.kitploit.com/2021/12/shonydanza-customizable-easy-to.html
+
+AFLTriage - 输入文件分类
+AFLTriage 是一种使用调试器对崩溃的输入文件进行分类的工具。    
+https://securityonline.info/afltriage-triage-crashing-input-files-using-a-debugger/
+
+Kerberoast - Kerberos 攻击工具包
+用python编写的Kerberos 攻击工具包。
+https://www.kitploit.com/2021/12/kerberoast-kerberoast-attack-pure-python.html
+
+MultiPotato - 提权工具
+这只是通过 SeImpersonate 权限获得 SYSTEM 的另一个Potato。
+https://securityonline.info/multipotato-get-system-via-seimpersonate-privileges/
+
+Cracken - 密码词表生成器
+Cracken 是一个快速的密码词表生成器、Smartlist 创建和密码混合掩码分析工具，用 Rust 编写。
+https://www.kitploit.com/2021/11/cracken-fast-password-wordlist.html
+
+Trident - 自动密码喷涂工具
+自动化密码喷涂工具，可部署在多个云平台上，可根据目标帐户锁定政策安排攻击。
+https://securityonline.info/trident-automated-password-spraying-tool/
+
+STEWS - 安全工具
+STEWS 是一个用于 WebSockets 安全测试的工具套件。
+https://www.kitploit.com/2021/12/stews-security-tool-for-enumerating.html
+
+
